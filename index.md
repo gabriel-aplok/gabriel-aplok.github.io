@@ -27,8 +27,8 @@ Atualmente, estou trabalhando na [LightTeam Software](#).
   <a href="https://instagram.com/gabriel__yeah">
     <img align="center" alt="instagram" src="https://img.shields.io/badge/@gabriel__yeah-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />
   </a>
-  <a href="https://twitter.com/GabrielAplok">
-    <img align="center" alt="twitter" src="https://img.shields.io/badge/@GabrielAplok-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" />
+  <a href="https://twitter.com/GabrielLima459">
+    <img align="center" alt="twitter" src="https://img.shields.io/badge/@GabrielLima459-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" />
   </a>
 </div>
 

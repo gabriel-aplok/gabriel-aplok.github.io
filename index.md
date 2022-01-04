@@ -21,9 +21,6 @@ Atualmente, estou trabalhando na [LightTeam Software](#).
 
 ## Redes sociais 🌍
 <div style="display: inline_block">
-  <a href="mailto: mokuseidev@gmail.com">
-    <img align="center" alt="gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
   <a href="https://instagram.com/gabriel__yeah">
     <img align="center" alt="instagram" src="https://img.shields.io/badge/@gabriel__yeah-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />
   </a>

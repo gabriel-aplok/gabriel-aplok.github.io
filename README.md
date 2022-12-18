@@ -1,2 +1,1 @@
-# gabriel-aplok.github.io
-📝 My website.
+[Visit now!](https://gabriel-aplok.github.io/)

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gabriel-aplok.github.io/sitemap.xml

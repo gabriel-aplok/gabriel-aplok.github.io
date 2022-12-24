@@ -1,0 +1,39 @@
+{
+	"name": "Gabriel Aplok",
+	"short_name": "Gabriel Aplok",
+	"start_url": ".",
+	"scope": ".",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "./img/favicon.png",
+			"type": "image/png",
+			"sizes": "16x16"
+		},
+		{
+			"src": "./img/favicon.png",
+			"type": "image/png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "./img/favicon.png",
+			"type": "image/png",
+			"sizes": "64x64"
+		},
+		{
+			"src": "./img/favicon.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "./img/favicon.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "./img/favicon.png",
+			"type": "image/png",
+			"sizes": "1024x1024"
+		}
+	]
+}

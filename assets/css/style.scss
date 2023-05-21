@@ -1,0 +1,76 @@
+---
+---
+@import "{{ site.theme }}";
+
+@media (min-width: 1025px) {
+	.project-icon {
+		margin: 5px;
+		text-align: center;
+		display: inline-block;
+	}
+}
+
+#title {
+	height: 220px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+.page-project #title {
+	height: 175px;
+	background-size: 100%;
+}
+
+.nav-menu {
+	font-size: 18px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.home {
+	text-align: center;
+}
+
+.home-section {
+	margin-bottom: 30px;
+}
+
+.home-news-list {
+	list-style: none;
+	padding: 0;
+}
+
+.project-icon img {
+	width: 250px;
+}
+
+.project-index-link h2 {
+	text-decoration: underline;
+}
+
+.link {
+	color: #ffcc00;
+}
+
+.news-post img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.news-post img.small {
+	width: 100px;
+}
+
+.news-post img.medium {
+	width: 200px;
+	margin-right: 30px;
+}
+
+div.center {
+	text-align: center;
+}
+
+.news-sections,.articles-sections {
+	margin-top: 80px;
+}

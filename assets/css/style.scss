@@ -1,6 +1,3 @@
----
----
-@import "{{ site.theme }}";
 @import "midnight";
 
 @media (min-width: 1025px) {
@@ -51,7 +48,7 @@
 }
 
 .link {
-	color: #ffcc00;
+	color: #FF5722;
 }
 
 .news-post img {

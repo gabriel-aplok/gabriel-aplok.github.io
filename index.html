@@ -1,0 +1,17 @@
+---
+layout: index
+---
+	<div class="home">
+		<div class="home-section">
+			<h1> My Projects </h1>
+			{% for project in site.projects %}
+				<div class="project-icon">
+					<a class="project-index-link" href="{{site.baseurl}}{{project.url}}">
+						<img src="{{project.icon}}" />
+						<h2> {{project.title}} </h2>
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

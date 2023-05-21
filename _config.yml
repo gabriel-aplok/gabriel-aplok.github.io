@@ -1,0 +1,19 @@
+title: "Gabriel Aplok"
+description: Pixel Artist, Game Producer, Designer, Programmer and Minecraft Add-on Enthusiast.
+baseurl: ""
+url: "https://gabriel-aplok.github.io"
+google_analytics: false
+email: gabrielaplok.contact@gmail.com
+reddit: https://www.reddit.com/r/idk
+twitter: https://twitter.com/GabrielAplok
+itch: https://gabriel-aplok.itch.io
+discord: https://gabriel-aplok.github.io/discord
+markdown: kramdown
+theme: jekyll-theme-midnight
+collections:
+  news:
+    output: true
+  articles:
+    output: true
+  projects:
+    output: true

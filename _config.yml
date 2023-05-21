@@ -9,7 +9,6 @@ twitter: https://twitter.com/GabrielAplok
 itch: https://gabriel-aplok.itch.io
 discord: https://gabriel-aplok.github.io/discord
 markdown: kramdown
-theme: jekyll-theme-midnight
 collections:
   news:
     output: true

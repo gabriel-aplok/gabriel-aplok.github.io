@@ -1,6 +1,8 @@
-@import "normalize";
-@import "font";
-@import "highlight";
+---
+---
+@import "normalize.scss";
+@import "font.scss";
+@import "highlight.scss";
 
 body {
 	padding: 0 0 20px 0;

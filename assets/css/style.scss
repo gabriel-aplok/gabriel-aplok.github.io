@@ -1,7 +1,8 @@
 ---
 ---
 
-@import "midnight";
+@import "{{ site.theme }}";
+@import "midnight.scss";
 
 @media (min-width: 1025px) {
 	.project-icon {

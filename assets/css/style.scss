@@ -58,10 +58,10 @@ h3 {
 a {
 	font-weight: 400;
 	text-decoration: none;
-	color: #FF5722;
+	color: #FFCC00;
 
 	&:hover {
-		color: #E64A19;
+		color: #FFEB9B;
 	}
 }
 
@@ -88,7 +88,7 @@ section img {
 }
 
 blockquote {
-	border-left: 3px solid #FF5722;
+	border-left: 3px solid #FFCC00;
 	margin: 0;
 	padding: 0 0 0 20px;
 	font-style: italic;
@@ -182,9 +182,8 @@ dt {
 
 				a {
 					color: white;
-					border: 1px solid #E64A19;
 					border-radius: 2px;
-					background-color: #FF5722;
+					background-color: #FFCC00;
 					padding: 10px 12px;
 					margin-top: 6px;
 					line-height: 14px;
@@ -193,8 +192,7 @@ dt {
 					text-align: center;
 
 					&:hover {
-						background-color: #E64A19;
-						border: 1px solid #BF360C;
+						background-color: #FFEB9B;
 					}
 				}
 
@@ -349,7 +347,7 @@ section {
 }
 
 .link {
-	color: #FF5722;
+	color: #FFCC00;
 }
 
 .news-post img {

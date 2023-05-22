@@ -2,7 +2,7 @@
 layout: article
 title: "How to create addons for MCBE"
 date: 2023-04-21
-author: Gabriel L.
+author: Gabriel Aplok.
 ---
 
 Os complementos são o primeiro passo em nossa jornada para trazer níveis ainda maiores de personalização para o Minecraft Bedrock.

@@ -145,7 +145,11 @@ hr {
 
 dt {
 	color:#F5F5F5;
-	font-weight: normal;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 5px;
 }
 
 #header {
@@ -292,8 +296,17 @@ section {
 	}
 }
 
+.tag {
+	padding: 5px;
+	background-color: #323232;
+	color: #DBDBDB;
+	border-radius: 5px;
+	line-height: 1.1;
+	letter-spacing: 0.5px;
+}
+
 /**
- * Gabriel Aplok
+ * Gabriel Aplok Rework
 **/
 
 @media (min-width: 1025px) {

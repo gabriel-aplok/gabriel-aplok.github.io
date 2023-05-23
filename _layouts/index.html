@@ -5,6 +5,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
+	<title>
+		{% if page.title == "Home" %}
+		{{ site.title }} &middot; {{ site.tagline }}
+		{% else %}
+		{{ page.title }} &middot; {{ site.title }}
+		{% endif %}
+	</title>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="icon" href="{{ site.baseurl }} favicon.png">
 	<link rel="stylesheet" href="{{ site.baseurl }} {{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">

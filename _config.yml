@@ -13,6 +13,7 @@ markdown: "kramdown"
 
 author:
   name: "Gabriel Aplok"
+  email: "gabrielaplok.contact@gmail.com"
   url: "https://gabriel-aplok.github.io"
 
 collections:

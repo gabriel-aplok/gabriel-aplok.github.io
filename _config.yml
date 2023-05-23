@@ -9,7 +9,11 @@ twitter: "https://twitter.com/GabrielAplok"
 youtube: "https://youtube.com/GabrielAplok"
 discord: "https://gabriel-aplok.github.io/discord"
 
-markdown: "kramdown"
+markdown: "redcarpet"
+highlighter: "pygments"
+
+permalink: "pretty"
+relative_permalinks: true
 
 author:
   name: "Gabriel Aplok"

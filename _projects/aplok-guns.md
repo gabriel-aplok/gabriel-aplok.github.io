@@ -1,12 +1,10 @@
 ---
-layout: index
+layout: project
 title: Aplok Guns
 banner: /assets/images/projects/aplok-guns/banner.png
 page_type: project
 icon: /assets/images/projects/aplok-guns/icon.png
 ---
-<h1>Project Walker</h1>
-
 ## What is "Aplok Guns"?
 Survival friendly guns mod with lightweight and beautiful models, satisfying sound effects, animations and much more.
 

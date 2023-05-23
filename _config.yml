@@ -13,7 +13,6 @@ markdown: "redcarpet"
 highlighter: "pygments"
 
 permalink: "pretty"
-relative_permalinks: true
 
 author:
   name: "Gabriel Aplok"

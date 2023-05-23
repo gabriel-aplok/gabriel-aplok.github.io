@@ -43,11 +43,6 @@ It's a ammunition box that drops random ammo from all guns, both bullets and mag
 He's handsome, isn't he? you can use them!
 ![](https://modbay.org/uploads/posts/2023-03/aplok-guns-mod-screenshots.gif)
 
-## License & Terms
-I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own "linkvertise" link, or you'll see me.
-
-You have full authorization to make videos/promote my work, but **ALWAYS** use my original links or my YouTube channel link.
-
 ## Changelog (Updated on Mar 23)
 - Added: Gasmask for protection from nausea and poison.
 - Added: Mask filter and your recipes for Gasmask.
@@ -64,6 +59,11 @@ You have full authorization to make videos/promote my work, but **ALWAYS** use m
 - Improved: All guns transitions.
 - Improved: All guns animations.
 - Improved: All guns sounds
+
+## License & Terms
+I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own "linkvertise" link, or you'll see me.
+
+You have full authorization to make videos/promote my work, but **ALWAYS** use my original links or my YouTube channel link.
 
 ## Download links
 - [Behavior Pack v1.0.1](https://link-hub.net/173623/aplok-guns-bp)

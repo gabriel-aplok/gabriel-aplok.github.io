@@ -7,16 +7,12 @@ layout: index
 </p>
 
 <h1>{{ page.title }}</h1>
-<span class="tag"> Updated: 23 Mar 2023 </span> <span style="margin-left: 1rem;" class="tag">Created: 05 May 2022</span>
+<span class="tag"> Updated: {{ page.date | date: '%B %d, %Y'}} </span> <span style="margin-left: 1rem;" class="tag">Created: {{ page.date | date: '%B %d, %Y'}}</span>
 <br>
 <br>
 <p>
 	<img src="{{ page.banner }}" alt="{{ page.title }} Thumbnail" style="display: block; margin-left: auto; margin-right: auto;">
 </p>
-<p>
-	
-</p>
+<p> {{ page.description }}</p>
 
-<div class="news-post">
-	{{ content }}
-</div>
+{{ content }}

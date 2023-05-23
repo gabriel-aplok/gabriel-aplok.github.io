@@ -12,8 +12,6 @@ discord: "https://gabriel-aplok.github.io/discord"
 markdown: "redcarpet"
 highlighter: "pygments"
 
-permalink: "pretty"
-
 author:
   name: "Gabriel Aplok"
   email: "gabrielaplok.contact@gmail.com"

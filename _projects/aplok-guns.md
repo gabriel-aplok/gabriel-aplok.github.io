@@ -70,4 +70,4 @@ You have full authorization to make videos/promote my work, but **ALWAYS** use m
 - [Resource Pack v1.0.1](https://link-center.net/173623/aplok-guns-rp)
 
 ## Supported versions
- - 1.19.83+
+<span class="tag"> 1.19.83+ </span>

@@ -4,12 +4,16 @@ comments: true
 ---
 
 {% if page.banner %}
-<img src="{{ page.banner }}">
+<img src="{{ page.banner | relative_url}}">
 <br>
 <br>
 {% endif %}
 <h2>{{ page.title }}</h2>
-<p>Article &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author }}</span><p>
+<p>Article &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span><p>
+
+{% if page.tags %}
+	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>
+{% endif %}
 
 {% if page.list %}
 <h3>In this article</h2>
@@ -23,10 +27,10 @@ comments: true
 {% endif %}
 <br>
 
-{% if page.status == "public" %}
+{% if page.status == 'public' %}
 <div class="article">
 	{{ content }}
 </div>
 {% else %}
-	<p>The article you followed is not public, please contact-me (i.e. via footer social medias) or try again later.</p>
+	<p>The article you followed is not public, please contact me (i.e. via footer social medias) or try again later.</p>
 {% endif %}

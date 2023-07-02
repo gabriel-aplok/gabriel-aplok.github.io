@@ -1,10 +1,11 @@
 ---
 layout: article
 status: public
-title: How to Make a Block (MCBE)
+title: How to Make a Block
 banner: https://learn.microsoft.com/en-us/minecraft/creator/documents/media/addentity/introduction-to-add-entity.jpg
+tags: [minecraft, modding]
+author: Gabriel Lima
 date: 2023-07-02
-author: Gabriel Aplok
 list:
   - 0:
     text: One

@@ -3,25 +3,29 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
 <head>
-	{% include seo.html %}
+	{% if page.layout == "project" or page.layout == "new" or page.layout == "article" %}
+	{% include seo_post.html %}
+	{% else %}
+	{% include seo_default.html %}
+	{% endif %}
 </head>
 
 <body class="page-{{ page.page_type | default: 'home' }}">
 	<div class="wrapper">
 		<div class="header">
-			<a href="{{ site.baseurl }}"><h1>{{ site.title }}</h1></a>
+			<a href="{{ '/' | absolute_url }}"><h1>{{ site.title }}</h1></a>
 			<p>
 				{{ site.tagline }}
 			</p>
 			<hr>
 			<div class="nav-menu">
-				<a href="/">Projects</a>
+				<a href="{{ '/' | relative_url }}">Projects</a>
 				<span class="link"> | </span>
-				<a href="/articles.html">Articles</a>
+				<a href="{{ '/articles.html' | relative_url }}">Articles</a>
 				<span class="link"> | </span>
-				<a href="/news.html">News</a>
+				<a href="{{ '/news.html' | relative_url }}">News</a>
 				<span class="link"> | </span>
-				<a href="/about.html">About</a>
+				<a href="{{ '/about.html' | relative_url }}">About</a>
 			</div>
 		</div>
 
@@ -55,11 +59,17 @@
 		<p>
 			All copyrights and trademarks are the property of their respective owners.
 		</p>
-			<div>
-				<a href="/privacy.html">Privacy</a>
-				<span class="link"> | </span>
-				<a href="/sponsor.html">Support Me</a>
-			</div>
+		{% if page.content contains 'Minecraft' or page.content contains 'Mojang' or page.content contains 'Microsoft' %}
+		<p>
+			This website is not affiliated with Mojang Studios or Microsoft
+		</p>
+		{% endif %}
+		<div>
+			<a href="/privacy.html">Privacy Policy</a>
+			<span class="link"> | </span>
+			<a href="/sponsor.html">Sponsor My Work 💖</a>
+		</div>
 	</footer>
+	<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 </body>
 </html>

@@ -9,15 +9,35 @@ comments: true
 
 <h1>{{ page.title }}</h1>
 
-<span class="tag"> Updated: {{ page.date | date: '%B %d, %Y'}} </span> <span style="margin-left: 1rem;" class="tag">Created: {{ page.date | date: '%B %d, %Y'}}</span>
+{% if page.updated %}
+<span class="tag"> Updated: {{ page.updated | date: '%B %d, %Y'}} </span> <span style="margin-left: 1rem;" class="tag">Created: {{ page.date | date: '%B %d, %Y'}}</span>
+{% else %}
+<span class="tag">Created: {{ page.date | date: '%B %d, %Y'}}</span>
+{% endif %}
 
 <br>
 <br>
 
 <p>
-	<img src="{{ page.banner }}" alt="{{ page.title }} Thumbnail" style="display: block; margin-left: auto; margin-right: auto;">
+	<img src="{{ page.banner | relative_url }}" alt="{{ page.title }} Thumbnail" style="display: block; margin-left: auto; margin-right: auto;">
 </p>
 
 <p> {{ page.description }}</p>
 
-{{ content }}
+{% if page.status == 'public' %}
+<div class="article">
+	{{ content }}
+</div>
+{% else %}
+	<p>The news you followed is not public, please contact me (i.e. via footer social medias) or try again later.</p>
+{% endif %}
+
+<br>
+<br>
+
+{% if page.tags %}
+	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>
+{% endif %}
+
+<br>
+<br>

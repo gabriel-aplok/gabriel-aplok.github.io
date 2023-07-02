@@ -1,8 +1,10 @@
 ---
 layout: new
 status: public
-title: "Project Walker First Devlog"
+title: Project Walker First Devlog
 banner: https://learn.microsoft.com/en-us/minecraft/creator/documents/media/addentity/introduction-to-add-entity.jpg
+tags: [project-walker, minecraft, mod]
+author: Gabriel Lima
 date: 2023-05-21
 ---
 

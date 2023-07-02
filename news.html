@@ -6,11 +6,11 @@ title: News
 <div class="news">
 	<h1>News</h1>
 	{% for new in site.news reversed %}
-	{% if new.status == "public" %}
+	{% if new.status == 'public' %}
 	<div class="new">
 		<a href="{{ site.baseurl }} {{ new.url }}">
 			{% if new.banner %}
-			<img src="{{ new.banner }}"/>
+			<img src="{{ new.banner | relative_url }}"/>
 			{% endif %}
 			<h3>{{ new.title }}</h3>
 			<hr>

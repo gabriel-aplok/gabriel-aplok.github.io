@@ -3,10 +3,22 @@ layout: default
 comments: true
 ---
 
-<h1>{{ page.title }}</h1>
+{% if page.banner %}
+<img src="{{ page.banner | relative_url }}">
+<br>
+<br>
+{% endif %}
+<h2>{{ page.title }}</h2>
+<p>News &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span><p>
 
-<h3>{{ page.date | date: '%B %d, %Y'}}</h3>
+{% if page.tags %}
+	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>
+{% endif %}
 
-<div class="news-post">
+{% if page.status == 'public' %}
+<div class="article">
 	{{ content }}
 </div>
+{% else %}
+	<p>The news you followed is not public, please contact me (i.e. via footer social medias) or try again later.</p>
+{% endif %}

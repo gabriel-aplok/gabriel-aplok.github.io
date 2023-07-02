@@ -3,24 +3,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-	<title>
-		{% if page.layout == "project" or page.layout == "new" or page.layout == "article" %}
-		{{ page.title }} - {{ site.title }}
-		{% else %}
-		{{ site.title }} - {{ page.title }}
-		{% endif %}
-	</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="icon" href="{{ site.baseurl }}{{ 'favicon.png' | relative_url}}">
-	<link rel="stylesheet" href="{{ site.baseurl }}{{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-	<link rel="alternate" type="application/atom+xml" title="Gabriel Aplok Blog" href="{{ site.baseurl }}{{ 'atom.xml' | relative_url }}">
-
 	{% include seo.html %}
 </head>
 
@@ -47,27 +29,11 @@
 			{{ content }}
 		</div>
 	</div>
-	<div id="disqus_thread">
-	</div>
-	<script>
-		var disqus_config = function () {
-			this.page.url = "https://gabriel-aplok.github.io{{ page.url }}";
-			this.page.identifier = "{{ page.id }}";
-		};
-
-		(function() {
-			var d = document, s = d.createElement('script');
-			s.src = 'https://gabriel-aplok.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());
-			(d.head || d.body).appendChild(s);
-		})();
-	</script>
 	{% if page.discord_preview %}
 	<center>
 		<iframe src="https://discord.com/widget?id=857299210529407068&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 	</center>
 	{% endif %}
-	{% include footer.html %}
 	<footer class="footer">
 		<div class="social-media">
 			<a href="{{ site.twitter }}" target="_blank">
@@ -95,7 +61,5 @@
 				<a href="/sponsor.html">Support Me</a>
 			</div>
 	</footer>
-	<script id="dsq-count-scr" src="https://gabriel-aplok.disqus.com/count.js" async></script>
 </body>
 </html>
-<!-- Copyright Gabriel Aplok. All right reserved! -->

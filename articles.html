@@ -6,6 +6,7 @@ title: Articles
 <div class="articles">
 	<h1>Articles</h1>
 	{% for article in site.articles reversed %}
+	{% if article.status == "public" %}
 	<div class="article">
 		<a href="{{ site.baseurl }} {{ article.url }}">
 			{% if article.banner %}
@@ -15,5 +16,6 @@ title: Articles
 			<hr>
 		</a>
 	</div>
+	{% endif %}
 	{% endfor %}
 </div>

@@ -1,9 +1,10 @@
 ---
 layout: article
-title: "How to Make a 3D Block (MCBE)"
+status: public
+title: How to Make a Block (MCBE)
 banner: https://learn.microsoft.com/en-us/minecraft/creator/documents/media/addentity/introduction-to-add-entity.jpg
 date: 2023-07-02
-author: Gabriel Aplok.
+author: Gabriel Aplok
 list:
   - 0:
     text: One

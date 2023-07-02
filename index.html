@@ -6,11 +6,13 @@ title: Home
 <div class="projects">
 	<h1>My Projects</h1>
 		{% for project in site.projects reversed %}
+		{% if project.status == "public" %}
 		<div class="project">
 			<a href="{{ site.baseurl }} {{ project.url }}">
 				<img class="pixel" src="{{ project.icon }}"/>
 				<h2>{{ project.title }}</h2>
 			</a>
 		</div>
+		{% endif %}
 		{% endfor %}
 </div>

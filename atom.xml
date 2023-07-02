@@ -16,13 +16,15 @@
 	</author>
 
 	{% for new in site.news %}
+	{% if new.status == "public" %}
 	<entry>
 		<title>{{ new.title }}</title>
 		<link href="{{ site.url }}{{ new.url }}" />
 		<updated>{{ new.date | date_to_xmlschema }}</updated>
 		<id>{{ site.url }}{{ new.id }}</id>
-		<content type="html">k {{ post.content | xml_escape }}</content>
+		<content type="html">{{ new.content | xml_escape }}</content>
 	</entry>
+	{% endif %}
 	{% endfor %}
 
 </feed>

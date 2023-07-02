@@ -6,6 +6,7 @@ title: News
 <div class="news">
 	<h1>News</h1>
 	{% for new in site.news reversed %}
+	{% if new.status == "public" %}
 	<div class="new">
 		<a href="{{ site.baseurl }} {{ new.url }}">
 			{% if new.banner %}
@@ -15,5 +16,6 @@ title: News
 			<hr>
 		</a>
 	</div>
+	{% endif %}
 	{% endfor %}
 </div>

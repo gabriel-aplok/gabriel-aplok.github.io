@@ -1,0 +1,13 @@
+---
+---
+
+[
+	{% for article in site.articles %}
+	{
+		"id": {{ article.id | jsonify }},
+		"title": {{ article.title | jsonify }},
+		"date": {{ article.date | date: '%B %d, %Y' | jsonify }},
+		"content": {{ article.content | jsonify }}
+	}
+	{% endfor %}
+]

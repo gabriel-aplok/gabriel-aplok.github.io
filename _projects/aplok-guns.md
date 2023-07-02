@@ -1,5 +1,6 @@
 ---
 layout: project
+status: public
 title: Aplok Guns
 banner: /assets/images/projects/aplok-guns/banner.png
 page_type: project

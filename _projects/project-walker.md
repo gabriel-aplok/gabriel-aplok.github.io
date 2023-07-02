@@ -1,5 +1,6 @@
 ---
 layout: project
+status: public
 title: Project Walker
 banner: /assets/images/projects/project-walker/banner.png
 page_type: project

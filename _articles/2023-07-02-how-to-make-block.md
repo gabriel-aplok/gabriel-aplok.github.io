@@ -1,6 +1,6 @@
 ---
 layout: article
-status: public
+status: draft
 title: How to Make a Block
 banner: https://learn.microsoft.com/en-us/minecraft/creator/documents/media/addentity/introduction-to-add-entity.jpg
 tags: [minecraft, modding]

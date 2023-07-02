@@ -1,6 +1,6 @@
 ---
 layout: article
-status: public
+status: draft
 title: How to Make a Manifest
 banner: https://learn.microsoft.com/en-us/minecraft/creator/documents/media/behaviorpack/introduction-to-behavior-packs.jpg
 author: Gabriel Lima
@@ -20,7 +20,3 @@ The manifest file contains all the basic info about the pack that Minecraft need
 | dependencies   | Section containing definitions for any other packs that are required in order for this manifest.json file to work.       |
 | capabilities   | Section containing optional features that can be enabled in Minecraft.                                                   |
 | metadata       | Section containing the metadata about the file such as authors and licensing information.                                |
-<<<<<<< HEAD
-
-=======
->>>>>>> d6ffa04 (Code refactor | Improved blog system, and some new things.)

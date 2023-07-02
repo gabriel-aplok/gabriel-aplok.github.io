@@ -1,21 +1,24 @@
 title: "Gabriel Aplok"
 tagline: "Pixel Artist and Game Producer."
 description: "Come check some of my work."
-url: "https://gabriel-aplok.github.io"
+# url: "http://127.0.0.1:4000"
+# baseurl: "http://127.0.0.1:4000/"
+url: ""
 baseurl: ""
 
 email: "gabrielaplok.contact@gmail.com"
 twitter: "https://twitter.com/GabrielAplok"
 youtube: "https://youtube.com/GabrielAplok"
-discord: "https://gabriel-aplok.github.io/discord"
-
-markdown: "redcarpet"
-highlighter: "pygments"
+instagram: "https://instagram.com/gabriel__yeah"
+discord: "https://discord.gg/PppEgBdss4"
 
 author:
   name: "Gabriel Aplok"
   email: "gabrielaplok.contact@gmail.com"
   url: "https://gabriel-aplok.github.io"
+
+plugins:
+  - jekyll-sitemap
 
 collections:
   news:

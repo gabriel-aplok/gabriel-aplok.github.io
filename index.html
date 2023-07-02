@@ -1,17 +1,16 @@
 ---
-layout: index
+layout: default
+title: Home
 ---
-	<div class="home">
-		<div class="home-section">
-			<h1> My Projects </h1>
-			{% for project in site.projects %}
-				<div class="project-icon">
-					<a class="project-index-link" href="{{site.baseurl}}{{project.url}}">
-						<img src="{{project.icon}}" />
-						<h2> {{project.title}} </h2>
-					</a>
-				</div>
-			{% endfor %}
+
+<div class="projects">
+	<h1>My Projects</h1>
+		{% for project in site.projects reversed %}
+		<div class="project">
+			<a href="{{ site.baseurl }} {{ project.url }}">
+				<img class="pixel" src="{{ project.icon }}"/>
+				<h2>{{ project.title }}</h2>
+			</a>
 		</div>
-	</div>
+		{% endfor %}
 </div>

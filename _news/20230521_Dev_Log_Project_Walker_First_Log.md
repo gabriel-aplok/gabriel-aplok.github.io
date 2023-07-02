@@ -1,6 +1,7 @@
 ---
 layout: new
 title: "Project Walker First Devlog"
+banner: https://learn.microsoft.com/en-us/minecraft/creator/documents/media/addentity/introduction-to-add-entity.jpg
 date: 2023-05-21
 ---
 

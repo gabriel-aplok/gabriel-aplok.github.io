@@ -1,11 +1,32 @@
 ---
-layout: index
+layout: default
+comments: true
 ---
 
-<h1>{{ page.title }}</h1>
-<h3>{{ page.date | date: '%B %d, %Y'}}</h3>
-<h3>Posted by: {{ page.author }}<h3>
+{% if page.banner %}
+<img src="{{ page.banner }}">
+<br>
+<br>
+{% endif %}
+<h2>{{ page.title }}</h2>
+<p>Article &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author }}</span><p>
 
+{% if page.list %}
+<h3>In this article</h2>
+<div>
+	<ul>
+		{% for item in page.list %}
+		<li><a href="#{{ item.id }}">{{ item.text }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
+{% endif %}
+<br>
+
+{% if page.stage == "public" %}
 <div class="article">
 	{{ content }}
 </div>
+{% else %}
+	<p>The article you followed is not public, please contact-me (i.e. via footer social medias) or try again later.</p>
+{% endif %}

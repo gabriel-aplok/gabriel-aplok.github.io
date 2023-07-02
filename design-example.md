@@ -1,5 +1,6 @@
 ---
-layout: index
+layout: default
+title: My Website Design
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

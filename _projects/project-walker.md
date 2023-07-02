@@ -6,6 +6,7 @@ page_type: project
 icon: /assets/images/projects/project-walker/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 ---
+
 ## What is "Project Walker"?
 Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 

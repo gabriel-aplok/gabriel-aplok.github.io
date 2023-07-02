@@ -1,5 +1,4 @@
 ---
-layout: null
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -22,7 +21,7 @@ layout: null
 		<link href="{{ site.url }}{{ new.url }}" />
 		<updated>{{ new.date | date_to_xmlschema }}</updated>
 		<id>{{ site.url }}{{ new.id }}</id>
-		<content type="html">{{ post.content | xml_escape }}</content>
+		<content type="html">k {{ post.content | xml_escape }}</content>
 	</entry>
 	{% endfor %}
 

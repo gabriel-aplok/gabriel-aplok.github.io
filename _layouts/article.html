@@ -3,6 +3,10 @@ layout: default
 comments: true
 ---
 
+<p style="text-transform: uppercase;">
+	Home / Articles / <u>{{ page.title }}</u>
+</p>
+
 {% if page.banner %}
 <img src="{{ page.banner | relative_url}}">
 <br>
@@ -15,6 +19,7 @@ comments: true
 	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>
 {% endif %}
 
+<!--
 {% if page.list %}
 <h3>In this article</h2>
 <div>
@@ -26,6 +31,7 @@ comments: true
 </div>
 {% endif %}
 <br>
+-->
 
 {% if page.status == 'public' %}
 <div class="article">

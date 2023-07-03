@@ -7,11 +7,10 @@ title: Home
 	<h1>My Projects</h1>
 		{% for project in site.projects reversed %}
 		{% if project.status == 'public' %}
-		<div class="project">
-			<a href="{{ site.baseurl }} {{ project.url }}">
-				<img class="pixel" src="{{ project.icon | relative_url }}"/>
-				<h2>{{ project.title }}</h2>
-			</a>
+		<div class="project" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
+			<img src="{{ project.banner | relative_url }}" alt="{{ project.title }}">
+			<h2>{{ project.title }}</h2>
+			<hr>
 		</div>
 		{% endif %}
 		{% endfor %}

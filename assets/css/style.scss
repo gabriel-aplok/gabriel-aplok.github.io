@@ -171,6 +171,7 @@ img {
 .button {
 	background-color: $brand-color;
 	color: $background-color;
+	border: 0;
 	border-radius: 2px;
 	padding: 10px 12px;
 	margin-top: 6px;
@@ -272,13 +273,8 @@ img {
 	.project {
 		margin: 12px;
 
-		a {
-			text-decoration: none;
-
-			img {
-				width: 250px;
-				margin: 20px 0 20px 0;
-			}
+		img {
+			margin: 20px 0 20px 0;
 		}
 	}
 }
@@ -294,12 +290,8 @@ img {
 	.article {
 		margin: 12px;
 
-		a {
-			text-decoration: none;
-
-			img {
-				margin: 20px 0 20px 0;
-			}
+		img {
+			margin: 20px 0 20px 0;
 		}
 	}
 }
@@ -315,12 +307,8 @@ img {
 	.new {
 		margin: 12px;
 
-		a {
-			text-decoration: none;
-
-			img {
-				margin: 20px 0 20px 0;
-			}
+		img {
+			margin: 20px 0 20px 0;
 		}
 	}
 }

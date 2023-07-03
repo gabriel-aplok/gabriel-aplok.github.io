@@ -55,20 +55,14 @@
 			<a href="{{ site.github }}" target="_blank">
 				<i class="fa-brands fa-github fa-2x"></i>
 			</a>
-			<a href="{{ site.itch-io }}" target="_blank">
-				<i class="fa-brands fa-itch fa-2x"></i>
+			<a href="{{ site.itchio }}" target="_blank">
+				<i class="fa-brands fa-itch-io fa-2x"></i>
 			</a>
 		</div>
-		<p>
-			&copy; 2018-{{ "now" | date: "%Y" }} <strong>Gabriel Aplok</strong>. All rights reserved.
-		</p>
-		<p>
-			All copyrights and trademarks are the property of their respective owners.
-		</p>
+		<p>&copy; 2018-{{ "now" | date: "%Y" }} <strong>Gabriel Aplok</strong>. All rights reserved.</p>
+		<small>All copyrights and trademarks are the property of their respective owners.</small>
 		{% if page.content contains 'Minecraft' or page.content contains 'Mojang' or page.content contains 'Microsoft' %}
-		<p>
-			This website is not affiliated with Mojang Studios or Microsoft
-		</p>
+		<small>This website is not affiliated with Mojang Studios or Microsoft</small>
 		{% endif %}
 		<div>
 			<a href="/privacy.html">Privacy Policy</a>

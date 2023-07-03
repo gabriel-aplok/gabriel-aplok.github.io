@@ -2,11 +2,13 @@
 layout: project
 status: public
 page_type: project
+id: aplok-guns
 title: Aplok Guns
 banner: /assets/images/projects/aplok-guns/banner.png
 icon: /assets/images/projects/aplok-guns/icon.png
 description: Survival friendly guns mod with lightweight and beautiful models, satisfying sound effects, animations and much more.
 tags: [aplok-guns, minecraft, mod]
+date: 2023-07-02
 ---
 
 ## What is "Aplok Guns"?

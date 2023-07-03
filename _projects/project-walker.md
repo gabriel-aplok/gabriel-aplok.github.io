@@ -2,11 +2,13 @@
 layout: project
 page_type: project
 status: public
+id: project-walker
 title: Project Walker
 banner: /assets/images/projects/project-walker/banner.png
 icon: /assets/images/projects/project-walker/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, mod]
+date: 2023-07-02
 ---
 
 ## What is "Project Walker"?

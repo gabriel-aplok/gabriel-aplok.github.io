@@ -1,8 +1,10 @@
 title: "Gabriel Aplok"
 tagline: "Pixel Artist and Game Producer."
 description: "Come check some of my work."
-icon: /assets/images/icon.png
-lang: en-US
+icon: "/assets/images/icon.png"
+lang: "en-US"
+
+google_analytics: ""
 
 email: "gabrielaplok.contact@gmail.com"
 twitter: "https://twitter.com/GabrielAplok"
@@ -16,7 +18,7 @@ author:
   url: "https://gabriel-aplok.github.io"
 
 plugins:
-  - jekyll-sitemap
+  - "jekyll-sitemap"
 
 collections:
   news:

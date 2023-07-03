@@ -10,12 +10,29 @@
 	max-height: 100%;
 }
 
+// def
 $background-color: #151515;
 $text-color: #E0E0E0;
 $heading-color: #F5F5F5;
 $table-color: #424242;
 $brand-color: #FFCC00;
 $brand-secondary-color: #FFEB9B;
+
+// new
+$background-color: #121212;
+$text-color: #BDBDBD;
+$heading-color: #F5F5F5;
+$table-color: #424242;
+$brand-color: #E74A45;
+$brand-secondary-color: #E74A45;
+
+// new
+$background-color: #121212;
+$text-color: #BDBDBD;
+$heading-color: #F5F5F5;
+$table-color: #424242;
+$brand-color: #E9CE2C;
+$brand-secondary-color: #F9DC5C;
 
 body {
 	background-color: $background-color;
@@ -162,7 +179,9 @@ img {
 	text-align: center;
 
 	&:hover {
-		background-color: $brand-secondary-color;
+		background-color: $brand-color;
+		color: $background-color;
+		opacity: 0.5;
 	}
 }
 

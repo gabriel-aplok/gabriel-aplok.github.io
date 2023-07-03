@@ -3,6 +3,8 @@ layout: default
 title: My Website Design
 ---
 
+[Button](){:.button }
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to main page](./index.html).

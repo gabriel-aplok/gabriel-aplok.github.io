@@ -1,6 +1,6 @@
 ---
 layout: article
-status: draft
+status: public
 title: How to Make a Manifest
 banner: https://learn.microsoft.com/en-us/minecraft/creator/documents/media/behaviorpack/introduction-to-behavior-packs.jpg
 author: Gabriel Lima

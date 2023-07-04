@@ -39,5 +39,9 @@ comments: true
 	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>
 {% endif %}
 
+{% if page.comments_id %}
+	{% include comments.html issue_id=page.comments_id %}
+{% endif %}
+
 <br>
 <br>

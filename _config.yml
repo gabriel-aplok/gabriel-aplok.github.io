@@ -5,6 +5,8 @@ icon: "/assets/images/icon.png"
 lang: "en-US"
 
 google_analytics: ""
+issues_repo: "gabriel-aplok/gabriel-aplok.github.io"
+env: "prod"
 
 email: "gabrielaplok.contact@gmail.com"
 twitter: "https://twitter.com/GabrielAplok"

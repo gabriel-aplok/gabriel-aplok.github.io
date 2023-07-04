@@ -8,69 +8,69 @@
 * {
 	max-width: 100%;
 	max-height: 100%;
+	user-select: none;
 }
 
-// def
-$background-color: #151515;
-$text-color: #E0E0E0;
-$heading-color: #F5F5F5;
-$table-color: #424242;
-$brand-color: #FFCC00;
-$brand-secondary-color: #FFEB9B;
-
-// new
-$background-color: #121212;
-$text-color: #BDBDBD;
-$heading-color: #F5F5F5;
-$table-color: #424242;
-$brand-color: #E74A45;
-$brand-secondary-color: #E74A45;
-
-// new
 $background-color: #121212;
 $text-color: #BDBDBD;
 $heading-color: #F5F5F5;
 $table-color: #424242;
 $brand-color: #E9CE2C;
 $brand-secondary-color: #F9DC5C;
+$breakpoints: (
+	xs: 0px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+);
 
 body {
 	background-color: $background-color;
 	color: $text-color;
-	font-size: 14px;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 10px;
+@media (min-width: map-get($breakpoints, xs)) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: map-get($breakpoints, sm)) {
+	body {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: map-get($breakpoints, md)) {
+	body {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: map-get($breakpoints, lg)) {
+	body {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: map-get($breakpoints, xl)) {
+	body {
+		font-size: 22px;
+	}
+}
+
+h1, h2, h3, h4, h5 {
 	color: $heading-color;
 }
 
-p, ul, ol, table, pre, dl {
-	margin: 0 0 20px;
-}
-
-h1, h2, h3 {
-	line-height: 1.1;
-
-}
-
-h1 {
-	font-size: 28px;
-}
-
-h2 {
-	font-size: 24px;
-}
-
-h3 {
-	font-size: 18px;
-	line-height: 24px;
+h6 {
+	color: $text-color;
 }
 
 a {
-	font-weight: 400;
 	text-decoration: none;
 	color: $brand-color;
 
@@ -81,8 +81,8 @@ a {
 
 .wrapper {
 	max-width: 650px;
-	margin: 0 auto;
 	position: relative;
+	margin: 0 auto;
 	padding: 0 20px;
 }
 
@@ -92,8 +92,9 @@ section img {
 
 blockquote {
 	border-left: 3px solid $brand-color;
+	border-radius: 3px;
 	margin: 0;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 15px;
 	font-style: italic;
 }
 
@@ -178,11 +179,12 @@ img {
 	line-height: 14px;
 	font-size: 14px;
 	text-align: center;
+	text-decoration: none;
 
 	&:hover {
 		background-color: $brand-color;
 		color: $background-color;
-		opacity: 0.5;
+		opacity: 0.8;
 	}
 }
 
@@ -197,6 +199,11 @@ img {
 
 .link {
 	color: $brand-color;
+}
+
+.circle {
+	aspect-ratio: 1;
+	border-radius: 50%;
 }
 
 .header {
@@ -318,5 +325,50 @@ img {
 
 	h1 {
 		margin: 30px auto 30px auto;
+	}
+}
+
+
+#comments {
+	margin: 20px auto;
+
+	.comments-head {
+		justify-content: space-between;
+		display: flex;
+		gap: 1;
+
+		* {
+			margin: auto 2px;
+		}
+	}
+
+	#comments-wrapper {
+		.comment {
+			.comment-user {
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+				gap: 2;
+
+				.comment-avatar {
+					align-self: flex-start;
+					width: 40px;
+				}
+
+				* {
+					margin: auto 2px;
+				}
+			}
+
+			.comment-body {
+				border-left: 3px solid $table-color;
+				border-radius: 3px;
+				padding-inline-start: 10px;
+			}
+
+			.comment-edited {
+				font-style: italic;
+			}
+		}
 	}
 }

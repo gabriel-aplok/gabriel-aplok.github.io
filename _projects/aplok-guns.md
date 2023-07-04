@@ -9,6 +9,7 @@ icon: /assets/images/projects/aplok-guns/icon.png
 description: Survival friendly guns mod with lightweight and beautiful models, satisfying sound effects, animations and much more.
 tags: [aplok-guns, minecraft, mod]
 date: 2023-07-02
+comments_id: 1
 ---
 
 ## What is "Aplok Guns"?

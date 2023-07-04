@@ -1,0 +1,108 @@
+{% assign issues_repo = site.issues_repo %}
+{% assign issue_id = include.issue_id %}
+
+<br>
+<div id="comments">
+	<div class="comments-head">
+		<h2>Comments <span id="comments-count"></span></h2>
+		<a class="button" href="https://github.com/{{ issues_repo }}/issues/{{ issue_id }}">Post comment</a>
+	</div>
+	<p class="comments-explanation">
+		Comment system powered by the GitHub Issues API. You can learn more about
+		<a href="/articles/static-site-comments-github-issues/">how I built it</a> or
+		post a comment over on GitHub, and it'll show up below once you reload this page.
+	</p>
+	<div id="comments-wrapper">
+		Loading...
+	</div>
+</div>
+
+<script src="https://unpkg.com/marked@0.3.6/marked.min.js"></script>
+<script src="https://unpkg.com/dompurify@1.0.8/dist/purify.min.js"></script>
+<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+<script src="https://unpkg.com/dayjs@1.7.8/plugin/relativeTime.js"></script>
+
+<script>
+	const commentsDiv = document.getElementById("comments");
+	const commentsWrapper = commentsDiv.querySelector("#comments-wrapper");
+	const commentsCount = commentsDiv.querySelector("#comments-count");
+
+	const commentsObserver = new IntersectionObserver((entries, self) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				fetchComments();
+				self.unobserve(entry.target);
+			}
+		});
+	}, { rootMargin: "200px 0px 0px 0px" });
+	commentsObserver.observe(commentsDiv);
+
+	const fetchComments = async () => {
+		try {
+			{% if site.env == "dev" %}
+			const comments = await (await fetch("https://api.jsonstorage.net/v1/json/4bbe2602-ab5c-4c57-864b-711fe016a761/ba157a09-e17a-4879-b1ec-bf3bf8dafd4f")).json();
+			{% else %}
+			const comments = await (await fetch("https://api.github.com/repos/{{ issues_repo }}/issues/{{ issue_id }}/comments")).json();
+			{% endif %}
+			initRenderComments(comments);
+		} catch (e) {
+			commentsWrapper.innerHTML = `<p>Unable to retrieve the comments for this post.</p>`;
+		}
+	}
+
+	const loadScript = (src) => {
+		const scriptElement = document.createElement("script");
+		document.body.appendChild(scriptElement);
+
+		return new Promise((resolve) => {
+			scriptElement.onload = resolve;
+			scriptElement.src = src;
+		});
+	}
+
+	const commentScripts = [
+		"https://unpkg.com/marked@0.3.6/marked.min.js",
+		"https://unpkg.com/dompurify@1.0.8/dist/purify.min.js",
+		"https://unpkg.com/dayjs@1.8.21/dayjs.min.js",
+		"https://unpkg.com/dayjs@1.7.8/plugin/relativeTime.js"
+	];
+
+	const initRenderComments = async (comments) => {
+		if (!comments.length) {
+			commentsWrapper.innerHTML = `<p>No comments yet 👀 Be the first to post!</p>`;
+			return;
+		}
+
+		await Promise.all(commentScripts.map((script) => loadScript(script)));
+		renderComments(comments);
+	}
+
+	const renderComments = (comments) => {
+		dayjs.extend(dayjs_plugin_relativeTime);
+
+		commentsCount.innerText = `(${comments.length})`;
+
+		commentsWrapper.innerHTML = "";
+		commentsWrapper.innerHTML = comments.sort((comment1, comment2) => {
+				return comment1.created_at < comment2.created_at ? 1 : -1;
+		}).map((comment) => {
+			const datePosted = dayjs(comment.created_at).fromNow();
+			const user = comment.user;
+			const body = DOMPurify.sanitize(marked(comment.body));
+			const postedByAuthor = comment.author_association === "OWNER";
+			const edited = comment.created_at !== comment.updated_at;
+
+			return `
+			<div class="comment">
+				<div class="comment-user">
+					<img class="comment-avatar circle" src="${user.avatar_url}" alt="${user.login}" aria-hidden="true">
+					<strong><a class="username" href="https://github.com/${user.login}">${user.login}</a></strong> ${postedByAuthor ? '<span class="author-badge tag">Author</span>' : ""}
+					<div class="date-posted">commented <time datetime="${comment.created_at}">${datePosted}</time></div>
+				</div>
+				<div class="comment-body">${body}</div>
+				${edited ? `<span class="comment-edited">Edited</span>` : ""}
+			</div>
+			`;
+		}).join("");
+	}
+</script>

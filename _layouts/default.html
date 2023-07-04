@@ -65,9 +65,13 @@
 		<small>This website is not affiliated with Mojang Studios or Microsoft</small>
 		{% endif %}
 		<div>
-			<a href="/privacy.html">Privacy Policy</a>
+			<a href="{{ '/privacy.html' | relative_url }}">Privacy Policy</a>
 			<span class="link"> | </span>
-			<a href="/sponsor.html">Sponsor My Work 💖</a>
+			<a href="{{ '/sponsor.html' | relative_url }}">Sponsor My Work 💖</a>
+		</div>
+		<hr>
+		<div>
+			<a href="{{ '/gallery/render.html' | relative_url }}">3D Model Gallery</a>
 		</div>
 	</footer>
 	<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>

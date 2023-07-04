@@ -2,8 +2,8 @@
 layout: new
 status: public
 title: Project Walker First Devlog
-banner: https://learn.microsoft.com/en-us/minecraft/creator/documents/media/addentity/introduction-to-add-entity.jpg
-tags: [project-walker, minecraft, mod]
+banner: https://media.discordapp.net/attachments/1125126294041014356/1125638622142537760/20230704_010532.png
+tags: [project-walker, devlog, minecraft, mod]
 author: Gabriel Lima
 date: 2023-05-21
 ---

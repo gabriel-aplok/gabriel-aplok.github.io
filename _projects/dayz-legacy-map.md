@@ -9,7 +9,6 @@ icon: https://media.discordapp.net/attachments/1125126294041014356/1125510922224
 description: Ported DayZ for Bedrock.
 tags: [dayz-map, minecraft, map]
 date: 2023-07-03
-comments_id: 2
 ---
 
 ## What is "DayZ Map"?

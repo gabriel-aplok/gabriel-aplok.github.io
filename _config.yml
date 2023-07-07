@@ -4,7 +4,7 @@ description: "Come check some of my work."
 icon: "/assets/images/icon.png"
 lang: "en-US"
 
-google_analytics: ""
+google_analytics: "GTM-MJSM745"
 issues_repo: "gabriel-aplok/gabriel-aplok.github.io"
 env: "prod"
 

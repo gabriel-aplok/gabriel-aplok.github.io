@@ -1,8 +1,7 @@
 ---
 layout: new
-status: public
+status: deleted
 title: Project Walker First Devlog
-banner: https://media.discordapp.net/attachments/1125126294041014356/1125638622142537760/20230704_010532.png
 tags: [project-walker, devlog, minecraft, mod]
 author: Gabriel Lima
 date: 2023-05-21

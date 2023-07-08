@@ -1,6 +1,5 @@
 ---
 layout: project
-page_type: project
 status: public
 slug: project-walker
 title: Project Walker

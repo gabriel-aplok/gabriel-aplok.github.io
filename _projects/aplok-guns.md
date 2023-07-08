@@ -1,14 +1,14 @@
 ---
 layout: project
 status: public
-page_type: project
 slug: aplok-guns
 title: Aplok Guns
 banner: /assets/images/projects/aplok-guns/banner.png
 icon: /assets/images/projects/aplok-guns/icon.png
 description: Survival friendly guns mod with lightweight and beautiful models, satisfying sound effects, animations and much more.
 tags: [aplok-guns, minecraft, mod]
-date: 2023-07-02
+date: 2022-03-23
+updated: 2022-03-05
 comments_id: 1
 ---
 
@@ -35,27 +35,30 @@ This mod add guns with low-poly models and does not represent any mode of realis
 - Smooth animations
 - Lightweight and beautiful
 - No log error on screen
-- A nice community, and created by a Brazilian guy
+- A nice community
+- Innovative technology
 
 ## Experimental Gameplay
 
-- Short Sneaking.
 - Holiday Creator Features.
 - MoLang Features.
 
 ## Workbench
 
 It's a workbench for crafting heavy guns, or as u prefer "firearms".
+
 ![](https://modbay.org/uploads/posts/2023-03/aplok-guns-mod-workbench.jpg)
 
 ## Ammunition Box
 
 It's a ammunition box that drops random ammo from all guns, both bullets and magazines.
+
 ![](https://modbay.org/uploads/posts/2023-03/1679231474_screenshot_20230319-092853.png)
 
 ## Screenshots
 
 He's handsome, isn't he? you can use them!
+
 ![](https://modbay.org/uploads/posts/2023-03/aplok-guns-mod-screenshots.gif)
 
 ## Changelog (Updated on Mar 23)
@@ -76,11 +79,14 @@ He's handsome, isn't he? you can use them!
 - Improved: All guns animations.
 - Improved: All guns sounds
 
-## License & Terms
+## Warning
+I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own link, or this project will be discontinued.
 
-I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own "linkvertise" link, or you'll see me.
+You have full authorization to make videos/promote my work, but **ALWAYS** use my original links.
 
-You have full authorization to make videos/promote my work, but **ALWAYS** use my original links or my YouTube channel link.
+## Installation
+
+Open the **.mcpack** with **Minecraft** or extract and copy manually te folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
 
 ## Download links
 
@@ -89,4 +95,4 @@ You have full authorization to make videos/promote my work, but **ALWAYS** use m
 
 ## Supported versions
 
-<span class="tag"> 1.19.83+ </span>
+<span class="tag"> 1.19.80 </span> <span class="tag"> 1.20.0 </span> <span class="tag"> 1.20.1 </span>

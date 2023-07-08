@@ -6,7 +6,7 @@ lang: "en-US"
 
 google_analytics: "GTM-MJSM745"
 issues_repo: "gabriel-aplok/gabriel-aplok.github.io"
-env: "prod"
+url: "gabriel-aplok.github.io"
 
 email: "gabrielaplok.contact@gmail.com"
 twitter: "https://twitter.com/GabrielAplok"
@@ -24,9 +24,7 @@ plugins:
   - "jekyll-sitemap"
 
 collections:
-  news:
-    output: true
-  articles:
+  blog:
     output: true
   projects:
     output: true

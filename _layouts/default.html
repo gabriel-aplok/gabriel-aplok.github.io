@@ -3,28 +3,25 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
 <head>
-	{% if page.layout == "project" or page.layout == "new" or page.layout == "article" %}
+	{% if page.layout == "project" or page.layout == "blog" %}
 	{% include seo_post.html %}
 	{% else %}
 	{% include seo_default.html %}
 	{% endif %}
 </head>
 
-<body class="page-{{ page.page_type | default: 'home' }}">
+<body class="page-{{ page.layout }}">
 	{% include google_analytics.html %}
+
 	<div class="wrapper">
 		<div class="header">
 			<a href="{{ '/' | absolute_url }}"><h1>{{ site.title }}</h1></a>
-			<p>
-				{{ site.tagline }}
-			</p>
+			<p>{{ site.tagline }}</p>
 			<hr>
 			<div class="nav-menu">
 				<a href="{{ '/' | relative_url }}">Projects</a>
 				<span class="link"> | </span>
-				<a href="{{ '/articles.html' | relative_url }}">Articles</a>
-				<span class="link"> | </span>
-				<a href="{{ '/news.html' | relative_url }}">News</a>
+				<a href="{{ '/blog.html' | relative_url }}">Blog</a>
 				<span class="link"> | </span>
 				<a href="{{ '/about.html' | relative_url }}">About</a>
 			</div>
@@ -34,11 +31,13 @@
 			{{ content }}
 		</div>
 	</div>
+
 	{% if page.discord_preview %}
 	<center>
 		<iframe src="https://discord.com/widget?id=857299210529407068&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 	</center>
 	{% endif %}
+
 	<footer class="footer">
 		<div class="social-media">
 			<a href="{{ site.twitter }}" target="_blank">
@@ -60,22 +59,64 @@
 				<i class="fa-brands fa-itch-io fa-2x"></i>
 			</a>
 		</div>
+
 		<p>&copy; 2018-{{ "now" | date: "%Y" }} <strong>Gabriel Aplok</strong>. All rights reserved.</p>
+
 		<small>All copyrights and trademarks are the property of their respective owners.</small>
+
 		{% if page.content contains 'Minecraft' or page.content contains 'Mojang' or page.content contains 'Microsoft' %}
 		<small>This website is not affiliated with Mojang Studios or Microsoft</small>
 		{% endif %}
+
 		<div>
 			<a href="{{ '/privacy.html' | relative_url }}">Privacy Policy</a>
 			<span class="link"> | </span>
 			<a href="{{ '/sponsor.html' | relative_url }}">Sponsor My Work 💖</a>
 		</div>
+
 		<hr>
+
 		<div>
 			<a href="{{ '/gallery/render.html' | relative_url }}">3D Model Gallery</a>
 		</div>
 	</footer>
+
+	<script src="{{ 'https://www.gstatic.com/firebasejs/8.0.0/firebase.js' | relative_url }}"></script>
 	<script src="{{ '/assets/js/index.js' | relative_url }}"></script>
-	<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+	{% if page.layout == "project" or page.layout == "blog" %}
+	{% if site.environment == 'production' and page.status == 'public' %}
+	<script>
+	const config = {
+		apiKey: "AIzaSyAuXaRksyeyUFUpa1-EFIT-T2tcvj8IJjY",
+		authDomain: "gabriel-aplok-d142f.firebaseapp.com",
+		databaseURL: "https://gabriel-aplok-d142f-default-rtdb.firebaseio.com",
+		projectId: "gabriel-aplok-d142f",
+		storageBucket: "gabriel-aplok-d142f.appspot.com",
+		messagingSenderId: "884160110204",
+		appId: "1:884160110204:web:74a89fe7585856a3eaf3f9",
+		measurementId: "G-XNDH684FFG"
+	};
+
+	firebase.initializeApp(config);
+
+	const database = firebase.database();
+
+	(function() {
+		let views = 0;
+
+		database.ref("counter{{ page.id}}").once("value", function(snapshot) {
+			if (snapshot.val() && snapshot.val().views) {
+				views = snapshot.val().views;
+			}
+
+			database.ref("counter{{ page.id }}").set({
+				views: views + 1
+			});
+		});
+	})();
+	</script>
+	{% endif %}
+	{% endif %}
 </body>
 </html>

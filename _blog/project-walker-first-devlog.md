@@ -1,5 +1,5 @@
 ---
-layout: new
+layout: blog
 status: deleted
 title: Project Walker First Devlog
 tags: [project-walker, devlog, minecraft, mod]

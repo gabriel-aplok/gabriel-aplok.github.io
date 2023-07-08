@@ -2,7 +2,7 @@
 layout: project
 page_type: project
 status: public
-id: dayz-map
+slug: dayz-map
 title: DayZ Legacy Map
 banner: https://media.discordapp.net/attachments/1125126294041014356/1125509957740138668/20230703_163429.png
 icon: https://media.discordapp.net/attachments/1125126294041014356/1125510922224541847/20230703_163807.png

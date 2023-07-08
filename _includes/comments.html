@@ -39,7 +39,7 @@
 
 	const fetchComments = async () => {
 		try {
-			{% if site.env == "dev" %}
+			{% if site.environment == "development" %}
 			const comments = await (await fetch("https://api.jsonstorage.net/v1/json/4bbe2602-ab5c-4c57-864b-711fe016a761/ba157a09-e17a-4879-b1ec-bf3bf8dafd4f")).json();
 			{% else %}
 			const comments = await (await fetch("https://api.github.com/repos/{{ issues_repo }}/issues/{{ issue_id }}/comments")).json();

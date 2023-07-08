@@ -86,10 +86,6 @@ a {
 	padding: 0 20px;
 }
 
-section img {
-	max-width: 100%;
-}
-
 blockquote {
 	border-left: 3px solid $brand-color;
 	border-radius: 3px;
@@ -163,6 +159,15 @@ img {
 		image-rendering: crisp-edges;
 		image-rendering: pixelated;
 	}
+
+	.noborder {
+		border-radius: 0;
+	}
+}
+
+video {
+	max-width: 100%;
+	border-radius: 5px;
 
 	.noborder {
 		border-radius: 0;
@@ -303,7 +308,7 @@ img {
 	}
 }
 
-.news {
+.blog {
 	text-align: center;
 	padding-bottom: 50px;
 
@@ -311,7 +316,7 @@ img {
 		margin-bottom: 40px;
 	}
 
-	.new {
+	.post {
 		margin: 12px;
 
 		img {

@@ -2,7 +2,7 @@
 layout: project
 page_type: project
 status: public
-id: project-walker
+slug: project-walker
 title: Project Walker
 banner: /assets/images/projects/project-walker/banner.png
 icon: /assets/images/projects/project-walker/icon.png

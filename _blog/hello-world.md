@@ -1,5 +1,5 @@
 ---
-layout: new
+layout: blog
 status: public
 title: "Hello World: My first post!"
 tags: [website]

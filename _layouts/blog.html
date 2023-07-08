@@ -4,7 +4,7 @@ comments: true
 ---
 
 <p style="text-transform: uppercase;">
-	Home / News / <u>{{ page.title }}</u>
+	Home / Blog / <u>{{ page.title }}</u>
 </p>
 
 {% if page.banner %}
@@ -13,7 +13,7 @@ comments: true
 <br>
 {% endif %}
 <h2>{{ page.title }}</h2>
-<p>News &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span><p>
+<p>Blog &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span><p>
 
 {% if page.tags %}
 	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>
@@ -24,5 +24,5 @@ comments: true
 	{{ content }}
 </div>
 {% else %}
-	<p>The news you followed is not public, please contact me (i.e. via footer social medias) or try again later.</p>
+	<p>The post you followed is not public, please contact me (i.e. via footer social medias) or try again later.</p>
 {% endif %}

@@ -1,3 +1,4 @@
+/**
 (function() {
 	var script = document.createElement('script');
 	script.src = "//cdn.jsdelivr.net/npm/eruda";
@@ -8,6 +9,7 @@
 		eruda.init();
 	}
 })();
+**/
 
 (function(document) {
 	var metas = document.getElementsByTagName('meta'),

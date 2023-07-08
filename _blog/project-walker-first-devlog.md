@@ -1,6 +1,6 @@
 ---
 layout: blog
-status: deleted
+status: public
 title: Project Walker First Devlog
 tags: [project-walker, devlog, minecraft, mod]
 author: Gabriel Lima

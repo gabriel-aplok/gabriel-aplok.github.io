@@ -1,6 +1,7 @@
 ---
 layout: default
 title: My Website Design
+use_new_theme: true
 ---
 
 [Button](){:.button }

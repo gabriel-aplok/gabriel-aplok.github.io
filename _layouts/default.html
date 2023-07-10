@@ -19,7 +19,9 @@
 			<p>{{ site.tagline }}</p>
 			<hr>
 			<div class="nav-menu">
-				<a href="{{ '/' | relative_url }}">Projects</a>
+				<a href="{{ '/' | relative_url }}">Home</a>
+				<span class="link"> | </span>
+				<a href="{{ '/projects.html' | relative_url }}">Projects</a>
 				<span class="link"> | </span>
 				<a href="{{ '/blog.html' | relative_url }}">Blog</a>
 				<span class="link"> | </span>
@@ -81,9 +83,30 @@
 		</div>
 	</footer>
 
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 	<script src="{{ 'https://www.gstatic.com/firebasejs/8.0.0/firebase.js' | relative_url }}"></script>
 	<script src="{{ '/assets/js/index.js' | relative_url }}"></script>
 
+	<script>
+		var swiper = new Swiper(".swiper", {
+			spaceBetween: 10,
+			loop: true,
+			autoplay: {
+				delay: 2000,
+				disableOnInteraction: true
+			},
+			scrollbar: {
+				el: ".swiper-scrollbar",
+				hide: false
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 2,
+					centeredSlides: true
+				}
+			}
+		});
+	</script>
 	{% if page.layout == "project" or page.layout == "blog" %}
 	{% if site.environment == 'production' and page.status == 'public' %}
 	<script>

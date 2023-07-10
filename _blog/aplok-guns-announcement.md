@@ -31,3 +31,5 @@ I already released the 3 versions:
  - Advanced project called "AG" (v1.0 to v1.0.2):
    - __Incompatible with any addon__.
    - [Project Page]({{ '/projects/aplok-guns.html' | relative_link }})
+
+On my discord I'm always posting some preview, so join now!

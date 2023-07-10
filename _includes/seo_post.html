@@ -27,8 +27,9 @@
 <link rel="shortcut icon" href="{{ page.icon | default: site.icon | relative_url }}">
 <link rel="apple-touch-icon" href="{{ page.icon | default: site.icon | relative_url }}">
 <link rel="icon" href="{{ page.icon | default: site.icon | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 <link rel="alternate" type="application/atom+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
 <link rel="search" type="application/opensearchdescription+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'opensearch.xml' | relative_url }}">
@@ -62,7 +63,7 @@
 					"@type": "ListItem",
 					"position": 2,
 					"item": {
-						"@id": "{{ '/' | relative_url }}",
+						"@id": "{{ '/projects.html' | relative_url }}",
 						"name": "Projects"
 					}
 				},

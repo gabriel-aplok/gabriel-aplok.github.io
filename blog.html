@@ -7,7 +7,7 @@ title: Blog
 	<h1>Blog</h1>
 	{% for post in site.blog reversed %}
 	{% if post.status == 'public' %}
-	<div class="project" onclick="window.location = '{{ site.baseurl }} {{ post.url }}';">
+	<div class="post" onclick="window.location = '{{ site.baseurl }} {{ post.url }}';">
 		{% if post.banner %}
 		<img src="{{ post.banner | relative_url }}" alt="{{ post.title }}">
 		{% endif %}

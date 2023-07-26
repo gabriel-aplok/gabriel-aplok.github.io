@@ -22,26 +22,26 @@ This mod add guns with low-poly models and does not represent any mode of realis
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | relative_url }}) __(Leader / Developer)__
+ - [Gabriel Aplok]({{ "/about.html" | relative_url }}) __(Leader / Developer)__
 
 ## Contribution
 
-- [HardSK](https://twitter.com/gabrielMODguy) __(Helped me with some codes)__
+ - [HardSK](https://twitter.com/gabrielMODguy) __(Helped me with some codes)__
 
 ## Features
 
-- Minecraft vanilla stylized
-- Satisfying sound effects
-- Smooth animations
-- Lightweight and beautiful
-- No log error on screen
-- A nice community
-- Innovative technology
+ - Minecraft vanilla stylized
+ - Satisfying sound effects
+ - Smooth animations
+ - Lightweight and beautiful
+ - No log error on screen
+ - A nice community
+ - Innovative technology
 
 ## Experimental Gameplay
 
-- Holiday Creator Features.
-- MoLang Features.
+ - Holiday Creator Features.
+ - MoLang Features.
 
 ## Workbench
 
@@ -63,21 +63,21 @@ He's handsome, isn't he? you can use them!
 
 ## Changelog (Updated on Mar 23)
 
-- Added: Gasmask for protection from nausea and poison.
-- Added: Mask filter and your recipes for Gasmask.
-- Added: AK-47 Assault Rifle.
-- Added: More parts for AK-47 workbench recipe.
-- Added: Atmospheric guns sounds.
-- Added: Impact, snap and whizby bullets sounds.
-- Fixed: Blocks multiple mesh render glitch.
-- Fixed: Multiplayer sprinting glitch.
-- Fixed: Duplicate reload sounds.
-- Fixed: Vanilla player animations.
-- Improved: Both M4A1's fire rate has been increased to the real life fire rate.
-- Improved: Some reworked textures.
-- Improved: All guns transitions.
-- Improved: All guns animations.
-- Improved: All guns sounds
+ - Added: Gasmask for protection from nausea and poison.
+ - Added: Mask filter and your recipes for Gasmask.
+ - Added: AK-47 Assault Rifle.
+ - Added: More parts for AK-47 workbench recipe.
+ - Added: Atmospheric guns sounds.
+ - Added: Impact, snap and whizby bullets sounds.
+ - Fixed: Blocks multiple mesh render glitch.
+ - Fixed: Multiplayer sprinting glitch.
+ - Fixed: Duplicate reload sounds.
+ - Fixed: Vanilla player animations.
+ - Improved: Both M4A1's fire rate has been increased to the real life fire rate.
+ - Improved: Some reworked textures.
+ - Improved: All guns transitions.
+ - Improved: All guns animations.
+ - Improved: All guns sounds
 
 ## Warning
 I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own link, or this project will be discontinued.
@@ -90,8 +90,8 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually te folder t
 
 ## Download links
 
-- [Behavior Pack v1.0.1](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack v1.0.1](https://link-center.net/173623/aplok-guns-rp)
+ - [Behavior Pack v1.0.1](https://link-hub.net/173623/aplok-guns-bp)
+ - [Resource Pack v1.0.1](https://link-center.net/173623/aplok-guns-rp)
 
 ## Supported versions
 

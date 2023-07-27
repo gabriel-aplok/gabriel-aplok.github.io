@@ -1,0 +1,50 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "main" ]
+    paths-ignore:
+      - "**.md"
+  pull_request:
+    branches: [ "main" ]
+    paths-ignore:
+      - "**.md"
+  workflow_dispatch: { }
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Convert Jekyll Posts to JSON
+      run: |
+        python3 - <<EOF
+        import os
+        import json
+        from pathlib import Path
+        from frontmatter import load
+
+        posts_path = Path("_blog")
+        json_data = []
+
+        for post_file in posts_path.glob("*.md"):
+            with open(post_file, "r") as f:
+                post = load(f)
+                post_data = {
+                    "title": post["title"],
+                    "date": post["date"],
+                    "content": post.content
+                }
+                json_data.append(post_data)
+
+        with open("api/blog.json", "w") as f:
+            json.dump(json_data, f)
+        EOF
+
+    - name: Commit and Push JSON file
+      run: |
+        git config user.name "gabriel-aplok"
+        git config user.email "97059054+gabriel-aplok@users.noreply.github.com"
+        git add api/blog.json
+        git commit -m "Add JSON data for Blog posts"
+        git push

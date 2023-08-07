@@ -11,6 +11,8 @@
 }
 
 $background-color: #121212;
+$background-code-color: #212121;
+$background-footer-color: #020202;
 $text-color: #BDBDBD;
 $heading-color: #F5F5F5;
 $table-color: #424242;
@@ -27,8 +29,8 @@ $breakpoints: (
 body {
 	background-color: $background-color;
 	color: $text-color;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	line-height: 1.5;
+	font-family: "Open Sans", Arial, sans-serif;
+	line-height: 1.6;
 }
 
 @media (min-width: map-get($breakpoints, xs)) {
@@ -61,52 +63,91 @@ body {
 	}
 }
 
-h1, h2, h3, h4, h5 {
+ul, ol {
+	margin-left: 2px;
+	margin-bottom: 2px;
+
+	li {
+		margin-bottom: 2px;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
 	color: $heading-color;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 h6 {
 	color: $text-color;
 }
 
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
 a {
-	text-decoration: none;
 	color: $brand-color;
+	text-decoration: none;
 
 	&:hover {
 		color: $brand-secondary-color;
+		text-decoration: underline;
 	}
 }
 
 .wrapper {
-	max-width: 650px;
+	max-width: 640px;
 	position: relative;
-	margin: 0 auto;
+	margin: 20px auto;
 	padding: 0 20px;
 }
 
 blockquote {
 	border-left: 3px solid $brand-color;
 	border-radius: 3px;
-	margin: 0;
-	padding: 0 0 0 15px;
+	margin: 20px 0;
+	padding: 0 10px;
 	font-style: italic;
 }
 
 code {
-	font-family: "Inconsolata", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
-	font-size: 13px;
-	margin: 0 4px;
-	padding: 4px 6px;
-	border-radius: 2px;
+	font-family: "Inconsolata", Consolas, monospace;
+	font-size: 14px;
+	padding: 2px 4px;
+	border-radius: 3px;
 	color: $text-color;
 }
 
 pre {
-	padding: 8px 15px;
-	background-color: #242424;
-	border-radius: 2px;
-	border: 1px solid #222222;
+	background-color: $background-code-color;
+	border: 1px solid $table-color;
+	border-radius: 3px;
+	padding: 10px;
+	font-family: "Inconsolata", Consolas, monospace;
+	font-size: 14px;
+	line-height: 1.4;
 	overflow: auto;
 	overflow-y: hidden;
 
@@ -123,25 +164,26 @@ table {
 }
 
 th {
-	text-align: left;
-	padding: 5px 10px;
-	border-bottom: 1px solid $table-color;
 	color: $text-color;
+	text-align: left;
+	padding: 10px;
+	border-bottom: 1px solid $table-color;
 	font-weight: normal;
 }
 
 td {
 	text-align: left;
-	padding: 5px 10px;
+	padding: 10px;
 	border-bottom: 1px solid $table-color;
 }
 
 hr {
+	background-color: $table-color;
 	border: 0;
 	outline: none;
-	height: 2px;
-	background-color: $table-color;
+	height: 1px;
 	margin: 0 0 20px;
+	opacity: 0.5;
 }
 
 dt {
@@ -150,7 +192,10 @@ dt {
 
 img {
 	max-width: 100%;
-	border-radius: 5px;
+	min-width: 100%;
+	min-height: 20vh;
+	height: auto;
+	border-radius: 3px;
 
 	.pixel {
 		-ms-interpolation-mode: nearest-neighbor;
@@ -164,9 +209,13 @@ img {
 	}
 }
 
-video {
+video, iframe.video {
 	max-width: 100%;
-	border-radius: 5px;
+	min-width: 100%;
+	min-height: 20vh;
+	height: auto;
+	border: 0;
+	border-radius: 3px;
 
 	.noborder {
 		border-radius: 0;
@@ -177,32 +226,41 @@ video {
 	background-color: $brand-color;
 	color: $background-color;
 	border: 0;
-	border-radius: 2px;
-	padding: 10px 12px;
-	margin-top: 6px;
-	line-height: 14px;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 10px 0;
+	line-height: 1.4;
 	font-size: 14px;
 	text-align: center;
 	text-decoration: none;
 
 	&:hover {
-		background-color: $brand-color;
+		background-color: $brand-secondary-color;
 		color: $background-color;
-		opacity: 0.8;
+		text-decoration: none;
+	}
+
+	.noborder {
+		border-radius: 0;
 	}
 }
 
 .tag {
+	background-color: $table-color;
+	color: $heading-color;
 	padding: 5px;
-	background-color: #323232;
-	color: #DBDBDB;
-	border-radius: 5px;
-	line-height: 1.1;
+	margin: 5px 2px;
+	border-radius: 3px;
+	line-height: 1.2;
 	letter-spacing: 0.5px;
 }
 
 .link {
 	color: $brand-color;
+
+	&:hover {
+		color: $brand-secondary-color;
+	}
 }
 
 .circle {
@@ -220,13 +278,12 @@ video {
 			font-weight: normal;
 			font-size: 40px;
 			text-align: center;
-			line-height: 36px;
+			line-height: 1.36;
 			margin-bottom: 10px;
 		}
 	}
 
 	p {
-		color: #DBDBDB;
 		font-weight: normal;
 		font-size: 18px;
 		text-align: center;
@@ -240,20 +297,21 @@ video {
 }
 
 .container {
-	min-height: 80vh;
+	min-height: 50vh;
 }
 
 .footer {
-	min-height: 20vh;
-	background-color: #111111;
+	background-color: $background-footer-color;
 	color: $heading-color;
 	justify-content: center;
 	text-align: center;
 	flex-direction: column;
 	display: flex;
+	min-height: 20vh;
 	padding: 5vh 2vw 5vh 2vw;
+	margin-top: 2vh;
 	gap: 1em;
-	
+
 	.social-media {
 		justify-content: center;
 		text-align: center;
@@ -290,6 +348,9 @@ video {
 
 		h2 {
 			color: $text-color;
+			font-weight: normal;
+			font-size: 18px;
+			margin-top: 0;
 		}
 	}
 }
@@ -311,6 +372,9 @@ video {
 
 		h3 {
 			color: $text-color;
+			font-weight: normal;
+			font-size: 18px;
+			margin-top: 0;
 		}
 	}
 }

@@ -1,5 +1,4 @@
-/**
-(function() {
+/* (function() {
 	var script = document.createElement('script');
 	script.src = "//cdn.jsdelivr.net/npm/eruda";
 
@@ -8,8 +7,7 @@
 	script.onload = function() {
 		eruda.init();
 	}
-})();
-**/
+})(); */
 
 (function(document) {
 	var metas = document.getElementsByTagName('meta'),
@@ -21,7 +19,7 @@
 			}
 		},
 		initialize = function() {
-			changeViewportContent("width=device-width, minimum-scale=1.0, maximum-scale=1.0");
+			changeViewportContent("width=device-width, minimum-scale=1, maximum-scale=1");
 		},
 		gestureStart = function() {
 			changeViewportContent("width=device-width, minimum-scale=0.25, maximum-scale=1.6");

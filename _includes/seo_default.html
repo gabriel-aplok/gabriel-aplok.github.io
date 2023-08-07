@@ -9,12 +9,13 @@
 <meta name="robots" content="all">
 <meta name="revisit-after" content="1 days">
 
-<link rel="canonical" href="{{ '/' | absolute_url }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
 
 <meta property="twitter:card" content="summary">
 <meta property="twitter:title" content="{{ site.title }} - {{ page.title }}">
 <meta property="twitter:description" content="{{ page.description | default: site.description }}">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="{{ site.lang | default: 'en-US' }}">
 <meta property="og:site_name" content="{{ site.title }} - {{ page.title }}">
 <meta property="og:title" content="{{ site.title }} - {{ page.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -39,3 +40,54 @@
 <link rel="preconnect" href="cdnjs.cloudflare.com" crossorigin>
 <link rel="preconnect" href="fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="media.discordapp.net" crossorigin>
+
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"description": "{{ page.description | default: site.description }}",
+		"headline": "{{ site.title }} - {{ page.title }}",
+		"name": "{{ site.title }}",
+		"url": "{{ site.url | absolute_url }}",
+		"@graph": [
+			{
+				"@type": "BreadcrumbList",
+				"@context": "https://schema.org/",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"item": {
+							"@id": "{{ site.url | absolute_url }}",
+							"name": "{{ site.title }}"
+						}
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"item": {
+							"@id": "{{ site.url | absolute_url }} {{ '/projects.html' | relative_url }}",
+							"name": "Projects"
+						}
+					},
+					{
+						"@type": "ListItem",
+						"position": 4,
+						"item": {
+							"@id": "{{ site.url | absolute_url }} {{ '/blog.html' | relative_url }}",
+							"name": "Blog"
+						}
+					},
+					{
+						"@type": "ListItem",
+						"position": 5,
+						"item": {
+							"@id": "{{ site.url | absolute_url }} {{ page.url | relative_url }}",
+							"name": "{{ page.title }}"
+						}
+					}
+				]
+			}
+		]
+	}
+</script>

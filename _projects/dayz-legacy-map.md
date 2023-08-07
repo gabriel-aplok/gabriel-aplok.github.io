@@ -14,6 +14,9 @@ date: 2023-07-03
 
 It's a old dayz map port originally made for Minecraft Java, remade by me and updated to the latest versions focused on using with Project Walker.
 
+## Videos
+{% include youtube.html id="AMwArZvSWq8" %}
+
 ## Screenshots
 
 ![](https://media.discordapp.net/attachments/1125126294041014356/1125507411038449895/Screenshot_20230703-161652.png)

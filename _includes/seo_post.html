@@ -6,8 +6,9 @@
 <meta name="description" content="{{ page.description | default: site.description }}">
 <meta name="author" content="{{ page.author | default: site.author.name }}">
 <meta name="keywords" content="{{ page.tags | join: ',' }}">
-<meta name="robots" content="all">
-<meta name="revisit-after" content="1 days">
+{% if page.status == 'public' %}
+<meta name="robots" content="index, follow">
+{% endif %}
 
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 

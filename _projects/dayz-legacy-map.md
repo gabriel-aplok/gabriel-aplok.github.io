@@ -37,7 +37,7 @@ You have full authorization to make videos/promote my work, but **ALWAYS** use m
 
 ## Download links
 
- - [Direct Link](https://www.mediafire.com/file/371skpulsim3gfw/DayZ+Map.mcworld/file)
+- [Direct Link](https://www.mediafire.com/file/371skpulsim3gfw/DayZ+Map.mcworld/file)
 
 ## Supported versions
 

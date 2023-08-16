@@ -8,10 +8,11 @@
 * {
 	max-width: 100%;
 	max-height: 100%;
+	scroll-behavior: smooth;
 }
 
-$background-color: #121212;
-$background-code-color: #212121;
+$background-color: #000000; //121212
+$background-code-color: #222222; //212121
 $background-footer-color: #020202;
 $text-color: #BDBDBD;
 $heading-color: #F5F5F5;
@@ -31,6 +32,7 @@ body {
 	color: $text-color;
 	font-family: "Open Sans", Arial, sans-serif;
 	line-height: 1.6;
+	box-sizing: border-box;
 }
 
 @media (min-width: map-get($breakpoints, xs)) {

@@ -2,12 +2,13 @@
 layout: project
 status: public
 slug: project-walker
-title: "Project Walker: Legacy"
+title: Project Walker Mod
 banner: /assets/images/projects/project-walker/banner.png
 icon: /assets/images/projects/project-walker/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, mod]
 date: 2023-07-02
+updated: 2023-09-07
 comments_id: 2
 ---
 

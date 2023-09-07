@@ -2,7 +2,7 @@
 layout: project
 status: public
 slug: aplok-guns
-title: Aplok Guns
+title: Aplok Guns Mod
 banner: /assets/images/projects/aplok-guns/banner.png
 icon: /assets/images/projects/aplok-guns/icon.png
 description: Survival friendly guns mod with lightweight and beautiful models, satisfying sound effects, animations and much more.

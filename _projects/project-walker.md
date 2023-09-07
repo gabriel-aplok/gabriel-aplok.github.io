@@ -36,6 +36,7 @@ _I’m working on reimagined of the Legacy Project Walker, with new ideas, new p
 - A nice community.
 - Loots.
 - Combat and Survival.
+- Health System (broken leg, infection and bleeding).
 
 ### Experimental Gameplay
 
@@ -88,21 +89,22 @@ _Some addon's entities._
 
 ## Changelog
 
-- Added: Darkness colormap.
-- Added: New sound effects to guns and some new vanilla sound.
-- Added: Dacia vehicle.
-- Added: Crawler zombie.
-- Added: Wandering trader.
-- Added: Night vision goggles.
-- Added: Santa hat.
-- Added: Fog.
-- Added: Bleeding and blood.
-- Added: Scope UI to snipers and rifles.
-- Added: Land mine.
-- Added: .44 Magnum 
-- Added: M249.
-- Improved: Thirst system.
-- Fixed: Lot of bugs.
+- Added new sounds.
+- Added new crosshair.
+- Removed new vanilla entities spawn.
+- Removed concrete barrier.
+- Fixed night vision goggles turn on/off when using correctly.
+- Improved .44 Magnum bullet damage increased +2. (14 -> 16)
+- Improved Landmine explosion increased.
+- Improved bullet knockback.
+- Improved reworked all spawn rarity to loot, npcs and infecteds.
+- Improved code refactoring.
+- Improved zombie name to infected.
+- Improved gun sounds distance.
+- Improved title logo.
+- Improved fog.
+- Improved blood particle optimization.
+- Improved infected despawn from distance for optimization.
 
 ## Warning
 I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own link, or this project will be discontinued.
@@ -115,11 +117,11 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually te folder t
 
 ## Download links
 
-- [Behavior Pack v1.7.3](https://linkvertise.com/173623/project-walker-bp)
-- [Resource Pack v1.7.3](https://linkvertise.com/173623/project-walker-rp)
+- [Behavior Pack v1.7.4](https://linkvertise.com/173623/project-walker-bp)
+- [Resource Pack v1.7.4](https://linkvertise.com/173623/project-walker-rp)
 - [MCPEDL Page](https://mcpedl.com/project-walker-legacy/)
 - [ModBay Page](https://modbay.org/mods/718-project-walker-mod.html)
 
 ## Supported versions
 
-<span class="tag"> 1.18.10 </span> to <span class="tag"> 1.20.12 </span>
+<span class="tag"> 1.20.10 </span> <span class="tag"> 1.20.12 </span>

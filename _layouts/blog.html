@@ -13,7 +13,7 @@ comments: true
 <br>
 {% endif %}
 <h2>{{ page.title }}</h2>
-<p>Blog &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span><p>
+<p>Blog &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span></p>
 
 {% if page.tags %}
 	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>

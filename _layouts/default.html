@@ -42,8 +42,11 @@
 			</div>
 			{% endif %}
 		</div>
+		{% if page.content contains 'Minecraft' or page.content contains 'Mojang' or page.content contains 'Microsoft' %}
+		<h2>Extra Disclaimer</h2>
+		<p>This website is not affiliated with Mojang Studios or Microsoft</p>
+		{% endif %}
 	</div>
-
 	<footer class="footer">
 		<div class="social-media">
 			<a href="{{ site.twitter }}" target="_blank">
@@ -69,10 +72,6 @@
 		<p>&copy; 2018-{{ "now" | date: "%Y" }} <strong>Gabriel Aplok</strong>. All rights reserved.</p>
 
 		<small>All copyrights and trademarks are the property of their respective owners.</small>
-
-		{% if page.content contains 'Minecraft' or page.content contains 'Mojang' or page.content contains 'Microsoft' %}
-		<small>This website is not affiliated with Mojang Studios or Microsoft</small>
-		{% endif %}
 
 		<div>
 			<a href="{{ '/privacy.html' | relative_url }}">Privacy Policy</a>

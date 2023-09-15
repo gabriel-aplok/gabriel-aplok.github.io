@@ -34,14 +34,12 @@ This mod add guns with low-poly models and does not represent any mode of realis
 - Satisfying sound effects
 - Smooth animations
 - Lightweight and beautiful
-- No log error on screen
-- A nice community
 - Innovative technology
 
 ## Experimental Gameplay
 
 - Holiday Creator Features.
-- MoLang Features.
+- Molang Features.
 
 ## Workbench
 
@@ -54,6 +52,16 @@ It's a workbench for crafting heavy guns, or as u prefer "firearms".
 It's a ammunition box that drops random ammo from all guns, both bullets and magazines.
 
 ![](https://modbay.org/uploads/posts/2023-03/1679231474_screenshot_20230319-092853.png)
+
+## Videos
+
+Version 1.0.0
+
+{% include youtube.html id="TdtadImSXc0" %}
+
+Version 1.0.1
+
+{% include youtube.html id="z_L2CS8rufc" %}
 
 ## Screenshots
 
@@ -80,13 +88,14 @@ He's handsome, isn't he? you can use them!
 - Improved: All guns sounds
 
 ## Warning
+
 I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own link, or this project will be discontinued.
 
 You have full authorization to make videos/promote my work, but **ALWAYS** use my original links.
 
 ## Installation
 
-Open the **.mcpack** with **Minecraft** or extract and copy manually te folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
+Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
 
 ## Download links
 

@@ -108,13 +108,14 @@ _Some addon's entities._
 - Improved infected despawn from distance for optimization.
 
 ## Warning
+
 I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own link, or this project will be discontinued.
 
 You have full authorization to make videos/promote my work, but **ALWAYS** use my original links.
 
 ## Installation
 
-Open the **.mcpack** with **Minecraft** or extract and copy manually te folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
+Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
 
 ## Download links
 

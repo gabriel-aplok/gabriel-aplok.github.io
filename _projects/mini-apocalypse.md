@@ -10,7 +10,7 @@ tags: [mini-apocalypse, minecraft, mod]
 date: 2023-09-11
 ---
 
-![Logo](https://modbay.org/uploads/posts/2023-09/minecraft_title.png)
+![Logo](/assets/images/projects/mini-apocalypse/screenshot/logo.png)
 
 The Apocalypse is coming to Minecraft Bedrock! Mine Apocalypse brings apocalyptic-themed weapons and items to the Minecraft world!
 
@@ -80,18 +80,19 @@ Just make sure you enable the experimental settings as they are custom items. Al
 Although I haven't added any new mobs, the behavior of zombies, skeletons and drowned mobs has been changed so that they don't burn in sunlight - if this add-on becomes popular I will add custom mobs.
 
 ### Screenshots
-![](https://modbay.org/uploads/posts/2023-09/1694445312_screenshot_20230911-101440.png)
-![](https://modbay.org/uploads/posts/2023-09/screenshot_20230911-104201.png)
-![](https://modbay.org/uploads/posts/2023-09/1694445444_screenshot_20230911-104447.png)
-![](https://modbay.org/uploads/posts/2023-09/1694445466_screenshot_20230911-104659.png)
+![Screenshot 0](/assets/images/projects/mini-apocalypse/screenshot/screenshot_0.png)
+![Screenshot 1](/assets/images/projects/mini-apocalypse/screenshot/screenshot_1.png)
+![Screenshot 2](/assets/images/projects/mini-apocalypse/screenshot/screenshot_2.png)
+![Screenshot 3](/assets/images/projects/mini-apocalypse/screenshot/screenshot_3.png)
 
 **You can see all the crafting recipes in the crafting table UI.**
 
-![](https://modbay.org/uploads/posts/2023-09/screenshot_20230911-104856.png)
+![Crafting Recipes](/assets/images/projects/mini-apocalypse/screenshot/crafting-recipes.png)
 
 If you liked the addon and want to support me and see more in the future, check out my [website](https://gabriel-aplok.github.io/)!
 
 ## Warning
+
 I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own link, or this project will be discontinued.
 
 You have full authorization to make videos/promote my work, but **ALWAYS** use my original links.
@@ -104,6 +105,8 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 - [Behavior Pack](https://linkvertise.com/173623/mini-apocalypse-bp)
 - [Resource Pack](https://linkvertise.com/173623/mini-apocalypse-rp)
+- [MCPEDL Page](https://mcpedl.com/mini-apocalypse-addon/)
+- [ModBay Page](https://modbay.org/mods/1031-mini-apocalypse-mod.html)
 
 ## Supported versions
 

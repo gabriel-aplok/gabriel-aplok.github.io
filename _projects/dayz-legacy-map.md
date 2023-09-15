@@ -35,6 +35,10 @@ I **DON'T** authorize anyone to republish/reupload my work outside of my own lin
 
 You have full authorization to make videos/promote my work, but **ALWAYS** use my original links.
 
+## Installation
+
+Open the **.mcworld** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** world in the respective folder.
+
 ## Download links
 
 - [Direct Link](https://www.mediafire.com/file/371skpulsim3gfw/DayZ+Map.mcworld/file)

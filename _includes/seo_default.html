@@ -23,8 +23,8 @@
 <link rel="icon" href="{{ site.icon | relative_url }}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-{% if page.use_new_theme %}
-<link rel="stylesheet" href="{{ '/assets/css/minimal.css?v=' | append: site.github.build_revision | relative_url }}">
+{% if page.use_material %}
+<link rel="stylesheet" href="{{ '/assets/css/material.css?v=' | append: site.github.build_revision | relative_url }}">
 {% else %}
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 {% endif %}

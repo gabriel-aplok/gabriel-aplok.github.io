@@ -34,3 +34,25 @@ discord_preview: true
 	{% endfor %}
 </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper(".swiper", {
+	spaceBetween: 10,
+	loop: true,
+	autoplay: {
+		delay: 2000,
+		disableOnInteraction: true
+	},
+	scrollbar: {
+		el: ".swiper-scrollbar",
+		hide: false
+	},
+	breakpoints: {
+		640: {
+			slidesPerView: 2,
+			centeredSlides: true
+		}
+	}
+});
+</script>

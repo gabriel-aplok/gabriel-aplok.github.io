@@ -13,6 +13,5 @@ images: [
 ]
 ---
 
-<br>
 
-**Soon I'll upload more renders, Now I only have these.**
+Soon I'll upload more renders, Now I only have these.

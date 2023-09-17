@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 <p style="text-transform: uppercase;">
@@ -25,4 +24,8 @@ comments: true
 </div>
 {% else %}
 	<p>The post you followed is not public, please contact me (i.e. via footer social medias) or try again later.</p>
+{% endif %}
+
+{% if page.comments_id %}
+	{% include comments.html issue_id=page.comments_id %}
 {% endif %}

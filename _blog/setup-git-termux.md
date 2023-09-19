@@ -66,4 +66,4 @@ git push origin <branch-name>
 ```
 Replace `<branch-name>` with the branch you want to push your changes to.
 
-By following these steps, you should be able to commit and push to your private repository using SSH deploy keys in Termux.
+By following these steps, you should be able to commit and push to your repository using SSH deploy keys in Termux.

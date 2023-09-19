@@ -1,26 +1,32 @@
-title: "Gabriel Aplok"
-tagline: "Pixel Artist and Game Producer."
-description: "Come check some of my work."
-icon: "/assets/images/icon.png"
-lang: "en-US"
+title: Gabriel Aplok
+tagline: Pixel Artist and Game Producer.
+description: Come check some of my work.
+icon: /assets/images/icon.png
+lang: en-US
 
-google_analytics: "GTM-MJSM745"
-issues_repo: "gabriel-aplok/gabriel-aplok.github.io"
+google_analytics: GTM-MJSM745
+issues_repo: gabriel-aplok/gabriel-aplok.github.io
 
-email: "gabrielaplok.contact@gmail.com"
-twitter: "https://twitter.com/GabrielAplok"
-youtube: "https://youtube.com/GabrielAplok"
-github: "https://github.com/gabriel-aplok/"
-itchio: "https://gabriel-aplok.itch.io/"
-discord: "https://discord.gg/PppEgBdss4"
+email: gabrielaplok.contact@gmail.com
+twitter: https://twitter.com/GabrielAplok
+youtube: https://youtube.com/GabrielAplok
+github: https://github.com/gabriel-aplok/
+itchio: https://gabriel-aplok.itch.io/
+discord: https://discord.gg/PppEgBdss4
 
 author:
-  name: "Gabriel Aplok"
-  email: "gabrielaplok.contact@gmail.com"
-  url: "https://gabriel-aplok.github.io"
+  name: Gabriel Aplok
+  email: gabrielaplok.contact@gmail.com
+  url: https://gabriel-aplok.github.io
+
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
+  exclude: atom.xml
 
 plugins:
-  - "jekyll-sitemap"
+  - jekyll-sitemap
+  - jekyll-minifier
 
 collections:
   blog:

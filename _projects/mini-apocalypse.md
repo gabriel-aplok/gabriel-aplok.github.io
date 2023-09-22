@@ -2,11 +2,11 @@
 layout: project
 status: public
 slug: mini-apocalypse
-title: Mini Apocalypse Mod
+title: Mini Apocalypse Addon
 banner: /assets/images/projects/mini-apocalypse/banner.png
 icon: /assets/images/projects/mini-apocalypse/icon.png
 description: Simple minimal apocalypse elements survival-friendly to your Minecraft Bedrock with new weapons, foods and drinks.
-tags: [mini-apocalypse, minecraft, mod]
+tags: [mini-apocalypse, minecraft, addon]
 date: 2023-09-11
 ---
 
@@ -80,6 +80,7 @@ Just make sure you enable the experimental settings as they are custom items. Al
 Although I haven't added any new mobs, the behavior of zombies, skeletons and drowned mobs has been changed so that they don't burn in sunlight - if this add-on becomes popular I will add custom mobs.
 
 ### Screenshots
+
 ![Screenshot 0](/assets/images/projects/mini-apocalypse/screenshot/screenshot_0.png)
 ![Screenshot 1](/assets/images/projects/mini-apocalypse/screenshot/screenshot_1.png)
 ![Screenshot 2](/assets/images/projects/mini-apocalypse/screenshot/screenshot_2.png)

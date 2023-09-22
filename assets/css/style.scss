@@ -5,6 +5,11 @@
 @import "font.css";
 @import "highlight.css";
 
+:root {
+	--green-color: #4CAF50;
+	--red-color: #F44336;
+}
+
 * {
 	max-width: 100%;
 	max-height: 100%;
@@ -116,6 +121,14 @@ a {
 	&:hover {
 		color: $brand-secondary-color;
 	}
+}
+
+.green {
+	color: var(--green-color);
+}
+
+.red {
+	color: var(--red-color);
 }
 
 .wrapper {

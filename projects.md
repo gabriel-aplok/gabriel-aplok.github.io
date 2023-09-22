@@ -5,7 +5,8 @@ title: Home
 
 <div class="projects">
 	<h1>My Projects</h1>
-	{% for project in site.projects reversed %}
+	{% assign projects = site.projects | sort: 'date' %}
+	{% for project in projects %}
 	{% if project.status == 'public' %}
 	<div class="project" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
 		<img src="{{ project.banner | relative_url }}" alt="{{ project.title }}">

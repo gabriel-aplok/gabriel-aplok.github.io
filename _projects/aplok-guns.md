@@ -131,9 +131,9 @@ Handsome, isn't he? you can use them!
 
 ## Warning
 
-I **DON'T** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
+I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
 
-You have full authorization to make videos/promote my work, but **ALWAYS** use my original links.
+You have full authorization to make videos/promote my work, but **<span class="green">ALWAYS</span>** use my original links.
 
 ## Installation
 
@@ -141,7 +141,7 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 ---
 
-Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
+Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="green">BOTH</span>** resources and behavior packs when creating the world.
 
 ## Download links
 

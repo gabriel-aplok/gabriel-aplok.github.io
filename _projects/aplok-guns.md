@@ -16,9 +16,11 @@ comments_id: 1
 
 This mod add guns with low-poly models and does not represent any mode of realism in 50 million cubes 3d models (I hate mods with this), just focus on animations and sounds, the models are something close to something that mojang would make.
 
+So far, I've spent hours over about 6 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on! ❤
+
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | relative_url }}) _(Leader / Developer)_
+- [Gabriel Aplok]({{ "/about.html" | relative_url }}) _(Main Developer)_
 
 ## Contribution
 
@@ -27,12 +29,13 @@ This mod add guns with low-poly models and does not represent any mode of realis
 ## Features
 
 - Minecraft vanilla stylized
-- Satisfying sound effects
-- Satisfying Smooth animations
-- Lightweight and Beautiful art
-- Innovative technology
-- Survival-friendly
-- Multiplayer-friendly
+- Lots of satisfying sound effects.
+- Lots of satisfying smooth animations of sprinting, reloading, holding and firing.
+- Lots of beautiful and lightweight visuals such as muzzle flash, explosion, light and much more.
+- Innovative technology, with systems never seen before in **Bedrock**.
+- Survival-friendly with everything craftable.
+- Multiplayer-friendly and satisfying armament & ballistics!
+- A unique experience with reloading bullets in cartridges for use in guns.
 
 ## Experimental Gameplay
 

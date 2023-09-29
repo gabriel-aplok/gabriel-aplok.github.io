@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		cookieConsent.style.display = "block";
 	}
 
-	cookieConsent.addEventListener("click", (event) => {
+	/*cookieConsent.addEventListener("click", (event) => {
 		event.preventDefault();
-	});
+	});*/
 
 	cookieConsentButton.addEventListener("click", () => {
 		localStorage.setItem("cookie-consent", true);

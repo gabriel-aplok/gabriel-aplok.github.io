@@ -79,6 +79,7 @@
 			<a href="{{ '/gallery.html' | relative_url }}">Gallery</a>
 		</div>
 	</footer>
+	{% if page.url != "/privacy.html" %}
 	<div class="cookie-consent">
 		<h2>Cookie Consent</h2>
 		<p>
@@ -86,6 +87,7 @@
 		</p>
 		<button class="button cookie-consent-button" style="width: 95%;">CONTINUE</button>
 	</div>
+	{% endif %}
 	<script src="{{ '/assets/js/index.js' | relative_url }}"></script>
 </body>
 </html>

@@ -1,26 +1,37 @@
-(function(document) {
-	var metas = document.getElementsByTagName('meta'),
-		changeViewportContent = function(content) {
-			for (var i = 0; i < metas.length; i++) {
-				if (metas[i].name == "viewport") {
-					metas[i].content = content;
-				}
-			}
-		},
-		initialize = function() {
-			changeViewportContent("width=device-width, minimum-scale=1, maximum-scale=1");
-		},
-		gestureStart = function() {
-			changeViewportContent("width=device-width, minimum-scale=0.25, maximum-scale=1.6");
-		},
-		gestureEnd = function() {
-			initialize();
-		};
+const header = document.getElementById("header");
 
-	if (navigator.userAgent.match(/iPhone/i)) {
-		initialize();
+window.onscroll = function() {
+	scrollIndicator();
+};
 
-		document.addEventListener("touchstart", gestureStart, false);
-		document.addEventListener("touchend", gestureEnd, false);
+document.addEventListener("DOMContentLoaded", () => {
+	const cookieConsent = document.querySelector(".cookie-consent");
+	const cookieConsentButton = document.querySelector(".cookie-consent-button");
+
+	if (localStorage.getItem("cookie-consent")) {
+		cookieConsent.style.display = "none";
+	} else {
+		cookieConsent.style.display = "block";
 	}
-})(document);
+
+	cookieConsent.addEventListener("click", (event) => {
+		event.preventDefault();
+	});
+
+	cookieConsentButton.addEventListener("click", () => {
+		localStorage.setItem("cookie-consent", true);
+		cookieConsent.style.display = "none";
+	});
+});
+
+function headerMenu() {
+	header.classList.toggle("open");
+}
+
+function scrollIndicator() {
+	let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	let scrolled = (winScroll / height) * 100;
+
+	document.getElementById("scroll-indicator-bar").style.width = scrolled + "%";
+}

@@ -23,6 +23,7 @@ jekyll-minifier:
   uglifier_args:
     harmony: true
   exclude: atom.xml
+  exclude: sitemap.xml
 
 plugins:
   - jekyll-sitemap

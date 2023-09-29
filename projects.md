@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Home
+title: Projects
+header: 1
 ---
 
+<h1>My Projects</h1>
 <div class="projects">
-	<h1>My Projects</h1>
 	{% assign projects = site.projects | sort: 'date' %}
 	{% for project in projects %}
 	{% if project.status == 'public' %}

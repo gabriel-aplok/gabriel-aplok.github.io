@@ -1,5 +1,4 @@
 ---
-use_material: true
 ---
 
 <!DOCTYPE html>
@@ -13,40 +12,40 @@ use_material: true
 
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
 </head>
-
-<body class="page-{{ page.layout }}">
+<body>
 	{% include google_analytics.html %}
-
-	<div class="wrapper">
-		<div class="header">
-			<a href="{{ '/' | absolute_url }}"><h1>{{ site.title }}</h1></a>
-			<p>{{ site.tagline }}</p>
-			<hr>
-			<div class="nav-menu">
-				<a href="{{ '/' | relative_url }}">Home</a>
-				<span class="link"> | </span>
-				<a href="{{ '/projects.html' | relative_url }}">Projects</a>
-				<span class="link"> | </span>
-				<a href="{{ '/blog.html' | relative_url }}">Blog</a>
-				<span class="link"> | </span>
-				<a href="{{ '/about.html' | relative_url }}">About</a>
-			</div>
+	<div class="header-container">
+		<div class="header" id="header">
+			<a href="/index.html" class="logo">Gabriel Aplok</a>
+			{% assign pages = site.pages | sort: 'header' %}
+			{% for page_ in pages %}
+				{% if page_.header and page_.header > 0 %}
+					{% if page_.url == page.url %}
+						<a href="{{ page_.url | relative_url }}" class="active">{{ page_.title }}</a></li>
+					{% else %}
+						<a href="{{ page_.url | relative_url }}">{{ page_.title }}</a></li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			<a href="javascript:void(0);" class="menu" onclick="headerMenu()">
+				<i class="fa fa-bars"></i>
+			</a>
 		</div>
-
-		<div class="container">
-			{{ content }}
-
-			{% if page.discord_preview %}
-			<h1>Join community</h1>
-			<p>Chat with me, with everyone and see memes lol!👋</p>
-			<div style="text-align: center;">
-				<iframe src="https://discord.com/widget?id=857299210529407068&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-			</div>
-			{% endif %}
+		{% if page.layout == "project" or page.layout == "blog" %}
+		<div class="scroll-indicator-container">
+			<div class="scroll-indicator-bar" id="scroll-indicator-bar"></div>
 		</div>
-		{% if page.content contains 'Minecraft' or page.content contains 'Mojang' or page.content contains 'Microsoft' %}
-		<h2>Extra Disclaimer</h2>
-		<p>This website is not affiliated with Mojang Studios or Microsoft</p>
+		{% endif %}
+	</div>
+	<div class="content">
+		{{ content }}
+
+		{% if page.discord_preview %}
+		<h1>Join community</h1>
+		<p>Chat with me, with everyone and see memes lol!👋</p>
+		<div style="text-align: center;">
+			<iframe src="https://discord.com/widget?id=857299210529407068&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		</div>
 		{% endif %}
 	</div>
 	<footer class="footer">
@@ -66,9 +65,6 @@ use_material: true
 			<a href="{{ site.github }}" target="_blank">
 				<i class="fa-brands fa-github fa-2x"></i>
 			</a>
-			<!--<a href="{{ site.itchio }}" target="_blank">
-				<i class="fa-brands fa-itch-io fa-2x"></i>
-			</a>-->
 		</div>
 
 		<p>&copy; 2018-{{ "now" | date: "%Y" }} <strong>Gabriel Aplok</strong>. All rights reserved.</p>
@@ -83,7 +79,13 @@ use_material: true
 			<a href="{{ '/gallery.html' | relative_url }}">Gallery</a>
 		</div>
 	</footer>
-
+	<div class="cookie-consent">
+		<h2>Cookie Consent</h2>
+		<p>
+			Some cookies collect data only to remember your user's website preferences. In the case of analytics or marketing cookies, we always collect as little data as possible to ensure we keep our marketing well targeted - which usually results in you not being spammed by any of our ads. We also never analyze data about you, in particular, everything at FireWave is analyzed in aggregate. <a href="/privacy.html">Learn more</a>
+		</p>
+		<button class="button cookie-consent-button" style="width: 95%;">CONTINUE</button>
+	</div>
 	<script src="{{ '/assets/js/index.js' | relative_url }}"></script>
 </body>
 </html>

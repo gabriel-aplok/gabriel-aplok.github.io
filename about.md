@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+header: 3
 ---
 
 <div class="about">

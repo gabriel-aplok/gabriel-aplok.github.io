@@ -22,10 +22,6 @@ So far, I've spent hours over about 6 months making this add-on for you! I hope 
 
 - [Gabriel Aplok]({{ "/about.html" | relative_url }}) _(Main Developer)_
 
-## Contribution
-
-- [HARD](https://twitter.com/gabrielMODguy) _(Bullet Hole System)_
-
 ## Features
 
 - Minecraft vanilla stylized
@@ -78,9 +74,7 @@ Playlist
 
 ## Screenshots
 
-Handsome, isn't he? you can use them!
-
-#### Armament
+##### Armament
 
 ![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_2.png)
 ![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_3.png)
@@ -91,11 +85,15 @@ Handsome, isn't he? you can use them!
 ![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_8.png)
 ![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_9.png)
 
-#### Armor
+##### Armor
 
 ![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_10.png)
 ![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_11.png)
 ![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_12.png)
+
+## Special Thanks to ♥️
+
+- [HardSK](https://twitter.com/gabrielMODguy) _(Bullet Hole System)_
 
 ## Changelog
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sponsor Me
+header: 4
 ---
 
 ## Sponsor my work ❤️
@@ -22,4 +23,4 @@ You can sponsor my work through GitHub sponsors as well. Visit my [GitHub Sponso
 
 ## PIX
 
-Send pix to kingstoneinteractive@gmail.com
+Key ```0340cdc7-1354-42ad-baf4-f3ae37810f72```

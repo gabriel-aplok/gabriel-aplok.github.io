@@ -2,6 +2,7 @@
 layout: blog
 status: public
 title: "How to Setup Git in Termux"
+banner: "/assets/images/blog/c456815a175346398c754e67bc4aa2d9.png"
 tags: [termux, git]
 author: Gabriel Lima
 date: 2023-07-15

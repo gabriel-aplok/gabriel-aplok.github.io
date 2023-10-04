@@ -23,6 +23,14 @@ You can submit issues in the following ways:
 - via [Github Issues](https://github.com/gabriel-aplok/gabriel-aplok.github.io/issues).
 - via email: gabrielaplok.contact@gmail.com
 
+## Alternative Location
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/74ce96cd-b1e2-477f-87f0-ca90228e45aa/deploy-status)](https://app.netlify.com/sites/gabriel-aplok/deploys)
+
+Alternative website location hosted on Netlify. Why not?
+
+[https://gabriel-aplok.netlify.app/](https://gabriel-aplok.netlify.app/)
+
 ### README latest update
 
 Date : 02-07-2023 dd-mm-yyyy

@@ -1,7 +1,8 @@
 ---
 layout: blog
 status: public
-title: "Hello World: My first post!"
+title: "My first post!"
+banner: "/assets/images/blog/a700d10c9fde406894724b7543aba786.png"
 tags: [website]
 author: Gabriel Lima
 date: 2021-08-06

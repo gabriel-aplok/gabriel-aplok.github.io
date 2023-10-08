@@ -103,7 +103,7 @@ If you liked the addon and want to support me and see more in the future, check 
 - Added Stonecutter recipes for survival (with iron ignot).
 - Renamed add-on name "Crafting Dead Clothing" to "Apocalyptic Clothes".
 
-## Warning
+## <span class="red">Warning</span>
 
 I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
 

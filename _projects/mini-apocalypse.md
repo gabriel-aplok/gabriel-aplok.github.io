@@ -18,8 +18,6 @@ Classic and iconic zombie-killing weapons like the Fire Axe, Crowbars and Baseba
 
 The Mine Apocalypse add-on adds a total of 42 new items to the game, ranging from weapons and tools to new consumables such as food and medicine.
 
-Just make sure you enable the experimental settings as they are custom items. Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
-
 ### Melee Weapons
 
 - Baseball Bat (Craftable)
@@ -81,10 +79,10 @@ Although I haven't added any new mobs, the behavior of zombies, skeletons and dr
 
 ### Screenshots
 
-![Screenshot 0](/assets/images/projects/mini-apocalypse/screenshot/screenshot_0.png)
-![Screenshot 1](/assets/images/projects/mini-apocalypse/screenshot/screenshot_1.png)
-![Screenshot 2](/assets/images/projects/mini-apocalypse/screenshot/screenshot_2.png)
-![Screenshot 3](/assets/images/projects/mini-apocalypse/screenshot/screenshot_3.png)
+![Screenshot](/assets/images/projects/mini-apocalypse/screenshot/screenshot_0.png)
+![Screenshot](/assets/images/projects/mini-apocalypse/screenshot/screenshot_1.png)
+![Screenshot](/assets/images/projects/mini-apocalypse/screenshot/screenshot_2.png)
+![Screenshot](/assets/images/projects/mini-apocalypse/screenshot/screenshot_3.png)
 
 **You can see all the crafting recipes in the crafting table UI.**
 
@@ -92,15 +90,19 @@ Although I haven't added any new mobs, the behavior of zombies, skeletons and dr
 
 If you liked the addon and want to support me and see more in the future, check out my [website](https://gabriel-aplok.github.io/)!
 
-## Warning
+## <span class="red">Warning</span>
 
-I **DON'T** authorize anyone to republish/reupload my work outside of my own links, or remove my own link, or this project will be discontinued.
+I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
 
-You have full authorization to make videos/promote my work, but **ALWAYS** use my original links.
+You have full authorization to make videos/promote my work, but **<span class="green">ALWAYS</span>** use my original links.
 
 ## Installation
 
 Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
+
+---
+
+Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="green">BOTH</span>** resources and behavior packs when creating the world.
 
 ## Download links
 
@@ -111,4 +113,9 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 ## Supported versions
 
-<span class="tag"> 1.20.10 </span> <span class="tag"> 1.20.12 </span> <span class="tag"> 1.20.15 </span> <span class="tag"> 1.20.30 </span>
+<span class="tag"> 1.20.10 </span>
+<span class="tag"> 1.20.12 </span>
+<span class="tag"> 1.20.15 </span>
+<span class="tag"> 1.20.30 </span>
+<span class="tag"> 1.20.31 </span>
+<span class="tag"> 1.20.32 </span>

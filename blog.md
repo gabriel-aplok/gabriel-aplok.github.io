@@ -11,7 +11,7 @@ header: 2
 	{% if post.status == 'public' %}
 	<div class="post" onclick="window.location = '{{ site.baseurl }} {{ post.url }}';">
 		{% if post.banner %}
-		<img src="{{ post.banner | relative_url }}" alt="{{ post.title }}">
+		<img src="{{ post.banner | absolute_url }}" alt="{{ post.title }}">
 		{% endif %}
 		<h3>{{ post.title }}</h3>
 		<hr>

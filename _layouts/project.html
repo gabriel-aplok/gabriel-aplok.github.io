@@ -14,7 +14,7 @@ scroll: true
 {% endif %}
 
 <p>
-	<img src="{{ page.banner | relative_url }}" alt="{{ page.title }}" style="display: block; margin-left: auto; margin-right: auto;">
+	<img src="{{ page.banner | absolute_url }}" alt="{{ page.title }}" style="display: block; margin-left: auto; margin-right: auto;">
 </p>
 
 <p> {{ page.description }}</p>

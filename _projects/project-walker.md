@@ -24,7 +24,7 @@ _I’m working on reimagined of the Legacy Project Walker, with new ideas, new p
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | relative_url }}) __(Leader / Main Developer)__
+- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) __(Leader / Main Developer)__
 - [HardSK](https://twitter.com/gabrielMODguy) **(Founder / Contributor)**
 
 ## Features

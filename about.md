@@ -7,7 +7,7 @@ header: 3
 <div class="about">
 	<center>
 		<div>
-			<img style="width: 40%; border-radius: 100%; user-select: none; webkit-user-select: none;" src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Gabriel Lima Photo">
+			<img style="width: 40%; border-radius: 100%; user-select: none; webkit-user-select: none;" src="{{ '/assets/images/me.jpg' | absolute_url }}" alt="Gabriel Lima Photo">
 			<br>
 			<br>
 			<h4>Gabriel Lima</h4>
@@ -53,7 +53,7 @@ header: 3
 
 	<h1>Minecraft</h1>
 	<p>
-		I'm passionate with Minecraft since I can remember. And I also love making good add-on experiences for Minecraft Bedrock also, My best projects is: <a href="{{ '/projects/project-walker.html' | relative_link }}">Project Walker</a> and <a href="{{ '/projects/aplok-guns.html' | relative_link }}">Aplok Guns</a>.
+		I'm passionate with Minecraft since I can remember. And I also love making good add-on experiences for Minecraft Bedrock also, My best projects is: <a href="{{ '/projects/project-walker.html' | absolute_link }}">Project Walker</a> and <a href="{{ '/projects/aplok-guns.html' | absolute_link }}">Aplok Guns</a>.
 	</p>
 	<p>
 		I already had experiences creating Java mods for Minecraft Java, JavaScript mods for Minecraft Pocket, and currently I make add-ons for Minecraft Bedrock with JSON, JavaScript and MoLang.

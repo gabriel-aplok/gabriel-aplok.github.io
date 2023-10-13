@@ -15,7 +15,7 @@
 
 {% if page.banner %}
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="{{ page.banner | default: site.icon | relative_url }}">
+<meta property="twitter:image" content="{{ page.banner | default: site.icon | absolute_url }}">
 {% else %}
 <meta property="twitter:card" content="summary">
 {% endif %}
@@ -24,24 +24,24 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="{{ site.lang | default: 'en-US' }}">
 {% if page.banner %}
-<meta property="og:image" content="{{ page.banner | default: site.icon | relative_url }}">
+<meta property="og:image" content="{{ page.banner | default: site.icon | absolute_url }}">
 {% endif %}
 <meta property="og:site_name" content="{{ page.title }} - {{ site.title }}">
 <meta property="og:title" content="{{ page.title }} - {{ site.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
 
-<link rel="shortcut icon" href="{{ page.icon | default: site.icon | relative_url }}">
-<link rel="apple-touch-icon" href="{{ page.icon | default: site.icon | relative_url }}">
-<link rel="icon" href="{{ page.icon | default: site.icon | relative_url }}">
+<link rel="shortcut icon" href="{{ page.icon | default: site.icon | absolute_url }}">
+<link rel="apple-touch-icon" href="{{ page.icon | default: site.icon | absolute_url }}">
+<link rel="icon" href="{{ page.icon | default: site.icon | absolute_url }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-<link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
-<link rel="alternate" type="application/atom+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
-<link rel="alternate" type="application/rss+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | absolute_url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'atom.xml' | absolute_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'atom.xml' | absolute_url }}">
 
 <meta name="msapplication-TileColor" content="#151515">
 <meta name="theme-color" content="#151515">
 
-<link rel="preload" as="image" href="{{ page.banner | default: site.icon | relative_url }}">
+<link rel="preload" as="image" href="{{ page.banner | default: site.icon | absolute_url }}">
 
 <link rel="preconnect" href="cdnjs.cloudflare.com" crossorigin>
 <link rel="preconnect" href="fonts.googleapis.com" crossorigin>

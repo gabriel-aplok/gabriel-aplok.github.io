@@ -20,7 +20,7 @@ So far, I've spent hours over about 6 months making this add-on for you! I hope 
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | relative_url }}) _(Main Developer)_
+- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
 
 ## Features
 

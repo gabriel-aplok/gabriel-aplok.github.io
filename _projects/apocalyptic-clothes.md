@@ -22,7 +22,7 @@ Known as **"Crafting Dead Clothing"**
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | relative_url }}) _(Main Developer)_
+- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
 
 ## Experimental Gameplay
 

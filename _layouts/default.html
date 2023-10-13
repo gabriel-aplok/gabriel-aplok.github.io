@@ -21,9 +21,9 @@
 			{% for page_ in pages %}
 				{% if page_.header and page_.header > 0 %}
 					{% if page_.url == page.url %}
-						<a href="{{ page_.url | relative_url }}" class="active">{{ page_.title }}</a></li>
+						<a href="{{ page_.url | absolute_url }}" class="active">{{ page_.title }}</a></li>
 					{% else %}
-						<a href="{{ page_.url | relative_url }}">{{ page_.title }}</a></li>
+						<a href="{{ page_.url | absolute_url }}">{{ page_.title }}</a></li>
 					{% endif %}
 				{% endif %}
 			{% endfor %}
@@ -77,11 +77,11 @@
 
 		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
 		<div>
-			<a href="{{ '/privacy.html' | relative_url }}">Privacy</a>
+			<a href="{{ '/privacy.html' | absolute_url }}">Privacy</a>
 			<span class="link"> | </span>
-			<a href="{{ '/sponsor.html' | relative_url }}">Support Me</a>
+			<a href="{{ '/sponsor.html' | absolute_url }}">Support Me</a>
 			<span class="link"> | </span>
-			<a href="{{ '/gallery.html' | relative_url }}">Gallery</a>
+			<a href="{{ '/gallery.html' | absolute_url }}">Gallery</a>
 		</div>
 	</footer>
 	{% if page.url != "/privacy.html" %}
@@ -93,6 +93,6 @@
 		<button class="button cookie-consent-button" style="width: 95%;">CONTINUE</button>
 	</div>
 	{% endif %}
-	<script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/index.js' | absolute_url }}"></script>
 </body>
 </html>

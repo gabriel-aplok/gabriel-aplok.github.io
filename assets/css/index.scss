@@ -6,14 +6,14 @@
 @import "highlight.css";
 
 :root {
-	--background-color: #161616;
-	--background-code-color: #262626;
+	--background-color: #f5f5f5;
 	--background-footer-color: #000000;
-	--text-color: #BDBDBD;
-	--heading-color: #F4F4F4;
-	--table-color: #363636;
-	--brand-color: #E9CE2C;
-	--brand-secondary-color: #F9DC5C;
+	--background-code-color: #212121;
+	--text-color: #303030;
+	--text-code-color: #ddddd;
+	--heading-color: #202020;
+	--table-color: #606060;
+	--brand-color: #4580a5;
 	--green-color: #66BB6A;
 	--red-color: #EF5350;
 }
@@ -26,8 +26,6 @@ $breakpoints: (
 	xl: 1200px,
 );
 
-/* BASE */
-
 * {
 	max-width: 100%;
 	max-height: 100%;
@@ -37,7 +35,9 @@ $breakpoints: (
 body {
 	background-color: var(--background-color);
 	color: var(--text-color);
+	accent-color: var(--brand-color);
 	font-family: Lato, sans-serif;
+	letter-spacing: 0.2px;
 	line-height: 1.6;
 	scroll-behavior: smooth;
 }
@@ -78,18 +78,14 @@ body {
 	left: 0;
 	right: 0;
 	z-index: 999999;
-
-	& + .content {
-		padding-top: 0;
-	}
 }
 
 .header {
-	background-color: var(--table-color);
+	background-color: var(--heading-color);
 	overflow: hidden;
 
 	a {
-		color: var(--text-color);
+		color: var(--background-color);
 		text-decoration: none;
 		text-align: center;
 		display: block;
@@ -97,14 +93,10 @@ body {
 		padding: 14px 16px;
 		float: left;
 
-		&:hover {
-			background-color: var(--text-color);
-			color: black;
-		}
-
+		&:hover,
 		&.active {
-			background-color: var(--table-color);
-			color: white;
+			background-color: var(--text-color);
+			color: var(--background-color);
 		}
 
 		&.menu {
@@ -123,9 +115,10 @@ body {
 
 	&.open {
 		a {
+			&:hover,
 			&.active {
 				background-color: var(--text-color);
-				color: black;
+				color: var(--background-color);
 			}
 		}
 
@@ -163,7 +156,7 @@ body {
 
 
 				&.logo {
-					display: none;
+					display: nonne;
 				}
 
 				&.menu {
@@ -177,46 +170,44 @@ body {
 }
 
 .content {
-	max-width: 750px;
+	max-width: 90%;
 	min-height: 80vh;
 	margin: 20px auto;
-	padding: 0 20px;
 }
 
 .footer {
 	background-color: var(--background-footer-color);
-	color: var(--heading-color);
+	color: var(--background-color);
 	text-align: center;
 	flex-direction: column;
 	display: flex;
 	padding: 5vh 2vw 5vh 2vw;
+
+
+	* {
+		opacity: 0.9;
+	}
 
 	.social-media {
 		justify-content: center;
 		text-align: center;
 		display: flex;
 		padding: 8px;
-		opacity: 0.8;
 
 		a {
-			color: var(--heading-color);
+			color: var(--background-color);
 			text-decoration: none;
 			margin: 0 0.5rem 0 0.5rem;
-
-			&:hover {
-				color: var(--brand-color);
-			}
 		}
 	}
 }
-
-/* TYPOGRAPHY */
 
 h1, h2, h3, h4, h5, h6 {
 	color: var(--heading-color);
 	font-weight: bold;
 	margin-top: 20px;
 	margin-bottom: 10px;
+	opacity: 0.9;
 }
 
 h4, h5, h6 {
@@ -250,11 +241,7 @@ h6 {
 
 a {
 	color: var(--brand-color);
-	text-decoration: none;
-
-	&:hover {
-		color: var(--brand-secondary-color);
-	}
+	text-decoration: underline;
 }
 
 
@@ -303,7 +290,7 @@ pre {
 	overflow-y: hidden;
 
 	code {
-		color: var(--text-color);
+		color: var(--text-code-color);
 		margin: 0;
 		padding: 0;
 	}
@@ -329,8 +316,9 @@ td {
 }
 
 hr {
-	background-color: var(--table-color);
+	background-color: var(--text-color);
 	border: 0;
+	border-radius: 4px;
 	outline: none;
 	height: 1px;
 	margin: 0 0 20px;
@@ -340,8 +328,6 @@ hr {
 dt {
 	color: var(--heading-color);
 }
-
-/* EMBED */
 
 .embed-container {
 	position: relative;
@@ -390,8 +376,6 @@ img {
 	border-radius: 3px;
 }
 
-/* FORM */
-
 .button {
 	background-color: var(--brand-color);
 	color: var(--background-color);
@@ -414,24 +398,19 @@ img {
 	}
 }
 
-/* UTILITIES */
-
 .tag {
-	background-color: var(--table-color);
-	color: var(--heading-color);
-	padding: 5px;
-	margin: 5px 5px; /*5 2*/
-	border-radius: 3px;
-	line-height: 1.2;
-	letter-spacing: 0.5px;
+	background-color: var(--heading-color);
+	color: var(--background-color);
+	padding: 6px;
+	margin: 4px;
+	border-radius: 4px;
+	line-height: 1;
+	letter-spacing: 0.4px;
+	display: inline-block;
 }
 
 .link {
 	color: var(--brand-color);
-
-	&:hover {
-		color: var(--brand-secondary-color);
-	}
 }
 
 .circle {
@@ -440,8 +419,8 @@ img {
 }
 
 details {
-	background: var(--table-color);
-	border: 1px solid var(--text-color);
+	background: var(--background-color);
+	border: 1px solid var(--table-color);
 	border-radius: 5px;
 	margin-bottom: 1rem;
 }
@@ -466,7 +445,7 @@ details[open] > *:last-child {
 }
 
 .scroll-indicator-container {
-	background-color: var(--background-footer-color);
+	background-color: var(--text-color);
 	width: 100%;
 	height: 8px;
 }

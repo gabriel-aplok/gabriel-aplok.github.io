@@ -90,6 +90,12 @@ Although I haven't added any new mobs, the behavior of zombies, skeletons and dr
 
 If you liked the addon and want to support me and see more in the future, check out my [website](https://gabriel-aplok.github.io/)!
 
+## Changelog
+
+- Added Brazilian Portuguese language support.
+- Added Military Knife Melee.
+- Fixed Medicine items not working.
+
 ## <span class="red">Warning</span>
 
 I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.

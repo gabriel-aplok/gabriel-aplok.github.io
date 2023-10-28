@@ -12,42 +12,43 @@ layout: default
 
 ### v1.0.3:
 
-- Added: Game Engine changed to 1.20.30 or higher.
 - Added: Eject/Bounce SFX for guns.
 - Added: Damage Screen VFX for gameplay immersion.
 - Added: Heartbeat SFX.
-- Added: Blood VFX.
+- Added: Player Only Blood VFX.
 - Added: Explosion VFX and SFX.
 - Added: Explosive Crate (If you shoot it explodes).
 - Added: Shooting Range Target.
-- Added: New Chamber/Bolt (Pull Back) Action System for guns like AWP and Mossberg 500.
+- Added: New Pull Back Action System for guns like AWP and Mossberg 500.
 - Added: New Materials (Gunmetal, Copper Nugget, Blueprint Bundle and Bullet Gunpowder).
 - Added: Bullet Impact body SFX.
 - Added: Hitmarker SFX.
-- Added: EOTech, ACOG, HP Scope Attachment.
-- Added: Reload mags with bullets system.
+- Added: EOTech, ACOG, HP Scope, LP Scope Attachments.
+- Added: Reload mags with bullets per bullets system.
 - Added: Glock 17 Pistol.
-- Added: Dessert Eagle Pistol.
-- Added: AWP Sniper.
-- Added: FN FAL Rifle.
+- Added: Desert Eagle Pistol.
+- Added: AWP Sniper Rifle.
+- Added: FN FAL Battle Rifle.
 - Added: M67 Grenade.
-- Added: Holding, Aiming and Standing TPP animation.
+- Added: Holding, Aiming and Standing (Same Reloading) Third Person animation.
 - Added: New UI for the Gun Workbench.
+- Added: Recipe for Ammunition Box.
 - Fixed: M4A1 item name with mistake.
 - Fixed: Vanilla 3D items rendering bug.
 - Fixed: ADS vignette not hiding when holding off the gun.
 - Fixed: Player start draw animation when holding off the gun.
 - Removed: Foliage summer color-map.
-- Improved: The Gun Workbench recipe is now simpler.
+- Improved: Mags and Bullets recipes now is in the Stonecutter, yes (Gunmetal Ingot for 2x Mags and Bullet Gunpowder for 6x Bullets).
+- Improved: The Gun Workbench recipe is now simplified.
 - Improved: New Muzzle Flash and Smoke VFX.
+- Improved: New bullets casing VFX/Physics.
 - Improved: AK-47 Model to fix the floating trigger guard.
 - Improved: Renamed "Glock 18" to "Glock 18c".
 - Improved: Now the amor can be enchanted.
 - Improved: VFX Design/Physics/Performance.
-- Improved: Rewrite the Guns system stable for performance and compatibility with the new mag reload system.
+- Improved: Rewrite the Guns system stable for performance and compatibility with the new mag bullets reload system.
 - Improved: New recipes for guns and gun parts.
 - Improved: Now you can cancel the reload action when holding off the gun.
-- Improved: Now the bullet casings aren physical based VFX.
 
 ### v1.0.2:
 

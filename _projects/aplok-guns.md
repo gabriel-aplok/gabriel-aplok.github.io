@@ -3,19 +3,20 @@ layout: project
 status: public
 slug: aplok-guns
 title: Aplok Guns Addon
-banner: /assets/images/projects/aplok-guns/banner.png
-icon: /assets/images/projects/aplok-guns/icon.png
-description: Survival friendly guns mod with lightweight and beautiful models, satisfying sound effects, animations and much more.
+banner: /projects/aplok-guns/images/banner.png
+icon: /projects/aplok-guns/images/icon.png
+description: Survival-friendly guns and attachments add-on with lightweight and beautiful models, satisfying sound/visual effects, animations and much more.
 tags: [aplok-guns, minecraft, addon]
 date: 2022-03-23
-updated: 2023-09-22
+updated: 2023-10-27
 comments_id: 1
 ---
 
-![Logo](/assets/images/projects/{{ page.slug }}/screenshot/logo.png)
+![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
 
-This mod add guns with low-poly models and does not represent any mode of realism in 50 million cubes 3d models (I hate mods with this), just focus on animations and sounds, the models are something close to something that mojang would make.
+This add-on add guns with low-poly models and don't represent any mode of realism in 50 million cubes 3d models (I hate add-ons with this style), just focus on the best gameplay experience, the models are something close to something that mojang would make.
 
+## Important
 <span class="red">
 So far, I've spent hours over about 6 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on! ❤
 </span>
@@ -26,32 +27,43 @@ So far, I've spent hours over about 6 months making this add-on for you! I hope 
 
 ## Features
 
-- Minecraft vanilla stylized
+- Minecraft vanilla stylized.
 - Lots of satisfying sound effects.
 - Lots of satisfying smooth animations of sprinting, reloading, holding and firing.
-- Lots of beautiful and lightweight visuals such as muzzle flash, explosion, light and much more.
-- Innovative technology, with systems never seen before in **Bedrock**.
+- Lots of beautiful and lightweight visuals such as muzzle flash, explosion, light, bullets impacts and much more.
+- Innovative technology, with systems never seen before in **Bedrock/MCPE**.
 - Survival-friendly with everything craftable.
 - Multiplayer-friendly and satisfying armament & ballistics!
-- A unique experience with reloading bullets in cartridges for use in guns.
+- A unique user-experience.
 
-## Experimental Gameplay
+## <span class="red">Experimental Gameplay</span>
 
 - Holiday Creator Features.
 - Molang Features.
 - Beta APIs.
 
-## Workbench
+## <span class="red">Necessary Video Settings</span>
 
-For crafting guns, bullets, mags and parts.
+- Hide Paper Doll (true)
+- View Bobbing (true)
+- Camera Shake (true)
+- FOV Can Be Altered By Gameplay (true)
+- FOV (60-80)
 
-![Workbench](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_0.png)
+## Gun Workbench
 
-## Ammunition Box
+You use this gun workbench to create your guns, using specific GUN PARTS, especific GUN AMMO and a BLUEPRINT BUNDLE.
 
-Drops random ammo from all guns, both bullets and magazines (Can be trade with the Weapon Smith and the Wandering Trader).
+![Gun Workbench](/projects/{{ page.slug }}/images/screenshot/gun_workbench.png)
 
-![Ammunition Box](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_1.png)
+How to make the guns?
+
+![Gun Workbench UI](/projects/{{ page.slug }}/images/screenshot/gun_workbench_ui.png)
+
+## How to Make Ammo
+
+![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_bullets.png)
+![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
 
 ## Videos
 
@@ -60,15 +72,15 @@ Drops random ammo from all guns, both bullets and magazines (Can be trade with t
 Playlist
 </summary>
 
-<h5>Version 1.0.0</h5>
+<h5>Version 0.0.1</h5>
 
 {% include youtube.html id="TdtadImSXc0" %}
 
-<h5>Version 1.0.1</h5>
+<h5>Version 0.0.2</h5>
 
 {% include youtube.html id="z_L2CS8rufc" %}
 
-<h5>Version 1.0.2</h5>
+<h5>Version 0.0.3</h5>
 
 {% include youtube.html id="gx77Nnbjm8I" %}
 
@@ -76,61 +88,74 @@ Playlist
 
 ## Screenshots
 
-##### Armament
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_1.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_2.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_3.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_4.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_5.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_6.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_7.png)
 
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_2.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_3.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_4.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_5.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_6.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_7.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_8.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_9.png)
+---
 
-##### Armor
+![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_0.png)
+![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_1.png)
+![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_2.png)
 
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_10.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_11.png)
-![Screenshot](/assets/images/projects/{{ page.slug }}/screenshot/screenshot_12.png)
+---
+
+![VFX Screenshot](/projects/{{ page.slug }}/images/screenshot/vfx_0.png)
+![VFX Screenshot](/projects/{{ page.slug }}/images/screenshot/vfx_1.png)
+![VFX Screenshot](/projects/{{ page.slug }}/images/screenshot/vfx_2.png)
 
 ## <span class="red">Special Thanks to ♥️</span>
 
-- [HardSK](https://twitter.com/gabrielMODguy) _(Bullet Hole System)_
+- [HardSK](https://twitter.com/gabrielMODguy) _(Bullet Hole System Help)_
 
 ## Changelog
 
-- Added: Welcome & Info message in-game on every update.
-- Added: Glock 18 Pistol.
-- Added: Mossberg 500 shotgun.
-- Added: 6B3 body armor.
-- Added: Military Helmet.
-- Added: Juggernaut Armor.
-- Added: New splashes.
-- Added: Bullet tracers.
-- Added: Bullet hole by [@GabrielMODGuy](https://twitter.com/gabrielMODguy).
-- Added: Smoke VFX for light, medium and heavy gun fire.
-- Added: Water and solid impact VFX.
-- Added: Sparks VFX when impacting metal.
-- Added: inspection animations.
-- Added: ADS (Aim Down Sight) Vignette.
-- Added: New gun parts for recipes.
-- Fixed: some bugs.
-- Fixed: Workbench block rotation.
-- Updated: API for Bedrock Engine 1.20.30
-- Improved: Impact SFX system.
-- Improved: Now the gun looks for ammo in the entire inventory, and no longer the off-hand.
-- Improved: New SFX effects again (I love this).
-- Improved: New animations again ( I love improving this).
-- Improved: Performance and smoothness.
-- Improved: all textures have been remastered.
-- Improved: new 3d models for some things.
-- Improved: Muzzle light (block) performance.
-- Improved: More efficient armament and ballistic system.
-- Improved: New atmospheric SFX.
-- Improved: New bullet recipes.
-- Removed: M4A1 Tactical (Temporary) cuz I working on attachments system.
-- Removed: Detailed third-person animations.
-- Removed: The summer color-map and fog darkness, cuz this is not an apocalypse mod (Download Mini Apocalypse lol).
+You can access other previous changelogs [here]({{ page.slug }}/changes.html).
+
+```
+- Added: Eject/Bounce SFX for guns.
+- Added: Damage Screen VFX for gameplay immersion.
+- Added: Heartbeat SFX.
+- Added: Player Only Blood VFX.
+- Added: Explosion VFX and SFX.
+- Added: Explosive Crate (If you shoot it explodes).
+- Added: Shooting Range Target.
+- Added: New Pull Back Action System for guns like AWP and Mossberg 500.
+- Added: New Materials (Gunmetal, Copper Nugget, Blueprint Bundle and Bullet Gunpowder).
+- Added: Bullet Impact body SFX.
+- Added: Hitmarker SFX.
+- Added: EOTech, ACOG, HP Scope, LP Scope Attachments.
+- Added: Reload mags with bullets per bullets system.
+- Added: Glock 17 Pistol.
+- Added: Desert Eagle Pistol.
+- Added: AWP Sniper Rifle.
+- Added: FN FAL Battle Rifle.
+- Added: M67 Grenade.
+- Added: Holding, Aiming and Standing (Same Reloading) Third Person animation.
+- Added: New UI for the Gun Workbench.
+- Added: Recipe for Ammunition Box.
+- Fixed: M4A1 item name with mistake.
+- Fixed: Vanilla 3D items rendering bug.
+- Fixed: ADS vignette not hiding when holding off the gun.
+- Fixed: Player start draw animation when holding off the gun.
+- Removed: Foliage summer color-map.
+- Improved: Mags and Bullets recipes now is in the Stonecutter, yes (Gunmetal Ingot for 2x Mags and Bullet Gunpowder for 6x Bullets).
+- Improved: The Gun Workbench recipe is now simplified.
+- Improved: New Muzzle Flash and Smoke VFX.
+- Improved: New bullets casing VFX/Physics.
+- Improved: AK-47 Model to fix the floating trigger guard.
+- Improved: Renamed "Glock 18" to "Glock 18c".
+- Improved: Now the amor can be enchanted.
+- Improved: VFX Design/Physics/Performance.
+- Improved: Rewrite the Guns system stable for performance and compatibility with the new mag bullets reload system.
+- Improved: New recipes for guns and gun parts.
+- Improved: Now you can cancel the reload action when holding off the gun.
+```
 
 ## <span class="red">Warning</span>
 
@@ -155,6 +180,6 @@ Just make sure you enable the [experimental settings.](#experimental-gameplay) A
 
 ## Supported versions
 
-<span class="tag"> 1.20.30 </span>
-<span class="tag"> 1.20.31 </span>
-<span class="tag"> 1.20.32 </span>
+<span class="tag">1.20.30</span>
+<span class="tag">1.20.31</span>
+<span class="tag">1.20.32</span>

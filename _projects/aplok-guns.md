@@ -76,6 +76,12 @@ Use **Gunmetal Ingot** (Made from Copper and Iron) to craft any magazine.
 
 ![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
 
+## How to Use Attachments
+
+You need to use the inventory slots to use the attachments (university in any supported gun).
+
+![Attachments Screenshot](/projects/{{ page.slug }}/images/screenshot/attachments_ui.png)
+
 ## Videos
 
 <details>

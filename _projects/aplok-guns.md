@@ -34,7 +34,7 @@ So far, I've spent hours over about 6 months making this add-on for you! I hope 
 - Innovative technology, with systems never seen before in **Bedrock/MCPE**.
 - Survival-friendly with everything craftable.
 - Multiplayer-friendly and satisfying armament & ballistics!
-- A unique user-experience.
+- Unique user-experience gameplay.
 
 ## <span class="red">Experimental Gameplay</span>
 
@@ -62,7 +62,18 @@ How to make the guns?
 
 ## How to Make Ammo
 
+You need to use the stonecuter to make the ammo.
+
+#### Why Stonecutter?
+
+> To have compatibility with several items with the same recipe (not conflict like crafting table recipes), I realized that the stonecuter was perfect for this.
+
+Use **Bullet Gunpowder** (Made with vanilla Gunpowder) to craft any bullet.
+
 ![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_bullets.png)
+
+Use **Gunmetal Ingot** (Made from Copper and Iron) to craft any magazine.
+
 ![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
 
 ## Videos
@@ -72,15 +83,15 @@ How to make the guns?
 Playlist
 </summary>
 
-<h5>Version 0.0.1</h5>
+<h5>Version 1.0.1</h5>
 
 {% include youtube.html id="TdtadImSXc0" %}
 
-<h5>Version 0.0.2</h5>
+<h5>Version 1.0.2</h5>
 
 {% include youtube.html id="z_L2CS8rufc" %}
 
-<h5>Version 0.0.3</h5>
+<h5>Version 1.0.3</h5>
 
 {% include youtube.html id="gx77Nnbjm8I" %}
 
@@ -117,7 +128,6 @@ Playlist
 
 You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
-```
 - Added: Eject/Bounce SFX for guns.
 - Added: Damage Screen VFX for gameplay immersion.
 - Added: Heartbeat SFX.
@@ -155,7 +165,6 @@ You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 - Improved: Rewrite the Guns system stable for performance and compatibility with the new mag bullets reload system.
 - Improved: New recipes for guns and gun parts.
 - Improved: Now you can cancel the reload action when holding off the gun.
-```
 
 ## <span class="red">Warning</span>
 
@@ -180,6 +189,4 @@ Just make sure you enable the [experimental settings.](#experimental-gameplay) A
 
 ## Supported versions
 
-<span class="tag">1.20.30</span>
-<span class="tag">1.20.31</span>
-<span class="tag">1.20.32</span>
+<span class="tag">1.20.40</span>

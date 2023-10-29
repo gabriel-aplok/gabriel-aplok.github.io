@@ -20,10 +20,6 @@ You can sponsor my work through PicPay. Visit my [PicPay profile page](https://a
 
 You can sponsor my work through PayPal. Visit my [PayPal donate page](https://www.paypal.com/donate/?business=QE4LSAML5747L).
 
-## GitHub Sponsors
-
-You can sponsor my work through GitHub sponsors as well. Visit my [GitHub Sponsors profile](https://github.com/sponsors/gabriel-aplok/).
-
 ## PIX
 
 Key `0340cdc7-1354-42ad-baf4-f3ae37810f72`

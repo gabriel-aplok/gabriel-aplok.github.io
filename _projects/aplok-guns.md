@@ -82,6 +82,14 @@ You need to use the inventory slots to use the attachments (university in any su
 
 ![Attachments Screenshot](/projects/{{ page.slug }}/images/screenshot/attachments_ui.png)
 
+## How to Reload
+
+You can reload empty guns by having the specific magazine (if has bullets inside) in your inventory and holding your device's screen or the right button in PC.
+
+> **It's also worth noting that the ammo will be reloaded according to the number of bullets in the magazine.**
+
+You can reload empty magazines by having the specific bullets in your inventory and holding your device's screen or the right button in PC.
+
 ## Videos
 
 <details>
@@ -89,17 +97,21 @@ You need to use the inventory slots to use the attachments (university in any su
 Playlist
 </summary>
 
-<h5>Version 1.0.1</h5>
+<h5>Version 1.0.0</h5>
 
 {% include youtube.html id="TdtadImSXc0" %}
 
-<h5>Version 1.0.2</h5>
+<h5>Version 1.0.1</h5>
 
 {% include youtube.html id="z_L2CS8rufc" %}
 
-<h5>Version 1.0.3</h5>
+<h5>Version 1.0.2</h5>
 
 {% include youtube.html id="gx77Nnbjm8I" %}
+
+<h5>Version 1.0.3</h5>
+
+{% include youtube.html id="RyFokumEF_U" %}
 
 </details>
 
@@ -186,13 +198,13 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="green">BOTH</span>** resources and behavior packs when creating the world.
 
-## Download links
+## Download Links
 
-- [Behavior Pack](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack](https://link-center.net/173623/aplok-guns-rp)
-- [MCPEDL Page](https://mcpedl.com/aplok-guns/)
-- [ModBay Page](https://modbay.org/mods/586-aplok-guns.html)
+- [Behavior Pack (Support Download)](https://link-hub.net/173623/aplok-guns-bp)
+- [Resource Pack (Support Download)](https://link-center.net/173623/aplok-guns-rp)
+- [MCPEDL Page (Alternative)](https://mcpedl.com/aplok-guns/)
+- [ModBay Page (Alternative)](https://modbay.org/mods/586-aplok-guns.html)
 
-## Supported versions
+## Minecraft Supported
 
 <span class="tag">1.20.40</span>

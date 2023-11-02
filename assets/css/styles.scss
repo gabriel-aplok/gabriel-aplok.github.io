@@ -96,7 +96,7 @@
 
 				.comment-avatar {
 					align-self: flex-start;
-					width: 40px;
+					width: 25px;
 				}
 
 				* {
@@ -105,13 +105,14 @@
 			}
 
 			.comment-body {
-				border-left: 3px solid var(--table-color);
+				border-left: 3px solid rgba(0, 0, 0, 0.2);
 				border-radius: 3px;
 				padding-inline-start: 10px;
 			}
 
 			.comment-edited {
 				font-style: italic;
+				opacity: 0.8;
 			}
 		}
 	}

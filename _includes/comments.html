@@ -8,7 +8,7 @@
 		<a class="button" href="https://github.com/{{ issues_repo }}/issues/{{ issue_id }}">Post comment</a>
 	</div>
 	<br>
-	<p style="display: none;" class="comments-explanation">
+	<p class="comments-explanation">
 		Comment system powered by the GitHub Issues API.
 		You can post a comment over on GitHub, and it'll show up below once you reload this page.
 	</p>
@@ -40,37 +40,16 @@
 	const fetchComments = async () => {
 		try {
 			const comments = await (await fetch("https://api.github.com/repos/{{ issues_repo }}/issues/{{ issue_id }}/comments")).json();
-			initRenderComments(comments);
+
+			if (!comments.length) {
+				commentsWrapper.innerHTML = `<p>No comments yet!</p>`;
+				return;
+			}
+
+			renderComments(comments);
 		} catch (e) {
 			commentsWrapper.innerHTML = `<p>Unable to retrieve the comments for this post.</p>`;
 		}
-	}
-
-	const loadScript = (src) => {
-		const scriptElement = document.createElement("script");
-		document.body.appendChild(scriptElement);
-
-		return new Promise((resolve) => {
-			scriptElement.onload = resolve;
-			scriptElement.src = src;
-		});
-	}
-
-	const commentScripts = [
-		"https://unpkg.com/marked@0.3.6/marked.min.js",
-		"https://unpkg.com/dompurify@1.0.8/dist/purify.min.js",
-		"https://unpkg.com/dayjs@1.8.21/dayjs.min.js",
-		"https://unpkg.com/dayjs@1.7.8/plugin/relativeTime.js"
-	];
-
-	const initRenderComments = async (comments) => {
-		if (!comments.length) {
-			commentsWrapper.innerHTML = `<p>No comments yet!</p>`;
-			return;
-		}
-
-		await Promise.all(commentScripts.map((script) => loadScript(script)));
-		renderComments(comments);
 	}
 
 	const renderComments = (comments) => {
@@ -96,7 +75,7 @@
 					<div class="date-posted">commented <time datetime="${comment.created_at}">${datePosted}</time></div>
 				</div>
 				<div class="comment-body">${body}</div>
-				${edited ? `<span class="comment-edited">Edited</span>` : ""}
+				${edited ? `<span class="comment-edited">(Edited)</span>` : ""}
 			</div>
 			`;
 		}).join("");

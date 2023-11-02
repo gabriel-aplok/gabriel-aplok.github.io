@@ -1,9 +1,5 @@
 const header = document.getElementById("header");
 
-window.onscroll = function() {
-	scrollIndicator();
-};
-
 document.addEventListener("DOMContentLoaded", () => {
 	const cookieConsent = document.querySelector(".cookie-consent");
 	const cookieConsentButton = document.querySelector(".cookie-consent-button");
@@ -22,12 +18,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function headerMenu() {
 	header.classList.toggle("open");
-}
-
-function scrollIndicator() {
-	let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-	let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-	let scrolled = (winScroll / height) * 100;
-
-	document.getElementById("scroll-indicator-bar").style.width = scrolled + "%";
 }

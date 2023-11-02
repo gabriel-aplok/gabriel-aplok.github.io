@@ -99,7 +99,7 @@ end
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](https://www.marketingstat.com/wp-content/uploads/2017/11/balls-700x350.jpg)
 
 
 ### Definition lists can be used with HTML syntax.

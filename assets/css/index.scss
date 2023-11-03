@@ -111,7 +111,7 @@ body {
 		padding: 14px;
 		text-align: left;
 		font-size: 18px;
-		border: 1px solid var(--heading-color);
+		border: 1.5px solid var(--heading-color);
 	}
 
 	&.open {
@@ -264,8 +264,8 @@ ul, ol {
 
 blockquote {
 	background-color: rgba(0, 0, 0, 0.02);
-	border-left: 3px solid var(--table-color);
-	border-radius: 3px;
+	border-left: 4px solid var(--table-color);
+	border-radius: 4px;
 	margin: 20px 0;
 	padding: 5px 10px;
 	font-style: italic;
@@ -275,14 +275,14 @@ code {
 	font-family: Inconsolata, monospace;
 	font-size: 14px;
 	padding: 2px 4px;
-	border-radius: 3px;
+	border-radius: 4px;
 	color: var(--text-color);
 }
 
 pre {
 	background-color: var(--background-code-color);
-	border: 1px solid var(--text-color);
-	border-radius: 3px;
+	border: 1.5px solid var(--text-color);
+	border-radius: 4px;
 	padding: 10px;
 	font-family: Inconsolata, monospace;
 	font-size: 14px;
@@ -349,7 +349,7 @@ dt {
 img {
 	max-width: 100%;
 	height: auto;
-	border-radius: 3px;
+	border-radius: 10px;
 
 	.pixel {
 		-ms-interpolation-mode: nearest-neighbor;
@@ -364,29 +364,27 @@ img {
 }
 
 details {
-	background: var(--text-code-color);
-	border: 1px solid var(--text-color);
-	border-radius: 5px;
+	border: 1.5px solid var(--text-code-color);
+	border-radius: 4px;
 	margin-bottom: 1rem;
-}
 
-summary {
-	cursor: pointer;
-	font-weight: bold;
-	padding: 0.6rem 1rem;
-}
+	summary {
+		cursor: pointer;
+		padding: 0.6rem 1rem;
+	}
 
-details[open] {
-	padding: 0.6rem 1rem 0.75rem 1rem;
-}
+	&[open] {
+		padding: 0.6rem 1rem;
 
-details[open] summary {
-	margin-bottom: 0.5rem;
-	padding: 0;
-}
+		summary {
+			margin-bottom: 0.5rem;
+			padding: 0;
+		}
 
-details[open] > *:last-child {
-	margin-bottom: 0;
+		> *:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .embed-container {
@@ -406,7 +404,7 @@ details[open] > *:last-child {
 	width: 100%;
 	height: 100%;
 	border: 0;
-	border-radius: 3px;
+	border-radius: 10px;
 
 	.noborder {
 		border-radius: 0;
@@ -416,14 +414,14 @@ details[open] > *:last-child {
 .video {
 	max-width: 100%;
 	height: auto;
-	border-radius: 3px;
+	border-radius: 10px;
 }
 
 .button {
 	background-color: var(--brand-color);
 	color: var(--background-color);
 	border: 0;
-	border-radius: 3px;
+	border-radius: 4px;
 	padding: 10px;
 	margin: 10px 0;
 	line-height: 1.4;
@@ -459,4 +457,49 @@ details[open] > *:last-child {
 .circle {
 	aspect-ratio: 1;
 	border-radius: 50%;
+}
+
+#comments {
+	margin: 20px auto;
+
+	.comments-head {
+		justify-content: space-between;
+		display: flex;
+		gap: 1;
+
+		* {
+			margin: auto 2px;
+		}
+	}
+
+	#comments-wrapper {
+		.comment {
+			.comment-user {
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+				gap: 2;
+
+				.comment-avatar {
+					align-self: flex-start;
+					width: 25px;
+				}
+
+				* {
+					margin: auto 2px;
+				}
+			}
+
+			.comment-body {
+				border-left: 3px solid rgba(0, 0, 0, 0.2);
+				border-radius: 3px;
+				padding-inline-start: 10px;
+			}
+
+			.comment-edited {
+				font-style: italic;
+				opacity: 0.8;
+			}
+		}
+	}
 }

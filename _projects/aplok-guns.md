@@ -6,7 +6,7 @@ title: Aplok Guns Addon
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly guns and attachments add-on with lightweight and beautiful models, satisfying sound/visual effects, animations and much more.
-tags: [aplok-guns, minecraft, addon]
+tags: [aplok-guns, guns, military, mcpe, mcbe, weapons, minecraft, addon]
 date: 2022-03-23
 updated: 2023-10-27
 comments_id: 1
@@ -14,12 +14,35 @@ comments_id: 1
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
 
-This add-on add guns with low-poly models and don't represent any mode of realism in 50 million cubes 3d models (I hate add-ons with this style), just focus on the best gameplay experience, the models are something close to something that mojang would make.
+Do you like high-quality military-themed addons and have the best attachment features? If yes, you're in the right place.
+
+Aplok Guns is an add-on that adds vanilla-style low-poly military-themed guns, we tried our best to make the animations realistic, from firing to reloading, drawing to running, the models are something close to something Mojang _(Not affiliated with)_ would make. This addon also doesn't replace anything,
+
+**Though there's less guns in this alpha, we're looking forward to add more in upcoming updates!**
+
+## Table of Contents
+- [Important](#important)
+- [Developer](#developer)
+- [Features](#features)
+- [Experimental Gameplay](#experimental-gameplay)
+- [Necessary Video Settings](#necessary-video-settings)
+- [How to Make Guns](#how-to-make-guns)
+- [How to Make Ammo](#how-to-make-ammo)
+- [How to Use Attachments](#how-to-use-attachments)
+- [How to Reload](#how-to-reload)
+- [Videos](#videos)
+- [Screenshots](#screenshots)
+- [Special Thanks to ♥️](#special-thanks-to-♥️)
+- [Changelog](#changelog)
+- [Warning](#warning)
+- [Installation](#installation)
+- [Download links](#download-links)
+- [Minecraft Supported Versions](#minecraft-supported-versions)
 
 ## Important
-<span class="red">
-So far, I've spent hours over about 6 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on! ❤
-</span>
+**<span class="red">
+So far, I've spent hours over about 10 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on! My only requirements for the sake of my sanity. ❤
+</span>**
 
 ## Developer
 
@@ -29,12 +52,13 @@ So far, I've spent hours over about 6 months making this add-on for you! I hope 
 
 - Minecraft vanilla stylized.
 - Lots of satisfying sound effects.
-- Lots of satisfying smooth animations of sprinting, reloading, holding and firing.
-- Lots of beautiful and lightweight visuals such as muzzle flash, explosion, light, bullets impacts and much more.
+- Lots of satisfying smooth animations from firing to reloading, drawing to running.
+- Lots of beautiful and lightweight visuals such as muzzle flash, explosions, lights, bullets impacts and much more.
 - Innovative technology, with systems never seen before in **Bedrock/MCPE**.
 - Survival-friendly with everything craftable.
 - Multiplayer-friendly and satisfying armament & ballistics!
 - Unique user-experience gameplay.
+- Reloadable magazines.
 
 ## <span class="red">Experimental Gameplay</span>
 
@@ -44,13 +68,18 @@ So far, I've spent hours over about 6 months making this add-on for you! I hope 
 
 ## <span class="red">Necessary Video Settings</span>
 
-- Hide Paper Doll (true)
-- View Bobbing (true)
-- Camera Shake (true)
-- FOV Can Be Altered By Gameplay (true)
-- FOV (60-80)
+- **Hide Paper Doll (<span class="red">true</span>)**
+  - Fix the double bullet casings (recommend).
+- **View Bobbing (<span class="red">true</span>)**
+  - Best animations experience (recommend).
+- **Camera Shake (<span class="red">true</span>)**
+  - Camera shakes in actions like fire, reload, jump and draw (required)
+- **FOV Can Be Altered By Gameplay (<span class="red">true</span>)**
+  - Zoom In in scopes (required)
+- **FOV (<span class="red">60-80</span>)**
+  - Fix the pivot of gun particles (required)
 
-## Gun Workbench
+## How to Make Guns
 
 You use this gun workbench to create your guns, using specific GUN PARTS, especific GUN AMMO and a BLUEPRINT BUNDLE.
 
@@ -144,7 +173,7 @@ Playlist
 
 ## Changelog
 
-You can access other previous changelogs [here]({{ page.slug }}/changes.html).
+> You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 - Added: Eject/Bounce SFX for guns.
 - Added: Damage Screen VFX for gameplay immersion.
@@ -186,9 +215,9 @@ You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ## <span class="red">Warning</span>
 
-I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
+I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued (If you want my permission, just contact me.).
 
-You have full authorization to make videos/promote my work, but **<span class="green">ALWAYS</span>** use my original links.
+You can make showcases of my work, but **<span class="green">ALWAYS</span>** use my original links (I strongly request this).
 
 ## Installation
 
@@ -196,15 +225,17 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 ---
 
-Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="green">BOTH</span>** resources and behavior packs when creating the world.
+Just make sure you enable the **[experimental settings.](#experimental-gameplay)** Also make sure you have enabled **<span class="green">BOTH</span>** resources and behavior packs when creating the world.
 
 ## Download Links
 
-- [Behavior Pack (Support Download)](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack (Support Download)](https://link-center.net/173623/aplok-guns-rp)
+- [Behavior Pack (Linkvertise Support)](https://link-hub.net/173623/aplok-guns-bp)
+- [Resource Pack (Linkvertise Support)](https://link-center.net/173623/aplok-guns-rp)
 - [MCPEDL Page (Alternative)](https://mcpedl.com/aplok-guns/)
 - [ModBay Page (Alternative)](https://modbay.org/mods/586-aplok-guns.html)
 
-## Minecraft Supported
+> Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️
+
+## Minecraft Supported Versions
 
 <span class="tag">1.20.40</span>

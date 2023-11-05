@@ -28,11 +28,11 @@ It's a old dayz map port originally made for Minecraft Java, remade by me and up
 ![](https://media.discordapp.net/attachments/1125126294041014356/1125507412175106068/Screenshot_20230703-162120.png)
 
 ![](https://media.discordapp.net/attachments/1125126294041014356/1125507412678426654/Screenshot_20230703-162211.png)
-## <span class="red">Warning</span>
+## <span class="text-red">Warning</span>
 
-I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
+I **<span class="text-red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
 
-You have full authorization to make videos/promote my work, but **<span class="green">ALWAYS</span>** use my original links.
+You have full authorization to make videos/promote my work, but **<span class="text-green">ALWAYS</span>** use my original links.
 
 ## Installation
 

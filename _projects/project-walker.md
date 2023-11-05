@@ -18,7 +18,7 @@ Project Walker is a Minecraft addon that adds a post-apocalyptic twist to the ga
 
 The addon features a variety of new items, blocks, and mobs, as well as a new thirst mechanic.
 
-## <span class="red">Notice</span>
+## <span class="text-red">Notice</span>
 
 _I’m working on reimagined of the Legacy Project Walker, with new ideas, new purposes, new mechanisms, new models, new style, new animations, satisfactory for a nice gameplay! All this in one place!_
 
@@ -81,7 +81,7 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 
 ![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_14.png)
 
-## <span class="red">known Issues</span>
+## <span class="text-red">known Issues</span>
 
 - Structures overlap others.
 - Guns don’t work perfectly in multiplayer.
@@ -97,11 +97,11 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 - Fixed Guns and Armor items incompatibility with 1.20.30+.
 - Fixed structures spawning incompatibility with 1.20.30+.
 
-## <span class="red">Warning</span>
+## <span class="text-red">Warning</span>
 
-I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
+I **<span class="text-red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
 
-You have full authorization to make videos/promote my work, but **<span class="green">ALWAYS</span>** use my original links.
+You have full authorization to make videos/promote my work, but **<span class="text-green">ALWAYS</span>** use my original links.
 
 ## Installation
 
@@ -109,7 +109,7 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 ---
 
-Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="green">BOTH</span>** resources and behavior packs when creating the world.
+Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="text-green">BOTH</span>** resources and behavior packs when creating the world.
 
 ## Download links
 

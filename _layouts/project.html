@@ -3,18 +3,18 @@ layout: default
 ---
 
 <p style="text-transform: uppercase;">
-	Home / Projects / <u>{{ page.title }}</u>
+	<span class="tag"> Home / Projects / </span><u>{{ page.title }}</u>
 </p>
 
-<h1>{{ page.title }}</h1>
+<h1>{{ page.title }} {% if page.new %}<span class="tag bg-red" style="font-size: 0.75em;">NEW</span>{% endif %}</h1>
 <p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span></p>
 {% if page.updated %}
 <p>Updated: <span class="link">{{ page.updated | date: '%B %d, %Y'}}</span></p>
 {% endif %}
 
-<p>
-	<img src="{{ page.banner | absolute_url }}" alt="{{ page.title }}" style="display: block; margin-left: auto; margin-right: auto;">
-</p>
+{% if page.banner %}
+<p><img src="{{ page.banner | absolute_url }}" alt="{{ page.title }}" style="width: 100%; margin-left: auto; margin-right: auto;"></p>
+{% endif %}
 
 <p> {{ page.description }}</p>
 
@@ -26,18 +26,27 @@ layout: default
 	<p>The project you followed is not public, please contact me (i.e. via footer social medias) or try again later.</p>
 {% endif %}
 
-<br>
-<br>
+<h2>Tags</h2>
 
 {% if page.tags %}
-	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>
+	<span class="tag">{{ page.tags | join: '</span> <span class="tag">'}}</span>
 {% endif %}
 
-<br>
+<h1>More Projects</h1>
+<div class="projects">
+	{% assign projects = site.projects | sort: 'title' %}
+	{% for project in projects limit:5 %}
+	{% if project.status == 'public' and project.url != page.url %}
+	<div class="project" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
+		<img src="{{ project.banner | absolute_url }}" alt="{{ project.title }}">
+		<h2>{{ project.title }}</h2>
+		<hr>
+	</div>
+	{% endif %}
+	{% endfor %}
+</div>
 
 {% if page.comments_id %}
 	{% include comments.html issue_id=page.comments_id %}
+	<br>
 {% endif %}
-
-<br>
-<br>

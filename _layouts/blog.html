@@ -3,19 +3,20 @@ layout: default
 ---
 
 <p style="text-transform: uppercase;">
-	Home / Blog / <u>{{ page.title }}</u>
+	<span class="tag"> Home / Blog / </span><u>{{ page.title }}</u>
 </p>
 
 {% if page.banner %}
-<img src="{{ page.banner | absolute_url }}">
-<br>
-<br>
+<p><img src="{{ page.banner | absolute_url }}" alt="{{ page.title }}" style="width: 100%; margin-left: auto; margin-right: auto;"></p>
 {% endif %}
 <h2>{{ page.title }}</h2>
 <p>Blog &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span></p>
+{% if page.updated %}
+<p>Updated: <span class="link">{{ page.updated | date: '%B %d, %Y'}}</span></p>
+{% endif %}
 
 {% if page.tags %}
-	<small>Tags: <span class="tag">{{ page.tags | join: '</span> - <span class="tag">'}}</span></small>
+	<span class="tag">{{ page.tags | join: '</span> <span class="tag">'}}</span>
 {% endif %}
 
 {% if page.status == 'public' %}
@@ -25,6 +26,22 @@ layout: default
 {% else %}
 	<p>The post you followed is not public, please contact me (i.e. via footer social medias) or try again later.</p>
 {% endif %}
+
+<h1>More Posts</h1>
+<div class="blog">
+	{% assign posts = site.blog | sort: 'date' %}
+	{% for post in posts limit:5 %}
+	{% if post.status == 'public' and post.url != page.url %}
+	<div class="post" onclick="window.location = '{{ site.baseurl }} {{ post.url }}';">
+		{% if post.banner %}
+		<img src="{{ post.banner | absolute_url }}" alt="{{ post.title }}">
+		{% endif %}
+		<h3>{{ post.title }}</h3>
+		<hr>
+	</div>
+	{% endif %}
+	{% endfor %}
+</div>
 
 {% if page.comments_id %}
 	{% include comments.html issue_id=page.comments_id %}

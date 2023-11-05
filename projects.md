@@ -11,7 +11,7 @@ header: 1
 	{% if project.status == 'public' %}
 	<div class="project" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
 		<img src="{{ project.banner | absolute_url }}" alt="{{ project.title }}">
-		<h2>{{ project.title }}</h2>
+		<h2>{{ project.title }} {% if project.new %}<span class="tag bg-red" style="font-size: 0.75em;">NEW</span>{% endif %}</h2>
 		<hr>
 	</div>
 	{% endif %}

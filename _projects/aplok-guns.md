@@ -9,6 +9,7 @@ description: Survival-friendly guns and attachments add-on with lightweight and 
 tags: [aplok-guns, guns, military, mcpe, mcbe, weapons, minecraft, addon]
 date: 2022-03-23
 updated: 2023-10-27
+new: true
 comments_id: 1
 ---
 
@@ -40,7 +41,7 @@ Aplok Guns is an add-on that adds vanilla-style low-poly military-themed guns, w
 - [Minecraft Supported Versions](#minecraft-supported-versions)
 
 ## Important
-**<span class="red">
+**<span class="text-red">
 So far, I've spent hours over about 10 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on! My only requirements for the sake of my sanity. ❤
 </span>**
 
@@ -60,23 +61,23 @@ So far, I've spent hours over about 10 months making this add-on for you! I hope
 - Unique user-experience gameplay.
 - Reloadable magazines.
 
-## <span class="red">Experimental Gameplay</span>
+## <span class="text-red">Experimental Gameplay</span>
 
 - Holiday Creator Features.
 - Molang Features.
 - Beta APIs.
 
-## <span class="red">Necessary Video Settings</span>
+## <span class="text-red">Necessary Video Settings</span>
 
-- **Hide Paper Doll (<span class="red">true</span>)**
+- **Hide Paper Doll (<span class="text-red">true</span>)**
   - Fix the double bullet casings (recommend).
-- **View Bobbing (<span class="red">true</span>)**
+- **View Bobbing (<span class="text-red">true</span>)**
   - Best animations experience (recommend).
-- **Camera Shake (<span class="red">true</span>)**
+- **Camera Shake (<span class="text-red">true</span>)**
   - Camera shakes in actions like fire, reload, jump and draw (required)
-- **FOV Can Be Altered By Gameplay (<span class="red">true</span>)**
+- **FOV Can Be Altered By Gameplay (<span class="text-red">true</span>)**
   - Zoom In in scopes (required)
-- **FOV (<span class="red">60-80</span>)**
+- **FOV (<span class="text-red">60-80</span>)**
   - Fix the pivot of gun particles (required)
 
 ## How to Make Guns
@@ -167,7 +168,7 @@ Playlist
 ![VFX Screenshot](/projects/{{ page.slug }}/images/screenshot/vfx_1.png)
 ![VFX Screenshot](/projects/{{ page.slug }}/images/screenshot/vfx_2.png)
 
-## <span class="red">Special Thanks to ♥️</span>
+## <span class="text-red">Special Thanks to ♥️</span>
 
 - [HardSK](https://twitter.com/gabrielMODguy) _(Bullet Hole System Help)_
 
@@ -213,11 +214,11 @@ Playlist
 - Improved: New recipes for guns and gun parts.
 - Improved: Now you can cancel the reload action when holding off the gun.
 
-## <span class="red">Warning</span>
+## <span class="text-red">Warning</span>
 
-I **<span class="red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued (If you want my permission, just contact me.).
+I **<span class="text-red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued (If you want my permission, just contact me.).
 
-You can make showcases of my work, but **<span class="green">ALWAYS</span>** use my original links (I strongly request this).
+You can make showcases of my work, but **<span class="text-green">ALWAYS</span>** use my original links (I strongly request this).
 
 ## Installation
 
@@ -225,7 +226,7 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 ---
 
-Just make sure you enable the **[experimental settings.](#experimental-gameplay)** Also make sure you have enabled **<span class="green">BOTH</span>** resources and behavior packs when creating the world.
+Just make sure you enable the **[experimental settings.](#experimental-gameplay)** Also make sure you have enabled **<span class="text-green">BOTH</span>** resources and behavior packs when creating the world.
 
 ## Download Links
 

@@ -10,11 +10,17 @@ discord_preview: true
 	<h1>Recent Projects</h1>
 	<div class="swiper">
 		<div class="swiper-wrapper">
-			{% assign projects = site.projects | sort: 'title' %}
-			{% for project in projects %}
+			{% assign projects = site.projects | sort: 'updated' %}
+			{% for project in projects reversed %}
 			{% if project.status == 'public' %}
 			<div class="swiper-slide" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
-				<img src="{{ project.banner | absolute_url }}" alt="{{ project.title }}">
+				<div>
+					<img src="{{ project.banner | absolute_url }}" alt="{{ project.title }}">
+					<span class="tag" style="position: fixed; bottom: 10px; left: 0;">{{ project.title }}</span>
+					{% if project.new %}
+					<span class="tag bg-red" style="position: fixed; top: 0; left: 0;">NEW</span>
+					{% endif %}
+				</div>
 			</div>
 			{% endif %}
 			{% endfor %}

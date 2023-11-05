@@ -254,14 +254,6 @@ ul, ol {
 	}
 }
 
-.green {
-	color: var(--green-color);
-}
-
-.red {
-	color: var(--red-color);
-}
-
 blockquote {
 	background-color: rgba(0, 0, 0, 0.02);
 	border-left: 4px solid var(--table-color);
@@ -450,13 +442,29 @@ details {
 	display: inline-block;
 }
 
+.circle {
+	aspect-ratio: 1;
+	border-radius: 50%;
+}
+
 .link {
 	color: var(--brand-color);
 }
 
-.circle {
-	aspect-ratio: 1;
-	border-radius: 50%;
+.text-green {
+	color: var(--green-color);
+}
+
+.text-red {
+	color: var(--red-color);
+}
+
+.bg-green {
+	background-color: var(--green-color);
+}
+
+.bg-red {
+	background-color: var(--red-color);
 }
 
 #comments {

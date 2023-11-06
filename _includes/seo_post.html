@@ -50,10 +50,26 @@
 <script type="application/ld+json">
 {
 	"@context": "https://schema.org",
-	"@type": "WebSite",
+	{% if page.layout == "blog" %}
+	"@type": "BlogPosting",
+	{% else %}
+	"@type": "Article",
+	{% endif %}
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "{{ page.url | absolute_url }}"
+	},
+	"headline": "{{ page.title }} - {{ site.title }}",
 	"description": "{{ page.description | default: site.description }}",
-	"headline": "{{ site.title }} - {{ page.title }}",
-	"name": "{{ site.title }}",
-	"url": "{{ site.url | absolute_url }}"
+	"image": "{{ page.banner | default: site.icon | absolute_url }}",
+	"author": {
+		"@type": "Person",
+		"name": "{{ site.author.name }}",
+		"url": "{{ 'about.html' | absolute_url }}"
+	},
+	"datePublished": "{{ page.date | date: '%Y-%m-%d' }}" {% if page.updated %},
+	"dateModified": "{{ page.updated | date: '%Y-%m-%d' }}"
+	{% endif %}
 }
+</script>
 </script>

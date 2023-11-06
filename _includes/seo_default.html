@@ -5,7 +5,7 @@
 <meta name="title" content="{{ site.title }} - {{ page.title }}">
 <meta name="description" content="{{ page.description | default: site.description }}">
 <meta name="author" content="{{ page.author | default: site.author.name }}">
-<meta name="keywords" content="FireWave Interactive, Gabriel Aplok, Gabriel, Aplok, Project Walker, Project, Walker, Kolpa Engine, Kolpa, Engine, Programmer, Developer, Indie, Independent, Brazilian">
+<meta name="keywords" content="FireWave Interactive, Gabriel Aplok, Gabriel, Aplok, Project Walker, Project, Walker, Aplok Guns, Guns, Kolpa Engine, Kolpa, Engine, Programmer, Developer, Indie, Independent, Brazilian">
 <meta name='dmca-site-verification' content='TlFhcXFzaUd3RjdyUnZjVzNnWXJyQ09rcG9MUUFQSEpHZG5sUjdDYjhHTT01' />
 
 <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -35,52 +35,52 @@
 <link rel="preconnect" href="media.discordapp.net" crossorigin>
 
 <script type="application/ld+json">
-	{
-		"@context": "https://schema.org",
-		"@type": "WebSite",
-		"description": "{{ page.description | default: site.description }}",
-		"headline": "{{ site.title }} - {{ page.title }}",
-		"name": "{{ site.title }}",
-		"url": "{{ site.url | absolute_url }}",
-		"@graph": [
-			{
-				"@type": "BreadcrumbList",
-				"@context": "https://schema.org/",
-				"itemListElement": [
-					{
-						"@type": "ListItem",
-						"position": 1,
-						"item": {
-							"@id": "{{ site.url | absolute_url }}",
-							"name": "{{ site.title }}"
-						}
-					},
-					{
-						"@type": "ListItem",
-						"position": 2,
-						"item": {
-							"@id": "{{ site.url | absolute_url }} {{ '/projects.html' | absolute_url }}",
-							"name": "Projects"
-						}
-					},
-					{
-						"@type": "ListItem",
-						"position": 4,
-						"item": {
-							"@id": "{{ site.url | absolute_url }} {{ '/blog.html' | absolute_url }}",
-							"name": "Blog"
-						}
-					},
-					{
-						"@type": "ListItem",
-						"position": 5,
-						"item": {
-							"@id": "{{ site.url | absolute_url }} {{ page.url | absolute_url }}",
-							"name": "{{ page.title }}"
-						}
+{
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"description": "{{ page.description | default: site.description }}",
+	"headline": "{{ page.title }} - {{ title.title }}",
+	"name": "{{ page.title }} - {{ title.title }}",
+	"url": "{{ page.url | absolute_url }}",
+	"@graph": [
+		{
+			"@type": "BreadcrumbList",
+			"@context": "https://schema.org/",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "{{ site.url | absolute_url }}",
+						"name": "{{ site.title }}"
 					}
-				]
-			}
-		]
-	}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "{{ '/projects.html' | absolute_url }}",
+						"name": "Projects"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 4,
+					"item": {
+						"@id": "{{ '/blog.html' | absolute_url }}",
+						"name": "Blog"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 5,
+					"item": {
+						"@id": "{{ page.url | absolute_url }}",
+						"name": "{{ page.title }}"
+					}
+				}
+			]
+		}
+	]
+}
 </script>

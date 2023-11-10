@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Aplok Guns Early Access - 1.0.3
+# Aplok Guns Early Access - 1.0.4
 
-**Posted:** 22 October 2023
+**Posted:** 10 November 2023
 
 ## Info on the Aplok Guns Early Access:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.

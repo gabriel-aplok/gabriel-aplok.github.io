@@ -8,7 +8,7 @@ icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly guns and attachments add-on with lightweight and beautiful models, satisfying sound/visual effects, animations and much more.
 tags: [aplok-guns, guns, military, mcpe, mcbe, weapons, minecraft, addon]
 date: 2022-03-23
-updated: 2023-10-27
+updated: 2023-11-10
 new: true
 comments_id: 1
 ---

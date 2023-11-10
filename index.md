@@ -7,20 +7,18 @@ discord_preview: true
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 
 <div class="home">
-	<h1>Recent Projects</h1>
+	<a href="{{ 'projects.html' | absolute_url }}" class="clear-deco"><h1>Recent Projects</h1></a>
 	<div class="swiper">
 		<div class="swiper-wrapper">
 			{% assign projects = site.projects | sort: 'updated' %}
 			{% for project in projects reversed %}
-			{% if project.status == 'public' %}
+			{% if project.status == 'public' and project.banner %}
 			<div class="swiper-slide" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
-				<div>
-					<img src="{{ project.banner | absolute_url }}" alt="{{ project.title }}">
-					<span class="tag" style="position: fixed; bottom: 10px; left: 0;">{{ project.title }}</span>
-					{% if project.new %}
-					<span class="tag bg-red" style="position: fixed; top: 0; left: 0;">NEW</span>
-					{% endif %}
-				</div>
+				<img src="{{ project.banner | absolute_url }}" alt="{{ project.title }}">
+				<span class="tag" style="position: fixed; bottom: 10px; left: 0;">{{ project.title }}</span>
+				{% if project.new %}
+				<span class="tag bg-red" style="position: fixed; top: 0; left: 0;">NEW</span>
+				{% endif %}
 			</div>
 			{% endif %}
 			{% endfor %}
@@ -28,7 +26,7 @@ discord_preview: true
 		<div class="swiper-scrollbar" style="margin-bottom: 8px;"></div>
 	</div>
 
-	<h1>Recent Posts</h1>
+	<a href="{{ 'blog.html' | absolute_url }}" class="clear-deco"><h1>Recent Posts</h1></a>
 	<div class="blog">
 		{% assign posts = site.blog | sort: 'date' %}
 		{% for post in posts limit:10 %}

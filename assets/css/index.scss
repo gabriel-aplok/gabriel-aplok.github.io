@@ -342,6 +342,11 @@ img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 10px;
+	transition: filter 0.2s ease;
+
+	&:hover {
+		filter: blur(1px);
+	}
 
 	.pixel {
 		-ms-interpolation-mode: nearest-neighbor;
@@ -445,6 +450,10 @@ details {
 .circle {
 	aspect-ratio: 1;
 	border-radius: 50%;
+}
+
+.clear-deco {
+	text-decoration: none;
 }
 
 .link {

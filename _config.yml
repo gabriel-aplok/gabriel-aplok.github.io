@@ -19,15 +19,8 @@ author:
   email: gabrielaplok.contact@gmail.com
   url: https://gabriel-aplok.github.io
 
-jekyll-minifier:
-  uglifier_args:
-    harmony: true
-  exclude: atom.xml
-  exclude: sitemap.xml
-
 plugins:
   - jekyll-sitemap
-  - jekyll-minifier
 
 collections:
   blog:

@@ -10,6 +10,27 @@ layout: default
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns Early Access is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
 
+### v1.0.4:
+
+- We introduce the 1.0.4 update with new features, bug fixes and improvements.
+- Added: New Inactivity position, inactivity with the gun causes player hands down.
+- Added: New medical Bandage and Military Bandage items.
+- Added: New decoration Harzard Block, Landmine, Metal Rack, Wooden Barricade and Wooden Crate blocks (all craftable).
+- Added: New Laser and Silencer attachments.
+- Added: NEW COMMANDS! You can toggle the empty mags when empty gun with this commands "!disable empty_mags" and "!enable empty_mags"
+- Added: New Night Vision Goggles!
+- Added: New SFX when you attach a attachment in your gun!
+- Fixed: Ammo/Explosive Crates drops they respective items and not the own block.
+- Fixed: Blood particles not showing (only available for players).
+- Improved: New Reverb and Far SFX!
+- Improved: New Gun Actions SFX!
+- Improved: Mossberg 500 Pump Animation.
+- Improved: NEW DAMAGE SYSTEM! Removed the bullet hit delay in combat and when you sneak the damage is multiplied by 1.25!
+- Improved: Gunmetal crafting recipes like "Steel" with copper nugget, iron nugget and coal, and spend less material.
+- Improved: Gunparts upgrade now use less iron nugget, saving more material.
+- Improved: Pistol recipes no longer use stocks. (that didn't make sense).
+- Improved: 12 Gauge spread increased.
+
 ### v1.0.3:
 
 - Added: Eject/Bounce SFX for guns.

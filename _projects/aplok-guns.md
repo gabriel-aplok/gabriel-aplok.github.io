@@ -17,39 +17,20 @@ comments_id: 1
 
 Do you like high-quality military-themed addons and have the best attachment features? If yes, you're in the right place.
 
-Aplok Guns is an add-on that adds vanilla-style low-poly military-themed guns, we tried our best to make the animations realistic, from firing to reloading, drawing to running, the models are something close to something Mojang _(Not affiliated with)_ would make. This addon also doesn't replace anything,
+Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla-style low-poly military-themed guns, I tried my best to make the animations realistic, from firing to reloading, drawing to running, the models are something close to something Mojang (Non-affiliation) would make. This addon also doesn't replace anything.
 
 **Though there's less guns in this alpha, we're looking forward to add more in upcoming updates!**
 
-## Table of Contents
-- [Important](#important)
-- [Developer](#developer)
-- [Features](#features)
-- [Experimental Gameplay](#experimental-gameplay)
-- [Necessary Video Settings](#necessary-video-settings)
-- [How to Make Guns](#how-to-make-guns)
-- [How to Make Ammo](#how-to-make-ammo)
-- [How to Use Attachments](#how-to-use-attachments)
-- [How to Reload](#how-to-reload)
-- [Videos](#videos)
-- [Screenshots](#screenshots)
-- [Special Thanks to ♥️](#special-thanks-to-♥️)
-- [Changelog](#changelog)
-- [Warning](#warning)
-- [Installation](#installation)
-- [Download links](#download-links)
-- [Minecraft Supported Versions](#minecraft-supported-versions)
-
-## Important
+## ❤️ Important
 **<span class="text-red">
 So far, I've spent hours over about 10 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on! My only requirements for the sake of my sanity. ❤
 </span>**
 
-## Developer
+## 👥 Developer
 
 - [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
 
-## Features
+## ✨ Features
 
 - Minecraft vanilla stylized.
 - Lots of satisfying sound effects.
@@ -57,17 +38,18 @@ So far, I've spent hours over about 10 months making this add-on for you! I hope
 - Lots of beautiful and lightweight visuals such as muzzle flash, explosions, lights, bullets impacts and much more.
 - Innovative technology, with systems never seen before in **Bedrock/MCPE**.
 - Survival-friendly with everything craftable.
-- Multiplayer-friendly and satisfying armament & ballistics!
-- Unique user-experience gameplay.
-- Reloadable magazines.
+- Multiplayer-Friendly!
+- Unique User-Experience Gameplay.
+- Reloadable Magazine (Manual Bullets per Bullets).
+- Reverb and Distant Far SFX.
 
-## <span class="text-red">Experimental Gameplay</span>
+## 🧪 <span class="text-red">Experimental Gameplay</span>
 
 - Holiday Creator Features.
 - Molang Features.
 - Beta APIs.
 
-## <span class="text-red">Necessary Video Settings</span>
+## 🎮 <span class="text-red">Video Settings</span>
 
 - **Hide Paper Doll (<span class="text-red">true</span>)**
   - Fix the double bullet casings (recommend).
@@ -80,7 +62,7 @@ So far, I've spent hours over about 10 months making this add-on for you! I hope
 - **FOV (<span class="text-red">60-80</span>)**
   - Fix the pivot of gun particles (required)
 
-## How to Make Guns
+## 🔫 How to Make Guns
 
 You use this gun workbench to create your guns, using specific GUN PARTS, especific GUN AMMO and a BLUEPRINT BUNDLE.
 
@@ -90,7 +72,7 @@ How to make the guns?
 
 ![Gun Workbench UI](/projects/{{ page.slug }}/images/screenshot/gun_workbench_ui.png)
 
-## How to Make Ammo
+## 🎯 How to Make Ammo
 
 You need to use the stonecuter to make the ammo.
 
@@ -106,13 +88,13 @@ Use **Gunmetal Ingot** (Made from Copper and Iron) to craft any magazine.
 
 ![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
 
-## How to Use Attachments
+## 📷 How to Use Attachments
 
 You need to use the inventory slots to use the attachments (university in any supported gun).
 
 ![Attachments Screenshot](/projects/{{ page.slug }}/images/screenshot/attachments_ui.png)
 
-## How to Reload
+## 👾 How to Reload
 
 You can reload empty guns by having the specific magazine (if has bullets inside) in your inventory and holding your device's screen or the right button in PC.
 
@@ -120,7 +102,17 @@ You can reload empty guns by having the specific magazine (if has bullets inside
 
 You can reload empty magazines by having the specific bullets in your inventory and holding your device's screen or the right button in PC.
 
-## Videos
+## 🧲 How to Make Gunmetal?
+
+You use this crafting table to create your gunmetal scrap to make gunmetal ingot.
+
+![Gunmetal Scrap](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_0.png)
+
+You use this crafting table to create your gunmetal ingot with gunmetal scrap to make gunparts and attachments.
+
+![Gun Workbench UI](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_1.png)
+
+## 📺 Videos
 
 <details>
 <summary>
@@ -145,7 +137,7 @@ Playlist
 
 </details>
 
-## Screenshots
+## 🖼️ Screenshots
 
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_1.png)
@@ -168,59 +160,44 @@ Playlist
 ![VFX Screenshot](/projects/{{ page.slug }}/images/screenshot/vfx_1.png)
 ![VFX Screenshot](/projects/{{ page.slug }}/images/screenshot/vfx_2.png)
 
-## <span class="text-red">Special Thanks to ♥️</span>
+## ❤️‍🔥 <span class="text-red">Special Thanks</span>
 
 - [HardSK](https://twitter.com/gabrielMODguy) _(Bullet Hole System Help)_
 
-## Changelog
+## 📑 Changelog
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
-- Added: Eject/Bounce SFX for guns.
-- Added: Damage Screen VFX for gameplay immersion.
-- Added: Heartbeat SFX.
-- Added: Player Only Blood VFX.
-- Added: Explosion VFX and SFX.
-- Added: Explosive Crate (If you shoot it explodes).
-- Added: Shooting Range Target.
-- Added: New Pull Back Action System for guns like AWP and Mossberg 500.
-- Added: New Materials (Gunmetal, Copper Nugget, Blueprint Bundle and Bullet Gunpowder).
-- Added: Bullet Impact body SFX.
-- Added: Hitmarker SFX.
-- Added: EOTech, ACOG, HP Scope, LP Scope Attachments.
-- Added: Reload mags with bullets per bullets system.
-- Added: Glock 17 Pistol.
-- Added: Desert Eagle Pistol.
-- Added: AWP Sniper Rifle.
-- Added: FN FAL Battle Rifle.
-- Added: M67 Grenade.
-- Added: Holding, Aiming and Standing (Same Reloading) Third Person animation.
-- Added: New UI for the Gun Workbench.
-- Added: Recipe for Ammunition Box.
-- Fixed: M4A1 item name with mistake.
-- Fixed: Vanilla 3D items rendering bug.
-- Fixed: ADS vignette not hiding when holding off the gun.
-- Fixed: Player start draw animation when holding off the gun.
-- Removed: Foliage summer color-map.
-- Improved: Mags and Bullets recipes now is in the Stonecutter, yes (Gunmetal Ingot for 2x Mags and Bullet Gunpowder for 6x Bullets).
-- Improved: The Gun Workbench recipe is now simplified.
-- Improved: New Muzzle Flash and Smoke VFX.
-- Improved: New bullets casing VFX/Physics.
-- Improved: AK-47 Model to fix the floating trigger guard.
-- Improved: Renamed "Glock 18" to "Glock 18c".
-- Improved: Now the amor can be enchanted.
-- Improved: VFX Design/Physics/Performance.
-- Improved: Rewrite the Guns system stable for performance and compatibility with the new mag bullets reload system.
-- Improved: New recipes for guns and gun parts.
-- Improved: Now you can cancel the reload action when holding off the gun.
+```
+- We introduce the 1.0.4 update with new features, bug fixes and improvements.
+- Added: New Inactivity position, inactivity with the gun causes player hands down.
+- Added: New medical Bandage and Military Bandage items.
+- Added: New decoration Harzard Block, Landmine, Metal Rack, Wooden Barricade and Wooden Crate blocks (all craftable).
+- Added: New Laser and Silencer attachments.
+- Added: NEW COMMANDS! You can toggle the empty mags when empty gun with this commands "!disable empty_mags" and "!enable empty_mags"
+- Added: New Night Vision Goggles!
+- Added: New SFX when you attach a attachment in your gun!
+- Fixed: Ammo/Explosive Crates drops they respective items and not the own block.
+- Fixed: Blood particles not showing (only available for players).
+- Improved: New Reverb and Far SFX!
+- Improved: New Gun Actions SFX!
+- Improved: Mossberg 500 Pump Animation.
+- Improved: NEW DAMAGE SYSTEM! Removed the bullet hit delay in combat and when you sneak the damage is multiplied by 1.25!
+- Improved: Gunmetal crafting recipes like "Steel" with copper nugget, iron nugget and coal, and spend less material.
+- Improved: Gunparts upgrade now use less iron nugget, saving more material.
+- Improved: Pistol recipes no longer use stocks. (that didn't make sense).
+- Improved: 12 Gauge spread increased.
+```
 
-## <span class="text-red">Warning</span>
+## <span class="text-red">⚠️ Warning</span>
 
-I **<span class="text-red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued (If you want my permission, just contact me.).
+I **<span class="text-red">DON'T</span>** authorize anyone to republish/reupload my qdd-on outside MCPEDL, ModBay and my website.
 
-You can make showcases of my work, but **<span class="text-green">ALWAYS</span>** use my original links (I strongly request this).
+**<span class="text-red">DON'T</span>** remove my original links. (If you want my permission, just contact me.).
 
-## Installation
+You can post showcases of my work, but **<span class="text-green">ALWAYS</span>** use my original links (I strongly request this, please).
+
+## 📩 Installation
 
 Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
 
@@ -228,15 +205,15 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 Just make sure you enable the **[experimental settings.](#experimental-gameplay)** Also make sure you have enabled **<span class="text-green">BOTH</span>** resources and behavior packs when creating the world.
 
-## Download Links
+## 📁 Download Links
 
-- [Behavior Pack (Linkvertise Support)](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack (Linkvertise Support)](https://link-center.net/173623/aplok-guns-rp)
-- [MCPEDL Page (Alternative)](https://mcpedl.com/aplok-guns/)
-- [ModBay Page (Alternative)](https://modbay.org/mods/586-aplok-guns.html)
+- [Behavior Pack](https://link-hub.net/173623/aplok-guns-bp)
+- [Resource Pack](https://link-center.net/173623/aplok-guns-rp)
+- [MCPEDL Page](https://mcpedl.com/aplok-guns/)
+- [ModBay Page](https://modbay.org/mods/586-aplok-guns.html)
 
 > Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️
 
-## Minecraft Supported Versions
+## ⁉️ Minecraft Supported Versions
 
 <span class="tag">1.20.40</span>

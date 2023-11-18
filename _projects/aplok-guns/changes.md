@@ -2,13 +2,34 @@
 layout: default
 ---
 
-# Aplok Guns Early Access - 1.0.4
+# Aplok Guns Early Access - 1.0.5
 
-**Posted:** 10 November 2023
+**Posted:** 18 October 2023
 
 ## Info on the Aplok Guns Early Access:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns Early Access is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+
+### v1.0.5:
+
+- We introduce the 1.0.5 with various optimizations and bug fixes!
+- Added: New Foregrip Attachment.
+- Added: New HK MP5A5 Gun.
+- Added: New HK MP5A5 30rnd Magazine.
+- Added: New Czech Hedgehog block.
+- Added: New Sandbag and Doubled Sandbag block.
+- Added: New Camera shakes when you reload your gun for an immersive experience.
+- Added: New Echo SFX when you fire without an silencer.
+- Added: Land SFX when place a landmine.
+- Fixed: When the player dies, night vision doesn't return.
+- Fixed: Explosions underwater particles fixed.
+- Fixed: Wooden blocks burn when in contact with fire.
+- Fixed: Bullet's physical gravity was decaying too fast and the bullet didn't hit the right place after 16 blocks.
+- Improved: ADS Animation transition delay increased.
+- Improved: New landmine model.
+- Improved: Vanilla biomes to enjoy a "Soviet" environment experience.
+- Improved: When shooting with a silenced gun, the muzzle light emitted is very reduced.
+- Improved: Explosions distance blind SFX, and atmosphere far SFX.
 
 ### v1.0.4:
 

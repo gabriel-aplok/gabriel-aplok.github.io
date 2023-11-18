@@ -8,7 +8,7 @@ icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly guns and attachments add-on with lightweight and beautiful models, satisfying sound/visual effects, animations and much more.
 tags: [aplok-guns, guns, military, mcpe, mcbe, weapons, minecraft, addon]
 date: 2022-03-23
-updated: 2023-11-10
+updated: 2023-10-18
 new: true
 comments_id: 1
 ---
@@ -20,6 +20,9 @@ Do you like high-quality military-themed addons and have the best attachment fea
 Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla-style low-poly military-themed guns, I tried my best to make the animations realistic, from firing to reloading, drawing to running, the models are something close to something Mojang (Non-affiliation) would make. This addon also doesn't replace anything.
 
 **Though there's less guns in this alpha, we're looking forward to add more in upcoming updates!**
+
+## 🧮 Current Version
+> **1.0.5 - Early Access**
 
 ## ❤️ Important
 **<span class="text-red">
@@ -88,7 +91,7 @@ Use **Gunmetal Ingot** (Made from Copper and Iron) to craft any magazine.
 
 ![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
 
-## 📷 How to Use Attachments
+## 🎲 How to Use Attachments
 
 You need to use the inventory slots to use the attachments (university in any supported gun).
 
@@ -169,24 +172,24 @@ Playlist
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- We introduce the 1.0.4 update with new features, bug fixes and improvements.
-- Added: New Inactivity position, inactivity with the gun causes player hands down.
-- Added: New medical Bandage and Military Bandage items.
-- Added: New decoration Harzard Block, Landmine, Metal Rack, Wooden Barricade and Wooden Crate blocks (all craftable).
-- Added: New Laser and Silencer attachments.
-- Added: NEW COMMANDS! You can toggle the empty mags when empty gun with this commands "!disable empty_mags" and "!enable empty_mags"
-- Added: New Night Vision Goggles!
-- Added: New SFX when you attach a attachment in your gun!
-- Fixed: Ammo/Explosive Crates drops they respective items and not the own block.
-- Fixed: Blood particles not showing (only available for players).
-- Improved: New Reverb and Far SFX!
-- Improved: New Gun Actions SFX!
-- Improved: Mossberg 500 Pump Animation.
-- Improved: NEW DAMAGE SYSTEM! Removed the bullet hit delay in combat and when you sneak the damage is multiplied by 1.25!
-- Improved: Gunmetal crafting recipes like "Steel" with copper nugget, iron nugget and coal, and spend less material.
-- Improved: Gunparts upgrade now use less iron nugget, saving more material.
-- Improved: Pistol recipes no longer use stocks. (that didn't make sense).
-- Improved: 12 Gauge spread increased.
+- We introduce the 1.0.5 with various optimizations and bug fixes!
+- Added: New Foregrip Attachment.
+- Added: New HK MP5A5 Gun.
+- Added: New HK MP5A5 30rnd Magazine.
+- Added: New Czech Hedgehog block.
+- Added: New Sandbag and Doubled Sandbag block.
+- Added: New Camera shakes when you reload your gun for an immersive experience.
+- Added: New Echo SFX when you fire without an silencer.
+- Added: Land SFX when place a landmine.
+- Fixed: When the player dies, night vision doesn't return.
+- Fixed: Explosions underwater particles fixed.
+- Fixed: Wooden blocks burn when in contact with fire.
+- Fixed: Bullet's physical gravity was decaying too fast and the bullet didn't hit the right place after 16 blocks.
+- Improved: ADS Animation transition delay increased.
+- Improved: New landmine model.
+- Improved: Vanilla biomes to enjoy a "Soviet" environment experience.
+- Improved: When shooting with a silenced gun, the muzzle light emitted is very reduced.
+- Improved: Explosions distance blind SFX, and atmosphere far SFX.
 ```
 
 ## <span class="text-red">⚠️ Warning</span>
@@ -212,8 +215,9 @@ Just make sure you enable the **[experimental settings.](#experimental-gameplay)
 - [MCPEDL Page](https://mcpedl.com/aplok-guns/)
 - [ModBay Page](https://modbay.org/mods/586-aplok-guns.html)
 
-> Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️
+> **Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️**
 
-## ⁉️ Minecraft Supported Versions
+## ❓ Supported Versions
 
 <span class="tag">1.20.40</span>
+<span class="tag">1.20.41</span>

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Aplok Guns Early Access - 1.0.5
 ---
 
 # Aplok Guns Early Access - 1.0.5

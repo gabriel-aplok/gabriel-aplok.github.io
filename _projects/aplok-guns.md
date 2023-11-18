@@ -2,7 +2,7 @@
 layout: project
 status: public
 slug: aplok-guns
-title: Aplok Guns Addon
+title: Aplok Guns Addon | v1.0.5
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly guns and attachments add-on with lightweight and beautiful models, satisfying sound/visual effects, animations and much more.
@@ -92,6 +92,8 @@ Use **Gunmetal Ingot** (Made from Copper and Iron) to craft any magazine.
 ![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
 
 ## 🎲 How to Use Attachments
+
+> You can access the list of supported attachments for any gun in the addon [here]({{ page.slug }}/supported_attachments.html).
 
 You need to use the inventory slots to use the attachments (university in any supported gun).
 

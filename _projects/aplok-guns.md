@@ -45,10 +45,13 @@ So far, I've spent hours over about 10 months making this add-on for you! I hope
 - Unique User-Experience Gameplay.
 - Reloadable Magazine (Manual Bullets per Bullets).
 - Reverb and Distant Far SFX.
+- Optimized for low-end devices.
+- Custom "Soviet" style biomes.
 
 ## 🧪 <span class="text-red">Experimental Gameplay</span>
 
 - Holiday Creator Features.
+- Custom biomes.
 - Molang Features.
 - Beta APIs.
 
@@ -140,6 +143,14 @@ Playlist
 
 {% include youtube.html id="RyFokumEF_U" %}
 
+<h5>Version 1.0.4</h5>
+
+{% include youtube.html id="XsNRMOule6Q" %}
+
+<h5>Version 1.0.5</h5>
+
+{% include youtube.html id="Th2ZdNCbCqc" %}
+
 </details>
 
 ## 🖼️ Screenshots
@@ -212,12 +223,12 @@ Just make sure you enable the **[experimental settings.](#experimental-gameplay)
 
 ## 📁 Download Links
 
-- [Behavior Pack](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack](https://link-center.net/173623/aplok-guns-rp)
-- [MCPEDL Page](https://mcpedl.com/aplok-guns/)
-- [ModBay Page](https://modbay.org/mods/586-aplok-guns.html)
+- [Behavior Pack](https://loot-links.com/s?e1bx)
+- [Resource Pack](https://loot-link.com/s?e1a4)
+- [MCPEDL Page **[Alternative Links]**](https://mcpedl.com/aplok-guns/)
+- [ModBay Page **[Alternative Links]**](https://modbay.org/mods/586-aplok-guns.html)
 
-> **Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️**
+> Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️
 
 ## ❓ Supported Versions
 

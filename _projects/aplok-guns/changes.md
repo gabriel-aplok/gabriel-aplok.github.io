@@ -1,15 +1,27 @@
 ---
 layout: default
-title: Aplok Guns Early Access - 1.0.5
+title: Aplok Guns Early Access - 1.0.6
 ---
 
-# Aplok Guns Early Access - 1.0.5
+# Aplok Guns Early Access - 1.0.6
 
-**Posted:** 18 October 2023
+**Posted:** 26 November 2023
 
 ## Info on the Aplok Guns Early Access:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns Early Access is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+
+### v1.0.6:
+
+- We introduce the 1.0.6 update with iprovements and bug fixes!
+- Added: Holding animation with Foregrip for the HK MP5A5.
+- Added: Chinese language support by WshtxLonely.
+- Added: Russian language support by Gabriel Aplok.
+- Fixed: AK-47 Mag caliber name.
+- Fixed: Muzzle Light block overlaps with farmland block and player also overlap too.
+- Improved: Decreased the overrated camera shake when jumping.
+- Improved: Decreased the overated bullet damage.
+- Improved: Decreased the bullet velocity to fix bullet tracers.
 
 ### v1.0.5:
 

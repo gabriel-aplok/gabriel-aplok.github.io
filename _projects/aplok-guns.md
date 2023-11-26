@@ -2,13 +2,13 @@
 layout: project
 status: public
 slug: aplok-guns
-title: Aplok Guns Addon | v1.0.5
+title: Aplok Guns Addon | v1.0.6
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly guns and attachments add-on with lightweight and beautiful models, satisfying sound/visual effects, animations and much more.
 tags: [aplok-guns, guns, military, mcpe, mcbe, weapons, minecraft, addon]
 date: 2022-03-23
-updated: 2023-10-18
+updated: 2023-11-26
 new: true
 comments_id: 1
 ---
@@ -22,7 +22,7 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla-style low-poly m
 **Though there's less guns in this alpha, we're looking forward to add more in upcoming updates!**
 
 ## 🧮 Current Version
-> **1.0.5 - Early Access**
+> **1.0.6 - Early Access**
 
 ## ❤️ Important
 **<span class="text-red">
@@ -51,7 +51,7 @@ So far, I've spent hours over about 10 months making this add-on for you! I hope
 ## 🧪 <span class="text-red">Experimental Gameplay</span>
 
 - Holiday Creator Features.
-- Custom biomes.
+- Custom Biomes (Optional).
 - Molang Features.
 - Beta APIs.
 
@@ -185,24 +185,15 @@ Playlist
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- We introduce the 1.0.5 with various optimizations and bug fixes!
-- Added: New Foregrip Attachment.
-- Added: New HK MP5A5 Gun.
-- Added: New HK MP5A5 30rnd Magazine.
-- Added: New Czech Hedgehog block.
-- Added: New Sandbag and Doubled Sandbag block.
-- Added: New Camera shakes when you reload your gun for an immersive experience.
-- Added: New Echo SFX when you fire without an silencer.
-- Added: Land SFX when place a landmine.
-- Fixed: When the player dies, night vision doesn't return.
-- Fixed: Explosions underwater particles fixed.
-- Fixed: Wooden blocks burn when in contact with fire.
-- Fixed: Bullet's physical gravity was decaying too fast and the bullet didn't hit the right place after 16 blocks.
-- Improved: ADS Animation transition delay increased.
-- Improved: New landmine model.
-- Improved: Vanilla biomes to enjoy a "Soviet" environment experience.
-- Improved: When shooting with a silenced gun, the muzzle light emitted is very reduced.
-- Improved: Explosions distance blind SFX, and atmosphere far SFX.
+- We introduce the 1.0.6 update with iprovements and bug fixes!
+- Added: Holding animation with Foregrip for the HK MP5A5.
+- Added: Chinese language support by WshtxLonely.
+- Added: Russian language support by Gabriel Aplok.
+- Fixed: AK-47 Mag caliber name.
+- Fixed: Muzzle Light block overlaps with farmland block and player also overlap too.
+- Improved: Decreased the overrated camera shake when jumping.
+- Improved: Decreased the overated bullet damage.
+- Improved: Decreased the bullet velocity to fix bullet tracers.
 ```
 
 ## <span class="text-red">⚠️ Warning</span>

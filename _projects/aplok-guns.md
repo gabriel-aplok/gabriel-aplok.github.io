@@ -114,11 +114,11 @@ You can reload empty magazines by having the specific bullets in your inventory 
 
 You use this crafting table to create your gunmetal scrap to make gunmetal ingot.
 
-![Gunmetal Scrap Recipe](/projects/{{ page.slug }}/images/screenshot/gunmetal-ingot-recipe.jpg)
+![Gunmetal Scrap Recipe](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_0.png)
 
 You use this crafting table to create your gunmetal ingot with gunmetal scrap to make gunparts and attachments.
 
-![Gunmetal Ingot Recipe](/projects/{{ page.slug }}/images/screenshot/gunmetal-scrap-recipe.jpg)
+![Gunmetal Ingot Recipe](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_1.png)
 
 ## 📺 Videos
 

@@ -16,6 +16,7 @@ images: [
 	"https://media.discordapp.net/attachments/1125791332607201371/1162062336903893032/fn_fal___aplok_guns.png",
 	"https://media.discordapp.net/attachments/1125791332607201371/1167440340677050368/desert_eagle___aplok_guns.png",
 	"https://media.discordapp.net/attachments/1125791332607201371/1173203246416932904/hk_mp5a5___aplok_guns.png",
+	"https://media.discordapp.net/attachments/1125791332607201371/1178150232270307348/m4_1.png",
 	"https://media.discordapp.net/attachments/1125791332607201371/1159954994699698237/akm.png"
 ]
 ---

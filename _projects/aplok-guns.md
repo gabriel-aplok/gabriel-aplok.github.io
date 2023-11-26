@@ -214,8 +214,8 @@ Just make sure you enable the **[experimental settings.](#experimental-gameplay)
 
 ## 📁 Download Links
 
-- [Behavior Pack](https://loot-links.com/s?e1bx)
-- [Resource Pack](https://loot-link.com/s?e1a4)
+- [Behavior Pack](https://link-hub.net/173623/aplok-guns-bp)
+- [Resource Pack](https://link-hub.net/173623/aplok-guns-rp)
 - [MCPEDL Page **[Alternative Links]**](https://mcpedl.com/aplok-guns/)
 - [ModBay Page **[Alternative Links]**](https://modbay.org/mods/586-aplok-guns.html)
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: See all my Minecraft creations, my games, my apps and everything!
 discord_preview: true
 ---
 

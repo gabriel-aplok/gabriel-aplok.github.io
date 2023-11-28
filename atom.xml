@@ -15,6 +15,20 @@
 		<email>{{ site.author.email }}</email>
 	</author>
 
+	<!-- Projects --> 
+	{% for project in site.projects %}
+	{% if project.status == "public" %}
+	<entry>
+		<title>{{ project.title }}</title>
+		<link href="{{ site.url }}{{ project.url }}" />
+		<updated>{{ project.date | date_to_xmlschema }}</updated>
+		<id>{{ site.url }}{{ project.id }}</id>
+		<content type="html">{{ project.content | xml_escape }}</content>
+	</entry>
+	{% endif %}
+	{% endfor %}
+
+	<!-- Blog --> 
 	{% for post in site.blog %}
 	{% if post.status == "public" %}
 	<entry>

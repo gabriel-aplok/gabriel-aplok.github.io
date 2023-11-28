@@ -14,7 +14,7 @@
 	--text-footer-color: #F5F5F5;
 	--table-color: #909090;
 	--heading-color: #202020;
-	--brand-color: #4580A5;
+	--brand-color: #C62828; /* #4580A5 */
 	--green-color: #00AA00;
 	--red-color: #AA0000;
 }
@@ -348,14 +348,14 @@ img {
 		filter: blur(1px);
 	}
 
-	.pixel {
+	&.pixel {
 		-ms-interpolation-mode: nearest-neighbor;
 		image-rendering: -webkit-optimize-contrast;
 		image-rendering: crisp-edges;
 		image-rendering: pixelated;
 	}
 
-	.noborder {
+	&.noborder {
 		border-radius: 0;
 	}
 }
@@ -403,7 +403,7 @@ details {
 	border: 0;
 	border-radius: 10px;
 
-	.noborder {
+	&.noborder {
 		border-radius: 0;
 	}
 }
@@ -431,8 +431,12 @@ details {
 		color: var(--background-color);
 	}
 
-	.noborder {
+	&.noborder {
 		border-radius: 0;
+	}
+
+	&.full-width {
+		width: 100%;
 	}
 }
 

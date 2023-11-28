@@ -6,7 +6,7 @@ title: Aplok Guns Addon | v1.0.6
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly guns and attachments add-on with lightweight and beautiful models, satisfying sound/visual effects, animations and much more.
-tags: [aplok-guns, guns, military, mcpe, mcbe, weapons, minecraft, addon]
+tags: [aplok-guns, aplok, guns, military, mcpe, mcbe, weapons, minecraft, addon, gabriel-aplok]
 date: 2022-03-23
 updated: 2023-11-26
 new: true
@@ -22,11 +22,14 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla-style low-poly m
 **Though there's less guns in this alpha, we're looking forward to add more in upcoming updates!**
 
 ## 🧮 Current Version
-> **1.0.6 - Early Access**
+> Version: 1.0.6 <br>
+> Build: 12 <br>
+> State: Early Access
 
 ## ❤️ Important
 **<span class="text-red">
-So far, I've spent hours over about 10 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on! My only requirements for the sake of my sanity. ❤
+So far, I've spent hours over about 12 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on!
+My only requirements for the sake of my sanity. ❤
 </span>**
 
 ## 👥 Developer
@@ -50,10 +53,10 @@ So far, I've spent hours over about 10 months making this add-on for you! I hope
 
 ## 🧪 <span class="text-red">Experimental Gameplay</span>
 
-- Holiday Creator Features.
+- Holiday Creator Features (Required).
 - Custom Biomes (Optional).
-- Molang Features.
-- Beta APIs.
+- Molang Features (Required).
+- Beta APIs (Required).
 
 ## 🎮 <span class="text-red">Video Settings</span>
 
@@ -70,61 +73,59 @@ So far, I've spent hours over about 10 months making this add-on for you! I hope
 
 ## 🔫 How to Make Guns
 
-You use this gun workbench to create your guns, using specific GUN PARTS, especific GUN AMMO and a BLUEPRINT BUNDLE.
+You use this **Gun Workbench** to create your guns, using specific **Gun Parts**, especific **Gun Ammo** and a **Blueprint Bundle**.
 
 ![Gun Workbench](/projects/{{ page.slug }}/images/screenshot/gun_workbench.png)
 
-How to make the guns?
+How to make guns? here is the perfect guide!
 
-![Gun Workbench UI](/projects/{{ page.slug }}/images/screenshot/gun_workbench_ui.png)
+![Guns Recipes Guide](/projects/{{ page.slug }}/images/screenshot/gun_workbench_ui.png)
 
 ## 🎯 How to Make Ammo
 
 You need to use the stonecuter to make the ammo.
 
-#### Why Stonecutter?
+_Why Stonecutter? To have compatibility with several items with the same recipe (not conflict like crafting table recipes), I realized that the stonecuter was perfect for this._
 
-> To have compatibility with several items with the same recipe (not conflict like crafting table recipes), I realized that the stonecuter was perfect for this.
+Use **Bullet Gunpowder** (Made with vanilla **Gunpowder**) to get any bullet type.
 
-Use **Bullet Gunpowder** (Made with vanilla Gunpowder) to craft any bullet.
+![Stonecutter Ammo Recipes](/projects/{{ page.slug }}/images/screenshot/stonecutter_bullets.png)
 
-![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_bullets.png)
+Use **Gunmetal Ingot** (Made with **Gunmetal Scrap**) to craft any magazine type.
 
-Use **Gunmetal Ingot** (Made from Copper and Iron) to craft any magazine.
-
-![Ammo Screenshot](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
+![Stonecutter Mag Recipes](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
 
 ## 🎲 How to Use Attachments
 
-> You can access the list of supported attachments for any gun in the addon [here]({{ page.slug }}/supported_attachments.html).
+You can access the supported attachments list for any gun in the addon [here]({{ page.slug }}/supported_attachments.html).
 
-You need to use the inventory slots to use the attachments (university in any supported gun).
+You need to use the inventory slots to use the attachments (university in any supported gun, sorry).
 
-![Attachments Screenshot](/projects/{{ page.slug }}/images/screenshot/attachments_ui.png)
+![Attachments Slots Guide](/projects/{{ page.slug }}/images/screenshot/attachments_ui.png)
 
 ## 👾 How to Reload
 
-You can reload empty guns by having the specific magazine (if has bullets inside) in your inventory and holding your device's screen or the right button in PC.
+You can reload empty guns by having the specific magazine (if has bullets inside) in your inventory and holding your device's screen, using interact button or the right button in PC.
 
-> **It's also worth noting that the ammo will be reloaded according to the number of bullets in the magazine.**
+Gun ammo will be filled as available in your magazine.
 
-You can reload empty magazines by having the specific bullets in your inventory and holding your device's screen or the right button in PC.
+You can reload empty magazines by having the specific bullets in your inventory and holding your device's screen, using interact button or the right button in PC.
 
 ## 🧲 How to Make Gunmetal?
 
-You use this crafting table to create your gunmetal scrap to make gunmetal ingot.
+You use the crafting table to create your **Gunmetal Scrap** to make **Gunmetal Ingot**.
 
-![Gunmetal Scrap Recipe](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_0.png)
+![Gunmetal Scrap Recipes](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_0.png)
 
-You use this crafting table to create your gunmetal ingot with gunmetal scrap to make gunparts and attachments.
+You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scrap** to make **Gun parts** and **Attachments**.
 
-![Gunmetal Ingot Recipe](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_1.png)
+![Gunmetal Ingot Recipes](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_1.png)
 
 ## 📺 Videos
 
 <details>
 <summary>
-Playlist
+Showcases Playlist
 </summary>
 
 <h5>Version 1.0.0</h5>
@@ -178,23 +179,7 @@ Playlist
 
 ## ❤️‍🔥 <span class="text-red">Special Thanks</span>
 
-- [HardSK](https://twitter.com/gabrielMODguy) _(Bullet Hole System Help)_
-
-## 📑 Changelog
-
-> You can access other previous changelogs [here]({{ page.slug }}/changes.html).
-
-```
-- We introduce the 1.0.6 update with iprovements and bug fixes!
-- Added: Holding animation with Foregrip for the HK MP5A5.
-- Added: Chinese language support by WshtxLonely.
-- Added: Russian language support by Gabriel Aplok.
-- Fixed: AK-47 Mag caliber name.
-- Fixed: Muzzle Light block overlaps with farmland block and player also overlap too.
-- Improved: Decreased the overrated camera shake when jumping.
-- Improved: Decreased the overated bullet damage.
-- Improved: Decreased the bullet velocity to fix bullet tracers.
-```
+- [HardSK](https://x.com/gabrielMODguy) _(Bullet Hole System Help)_
 
 ## <span class="text-red">⚠️ Warning</span>
 
@@ -210,14 +195,33 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 ---
 
-Just make sure you enable the **[experimental settings.](#experimental-gameplay)** Also make sure you have enabled **<span class="text-green">BOTH</span>** resources and behavior packs when creating the world.
+Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="text-green">BOTH</span>** resources and behavior packs when creating the world.
+
+## 📑 Changelog
+
+> You can access other previous changelogs [here]({{ page.slug }}/changes.html).
+
+```
+- We introduce the 1.0.6 update with improvements and bug fixes!
+- Added: Holding animation with Foregrip for the HK MP5A5.
+- Added: Chinese language support by WshtxLonely.
+- Added: Russian language support by Gabriel Aplok.
+- Fixed: AK-47 Mag caliber name.
+- Fixed: Muzzle Light block overlaps with farmland block and player also overlap too.
+- Improved: Decreased the overrated camera shake when jumping.
+- Improved: Decreased the overated bullet damage.
+- Improved: Decreased the bullet velocity to fix bullet tracers.
+```
 
 ## 📁 Download Links
 
-- [Behavior Pack](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack](https://link-hub.net/173623/aplok-guns-rp)
-- [MCPEDL Page **[Alternative Links]**](https://mcpedl.com/aplok-guns/)
-- [ModBay Page **[Alternative Links]**](https://modbay.org/mods/586-aplok-guns.html)
+<a class="button" href="https://link-hub.net/173623/aplok-guns-bp">Behavior Pack</a>
+<a class="button" href="https://link-hub.net/173623/aplok-guns-rp">Resource Pack</a>
+
+## 🌐 Alternative Links
+
+<a class="button full-width" href="https://modbay.org/mods/586-aplok-guns.html">MODBAY</a>
+<a class="button full-width" href="https://mcpedl.com/aplok-guns/">MCPEDL</a>
 
 > Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️
 

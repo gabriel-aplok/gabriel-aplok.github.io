@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+description: See my posts about the website, my daily-life or the development of a project.
 header: 2
 ---
 

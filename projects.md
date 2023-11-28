@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+description: See all the projects created by Gabriel Aplok and download them for free!
 header: 1
 ---
 

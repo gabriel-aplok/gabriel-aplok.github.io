@@ -13,7 +13,7 @@ title: Aplok Guns Early Access - 1.0.6
 
 ### v1.0.6:
 
-- We introduce the 1.0.6 update with iprovements and bug fixes!
+- We introduce the 1.0.6 update with improvements and bug fixes!
 - Added: Holding animation with Foregrip for the HK MP5A5.
 - Added: Chinese language support by WshtxLonely.
 - Added: Russian language support by Gabriel Aplok.

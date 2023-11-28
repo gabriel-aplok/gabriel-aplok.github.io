@@ -1,6 +1,7 @@
 ---
 layout: gallery
 title: Render Gallery
+description: See all my 3d portfolio models (including Minecraft models).
 images: [
 	"https://media.discordapp.net/attachments/1125791332607201371/1125791393382682674/computer___minecraft.png",
 	"https://media.discordapp.net/attachments/1125791332607201371/1125823695265464491/gun_target___minecraft.png",

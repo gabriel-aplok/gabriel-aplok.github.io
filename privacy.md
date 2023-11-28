@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Privacy Policy
+description: Our main priorities is the privacy of our visitors. This Privacy Policy document contains types of info that is collected and recorded by our service and how we use this.
+header: 5
 ---
 
 # Privacy Policy

@@ -215,8 +215,8 @@ Just make sure you enable the [experimental settings.](#experimental-gameplay) A
 
 ## 📁 Download Links
 
-<a class="button" href="https://link-hub.net/173623/aplok-guns-bp">Behavior Pack</a>
-<a class="button" href="https://link-hub.net/173623/aplok-guns-rp">Resource Pack</a>
+<a class="button full-width" href="https://loot-link.com/s?e1a4">Behavior Pack</a>
+<a class="button full-width" href="https://loot-links.com/s?e1bx">Resource Pack</a>
 
 ## 🌐 Alternative Links
 

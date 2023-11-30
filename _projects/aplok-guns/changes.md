@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Aplok Guns Early Access - 1.0.6
+title: Aplok Guns - 1.0.6
 ---
 
-# Aplok Guns Early Access - 1.0.6
+# Aplok Guns - 1.0.6
 
 **Posted:** 26 November 2023
 
-## Info on the Aplok Guns Early Access:
+## Info on the Aplok Guns:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
-- Aplok Guns Early Access is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+- Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
 
 ### v1.0.6:
 

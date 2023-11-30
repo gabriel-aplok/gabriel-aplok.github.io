@@ -32,6 +32,11 @@ layout: default
 	<span class="tag">{{ page.tags | join: '</span> <span class="tag">'}}</span>
 {% endif %}
 
+{% if page.comments_id %}
+	{% include comments.html issue_id=page.comments_id %}
+	<br>
+{% endif %}
+
 <h1>More Projects</h1>
 <div class="projects">
 	{% assign projects = site.projects | sort: 'title' %}
@@ -45,8 +50,3 @@ layout: default
 	{% endif %}
 	{% endfor %}
 </div>
-
-{% if page.comments_id %}
-	{% include comments.html issue_id=page.comments_id %}
-	<br>
-{% endif %}

@@ -115,7 +115,7 @@ Just make sure you enable the [experimental settings.](#experimental-gameplay) A
 
 - [Behavior Pack](https://linkvertise.com/173623/project-walker-bp)
 - [Resource Pack](https://linkvertise.com/173623/project-walker-rp)
-- [MCPEDL Page](https://mcpedl.com/project-walker-legacy/)
+- [MCPEDL Page](https://mcpedl.com/project-walker/)
 - [ModBay Page](https://modbay.org/mods/718-project-walker-mod.html)
 
 ## Supported versions

@@ -21,11 +21,6 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled low-poly 
 
 **Though there's less guns in this release, we're looking forward to add more in upcoming updates!**
 
-## Current Version
-> Version: 1.0.6 <br>
-> Build: 12 <br>
-> State: Early Access
-
 ## Important
 **<span class="text-red">
 So far, I've spent hours over about 12 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on!
@@ -34,8 +29,6 @@ So far, I've spent hours over about 12 months making this add-on for you! I hope
 ## Developer
 
 - [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
-
-If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
 
 ## Features
 
@@ -187,7 +180,7 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
-## Changelog
+## Changelog for v1.0.6
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
@@ -203,19 +196,12 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Improved: Decreased the bullet velocity to fix bullet tracers.
 ```
 
+If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
+
 ## Download Links
 
-<a class="button full-width" href="https://loot-link.com/s?e1a4">Behavior Pack</a>
-<a class="button full-width" href="https://loot-links.com/s?e1bx">Resource Pack</a>
-
-<details>
-<summary>
-Alternative Links
-</summary>
-
-<p> from <a href="https://modbay.org/mods/586-aplok-guns.html">MODBAY</a> and <a href="https://mcpedl.com/aplok-guns/">MCPEDL</a></p>
-
-</details>
+- [Behavior Pack v1.0.6](https://link-hub.net/173623/aplok-guns-bp)
+- [Resource Pack v1.0.6](https://link-hub.net/173623/aplok-guns-rp)
 
 ## Supported Versions
 

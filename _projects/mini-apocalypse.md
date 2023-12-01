@@ -3,14 +3,15 @@ layout: project
 status: public
 slug: mini-apocalypse
 title: Mini Apocalypse Addon
-banner: /assets/images/projects/mini-apocalypse/banner.png
-icon: /assets/images/projects/mini-apocalypse/icon.png
+banner: /projects/mini-apocalypse/banner.png
+icon: /projects/mini-apocalypse/icon.png
 description: Simple minimal apocalypse elements survival-friendly to your Minecraft Bedrock with new weapons, foods and drinks.
-tags: [mini-apocalypse, minecraft, addon]
-date: 2023-09-11
+tags: [mini-apocalypse, apocalypse, aplok, weapons, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
+date: 2023-09-12
+updated: 2023-10-16
 ---
 
-![Logo](/assets/images/projects/mini-apocalypse/screenshot/logo.png)
+![Logo](/projects/{{ page.slug }}/images/logo.png)
 
 The Apocalypse is coming to Minecraft Bedrock! Mine Apocalypse brings apocalyptic-themed weapons and items to the Minecraft world!
 
@@ -79,28 +80,30 @@ Although I haven't added any new mobs, the behavior of zombies, skeletons and dr
 
 ### Screenshots
 
-![Screenshot](/assets/images/projects/mini-apocalypse/screenshot/screenshot_0.png)
-![Screenshot](/assets/images/projects/mini-apocalypse/screenshot/screenshot_1.png)
-![Screenshot](/assets/images/projects/mini-apocalypse/screenshot/screenshot_2.png)
-![Screenshot](/assets/images/projects/mini-apocalypse/screenshot/screenshot_3.png)
+![Screenshot](/projects/{{ page.slug }}/images/screenshot_0.png)
+![Screenshot](/projects/{{ page.slug }}/images/screenshot_1.png)
+![Screenshot](/projects/{{ page.slug }}/images/screenshot_2.png)
+![Screenshot](/projects/{{ page.slug }}/images/screenshot_3.png)
 
-**You can see all the crafting recipes in the crafting table UI.**
+You can see all the crafting recipes in the crafting table recipes book.
 
-![Crafting Recipes](/assets/images/projects/mini-apocalypse/screenshot/crafting-recipes.png)
+![Crafting Recipes](/projects/{{ page.slug }}/images/crafting-recipes.png)
 
 If you liked the addon and want to support me and see more in the future, check out my [website](https://gabriel-aplok.github.io/)!
 
-## Changelog
+## Changelog for v0.0.2
 
+```
 - Added Brazilian Portuguese language support.
 - Added Military Knife Melee.
 - Fixed Medicine items not working.
+```
 
-## <span class="text-red">Warning</span>
+## Warning
 
-I **<span class="text-red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
+This will **ONLY** work in Minecraft versions **1.20.10+**
 
-You have full authorization to make videos/promote my work, but **<span class="text-green">ALWAYS</span>** use my original links.
+If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
 
 ## Installation
 
@@ -108,20 +111,13 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 ---
 
-Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="text-green">BOTH</span>** resources and behavior packs when creating the world.
+Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
 ## Download links
 
 - [Behavior Pack](https://linkvertise.com/173623/mini-apocalypse-bp)
 - [Resource Pack](https://linkvertise.com/173623/mini-apocalypse-rp)
-- [MCPEDL Page](https://mcpedl.com/mini-apocalypse-addon/)
-- [ModBay Page](https://modbay.org/mods/1031-mini-apocalypse-mod.html)
 
 ## Supported versions
 
-<span class="tag"> 1.20.10 </span>
-<span class="tag"> 1.20.12 </span>
-<span class="tag"> 1.20.15 </span>
-<span class="tag"> 1.20.30 </span>
-<span class="tag"> 1.20.31 </span>
-<span class="tag"> 1.20.32 </span>
+<span class="tag"> 1.20.10+ </span>

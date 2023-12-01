@@ -2,7 +2,7 @@
 layout: project
 status: public
 slug: mini-apocalypse
-title: Mini Apocalypse Addon
+title: Mini Apocalypse Addon | v0.0.2
 banner: /projects/mini-apocalypse/banner.png
 icon: /projects/mini-apocalypse/icon.png
 description: Simple minimal apocalypse elements survival-friendly to your Minecraft Bedrock with new weapons, foods and drinks.
@@ -120,4 +120,7 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 
 ## Supported versions
 
-<span class="tag"> 1.20.10+ </span>
+<span class="tag">1.20.10</span>
+<span class="tag">1.20.12</span>
+<span class="tag">1.20.30</span>
+<span class="tag">1.20.40</span>

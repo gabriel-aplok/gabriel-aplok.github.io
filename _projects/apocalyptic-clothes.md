@@ -2,7 +2,7 @@
 layout: project
 status: public
 slug: apocalyptic-clothes
-title: Apocalyptic Clothes Addon
+title: Apocalyptic Clothes Addon | v0.0.2
 banner: /projects/apocalyptic-clothes/banner.png
 icon: /projects/apocalyptic-clothes/icon.png
 description: What do you think about giving your character a style in your world? Both survival and a zombie apocalypse! Make your own style and show to your friends.

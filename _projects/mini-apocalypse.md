@@ -113,12 +113,12 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
-## Download links
+## Download Links
 
 - [Behavior Pack](https://linkvertise.com/173623/mini-apocalypse-bp)
 - [Resource Pack](https://linkvertise.com/173623/mini-apocalypse-rp)
 
-## Supported versions
+## Supported Versions
 
 <span class="tag">1.20.10</span>
 <span class="tag">1.20.12</span>

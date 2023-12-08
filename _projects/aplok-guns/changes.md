@@ -1,15 +1,36 @@
 ---
 layout: default
-title: Aplok Guns - 1.0.6
+title: Aplok Guns - 1.0.7
 ---
 
-# Aplok Guns - 1.0.6
+# Aplok Guns - 1.0.7
 
-**Posted:** 26 November 2023
+**Posted:** 05 December 2023
 
 ## Info on the Aplok Guns:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+
+### 1.0.7:
+
+- We're releasing the v1.0.7 with various improvements, changes and bug fixes!
+- Added: Explosion effect now occurs by default with all other explosions! (like creeper, TNT etc.)
+- Fixed: Guns Fixer item not working.
+- Fixed: Nickname not showing.
+- Fixed: Increased bullet velocity.
+- Fixed: Decreased bullet physical gravity.
+- Fixed: Run state machine glitch when player walk in snow biomes.
+- Fixed: Slim skin can now be used without the strange arm bug.
+- Removed: Resistance effect from juggernaut.
+- Changed: Decreased item stack drop from ammunition crate.
+- Changed: Increased guns resetting position delay.
+- Changed: Descreased landmine explosion range.
+- Improved: Explosions effects optimized to low-end devices.
+- Improved: Decreased muzzle light emission when fire silenced.
+- Improved: Rewrite some state machines to optimize the client and server processors.
+- Improved: New running animations.
+- Improved: New animations state machines transitions to more fluid experience.
+- Improved: Rewrite some bullet core system to more performance.
 
 ### v1.0.6:
 

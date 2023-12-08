@@ -2,13 +2,13 @@
 layout: project
 status: public
 slug: aplok-guns
-title: Aplok Guns Addon | v1.0.6
+title: Aplok Guns Addon | v1.0.7
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
 date: 2022-03-23
-updated: 2023-11-26
+updated: 2023-12-05
 new: true
 comments_id: 1
 ---
@@ -168,7 +168,7 @@ Playlist
 
 ## Warning
 
-This will **ONLY** work in Minecraft versions **1.20.40+**
+This will **ONLY** work in Minecraft versions **1.20.50+**
 
 Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️
 
@@ -180,30 +180,38 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
-## Changelog for v1.0.6
+## Changelog for v1.0.7
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- We introduce the 1.0.6 update with improvements and bug fixes!
-- Added: Holding animation with Foregrip for the HK MP5A5.
-- Added: Chinese language support by WshtxLonely.
-- Added: Russian language support by Gabriel Aplok.
-- Fixed: AK-47 Mag caliber name.
-- Fixed: Muzzle Light block overlaps with farmland block and player also overlap too.
-- Improved: Decreased the overrated camera shake when jumping.
-- Improved: Decreased the overated bullet damage.
-- Improved: Decreased the bullet velocity to fix bullet tracers.
+- We're releasing the v1.0.7 with various improvements, changes and bug fixes!
+- Added: Explosion effect now occurs by default with all other explosions! (like creeper, TNT etc.)
+- Fixed: Guns Fixer item not working.
+- Fixed: Nickname not showing.
+- Fixed: Increased bullet velocity.
+- Fixed: Decreased bullet physical gravity.
+- Fixed: Run state machine glitch when player walk in snow biomes.
+- Fixed: Slim skin can now be used without the strange arm bug.
+- Removed: Resistance effect from juggernaut.
+- Changed: Decreased item stack drop from ammunition crate.
+- Changed: Increased guns resetting position delay.
+- Changed: Descreased landmine explosion range.
+- Improved: Explosions effects optimized to low-end devices.
+- Improved: Decreased muzzle light emission when fire silenced.
+- Improved: Rewrite some state machines to optimize the client and server processors.
+- Improved: New running animations.
+- Improved: New animations state machines transitions to more fluid experience.
+- Improved: Rewrite some bullet core system to more performance.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
 
 ## Download Links
 
-- [Behavior Pack v1.0.6](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack v1.0.6](https://link-hub.net/173623/aplok-guns-rp)
+- [Behavior Pack v1.0.7](https://link-hub.net/173623/aplok-guns-bp)
+- [Resource Pack v1.0.7](https://link-hub.net/173623/aplok-guns-rp)
 
 ## Supported Versions
 
-<span class="tag">1.20.40</span>
-<span class="tag">1.20.41</span>
+<span class="tag">1.20.50</span>

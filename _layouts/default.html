@@ -36,16 +36,18 @@
 		{{ content }}
 
 		{% if page.discord_preview %}
-		<h1>Join community</h1>
-		<p>Chat with me, with everyone and see memes lol!👋</p>
-		<div style="text-align: center;">
-			<iframe src="https://discord.com/widget?id=857299210529407068&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		<div  style="text-align: center;">
+			<h1>Join community</h1>
+			<p>Chat with me, with everyone and see memes lol!👋</p>
+			<a href="{{ site.discord }}" target="_blank">
+				<img src="https://discordapp.com/api/guilds/857299210529407068/widget.png?style=banner2">
+			</a>
 		</div>
 		{% endif %}
 	</div>
 	<footer class="footer">
-		<div class="social-media">
-			<a href="{{ site.twitter }}" target="_blank">
+		<div class="social">
+			<a href="{{ site.x }}" target="_blank">
 				<i class="fa-brands fa-x-twitter fa-2x"></i>
 			</a>
 			<a href="{{ site.youtube }}" target="_blank">
@@ -66,19 +68,19 @@
 
 		<small>All copyrights and trademarks are the property of their respective owners.</small>
 
-		<a href="//www.dmca.com/Protection/Status.aspx?ID=fbe00151-063d-40fb-bcaf-712f3410f309" title="DMCA.com Protection Status" class="dmca-badge">
-			<img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309"  alt="DMCA.com Protection Status"/>
-		</a>
-
-		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
-
-		<div class="footer-links">
+		<div class="links">
 			<a href="{{ '/privacy.html' | absolute_url }}">Privacy</a>
 			<span > | </span>
 			<a href="{{ '/sponsor.html' | absolute_url }}">Sponsor My Work</a>
 			<span> | </span>
 			<a href="{{ '/gallery.html' | absolute_url }}">Gallery</a>
 		</div>
+
+		<a href="//www.dmca.com/Protection/Status.aspx?ID=fbe00151-063d-40fb-bcaf-712f3410f309" title="DMCA.com Protection Status" class="dmca-badge">
+			<img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309"  alt="DMCA.com Protection Status"/>
+		</a>
+
+		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
 	</footer>
 	{% if page.url != "/privacy.html" %}
 	<div class="cookie-consent">

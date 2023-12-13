@@ -136,25 +136,30 @@ Playlist
 
 {% include youtube.html id="Th2ZdNCbCqc" %}
 
+<h5>Version 1.0.7</h5>
+
+{% include youtube.html id="3lKUFvLtGJc" %}
+
 </details>
 
 ## Guns
 
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_0.jpg)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_2.jpg)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_4.jpg)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_6.jpg)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_8.jpg)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_10.jpg)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_12.jpg)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_14.jpg)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/new/guns_16.jpg)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_2.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_4.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_6.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_8.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_10.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_12.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_14.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_16.png)
 
 ## Armor
 
 ![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_0.png)
 ![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_1.png)
 ![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_2.png)
+![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_3.png)
 
 ## Commands
 - Disable Empty Mags
@@ -168,9 +173,9 @@ Playlist
 
 ## Warning
 
-This will **ONLY** work in Minecraft versions **1.20.50+**
+This will **ONLY** work in Minecraft versions **1.20.50** (DON'T USE BETA/PREVIEW)
 
-Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments". ❤️
+Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments".
 
 ## Installation
 

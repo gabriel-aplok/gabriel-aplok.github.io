@@ -38,7 +38,7 @@ body {
 	color: var(--text-color);
 	accent-color: var(--brand-color);
 	font-family: Lato, sans-serif;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.4px;
 	line-height: 1.6;
 	scroll-behavior: smooth;
 }
@@ -183,13 +183,12 @@ body {
 	display: flex;
 	padding: 5vh 2vw 5vh 2vw;
 
-
 	* {
 		color: var(--text-footer-color);
-		opacity: 0.85;
+		opacity: 0.9;
 	}
 
-	.social-media {
+	.social {
 		justify-content: center;
 		text-align: center;
 		display: flex;
@@ -200,6 +199,10 @@ body {
 			text-decoration: none;
 			margin: 0 0.5em 0 0.5em;
 		}
+	}
+
+	.links {
+		margin: 1.25em 0 1.25em 0;
 	}
 }
 
@@ -342,11 +345,6 @@ img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 10px;
-	transition: filter 0.2s ease;
-
-	&:hover {
-		filter: blur(1px);
-	}
 
 	&.pixel {
 		-ms-interpolation-mode: nearest-neighbor;

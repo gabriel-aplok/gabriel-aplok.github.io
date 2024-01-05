@@ -2,25 +2,31 @@
 layout: project
 status: public
 slug: project-walker
-title: Project Walker Addon
-banner: /assets/images/projects/project-walker/banner.png
-icon: /assets/images/projects/project-walker/icon.png
+title: Project Walker Addon | v1.7.8
+banner: /projects/project-walker/images/banner.png
+icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2023-10-07
+updated: 2024-01-05
+new: true
 comments_id: 2
 ---
 
-![Logo](/assets/images/projects/{{ page.slug }}/screenshot/logo.png)
+![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
+
+Do you like high-quality apocalypse-themed addons and have the best features? If yes, you're in the right place.
 
 Project Walker is a Minecraft addon that adds a post-apocalyptic twist to the game. Players must now scavenge for supplies to stay alive, while also being careful of zombies, bandits, and other survivors.
 
-The addon features a variety of new items, blocks, and mobs, as well as a new thirst mechanic.
+The addon features a variety of new guns, melees, items, blocks, and mobs, as well as a new survival systems.
 
-## <span class="text-red">Notice</span>
+**Though there's less features in this release, we're looking forward to add more in upcoming updates!**
 
-_I’m working on reimagined of the Legacy Project Walker, with new ideas, new purposes, new mechanisms, new models, new style, new animations, satisfactory for a nice gameplay! All this in one place!_
+## Important
+**<span class="text-red">
+So far, I've spent hours over about 2 years making this add-on for you! I hope you like this!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on!
+</span>**
 
 ## Developer
 
@@ -29,79 +35,53 @@ _I’m working on reimagined of the Legacy Project Walker, with new ideas, new p
 
 ## Features
 
-- Minecraft vanilla stylized.
-- Post-apocalyptic style.
-- Lightweight and beautiful.
-- Looting System.
-- Health System.
-- Ranged Combat System.
-- Structures.
+- 🎲 Minecraft vanilla stylized.
+- 🔈 Satisfying sound effects.
+- 👀 Smooth animations.
+- ⚡ Beautiful and Optimized effects such as muzzle flashes, blood, explosions, lights, bullets solid and water impacts etc.
+- 💥 Innovative features, with systems never seen before in Bedrock.
+- 👍 Survival-friendly.
+- 🔊 Reverb and distant for guns, bullets and explosives effects.
+- 🧪 Optimized for low-end devices.
 
-### Experimental Gameplay
+Project Walker is a challenging and immersive addon that adds a new level of excitement to Minecraft Bedrock. If you're looking for a new way to play the game, then Project Walker is definitely worth checking out.
 
-- Holiday Creator Features.
-- Custom biomes.
-- Molang Features.
+## Experimental Gameplay
 
-Project Walker is a challenging and immersive addon that adds a new level of excitement to Minecraft Bedrock. If you’re looking for a new way to play the game, then Project Walker is definitely worth checking out.
+- Holiday Creator Features (Required).
+- Custom Biomes (Optional).
+- Molang Features (Required).
+- Beta APIs (Required).
 
-## Screenshots
+## Guns
 
-#### Items
+![Guns Firing](/projects/{{ page.slug }}/images/screenshot/guns_0.gif)
+![Heavy Guns](/projects/{{ page.slug }}/images/screenshot/guns_0.jpg)
+![Light Guns](/projects/{{ page.slug }}/images/screenshot/guns_1.jpg)
+![Inventory Guns](/projects/{{ page.slug }}/images/screenshot/guns_2.jpg)
 
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_2.png)
+## Infected
 
-#### Structures
+![Infected](/projects/{{ page.slug }}/images/screenshot/infected_0.jpg)
+![Infected](/projects/{{ page.slug }}/images/screenshot/infected_1.jpg)
 
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_3.png)
+## Blocks
 
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_4.png)
+![Blocks](/projects/{{ page.slug }}/images/screenshot/block_0.jpg)
 
-#### Guns
+## NPCs
 
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_5.png)
+![Blocks](/projects/{{ page.slug }}/images/screenshot/npc_0.jpg)
 
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_6.png)
+## Vehicle
 
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_7.png)
+![Blocks](/projects/{{ page.slug }}/images/screenshot/vehicle_0.jpg)
 
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_8.png)
+## Warning
 
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_9.png)
+This will **ONLY** work in Minecraft versions **1.20.50** (DON'T USE BETA/PREVIEW)
 
-#### Entities/Mobs
-
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_10.png)
-
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_11.png)
-
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_12.png)
-
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_13.png)
-
-![](https://api.mcpedl.com/storage/submissions/188926/images/project-walker_14.png)
-
-## <span class="text-red">known Issues</span>
-
-- Structures overlap others.
-- Guns don’t work perfectly in multiplayer.
-
-## Changelog
-
-- Reduced mobs and loots spawn rate.
-- Improved fill water system.
-- Improved health (broken leg, infection and blood) system.
-- Improved map color.
-- Improved oak, wood and brick textures.
-- Improved more vanilla blocks to my style.
-- Fixed Guns and Armor items incompatibility with 1.20.30+.
-- Fixed structures spawning incompatibility with 1.20.30+.
-
-## <span class="text-red">Warning</span>
-
-I **<span class="text-red">DON'T</span>** authorize anyone to republish/reupload my work outside MCPEDL, ModBay and my website and don't remove my own link, or this project will be discontinued.
-
-You have full authorization to make videos/promote my work, but **<span class="text-green">ALWAYS</span>** use my original links.
+Thank you for supporting me! And please read all info from this article before ask me any ordinary questions.
 
 ## Installation
 
@@ -109,17 +89,55 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 ---
 
-Just make sure you enable the [experimental settings.](#experimental-gameplay) Also make sure you have enabled **<span class="text-green">BOTH</span>** resources and behavior packs when creating the world.
+Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
-## Download links
+## Changelog for v1.7.8
+
+```
+- Added new ammunition items.
+- Added new guns items.
+- Added new water canteen drinkable item.
+- Added new banana, mandarine and orange food items.
+- Added new bread, carrot and wheat textures.
+- Added new rag medical item.
+- Added new police baton, board and variant with nails, cleaver, golf club, hockey stick, katana, military knife, food opener, pan, saw, skalka and tactical axe melee items.
+- Added new dirty rag, empty your can, empty syringe and nails bag scraps and utilities items.
+- Added new assault, press, field and plate vest wearable.
+- Added recipes to some items and blocks like melees and others utilities.
+- Added new animal crow.
+- Added new baby zombies variant.
+- Added new can break doors variant.
+- Added new icon to the effects like bleeding, fracture and infection.
+- Added new liquid and solid impact effects.
+- Added new Sedan vehicle.
+- Added new player animation.
+- Added new bandit npc.
+- Improved all zombies textures.
+- Improved all items textures to 16x16 vanilla style.
+- Improved all wearables, and guns models.
+- Improved fog.
+- Improved guns system (in beta development).
+- Improved now crawlers have all infected skins.
+- Improved new break bone system, if you fall from 15 or up blocks, the player receive broken bone effects.
+- Improved new bleeding system, only if you receive a projectile damage you will get bleeding effects.
+- Improved new infection system, just improved mechanic lol.
+- Improved infected sounds by n_Z (DeadZone Addon).
+- Improved infected scream only when has a target.
+- Improved thirst tick system (The thirst time increases and decreases depending on whether you are standing still, walking or sprinting).
+- Fixed empty water bottle not filling in water blocks.
+- Removed trader.
+- Removed leveled wearables (like Helmet/Vest 1, 2 and 3).
+- Removed some items (I'll be added back in another versions).
+- And many other things that it would be impossible to list them all here.
+```
+
+If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
+
+## Download Links
 
 - [Behavior Pack](https://linkvertise.com/173623/project-walker-bp)
 - [Resource Pack](https://linkvertise.com/173623/project-walker-rp)
-- [MCPEDL Page](https://mcpedl.com/project-walker/)
-- [ModBay Page](https://modbay.org/mods/718-project-walker-mod.html)
 
-## Supported versions
+## Supported Versions
 
-<span class="tag"> 1.20.30 </span>
-<span class="tag"> 1.20.31 </span>
-<span class="tag"> 1.20.32 </span>
+<span class="tag">1.20.50</span>

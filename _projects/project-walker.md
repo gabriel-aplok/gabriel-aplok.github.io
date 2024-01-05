@@ -41,6 +41,10 @@ So far, I've spent hours over about 2 years making this add-on for you! I hope y
 - Vic4Games.
 - Bedrock Community.
 
+## Our brother DeadZone! ❤️
+
+![N_z Disclaimer](/projects/{{ page.slug }}/images/screenshot/nz_dz_disclaimer.png)
+
 ## Features
 
 - 🎲 Minecraft vanilla stylized.

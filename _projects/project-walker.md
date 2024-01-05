@@ -33,6 +33,14 @@ So far, I've spent hours over about 2 years making this add-on for you! I hope y
 - [Gabriel Aplok]({{ "/about.html" | absolute_url }}) __(Leader / Main Developer)__
 - [HardSK](https://twitter.com/gabrielMODguy) **(Founder / Contributor)**
 
+## Contributions
+- GabrielModGuy [[HSK Guns](https://mcpedl.com/gun-addon/)].
+- AsN.
+- NekoZack [[DeadZone Addon](https://mcpedl.com/deadzone-add-on/)].
+- Scooter BoehMod.
+- Vic4Games.
+- Bedrock Community.
+
 ## Features
 
 - 🎲 Minecraft vanilla stylized.
@@ -55,6 +63,9 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 
 ## Guns
 
+- Guns are extremely detailed with sound effects!
+- Custom Damage systems!
+
 ![Guns Firing](/projects/{{ page.slug }}/images/screenshot/guns_0.gif)
 ![Heavy Guns](/projects/{{ page.slug }}/images/screenshot/guns_0.jpg)
 ![Light Guns](/projects/{{ page.slug }}/images/screenshot/guns_1.jpg)
@@ -62,20 +73,34 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 
 ## Infected
 
+- They can infect you!
+- They will kill you!
+
 ![Infected](/projects/{{ page.slug }}/images/screenshot/infected_0.jpg)
 ![Infected](/projects/{{ page.slug }}/images/screenshot/infected_1.jpg)
 
 ## Blocks
 
+- Some decorations to the addon!
+
 ![Blocks](/projects/{{ page.slug }}/images/screenshot/block_0.jpg)
 
 ## NPCs
+
+- Bandits will kill you!
+- They can drop armament to you!
 
 ![Blocks](/projects/{{ page.slug }}/images/screenshot/npc_0.jpg)
 
 ## Vehicle
 
+- You can use the vehicles with the **Car Key** item putting into the **Saddle Slot**.
+- You can make the vehicles using some materials in the **Crafting Table**.
+
 ![Blocks](/projects/{{ page.slug }}/images/screenshot/vehicle_0.jpg)
+
+## Structures?
+> We don't have structures for now, sorry.
 
 ## Warning
 
@@ -90,6 +115,11 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 ---
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
+
+## **<span class="text-red">Know Bugs</span>**
+- Guns don't fires full-auto in Creative Mode.
+- When Minecraft get new update some systems breaks.
+- Scope, Night Vision and Crosshair bugged if you are riding in entities like vehicle and etc.
 
 ## Changelog for v1.7.8
 

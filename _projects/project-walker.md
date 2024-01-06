@@ -19,9 +19,7 @@ Do you like high-quality apocalypse-themed addons and have the best features? If
 
 Project Walker is a Minecraft addon that adds a post-apocalyptic twist to the game. Players must now scavenge for supplies to stay alive, while also being careful of zombies, bandits, and other survivors.
 
-The addon features a variety of new guns, melees, items, blocks, and mobs, as well as a new survival systems.
-
-**Though there's less features in this release, we're looking forward to add more in upcoming updates!**
+The addon features a variety of new guns, melees, medicals, foods, drinks, miscellaneous, blocks, mobs, as well as a new survival systems such as infection, bleeding, bone fracture, temperature etc.
 
 ## Important
 **<span class="text-red">
@@ -35,14 +33,14 @@ So far, I've spent hours over about 2 years making this add-on for you! I hope y
 - [INISIANTENOOB](#) **(3D Vehicle Artist)**
 
 ## Contributions
-- GabrielModGuy [[HSK Guns](https://mcpedl.com/gun-addon/)].
-- AsN.
+- HardSK [[HSK Guns](https://mcpedl.com/gun-addon/)].
 - NekoZack [[DeadZone Addon](https://mcpedl.com/deadzone-add-on/)].
+- AsN.
 - Scooter BoehMod.
 - Vic4Games.
 - Bedrock Community.
 
-## Our brother DeadZone! ❤️
+## Our brother [DeadZone](https://mcpedl.com/deadzone-add-on/)! ❤️
 
 ![N_z Disclaimer](/projects/{{ page.slug }}/images/screenshot/nz_dz_disclaimer.png)
 
@@ -151,6 +149,8 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 
 ## Changelog for v1.7.8
 
+> You can access other previous changelogs [here]({{ page.slug }}/changes.html).
+
 ```
 - Added new ammunition items.
 - Added new guns items.
@@ -195,6 +195,8 @@ If you plan to showcase this add-on, **ONLY use the links I provide here** and t
 
 - [Behavior Pack](https://linkvertise.com/173623/project-walker-bp)
 - [Resource Pack](https://linkvertise.com/173623/project-walker-rp)
+
+If you've run out of 3 free credits, wait until tomorrow to download the add-on.
 
 ## Supported Versions
 

@@ -30,8 +30,9 @@ So far, I've spent hours over about 2 years making this add-on for you! I hope y
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) __(Leader / Main Developer)__
-- [HardSK](https://twitter.com/gabrielMODguy) **(Founder / Contributor)**
+- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) __(Leader / Main-Developer)__
+- [HardSK](https://twitter.com/gabrielMODguy) **(Founder / Developer)**
+- [INISIANTENOOB](#) **(3D Vehicle Artist)**
 
 ## Contributions
 - GabrielModGuy [[HSK Guns](https://mcpedl.com/gun-addon/)].
@@ -65,46 +66,68 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 - Molang Features (Required).
 - Beta APIs (Required).
 
-## Guns
+## Thirst
 
-- Guns are extremely detailed with sound effects!
-- Custom Damage systems!
+![Thirst Bar](/projects/{{ page.slug }}/images/screenshot/thirst_0.jpg)
+
+Thirst is showed with water drop icon, as are other Minecraft stats such as life and hunger. You can increase your thirst level from drinks, or from some hydrated foods or you die.
+
+## Infection
+
+![Infected Effect](/projects/{{ page.slug }}/images/screenshot/infection_0.jpg)
+
+The infection is adhered to by taking damage from a infected zombie.
+You can remove the infection using **Cure Syringe** and **First Aid Kit**.
+
+## Bleeding
+
+![Bleeding Effect](/projects/{{ page.slug }}/images/screenshot/bleeding_0.jpg)
+
+The bleeding is adhered to by taking damage from a projectiles.
+You can remove the bleeding using **Rag**, **Bandage** and **First Aid Kit**.
+
+## Broken Leg
+
+![Broken Leg Effect](/projects/{{ page.slug }}/images/screenshot/broken_leg_0.jpg)
+
+The broken leg is adhered to by taking damage from a high fall damage.
+You can remove the broken leg effect using **Morphine Syringe**, **Splint** and **First Aid Kit**.
+
+## Guns
 
 ![Guns Firing](/projects/{{ page.slug }}/images/screenshot/guns_0.gif)
 ![Heavy Guns](/projects/{{ page.slug }}/images/screenshot/guns_0.jpg)
 ![Light Guns](/projects/{{ page.slug }}/images/screenshot/guns_1.jpg)
 ![Inventory Guns](/projects/{{ page.slug }}/images/screenshot/guns_2.jpg)
 
-## Infected
+Guns can be more fatal to shoot at zombies from long range to avoid being attacked, but be careful, zombies can hear your shots!
 
-- They can infect you!
-- They will kill you!
+## Infected Zombies
 
 ![Infected](/projects/{{ page.slug }}/images/screenshot/infected_0.jpg)
 ![Infected](/projects/{{ page.slug }}/images/screenshot/infected_1.jpg)
 
+Zombies with many different variants, from attack to health, speed and skin! there are also crawling zombies and runner zombies.
+
 ## Blocks
-
-- Some decorations to the addon!
-
 ![Blocks](/projects/{{ page.slug }}/images/screenshot/block_0.jpg)
+
+Unique utility blocks, decorations and more coming soon!
 
 ## NPCs
 
-- Bandits will kill you!
-- They can drop armament to you!
-
 ![Blocks](/projects/{{ page.slug }}/images/screenshot/npc_0.jpg)
+
+Be careful when you see a bandit, he won't think twice before shooting you!
 
 ## Vehicle
 
-- You can use the vehicles with the **Car Key** item putting into the **Saddle Slot**.
-- You can make the vehicles using some materials in the **Crafting Table**.
-
 ![Blocks](/projects/{{ page.slug }}/images/screenshot/vehicle_0.jpg)
 
+You can use the vehicles with the **Car Key** item putting into the **Saddle Slot**. You can make the vehicles using some materials in the **Crafting Table**.
+
 ## Structures?
-> We don't have structures for now, sorry.
+> We don't have structures for now, sorry. You can use other addons that have structures for now.
 
 ## Warning
 
@@ -121,9 +144,10 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
 ## **<span class="text-red">Know Bugs</span>**
-- Guns don't fires full-auto in Creative Mode.
+- Guns don't fire full-auto in Creative Mode.
+- Scope, Night Vision and Crosshair bugged if you are riding on entities such as vehicles, etc.
+- Vehicles can't climb one block (idk why?).
 - When Minecraft get new update some systems breaks.
-- Scope, Night Vision and Crosshair bugged if you are riding in entities like vehicle and etc.
 
 ## Changelog for v1.7.8
 
@@ -175,3 +199,4 @@ If you plan to showcase this add-on, **ONLY use the links I provide here** and t
 ## Supported Versions
 
 <span class="tag">1.20.50</span>
+<span class="tag">1.20.51</span>

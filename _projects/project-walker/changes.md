@@ -1,15 +1,36 @@
 ---
 layout: default
-title: Project Walker - 1.7.8
+title: Project Walker - 1.7.9
 ---
 
-# Project Walker - 1.7.8
+# Project Walker - 1.7.9
 
-**Posted:** 05 January 2024
+**Posted:** 06 January 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.7.9 (Public Demo):
+
+- Added bandits group spawn.
+- Added glowing eyes to infecteds.
+- Added translation to effects.
+- Added intoxication effect.
+- Added blood to bandits.
+- Added m809 Truck 6x6.
+- Fixed Sedan animations.
+- Fixed shadows in customm geometry blocks.
+- Fixed death message from entities.
+- Improved scope, banana, orange and mandarine textures.
+- Improved saw texture.
+- Improved some recipes.
+- Improved zombies gear with more rarely spawn.
+- Improved deco blocks now only cam be placed in they respective filters (up, down, side...).
+- Improved wooden barricade can bed placed in up and down blocks.
+- Improved rewrite new system for filling the water bottle & canteen.
+- Improved vehicles math animations based.
+- Removed accidentally sedan spawn.
 
 ### v1.7.8 (Public Demo):
 

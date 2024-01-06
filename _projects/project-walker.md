@@ -2,13 +2,13 @@
 layout: project
 status: public
 slug: project-walker
-title: Project Walker Addon | v1.7.8
+title: Project Walker Addon | v1.7.9
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-01-05
+updated: 2024-01-06
 new: true
 comments_id: 2
 ---
@@ -30,7 +30,7 @@ So far, I've spent hours over about 2 years making this add-on for you! I hope y
 
 - [Gabriel Aplok]({{ "/about.html" | absolute_url }}) __(Leader / Main-Developer)__
 - [HardSK](https://twitter.com/gabrielMODguy) **(Founder / Developer)**
-- [INISIANTENOOB](#) **(3D Vehicle Artist)**
+- [INISIANTENOOB](#) **(3D Artist)**
 
 ## Contributions
 - HardSK [[HSK Guns](https://mcpedl.com/gun-addon/)].
@@ -147,46 +147,29 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Vehicles can't climb one block (idk why?).
 - When Minecraft get new update some systems breaks.
 
-## Changelog for v1.7.8
+## Changelog for v1.7.9
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added new ammunition items.
-- Added new guns items.
-- Added new water canteen drinkable item.
-- Added new banana, mandarine and orange food items.
-- Added new bread, carrot and wheat textures.
-- Added new rag medical item.
-- Added new police baton, board and variant with nails, cleaver, golf club, hockey stick, katana, military knife, food opener, pan, saw, skalka and tactical axe melee items.
-- Added new dirty rag, empty your can, empty syringe and nails bag scraps and utilities items.
-- Added new assault, press, field and plate vest wearable.
-- Added recipes to some items and blocks like melees and others utilities.
-- Added new animal crow.
-- Added new baby zombies variant.
-- Added new can break doors variant.
-- Added new icon to the effects like bleeding, fracture and infection.
-- Added new liquid and solid impact effects.
-- Added new Sedan vehicle.
-- Added new player animation.
-- Added new bandit npc.
-- Improved all zombies textures.
-- Improved all items textures to 16x16 vanilla style.
-- Improved all wearables, and guns models.
-- Improved fog.
-- Improved guns system (in beta development).
-- Improved now crawlers have all infected skins.
-- Improved new break bone system, if you fall from 15 or up blocks, the player receive broken bone effects.
-- Improved new bleeding system, only if you receive a projectile damage you will get bleeding effects.
-- Improved new infection system, just improved mechanic lol.
-- Improved infected sounds by n_Z (DeadZone Addon).
-- Improved infected scream only when has a target.
-- Improved thirst tick system (The thirst time increases and decreases depending on whether you are standing still, walking or sprinting).
-- Fixed empty water bottle not filling in water blocks.
-- Removed trader.
-- Removed leveled wearables (like Helmet/Vest 1, 2 and 3).
-- Removed some items (I'll be added back in another versions).
-- And many other things that it would be impossible to list them all here.
+- Added bandits group spawn.
+- Added glowing eyes to infecteds.
+- Added translation to effects.
+- Added intoxication effect.
+- Added blood to bandits.
+- Added m809 Truck 6x6.
+- Fixed Sedan animations.
+- Fixed shadows in customm geometry blocks.
+- Fixed death message from entities.
+- Improved scope, banana, orange and mandarine textures.
+- Improved saw texture.
+- Improved some recipes.
+- Improved zombies gear with more rarely spawn.
+- Improved deco blocks now only cam be placed in they respective filters (up, down, side...).
+- Improved wooden barricade can bed placed in up and down blocks.
+- Improved rewrite new system for filling the water bottle & canteen.
+- Improved vehicles math animations based.
+- Removed accidentally sedan spawn.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)

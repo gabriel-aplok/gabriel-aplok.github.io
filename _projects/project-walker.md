@@ -28,17 +28,15 @@ So far, I've spent hours over about 2 years making this add-on for you! I hope y
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) __(Leader / Main-Developer)__
-- [HardSK](https://twitter.com/gabrielMODguy) **(Founder / Developer)**
-- [INISIANTENOOB](#) **(3D Artist)**
+- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **[Leader / Main-Developer]**
+- [HardSK](https://twitter.com/gabrielMODguy) **[Founder / Developer]**
 
 ## Contributions
-- HardSK [[HSK Guns](https://mcpedl.com/gun-addon/)].
-- NekoZack [[DeadZone Addon](https://mcpedl.com/deadzone-add-on/)].
-- AsN.
-- Scooter BoehMod.
-- Vic4Games.
-- Bedrock Community.
+- [HardSK](https://youtube.com/@HardSK) [HSK Guns Addon].
+- [NekoZack](https://youtube.com/@NekoZack24) [DeadZone Addon].
+- [INISIANTENOOB](https://youtube.com/@INISIANTENOOB) [3D Artist].
+- [AsN](https://youtube.com/@asN16a) [Beta Tester].
+- Bedrock Community [Useful docs].
 
 ## Our brother [DeadZone](https://mcpedl.com/deadzone-add-on/)! ❤️
 
@@ -114,15 +112,26 @@ Unique utility blocks, decorations and more coming soon!
 
 ## NPCs
 
-![Blocks](/projects/{{ page.slug }}/images/screenshot/npc_0.jpg)
+![Bandits](/projects/{{ page.slug }}/images/screenshot/npc_0.jpg)
 
 Be careful when you see a bandit, he won't think twice before shooting you!
 
 ## Vehicle
 
-![Blocks](/projects/{{ page.slug }}/images/screenshot/vehicle_0.jpg)
+![Sedan](/projects/{{ page.slug }}/images/screenshot/vehicle_0.jpg)
+![M809 Truck](/projects/{{ page.slug }}/images/screenshot/vehicle_1.jpg)
 
 You can use the vehicles with the **Car Key** item putting into the **Saddle Slot**. You can make the vehicles using some materials in the **Crafting Table**.
+
+## Armor
+
+![Armor](/projects/{{ page.slug }}/images/screenshot/armor_0.jpg)
+
+Armor is great for protecting yourself from zombie and enemy attacks.
+
+![NVG](/projects/{{ page.slug }}/images/screenshot/nvg_0.jpg)
+
+Great visual and realistic NVG.
 
 ## Structures?
 > We don't have structures for now, sorry. You can use other addons that have structures for now.
@@ -142,10 +151,12 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
 ## **<span class="text-red">Know Bugs</span>**
-- Guns don't fire full-auto in Creative Mode.
-- Scope, Night Vision and Crosshair bugged if you are riding on entities such as vehicles, etc.
+```
+- Guns don't fire full-auto in Creative Mode, use Survival Mode.
+- Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
 - Vehicles can't climb one block (idk why?).
-- When Minecraft get new update some systems breaks.
+- When Minecraft get new update SOME SYSTEMS BREAKS.
+```
 
 ## Changelog for v1.7.9
 
@@ -179,7 +190,12 @@ If you plan to showcase this add-on, **ONLY use the links I provide here** and t
 - [Behavior Pack](https://linkvertise.com/173623/project-walker-bp)
 - [Resource Pack](https://linkvertise.com/173623/project-walker-rp)
 
-If you've run out of 3 free credits, wait until tomorrow to download the add-on.
+If you've run out of 3 free credits in linkvertise, wait until tomorrow to download the add-on or use the alternative links below.
+
+## Alternative Links
+
+- [Behavior Pack](https://loot-links.com/s?fW6x)
+- [Resource Pack](https://loot-link.com/s?fgfM)
 
 ## Supported Versions
 

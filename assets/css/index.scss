@@ -38,6 +38,7 @@ body {
 	color: var(--text-color);
 	accent-color: var(--brand-color);
 	font-family: Lato, sans-serif;
+	/*font-family: 'Pixelify Sans', sans-serif;*/
 	letter-spacing: 0.4px;
 	line-height: 1.6;
 	scroll-behavior: smooth;
@@ -452,6 +453,10 @@ details {
 .circle {
 	aspect-ratio: 1;
 	border-radius: 50%;
+}
+
+.mc {
+	font-family: Minecraft, sans-serif;
 }
 
 .clear-deco {

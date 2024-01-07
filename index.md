@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: See all my Minecraft creations, my games, my apps and everything!
+description: I'm a full-stack developer and in my spare time I make websites, apps, games and Minecraft mods since 2018.
 discord_preview: true
 ---
 

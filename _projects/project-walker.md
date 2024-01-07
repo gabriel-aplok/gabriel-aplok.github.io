@@ -195,7 +195,7 @@ If you've run out of 3 free credits in linkvertise, wait until tomorrow to downl
 ## Alternative Links
 
 - [Behavior Pack](https://loot-links.com/s?fW6x)
-- [Resource Pack](https://loot-link.com/s?fgfM)
+- [Resource Pack](https://loot-link.com/s?fW6z)
 
 ## Supported Versions
 

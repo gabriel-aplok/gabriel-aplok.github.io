@@ -14,7 +14,7 @@
 	--text-footer-color: #F5F5F5;
 	--table-color: #909090;
 	--heading-color: #202020;
-	--brand-color: #C62828; /* #4580A5 */
+	--brand-color: #C62828;
 	--green-color: #00AA00;
 	--red-color: #AA0000;
 }
@@ -481,6 +481,77 @@ details {
 
 .bg-red {
 	background-color: var(--red-color);
+}
+
+
+.cookie-consent {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	position: fixed;
+	text-align: center;
+	display: none;
+	border-top: 5px solid var(--brand-color);
+	padding: 6px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999999;
+}
+
+.projects {
+	text-align: center;
+	padding-bottom: 50px;
+
+	h1 {
+		margin-bottom: 40px;
+	}
+
+	.project {
+		margin: 12px;
+
+		img {
+			margin: 20px 0 20px 0;
+		}
+
+		h2 {
+			color: var(--text-color);
+			font-weight: normal;
+			font-size: 18px;
+			margin-top: 0;
+		}
+	}
+}
+
+.blog {
+	text-align: center;
+	padding-bottom: 50px;
+
+	h1 {
+		margin-bottom: 40px;
+	}
+
+	.post {
+		margin: 12px;
+
+		img {
+			margin: 20px 0 20px 0;
+		}
+
+		h3 {
+			color: var(--text-color);
+			font-weight: normal;
+			font-size: 18px;
+			margin-top: 0;
+		}
+	}
+}
+
+.about {
+	text-align: center;
+
+	h1 {
+		margin: 30px auto 30px auto;
+	}
 }
 
 #comments {

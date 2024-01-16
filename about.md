@@ -7,7 +7,7 @@ header: 3
 <div class="about">
 	<center>
 		<div>
-			<img style="width: 40%; border-radius: 100%; user-select: none; webkit-user-select: none;" src="{{ '/assets/images/me.jpg' | absolute_url }}" alt="Gabriel Lima Photo">
+			<img style="width: 40%; border-radius: 100%; user-select: none; webkit-user-select: none;" src="{{ '/assets/images/profile.png' | absolute_url }}" alt="Gabriel Lima Photo">
 			<br>
 			<br>
 			<h4>Gabriel Lima</h4>

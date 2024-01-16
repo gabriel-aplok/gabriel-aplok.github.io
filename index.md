@@ -1,67 +1,38 @@
 ---
 layout: default
 title: Home
-description: I'm a full-stack developer and in my spare time I make websites, apps, games and Minecraft mods since 2018.
-discord_preview: true
+description: Full-Stack Developer | Pixel Artist | Minecraft Bedrock Addon Developer.
+nav_order: 1
+hero: true
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-
-<div class="home">
-	<a href="{{ 'projects.html' | absolute_url }}" class="clear-deco"><h1>Recent Projects</h1></a>
-	<div class="swiper">
-		<div class="swiper-wrapper">
-			{% assign projects = site.projects | sort: 'updated' %}
-			{% for project in projects reversed %}
-			{% if project.status == 'public' and project.banner %}
-			<div class="swiper-slide" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
-				<img src="{{ project.banner | absolute_url }}" alt="{{ project.title }}">
-				<span class="tag" style="position: fixed; bottom: 10px; left: 0;">{{ project.title }}</span>
-				{% if project.new %}
-				<span class="tag bg-red" style="position: fixed; top: 0; left: 0;">NEW</span>
-				{% endif %}
-			</div>
-			{% endif %}
-			{% endfor %}
-		</div>
-		<div class="swiper-scrollbar" style="margin-bottom: 8px;"></div>
+<!-- Projects -->
+<section id="projects" class="project-container container">
+	<div class="division"></div>
+	<div class="content-text">
+		<a href="{{ 'projects.html' | absolute_url }}"><h2>Projects</h2></a>
+		<p>Check out some of my personal and professional projects</p>
 	</div>
-
-	<a href="{{ 'blog.html' | absolute_url }}" class="clear-deco"><h1>Recent Posts</h1></a>
-	<div class="blog">
-		{% assign posts = site.blog | sort: 'date' %}
-		{% for post in posts limit:10 %}
-		{% if post.status == 'public' %}
-		<div class="post" onclick="window.location = '{{ site.baseurl }} {{ post.url }}';">
-			{% if post.banner %}
-			<img src="{{ post.banner | absolute_url }}" alt="{{ post.title }}">
-			{% endif %}
-			<h3>{{ post.title }}</h3>
-			<hr>
-		</div>
+	<article class="project">
+		{% assign projects = site.projects | sort: 'updated' %}
+		{% for project in projects reversed %}
+		{% if project.status == 'public' %}
+		<!-- Project: {{ project.title }} -->
+		<a class="card" style="background-image: url('{{ project.banner | absolute_url }}'); background-position: center; background-repeat: no-repeat; background-size: cover;" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
+			<div class="project-info">
+				<div class="project-bio">
+					<h3>{{ project.title }}</h3>
+					<p>{{ project.stack }}</p>
+				</div>
+				<div class="project-link">
+					{% if project.new %}
+					<p>🔥</p>
+					{% endif %}
+				</div>
+			</div>
+		</a>
 		{% endif %}
 		{% endfor %}
-	</div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-<script>
-var swiper = new Swiper(".swiper", {
-	spaceBetween: 10,
-	loop: true,
-	autoplay: {
-		delay: 2000,
-		disableOnInteraction: true
-	},
-	scrollbar: {
-		el: ".swiper-scrollbar",
-		hide: false
-	},
-	breakpoints: {
-		640: {
-			slidesPerView: 2,
-			centeredSlides: true
-		}
-	}
-});
-</script>
+	</article>
+	<a href="https://github.com/gabriel-aplok?tab=repositories" class="button button-secondary" target="_blank">View More On GitHub <i class="fas fa-arrow-right"></i></a>
+</section>

@@ -5,92 +5,96 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
 <head>
 	{% if page.layout == "project" or page.layout == "blog" %}
-	{% include seo_post.html %}
+	{% include head_post.html %}
 	{% else %}
-	{% include seo_default.html %}
+	{% include head_default.html %}
 	{% endif %}
 
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
 </head>
 <body>
+	<!-- Google Tag Manager -->
 	{% include google_analytics.html %}
-	<div class="header-container">
-		<div class="header" id="header">
-			<a href="/index.html" class="logo">Gabriel Aplok</a>
-			{% assign pages = site.pages | sort: 'header' %}
-			{% for page_ in pages %}
-				{% if page_.header and page_.header > 0 %}
-					{% if page_.url == page.url %}
-						<a href="{{ page_.url | absolute_url }}" class="active">{{ page_.title }}</a></li>
-					{% else %}
-						<a href="{{ page_.url | absolute_url }}">{{ page_.title }}</a></li>
-					{% endif %}
-				{% endif %}
-			{% endfor %}
-			<a href="javascript:void(0);" class="menu" onclick="headerMenu()">
-				<i class="fa fa-bars"></i>
-			</a>
-		</div>
-	</div>
-	<div class="content">
-		{{ content }}
-
-		{% if page.discord_preview %}
-		<div  style="text-align: center;">
-			<h1>Join community</h1>
-			<p>Chat with me, with everyone and see memes lol!👋</p>
-			<a href="{{ site.discord }}" target="_blank">
-				<img src="https://discordapp.com/api/guilds/857299210529407068/widget.png?style=banner2">
-			</a>
-		</div>
+	<!-- Header -->
+	<header id="hero">
+		<!-- Navbar -->
+		<nav class="navbar">
+			<div class="container">
+				<!-- Logo -->
+				<a id="logo" href="{{ site.url | absolute_url }}">
+					<img src="{{ '/assets/img/logo.png' | absolute_url }}" alt="FireWave Interactive">
+				</a>
+				<!-- Navbar Links -->
+				<ul class="nav-menu">
+					{% assign pages = site.pages | sort: 'nav_order' %}
+					{% for pageIndex in pages %}
+						{% if pageIndex.nav_order and pageIndex.nav_order > 0 %}
+							{% if pageIndex.url == page.url %}
+								<li><a class="nav-link active" href="{{ pageIndex.url | absolute_url }}">{{ pageIndex.title }}</a></li>
+							{% else %}
+								<li><a class="nav-link" href="{{ pageIndex.url | absolute_url }}">{{ pageIndex.title }}</a></li>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+					<br>
+					<div class="theme-switch-wrapper">
+						<label class="theme-switch" for="checkbox">
+							<input type="checkbox" id="checkbox" />
+							<div class="slider round"></div>
+						</label>
+						<p> Enable Dark Mode <em>(Beta)</em></p>
+					</div>
+				</ul>
+				<!-- Hamburger Menu -->
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</div>
+		</nav>
+		{% if page.hero == true %}
+		<section class="header-container">
+			<img class="profile-image" src="{{ '/assets/img/profile.png' | absolute_url }}" alt="Gabriel Aplok">
+			<h1>Hello, I'm <span class="primary">Gabriel</span></h1>
+			<div class="content-text">
+				<h2>Full-Stack Developer</h2>
+				<p>My name is <span class="primary">Gabriel Lima</span> and I'm a full-stack developer and minecraft bedrock addon developer or just someone who likes to tinker with technology, wishing to create fun, memorable, and quality experiences!</p>
+			</div>
+			<a href="#projects" class="button button-secondary">VIEW MY PROJECTS</a>
+		</section>
 		{% endif %}
-	</div>
-	<footer class="footer">
-		<div class="social">
-			<a href="{{ site.x }}" target="_blank">
-				<i class="fa-brands fa-x-twitter fa-2x"></i>
+	</header>
+	<!-- Main Content -->
+	<main class="main">
+		{{ content }}
+	</main>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container">
+			<!-- Social links -->
+			<div class="social">
+				<a href="https://linkedin.com/in/gabrielaplok" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+				<a href="https://github.com/gabriel-aplok/" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+				<a href="https://x.com/GabrielAplok" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+				<a href="https://instagram.com/gabriel__yeah" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+				<a href="https://youtube.com/GabrielAplok" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a>
+				<a href="https://discord.gg/PppEgBdss4" target="_blank"><i class="fa-brands fa-discord fa-2x"></i></a>
+			</div>
+			<br>
+			<!-- Copyright -->
+			<p>&copy; 2018-<span class="date-y">2024</span> GABRIEL APLOK. ALL RIGHTS RESERVED.</p>
+			<br>
+			<em style="font-size: 0.5rem;">ALL COPYRIGHTS AND TRADEMARKS ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS.</em>
+			<br>
+			<!-- Attribution -->
+			<a href="//www.dmca.com/Protection/Status.aspx?ID=fbe00151-063d-40fb-bcaf-712f3410f309" title="DMCA.com Protection Status" class="dmca-badge">
+				<img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309"  alt="DMCA.com Protection Status"/>
 			</a>
-			<a href="{{ site.youtube }}" target="_blank">
-				<i class="fa-brands fa-youtube fa-2x"></i>
-			</a>
-			<a href="{{ site.instagram }}" target="_blank">
-				<i class="fa-brands fa-instagram fa-2x"></i>
-			</a>
-			<a href="{{ site.discord }}" target="_blank">
-				<i class="fa-brands fa-discord fa-2x"></i>
-			</a>
-			<a href="{{ site.github }}" target="_blank">
-				<i class="fa-brands fa-github fa-2x"></i>
-			</a>
+			<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
 		</div>
-
-		<p>&copy; 2018-{{ "now" | date: "%Y" }} <strong>Gabriel Aplok</strong>. All rights reserved.</p>
-
-		<small>All copyrights and trademarks are the property of their respective owners.</small>
-
-		<div class="links">
-			<a href="{{ '/privacy.html' | absolute_url }}">Privacy</a>
-			<span > | </span>
-			<a href="{{ '/sponsor.html' | absolute_url }}">Sponsor My Work</a>
-			<span> | </span>
-			<a href="{{ '/gallery.html' | absolute_url }}">Gallery</a>
-		</div>
-
-		<a href="//www.dmca.com/Protection/Status.aspx?ID=fbe00151-063d-40fb-bcaf-712f3410f309" title="DMCA.com Protection Status" class="dmca-badge">
-			<img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309"  alt="DMCA.com Protection Status"/>
-		</a>
-
-		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
 	</footer>
-	{% if page.url != "/privacy.html" %}
-	<div class="cookie-consent">
-		<h2>Cookie Consent</h2>
-		<p>
-			Some cookies collect data only to remember your user's website preferences. In the case of analytics or marketing cookies, we always collect as little data as possible to ensure we keep our marketing well targeted - which usually results in you not being spammed by any of our ads. We also never analyze data about you, in particular, everything at FireWave is analyzed in aggregate. <a href="/privacy.html">Learn more</a>
-		</p>
-		<button class="button cookie-consent-button" style="width: 95%;">CONTINUE</button>
-	</div>
-	{% endif %}
+	<!-- Scripts -->
 	<script src="{{ '/assets/js/index.js' | absolute_url }}"></script>
 </body>
 </html>

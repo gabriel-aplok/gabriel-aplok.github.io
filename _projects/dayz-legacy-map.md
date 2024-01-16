@@ -3,8 +3,8 @@ layout: project
 status: public
 slug: dayz-map
 title: DayZ Legacy Map
-banner: /assets/images/projects/dayz-legacy-map/banner.png
-icon: /assets/images/projects/dayz-legacy-map/icon.png
+banner: /projects/dayz-legacy-map/banner.png
+icon: /projects/dayz-legacy-map/icon.png
 description: Ported DayZ for Bedrock.
 tags: [dayz-map, minecraft, map]
 date: 2023-07-03

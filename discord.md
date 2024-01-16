@@ -2,7 +2,6 @@
 layout: default
 title: Join the community
 description: See news and updates every day on my discord server.
-discord_preview: true
 ---
 
 <noscript>

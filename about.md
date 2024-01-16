@@ -1,13 +1,13 @@
 ---
 layout: default
-title: About
-header: 3
+title: About Me
+nav_order: 3
 ---
 
 <div class="about">
 	<center>
 		<div>
-			<img style="width: 40%; border-radius: 100%; user-select: none; webkit-user-select: none;" src="{{ '/assets/images/profile.png' | absolute_url }}" alt="Gabriel Lima Photo">
+			<img style="width: 40%; border-radius: 100%; user-select: none; webkit-user-select: none;" src="{{ '/assets/img/profile.png' | absolute_url }}" alt="Gabriel Lima Photo">
 			<br>
 			<br>
 			<h4>Gabriel Lima</h4>
@@ -64,8 +64,9 @@ header: 3
 
 	<h1>Web - Experimental</h1>
 	<p>
-		I love making static websites for their simplicity and lightness, isn't that right? I have pretty good taste in web design (not valid with this current one lol, this is simple and vintage) with both CSS and SCSS.
+		I love making static websites for their simplicity and lightness, isn't that right? I have pretty good taste in web design with both CSS and SCSS. Sometimes I use frameworks, but I'm not a big fan of this for my personal projects, I hate use a lot of unnecessary features & memory, so I love doing everything from scratch!
 	</p>
+	<br>
 	<p>
 		All sites related to me or my company have been designated by me such as: <a href="https://firewave-interactive.github.io">FireWave Interactive Website</a> and <a href="https://kolpa-engine.github.io">Kolpa Engine Website</a>.
 	</p>

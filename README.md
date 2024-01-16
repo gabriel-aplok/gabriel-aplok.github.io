@@ -1,4 +1,4 @@
-# gabriel-aplok.github.io
+# gabriel-aplok.com
 
 ## Description
 
@@ -6,7 +6,7 @@ This is the official Gabriel Aplok's website.
 
 ## Website location:
 
-[https://gabriel-aplok.github.io](https://gabriel-aplok.github.io)
+[https://gabriel-aplok.com](https://gabriel-aplok.com)
 
 You can find more info about Gabriel Aplok here.
 
@@ -33,4 +33,4 @@ Alternative website location hosted on Netlify. Why not?
 
 ### README latest update
 
-Date : 02-07-2023 dd-mm-yyyy
+Date : 16-01-2024 dd-mm-yyyy

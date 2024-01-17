@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Home
-description: Full-Stack Developer | Pixel Artist | Minecraft Bedrock Addon Developer.
-nav_order: 1
-hero: true
+title: Projects
+description: Check out some of my personal and professional projects
+nav_order: 2
 ---
 
 <!-- Projects -->
 <section id="projects" class="project-container container">
-	<div class="division"></div>
 	<div class="content-text">
 		<a href="{{ 'projects.html' | absolute_url }}"><h2>Projects</h2></a>
 		<p>Check out some of my personal and professional projects</p>
@@ -34,5 +32,4 @@ hero: true
 		{% endif %}
 		{% endfor %}
 	</article>
-	<a href="{{ 'projects.html' | absolute_link }}" class="button button-secondary" target="_blank">View More <i class="fas fa-arrow-right"></i></a>
 </section>

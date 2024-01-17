@@ -11,7 +11,7 @@ So, this is my first website, nice ;)
 
 It's created with [Jekyll](https://jekyllrb.com/), hosted on Github
 [(everyone can look at the source code of this site)](https://github.com/gabriel-aplok/gabriel-aplok.github.io)
-And I made my own Midnight theme, based on [Midnight from Github pages](https://github.com/pages-themes/midnight).
+And I made my own css theme, based on [FireWave Interactive Website](https://firewave-interactive.github.io/).
 
 I made it because I wanted a place where I could publish what I think
 and what I do. My first idea was using [Wordpress](https://wordpress.com/), but after 5 minutes

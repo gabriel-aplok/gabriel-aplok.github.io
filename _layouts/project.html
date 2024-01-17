@@ -3,14 +3,14 @@ layout: default
 ---
 
 <p style="text-transform: uppercase;">
-	<span class="tag"> Home / Projects / </span><u>{{ page.title }}</u>
+	Home / Projects / <u>{{ page.title }}</u>
 </p>
 
 {% if page.status == 'public' %}
 	<h1>{{ page.title }} {% if page.new %}<span class="tag bg-red" style="font-size: 0.75em;">NEW</span>{% endif %}</h1>
-	<p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="link">{{ page.author | default: site.author.name }}</span></p>
+	<p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="primary">{{ page.author | default: site.author.name }}</span></p>
 	{% if page.updated %}
-	<p>Updated: <span class="link">{{ page.updated | date: '%B %d, %Y'}}</span></p>
+	<p>Updated: <span class="primary">{{ page.updated | date: '%B %d, %Y'}}</span></p>
 	{% endif %}
 
 	{% if page.banner %}
@@ -32,20 +32,6 @@ layout: default
 	{% include comments.html issue_id=page.comments_id %}
 	<br>
 	{% endif %}
-
-	<h1>More Projects</h1>
-	<div class="projects">
-		{% assign projects = site.projects | sort: 'title' %}
-		{% for project in projects limit:5 %}
-		{% if project.status == 'public' and project.url != page.url %}
-		<div class="project" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
-			<img src="{{ project.banner | absolute_url }}" alt="{{ project.title }}">
-			<h2>{{ project.title }}</h2>
-			<hr>
-		</div>
-		{% endif %}
-		{% endfor %}
-	</div>
 {% else %}
 	<h1>NOT FOUND</h1>
 	<p>The project you followed is not public, sorry. Please contact-me (via footer social media) or try again later.</p>

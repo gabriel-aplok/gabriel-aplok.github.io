@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Join the community
+title: Join our Discord
 description: See news and updates every day on my discord server.
+nav_order: 5
 ---
 
 <noscript>

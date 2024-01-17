@@ -36,3 +36,31 @@ hero: true
 	</article>
 	<a href="{{ 'projects.html' | absolute_link }}" class="button button-secondary" target="_blank">View More <i class="fas fa-arrow-right"></i></a>
 </section>
+
+<!-- Contact
+<section id="contact" class="container">
+	<div class="division"></div>
+	<div class="content-text">
+		<h2>Contact</h2>
+		<p>Fill out this quick form and contact us today! Please note that you will get responses faster if you contact us via Discord.</p>
+	</div>
+	<form class="form__group field">
+		<label class="form__label" for="name">Your Name</label>
+		<input class="form__field" type="text" id="name" name="name" required>
+
+		<label class="form__label" for="email">Your Email</label>
+		<input class="form__field" type="email" id="email" name="email" required>
+
+		<label class="form__label" for="reason">Reason for Contact</label>
+		<select class="form__field" id="reason" name="reason" required>
+			<option value="general">General Question</option>
+			<option value="content">Content Question</option>
+		</select>
+
+		<label class="form__label" for="discord">Your Discord Username</label>
+		<input class="form__field" type="text" id="discord" name="discord" required>
+
+		<a href="{{ 'index.html' | absolute_link }}" class="button button-secondary" target="_blank">Submit <i class="fas fa-arrow-right"></i></a>
+	</form>
+</section>
+-->

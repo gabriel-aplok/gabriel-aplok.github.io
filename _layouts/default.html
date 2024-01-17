@@ -10,6 +10,7 @@
 	{% include head_default.html %}
 	{% endif %}
 
+	<meta name="google-adsense-account" content="ca-pub-1388434276906165">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -55,7 +56,7 @@
 		</nav>
 		{% if page.hero == true %}
 		<section class="header-container">
-			<img class="profile-image" src="{{ '/assets/img/profile.png' | absolute_url }}" alt="Gabriel Aplok">
+			<img class="profile-image" src="{{ 'https://avatars.githubusercontent.com/u/97059054?v=4' | absolute_url }}" alt="Gabriel Aplok">
 			<h1>Hello, I'm <span class="primary">Gabriel</span></h1>
 			<div class="content-text">
 				<h2>Full-Stack Developer</h2>
@@ -81,16 +82,18 @@
 				<a href="https://youtube.com/GabrielAplok" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a>
 				<a href="https://discord.gg/PppEgBdss4" target="_blank"><i class="fa-brands fa-discord fa-2x"></i></a>
 			</div>
-			<br>
 			<!-- Copyright -->
 			<p>&copy; 2018-<span class="date-y">2024</span> GABRIEL APLOK. ALL RIGHTS RESERVED.</p>
-			<br>
 			<em style="font-size: 0.5rem;">ALL COPYRIGHTS AND TRADEMARKS ARE THE PROPERTY OF THEIR RESPECTIVE OWNERS.</em>
 			<br>
+			<!-- Links -->
+			<div class="links">
+				<a href="{{ '/privacy.html' | absolute_url }}">Privacy Policy</a>
+				<span > | </span>
+				<a href="{{ '/sponsor.html' | absolute_url }}">Sponsor My Work</a>
+			</div>
 			<!-- Attribution -->
-			<a href="//www.dmca.com/Protection/Status.aspx?ID=fbe00151-063d-40fb-bcaf-712f3410f309" title="DMCA.com Protection Status" class="dmca-badge">
-				<img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309"	alt="DMCA.com Protection Status"/>
-			</a>
+			<img class="dmca-badge" src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309" alt="DMCA.com Protection Status"/>
 			<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
 		</div>
 	</footer>

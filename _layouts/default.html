@@ -13,7 +13,7 @@
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
 </head>
 <body>
-	<!-- Google Tag Manager -->
+	<!-- Google tag (gtag.js) -->
 	{% include google_analytics.html %}
 	<!-- Header -->
 	<header id="hero">
@@ -89,12 +89,29 @@
 			<br>
 			<!-- Attribution -->
 			<a href="//www.dmca.com/Protection/Status.aspx?ID=fbe00151-063d-40fb-bcaf-712f3410f309" title="DMCA.com Protection Status" class="dmca-badge">
-				<img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309"  alt="DMCA.com Protection Status"/>
+				<img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309"	alt="DMCA.com Protection Status"/>
 			</a>
 			<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
 		</div>
 	</footer>
 	<!-- Scripts -->
+	<script type="module">
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+		import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+
+		const firebaseConfig = {
+			apiKey: "AIzaSyCkjLnWOgkjMqfZcedbCo_8dj7F5nEIPCM",
+			authDomain: "gabriel-aplok-46172.firebaseapp.com",
+			projectId: "gabriel-aplok-46172",
+			storageBucket: "gabriel-aplok-46172.appspot.com",
+			messagingSenderId: "1052791408123",
+			appId: "1:1052791408123:web:76d2717044c7483bb4b75e",
+			measurementId: "G-FJD9RTYZP5"
+		};
+
+		const app = initializeApp(firebaseConfig);
+		const analytics = getAnalytics(app);
+	</script>
 	<script src="{{ '/assets/js/index.js' | absolute_url }}"></script>
 </body>
 </html>

@@ -1,7 +1,3 @@
----
-layout: js_minifier
----
-
 c2a1286e0b3e40cc951eaa1628b855e3 = () => {
 	const hamburger = document.querySelector(".hamburger");
 	const navMenu = document.querySelector(".nav-menu");

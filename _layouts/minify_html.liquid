@@ -1,0 +1,97 @@
+{%- assign intactTags = "script pre svg textarea" | split: " " -%}
+{%- assign spaceTags = "p" | split: " " -%}
+
+{%- assign workTags = intactTags | concat: spaceTags -%}
+{%- assign new_comment_tag = "2e57la4G82XMQr9K" -%}
+{%- assign content = content | replace: "<!--", new_comment_tag | replace: "-->", new_comment_tag -%}
+{%- assign contentArray = content | split: new_comment_tag -%}
+{%- assign content = "" -%}
+{%- for part in contentArray -%}
+	{%- assign mod = forloop.index | modulo: 2 -%}
+	{%- if mod != 0 -%}
+		{%- assign content = content | append: part -%}
+	{%- endif -%}
+{%- endfor -%}
+
+{%- for tag in workTags -%}
+	{%- assign what = "<" | append: tag -%}
+	{%- assign how = what | prepend: "
+"-%}
+	{%- assign content = content | replace: what, how -%}
+	{%- assign what = "</" | append: tag | append: ">" -%}
+	{%- assign how = what | append: "
+"-%}
+	{%- assign content = content | replace: what, how -%}
+{%- endfor -%}
+
+{%- assign contentArray = content | split: "
+" -%}
+{%- assign content = "" -%}
+{%- assign currentTag = "~" -%}
+{%- assign currentTagIndex = -1 -%}
+{%- for part in contentArray -%}
+	{%- if currentTag == "~" -%}
+		{%- for tag in workTags -%}
+			{%- assign what = "<" | append: tag | append: " " -%}
+			{%- assign aux1 = part | remove: what | size -%}
+			{%- assign what = "<" | append: tag | append: ">" -%}
+			{%- assign aux2 = part | remove: what | size -%}
+			{%- if aux1 != part.size or aux2 != part.size -%}
+				{%- assign currentTag = tag -%}
+				{%- assign currentTagIndex = forloop.index -%}
+				{%- assign what = "</" | append: currentTag | append: ">" -%}
+				{%- assign aux = part | remove: what | size -%}
+				{%- if aux != part.size -%}
+					{%- assign currentTag = "~" -%}
+					{%- assign currentTagIndex = -1 -%}
+				{%- endif -%}
+				{%- break -%}
+			{%- endif -%}
+		{%- endfor -%}
+		{%- if currentTag == "~" -%}
+			{%- assign aux = part | strip | replace: "/>", ">" -%}
+			{%- assign aux_size = aux.size -%}
+			{%- for i in (1 .. 100) -%}
+				{%- assign aux = aux | replace: " >", ">" -%}
+				{%- if aux_size == aux.size -%}
+					{%- break -%}
+				{%- endif -%}
+			{%- endfor -%}
+			{%- assign content = content | append: aux -%}
+		{%- else -%}
+			{%- if currentTagIndex < intactTags.size -%}
+				{%- assign aux = part | lstrip | append: "
+"-%}
+				{%- assign content = content | append: aux -%}
+			{%- else -%}
+				{%- assign aux = part | lstrip | append: " " -%}
+				{%- assign content = content | append: aux -%}
+			{%- endif -%}
+		{%- endif -%}
+	{%- else -%}
+		{%- assign what = "</" | append: currentTag | append: ">" -%}
+		{%- assign aux = part | remove: what | size -%}
+		{%- if aux != part.size -%}
+			{%- assign currentTag = "~" -%}
+		{%- endif -%}
+		{%- if currentTag == "~" -%}
+			{%- if currentTagIndex < intactTags.size -%}
+				{%- assign aux = part | rstrip -%}
+				{%- assign content = content | append: aux -%}
+			{%- else -%}
+				{%- assign aux = part | strip -%}
+				{%- assign content = content | append: aux -%}
+			{%- endif -%}
+		{%- else -%}
+			{%- if currentTagIndex < intactTags.size -%}
+				{%- assign aux = part | append: "
+" -%}
+				{%- assign content = content | append: aux -%}
+			{%- else -%}
+				{%- assign aux = part | strip | append: " " -%}
+				{%- assign content = content | append: aux -%}
+			{%- endif -%}
+		{%- endif -%}
+	{%- endif -%}
+{%- endfor -%}
+{{ content }}

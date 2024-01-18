@@ -27,13 +27,7 @@ author:
   url: https://gabriel-aplok.github.io
 
 plugins:
-  - jekyll-minifier
   - jekyll-sitemap
-
-jekyll-minifier:
-  exclude: atom.xml
-  uglifier_args:
-    harmony: true
     
 collections:
   blog:

@@ -10,7 +10,6 @@ on:
         description: "The minimum runs to keep for each workflow."
         required: true
         default: 6
-
 jobs:
   del_runs:
     runs-on: ubuntu-latest

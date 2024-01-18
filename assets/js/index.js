@@ -44,10 +44,33 @@ f3dcf5c99cbf47b2a5b29416d3f184fe = () => {
 			localStorage.setItem('theme', 'light');
 		}
 	}
-	
+
 	toggleSwitch.addEventListener('change', switchTheme, false);
+};
+
+f9107e43c7d0479fa44588c8b4915eda = () => {
+	document.addEventListener('DOMContentLoaded', function () {
+		const cookieConsent = document.querySelector(".cookie-consent");
+		const cookieConsentAccept = document.querySelector(".cookie-consent-accept");
+	
+		if (localStorage.getItem("cookie-consent")) {
+			cookieConsent.style.display = "none";
+		} else {
+			cookieConsent.style.display = "block";
+		}
+	
+		cookieConsent.onclick = (event) => {
+			event.preventDefault();
+		};
+	
+		cookieConsentAccept.onclick = (event) => {
+			localStorage.setItem("cookie-consent", true);
+			cookieConsent.style.display = "none";
+		};
+	});
 };
 
 c2a1286e0b3e40cc951eaa1628b855e3();
 cecf6b784ae54e0ab07b6441b4f8b304();
 f3dcf5c99cbf47b2a5b29416d3f184fe();
+f9107e43c7d0479fa44588c8b4915eda();

@@ -15,8 +15,16 @@ layout: minify_html
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
 </head>
 <body>
-	<!-- Google tag (gtag.js) -->
+	<!-- Google Tag (gtag.js) -->
 	{% include google_analytics.html %}
+	<!-- Cookie Consent -->
+	{% if page.url != "/privacy.html" %}
+	<div class="cookie-consent">
+		<h3>Hey! Do you like cookies?</h3>
+		<p>Some of our cookies collect data only to remember your user's website preferences. In the case of analytics or marketing cookies, we always collect as little data as possible to ensure we keep our marketing well targeted - which usually results in you not being spammed by any of our ads. We also never analyze data about you, in particular, everything at <strong>FireWave Interactive</strong> is analyzed in aggregate. <a href="/privacy.html" title="Privacy Policy">Read more</a></p>
+		<p class="button button-secondary cookie-consent-accept" style="width: 95%;">Accept <i class="fas fa-arrow-right"></i></p>
+	</div>
+	{% endif %}
 	<!-- Header -->
 	<header id="hero">
 		<!-- Navbar -->

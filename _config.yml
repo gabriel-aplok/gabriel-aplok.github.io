@@ -17,6 +17,9 @@ github: https://github.com/gabriel-aplok/
 itchio: https://gabriel-aplok.itch.io/
 discord: https://discord.gg/PppEgBdss4
 
+sass:
+  style: :compressed
+
 markdown: kramdown
 kramdown:
   input: GFM

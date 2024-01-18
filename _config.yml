@@ -17,6 +17,10 @@ github: https://github.com/gabriel-aplok/
 itchio: https://gabriel-aplok.itch.io/
 discord: https://discord.gg/PppEgBdss4
 
+markdown: kramdown
+kramdown:
+  input: GFM
+
 author:
   name: Gabriel Aplok
   email: gabrielaplok.contact@gmail.com

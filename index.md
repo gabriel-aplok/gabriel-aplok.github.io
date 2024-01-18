@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Home
-description: Full-Stack Developer | Pixel Artist | Minecraft Bedrock Addon Developer.
+description: Full-Stack Developer | Game Developer | Minecraft Bedrock Addon Developer.
 nav_order: 1
 hero: true
 ---
 
 <!-- Projects -->
 <section id="projects" class="project-container container">
-	<div class="division"></div>
+	<hr>
 	<div class="content-text">
 		<a href="{{ 'projects.html' | absolute_url }}"><h2>Projects</h2></a>
 		<p>Check out some of my personal and professional projects</p>
@@ -26,7 +26,7 @@ hero: true
 				</div>
 				<div class="project-link">
 					{% if project.new %}
-					<p>🔥</p>
+					<span class="tag bg-red">NEW</span>
 					{% endif %}
 				</div>
 			</div>
@@ -39,7 +39,7 @@ hero: true
 
 <!-- Contact
 <section id="contact" class="container">
-	<div class="division"></div>
+	<hr>
 	<div class="content-text">
 		<h2>Contact</h2>
 		<p>Fill out this quick form and contact us today! Please note that you will get responses faster if you contact us via Discord.</p>

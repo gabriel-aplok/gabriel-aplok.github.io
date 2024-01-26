@@ -159,6 +159,7 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
+- Added variant animations to walkers.
 - Added now you can clear dirty rag with water.
 - Added water pump back.
 - Added tomato food.
@@ -174,6 +175,8 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Added deer hide to make leather.
 - Added raw/cooked vanision.
 - Added new gasmask.
+- Fixed looping sounds in the deer.
+- Fixed running animation in the crosshair.
 - Fixed vehicle container rendering bug.
 - Fixed lamp not lighting bug.
 - Fixed some language issues.

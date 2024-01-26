@@ -2,13 +2,13 @@
 layout: project
 status: public
 slug: project-walker
-title: Project Walker Addon | v1.7.9
+title: Project Walker Addon | v1.8.0
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-01-06
+updated: 2024-01-25
 new: true
 comments_id: 2
 ---
@@ -38,16 +38,12 @@ So far, I've spent hours over about 2 years making this add-on for you! I hope y
 - [AsN](https://youtube.com/@asN16a) [Beta Tester].
 - Bedrock Community [Useful docs].
 
-## Our brother [DeadZone](https://mcpedl.com/deadzone-add-on/)! ❤️
-
-![N_z Disclaimer](/projects/{{ page.slug }}/images/screenshot/nz_dz_disclaimer.png)
-
 ## Features
 
 - 🎲 Minecraft vanilla stylized.
 - 🔈 Satisfying sound effects.
 - 👀 Smooth animations.
-- ⚡ Beautiful and Optimized effects such as muzzle flashes, blood, explosions, lights, bullets solid and water impacts etc.
+- ⚡ Beautiful and optimized effects such as muzzle flashes, blood, explosions, lights, bullets solid and water impacts etc.
 - 💥 Innovative features, with systems never seen before in Bedrock.
 - 👍 Survival-friendly.
 - 🔊 Reverb and distant for guns, bullets and explosives effects.
@@ -158,44 +154,52 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - When Minecraft get new update SOME SYSTEMS BREAKS.
 ```
 
-## Changelog for v1.7.9
+## Changelog for v1.8.0
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added bandits group spawn.
-- Added glowing eyes to infecteds.
-- Added translation to effects.
-- Added intoxication effect.
-- Added blood to bandits.
-- Added m809 Truck 6x6.
-- Fixed Sedan animations.
-- Fixed shadows in customm geometry blocks.
-- Fixed death message from entities.
-- Improved scope, banana, orange and mandarine textures.
-- Improved saw texture.
-- Improved some recipes.
-- Improved zombies gear with more rarely spawn.
-- Improved deco blocks now only cam be placed in they respective filters (up, down, side...).
-- Improved wooden barricade can bed placed in up and down blocks.
-- Improved rewrite new system for filling the water bottle & canteen.
-- Improved vehicles math animations based.
-- Removed accidentally sedan spawn.
+- Added now you can clear dirty rag with water.
+- Added water pump back.
+- Added tomato food.
+- Added MRE food by N_z (DeadZone Addon Owner).
+- Added sausage food.
+- Added energy drink (you get speed for a few seconds).
+- Added Sawed-off Shotgun.
+- Added 4 new structures.
+- Added Deer animal.
+- Added steel bat.
+- Added diamond bat.
+- Added netherite bat.
+- Added deer hide to make leather.
+- Added raw/cooked vanision.
+- Added new gasmask.
+- Fixed vehicle container rendering bug.
+- Fixed lamp not lighting bug.
+- Fixed some language issues.
+- Fixed importing issues.
+- Fixed explosion missing textures.
+- Improved M4 w/Carry Handler.
+- Improved M16 w/Carry Handler.
+- Improved health system.
+- Improved 12gauge spread.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
 
+**(I can request a DMCA to take down your content.)**
+
 ## Download Links
 
-- [Behavior Pack](https://linkvertise.com/173623/project-walker-bp)
-- [Resource Pack](https://linkvertise.com/173623/project-walker-rp)
+- [Behavior Pack [Linkvertise]](https://linkvertise.com/173623/project-walker-bp)
+- [Resource Pack [Linkvertise]](https://linkvertise.com/173623/project-walker-rp)
 
 If you've run out of 3 free credits in linkvertise, wait until tomorrow to download the add-on or use the alternative links below.
 
 ## Alternative Links
 
-- [Behavior Pack](https://loot-links.com/s?fW6x)
-- [Resource Pack](https://loot-link.com/s?fW6z)
+- [Behavior Pack [LootLabs]](https://loot-links.com/s?fW6x)
+- [Resource Pack [LootLabs]](https://loot-link.com/s?fW6z)
 
 ## Supported Versions
 

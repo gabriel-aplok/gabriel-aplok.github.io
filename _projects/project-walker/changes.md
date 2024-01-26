@@ -1,15 +1,42 @@
 ---
 layout: default
-title: Project Walker - 1.7.9
+title: Project Walker - 1.8.0
 ---
 
-# Project Walker - 1.7.9
+# Project Walker - 1.8.0
 
-**Posted:** 06 January 2024
+**Posted:** 25 January 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.0 (Public Demo):
+
+- Added now you can clear dirty rag with water.
+- Added water pump back.
+- Added tomato food.
+- Added MRE food by N_z (DeadZone Addon Owner).
+- Added sausage food.
+- Added energy drink (you get speed for a few seconds).
+- Added Sawed-off Shotgun.
+- Added 4 new structures.
+- Added Deer animal.
+- Added steel bat.
+- Added diamond bat.
+- Added netherite bat.
+- Added deer hide to make leather.
+- Added raw/cooked vanision.
+- Added new gasmask.
+- Fixed vehicle container rendering bug.
+- Fixed lamp not lighting bug.
+- Fixed some language issues.
+- Fixed importing issues.
+- Fixed explosion missing textures.
+- Improved M4 w/Carry Handler.
+- Improved M16 w/Carry Handler.
+- Improved health system.
+- Improved 12gauge spread.
 
 ### v1.7.9 (Public Demo):
 

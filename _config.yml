@@ -1,16 +1,19 @@
 title: Gabriel Aplok
-tagline: Full-Stack Developer| Minecraft Bedrock Addon Developer.
+tagline: Full-Stack Developer | Minecraft Bedrock Addon Developer.
 description: Come check some of my work.
 icon: /assets/img/icon.png
 logo: /assets/img/logo.png
 timezone: America/New_York
 lang: en-US
+# url: http://localhost:4000/
 url: https://gabriel-aplok.com
+# api_url: http://localhost:9595/api
+api_url: https://api.gabriel-aplok.com/api
 
 google_analytics: G-FJD9RTYZP5
 issues_repo: gabriel-aplok/gabriel-aplok.github.io
 
-email: gabrielaplok.contact@gmail.com
+email: contact@gabriel-aplok.com
 x: https://x.com/GabrielAplok
 youtube: https://youtube.com/GabrielAplok
 github: https://github.com/gabriel-aplok/

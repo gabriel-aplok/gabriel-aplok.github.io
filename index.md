@@ -44,7 +44,7 @@ hero: true
 		<h2>Contact</h2>
 		<p>Fill out this quick form and contact us today! Please note that you will get responses faster if you contact us via Discord.</p>
 	</div>
-	<form class="form" action="https://api.gabriel-aplok.com/api/contact.php" method="post">
+	<form class="form" action="{{ site.api_url }}/contact.php" method="post">
 		<div id="contact" class="row">
 			<div class="col-25">
 				<label class="label" for="name">Your Name <span class="field-required">*</span></label>
@@ -69,8 +69,9 @@ hero: true
 			</div>
 			<div class="col-75">
 				<select class="field" id="reason" name="reason" required>
-					<option value="general">General Question</option>
-					<option value="content">Content Question</option>
+					<option value="General Question">General Question</option>
+					<option value="Content Question">Content Question</option>
+					<option value="Recruitment">Recruitment</option>
 				</select>
 			</div>
 		</div>

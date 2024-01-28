@@ -1,3 +1,8 @@
+adjust_textarea = (x) => {
+	x.style.height = "20px";
+	x.style.height = x.scrollHeight + "px";
+}
+
 c2a1286e0b3e40cc951eaa1628b855e3 = () => {
 	const hamburger = document.querySelector(".hamburger");
 	const navMenu = document.querySelector(".nav-menu");

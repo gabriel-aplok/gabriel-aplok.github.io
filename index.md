@@ -37,30 +37,76 @@ hero: true
 	<a href="{{ 'projects.html' | absolute_link }}" class="button button-secondary" target="_blank">View More <i class="fas fa-arrow-right"></i></a>
 </section>
 
-<!-- Contact
+<!-- Contact -->
 <section id="contact" class="container">
 	<hr>
 	<div class="content-text">
 		<h2>Contact</h2>
 		<p>Fill out this quick form and contact us today! Please note that you will get responses faster if you contact us via Discord.</p>
 	</div>
-	<form class="form__group field">
-		<label class="form__label" for="name">Your Name</label>
-		<input class="form__field" type="text" id="name" name="name" required>
+	<form class="form" action="http://localhost:9595/contact.php" method="post">
+		<div id="contact" class="row">
+			<div class="col-25">
+				<label class="label" for="name">Your Name <span class="field-required">*</span></label>
+			</div>
+			<div class="col-75">
+				<input class="field" type="text" id="name" name="name" placeholder="Your name..." required>
+			</div>
+		</div>
 
-		<label class="form__label" for="email">Your Email</label>
-		<input class="form__field" type="email" id="email" name="email" required>
+		<div class="row">
+			<div class="col-25">
+				<label class="label" for="email">Your Email <span class="field-required">*</span></label>
+			</div>
+			<div class="col-75">
+				<input class="field" type="email" id="email" name="email" placeholder="person@example.com" required>
+			</div>
+		</div>
 
-		<label class="form__label" for="reason">Reason for Contact</label>
-		<select class="form__field" id="reason" name="reason" required>
-			<option value="general">General Question</option>
-			<option value="content">Content Question</option>
-		</select>
+		<div class="row">
+			<div class="col-25">
+				<label class="label" for="reason">Reason for Contact <span class="field-required">*</span></label>
+			</div>
+			<div class="col-75">
+				<select class="field" id="reason" name="reason" required>
+					<option value="general">General Question</option>
+					<option value="content">Content Question</option>
+				</select>
+			</div>
+		</div>
 
-		<label class="form__label" for="discord">Your Discord Username</label>
-		<input class="form__field" type="text" id="discord" name="discord" required>
+		<div class="row">
+			<div class="col-25">
+				<label class="label" for="name">Your Message <span class="field-required">*</span></label>
+			</div>
+			<div class="col-75">
+				<textarea class="field" type="text" id="message" name="message" placeholder="Write something..." onkeyup="adjust_textarea(this)" required></textarea>
+			</div>
+		</div>
 
-		<a href="{{ 'index.html' | absolute_link }}" class="button button-secondary" target="_blank">Submit <i class="fas fa-arrow-right"></i></a>
+		<div class="row">
+			<div class="col-25">
+				<label class="label" for="discord">Wait for your response.</label>
+			</div>
+			<div class="col-75">
+				<div class="g-recaptcha" data-theme="dark" data-sitekey="6LdEnF4pAAAAAAumxK0uuJVvFJCxgiWDJKMSnAm_"></div>
+				<button class="button button-secondary" type="submit">Submit <i class="fas fa-arrow-right"></i></button>
+			</div>
+		</div>
 	</form>
 </section>
--->
+
+<script>
+	alert("reCAPTCHA");
+	const form = document.getElementById("contact-form");
+
+	form.addEventListener("submit", (event) => {
+		event.preventDefault();
+		grecaptcha.execute();
+	});
+
+	function onRecaptchaSuccess() {
+		form.submit();
+		alert("reCAPTCHA funcionou");
+	}
+</script>

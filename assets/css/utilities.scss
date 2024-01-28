@@ -7,6 +7,24 @@
 	padding: 1rem 2rem;
 }
 
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /* Buttons */
 
 .button {
@@ -255,6 +273,58 @@ input:checked + .slider:before {
 	}
 }
 
+/* Forms */
+
+.field {
+	appearance: none;
+	background-color: rgba(0.25, 0.25, 0.25, 0.05);
+	color: var(--text);
+	display: inline-block;
+	resize: vertical;
+	width: 100%;
+	min-height: 46px;
+	padding: 0 1.4rem;
+	margin: 0.5rem 0;
+	border-radius: 4px;
+	border: 2px solid var(--text-secondary);
+	transition: all 0.30s ease-in-out;
+	outline: unset;
+}
+
+select.field {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg") no-repeat right 0.8em center / 1.4em;
+
+	&::-ms-expand {
+		display: none;
+	}
+}
+
+textarea.field {
+	padding: 1rem 1.4rem;
+}
+
+[data-theme="dark"] .field {
+	background-color: #40404040;
+}
+
+.field:focus {
+	box-shadow: 0 0 8px var(--primary);
+	border-color: var(--primary);
+}
+
+.field::placeholder {
+	color: var(--text-secondary);
+}
+
+.field-required {
+	color: red;
+}
+
+.label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
@@ -267,3 +337,11 @@ input:checked + .slider:before {
 		font-size: 2.5rem;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.col-25, .col-75 {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+

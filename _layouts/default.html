@@ -1,5 +1,5 @@
 ---
-layout: minify_html
+layout: none
 ---
 
 <!DOCTYPE html>
@@ -125,7 +125,7 @@ layout: minify_html
 		const app = initializeApp(firebaseConfig);
 		const analytics = getAnalytics(app);
 	</script>
-	<script src="https://www.google.com/recaptcha/api.js"></script>
-	<script src="{{ '/assets/js/index.js' | absolute_url }}"></script>
+	<script async defer src="https://www.google.com/recaptcha/api.js"></script>
+	<script async src="{{ '/assets/js/index.js' | absolute_url }}"></script>
 </body>
 </html>

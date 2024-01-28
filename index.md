@@ -44,7 +44,7 @@ hero: true
 		<h2>Contact</h2>
 		<p>Fill out this quick form and contact us today! Please note that you will get responses faster if you contact us via Discord.</p>
 	</div>
-	<form class="form" action="http://localhost:9595/contact.php" method="post">
+	<form class="form" action="https://api.gabriel-aplok.com/api/contact.php" method="post">
 		<div id="contact" class="row">
 			<div class="col-25">
 				<label class="label" for="name">Your Name <span class="field-required">*</span></label>
@@ -83,13 +83,14 @@ hero: true
 				<textarea class="field" type="text" id="message" name="message" placeholder="Write something..." onkeyup="adjust_textarea(this)" required></textarea>
 			</div>
 		</div>
-
+		<div class="center">
+			<div class="g-recaptcha" data-theme="light" data-sitekey="6LdEnF4pAAAAAAumxK0uuJVvFJCxgiWDJKMSnAm_"></div>
+		</div>
 		<div class="row">
 			<div class="col-25">
 				<label class="label" for="discord">Wait for your response.</label>
 			</div>
 			<div class="col-75">
-				<div class="g-recaptcha" data-theme="dark" data-sitekey="6LdEnF4pAAAAAAumxK0uuJVvFJCxgiWDJKMSnAm_"></div>
 				<button class="button button-secondary" type="submit">Submit <i class="fas fa-arrow-right"></i></button>
 			</div>
 		</div>

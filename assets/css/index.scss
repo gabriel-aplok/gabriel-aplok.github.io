@@ -298,16 +298,24 @@ hr {
 }
 
 .header-container .button {
-	animation: bounce 1s infinite alternate;
+	animation: bounce-10 1s infinite alternate;
 }
 
-
-@keyframes bounce {
+@keyframes bounce-10 {
 	from {
 		transform: translateY(-10px);
 	}
 	to {
 		transform: translateY(10px);
+	}
+}
+
+@keyframes bounce-2 {
+	from {
+		transform: translateY(-2px);
+	}
+	to {
+		transform: translateY(2px);
 	}
 }
 
@@ -490,23 +498,24 @@ hr {
 	}
 }
 
-
 .cookie-consent {
 	display: none;
-	background-color: black;
+	background-color: var(--bg-primary);
 	position: fixed;
 	text-align: center;
-	border-top: 6px solid var(--primary);
-	border-top-left-radius: 6px;
-	border-top-right-radius: 6px;
-	padding: 6px;
+	border: 2px solid var(--iron);
+	border-radius: 12px;
+	margin: 16px;
+	padding: 12px;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
+	box-shadow: 0 4px 6px 0 var(--text-secondary);
+	animation: bounce-2 2s infinite alternate;
 
 	* {
-		color: var(--iron);
+		color: var(--text);
 	}
 
 	p, a {
@@ -514,9 +523,13 @@ hr {
 	}
 
 	.button {
-		background-color: var(--iron);
-		color: black;
+		background-color: var(--text);
+		color: var(--bg-primary);
 		opacity: 1;
+
+		&:hover {
+			opacity: 0.7;
+		}
 	}
 }
 

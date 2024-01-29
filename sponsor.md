@@ -28,7 +28,7 @@ You can sponsor my work through PayPal.
 You can sponsor my work through PIX payment from Brazil.
 
 Key 1:
-```0340cdc7-1354-42ad-baf4-f3ae37810f72```
+`0340cdc7-1354-42ad-baf4-f3ae37810f72`
 
 Key 2:
-```kingstoneinteractive@gmail.com```
+`kingstoneinteractive@gmail.com`

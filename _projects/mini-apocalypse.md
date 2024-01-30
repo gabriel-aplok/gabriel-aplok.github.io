@@ -1,6 +1,7 @@
 ---
 layout: project
 status: public
+type: mcaddon
 slug: mini-apocalypse
 title: Mini Apocalypse Addon | v0.0.2
 banner: /projects/mini-apocalypse/banner.png

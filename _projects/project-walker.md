@@ -1,6 +1,7 @@
 ---
 layout: project
 status: public
+type: mcaddon
 slug: project-walker
 title: Project Walker Addon | v1.8.0
 banner: /projects/project-walker/images/banner.png
@@ -41,12 +42,13 @@ So far, I've spent hours over about 2 years making this add-on for you! I hope y
 ## Features
 
 - 🎲 Minecraft vanilla stylized.
+- 🏠 Hardcore survival in post-apocalyptic world.
+- 👍 Survival-friendly.
 - 🔈 Satisfying sound effects.
 - 👀 Smooth animations.
 - ⚡ Beautiful and optimized effects such as muzzle flashes, blood, explosions, lights, bullets solid and water impacts etc.
-- 💥 Innovative features, with systems never seen before in Bedrock.
-- 👍 Survival-friendly.
-- 🔊 Reverb and distant for guns, bullets and explosives effects.
+- 💥 Innovative features.
+- 🔊 Reverb and distant effects.
 - 🧪 Optimized for low-end devices.
 
 Project Walker is a challenging and immersive addon that adds a new level of excitement to Minecraft Bedrock. If you're looking for a new way to play the game, then Project Walker is definitely worth checking out.

@@ -1,6 +1,7 @@
 ---
 layout: project
 status: public
+type: mcaddon
 slug: aplok-guns
 title: Aplok Guns Addon | v1.0.7
 banner: /projects/aplok-guns/images/banner.png
@@ -40,12 +41,10 @@ So far, I've spent hours over about 12 months making this add-on for you! I hope
 - 👍 Survival-friendly with everything craftable.
 - 🔊 Reverb and distant effects.
 - 🧪 Optimized for low-end devices.
-- 🌳 Personalized environment.
 
 ## Experimental Gameplay
 
 - Holiday Creator Features (Required).
-- Custom Biomes (Optional).
 - Molang Features (Required).
 - Beta APIs (Required).
 
@@ -212,10 +211,19 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 
 If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
 
+**(I can request a DMCA to take down your content.)**
+
 ## Download Links
 
-- [Behavior Pack v1.0.7](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack v1.0.7](https://link-hub.net/173623/aplok-guns-rp)
+- [Behavior Pack [Linkvertise]](https://link-hub.net/173623/aplok-guns-bp)
+- [Behavior Pack [Linkvertise]](https://link-hub.net/173623/aplok-guns-rp)
+
+If you've run out of 3 free credits in linkvertise, wait until tomorrow to download the add-on or use the alternative links below.
+
+## Alternative Links
+
+- [Behavior Pack [LootLabs]](https://loot-link.com/s?e1a4)
+- [Resource Pack [LootLabs]](https://loot-links.com/s?e1bx)
 
 ## Supported Versions
 

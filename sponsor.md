@@ -21,7 +21,7 @@ You can sponsor my work through PicPay.
 
 You can sponsor my work through PayPal.
 
-<a class="button button-secondary" href="https://www.paypal.com/donate/?business=QE4LSAML5747L">Visit My PayPal Profile</a>
+<a class="button button-secondary" href="https://www.paypal.com/donate/?business=UC8S8WU5X5VJ4&no_recurring=0&item_name=I%27m+a+full-stack%2C+game+and+minecraft+addon+developer%2C+wishing+to+create+fun%2C+innovative%2C+and+quality+experiences%21&currency_code=BRL">Visit My PayPal Profile</a>
 
 ## PIX
 

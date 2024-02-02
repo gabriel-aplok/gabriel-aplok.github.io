@@ -205,6 +205,8 @@ If you've run out of 3 free credits in linkvertise, wait until tomorrow to downl
 
 - [Behavior Pack [LootLabs]](https://loot-links.com/s?fW6x)
 - [Resource Pack [LootLabs]](https://loot-link.com/s?fW6z)
+- [Behavior Pack [BstLar]](https://bstlar.com/2EI/pw-bp)
+- [Resource Pack [BstLar]](https://bstlar.com/2EI/pw-rp)
 
 ## Supported Versions
 

@@ -1,15 +1,24 @@
 ---
 layout: default
-title: Project Walker - 1.8.0
+title: Project Walker - 1.8.1
 ---
 
-# Project Walker - 1.8.0
+# Project Walker - 1.8.1
 
-**Posted:** 25 January 2024
+**Posted:** 06 February 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.1 (Public Demo):
+- Updated engine to support Minecraft 1.20.60.
+- Added new Colt M1892 revolver gun.
+- Added new Radio songs.
+- Added new 1 skin variant for infected and humans.
+- Added new survivor humanoid.
+- Fixed reload & damage in guns.
+- Fixed looping sounds in the deer.
 
 ### v1.8.0 (Public Demo):
 

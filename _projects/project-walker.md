@@ -3,7 +3,7 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.0
+title: Project Walker Addon | v1.8.1
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
@@ -156,38 +156,17 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - When Minecraft get new update SOME SYSTEMS BREAKS.
 ```
 
-## Changelog for v1.8.0
+## Changelog for v1.8.1
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added variant animations to walkers.
-- Added now you can clear dirty rag with water.
-- Added water pump back.
-- Added tomato food.
-- Added MRE food by N_z (DeadZone Addon Owner).
-- Added sausage food.
-- Added energy drink (you get speed for a few seconds).
-- Added Sawed-off Shotgun.
-- Added 4 new structures.
-- Added Deer animal.
-- Added steel bat.
-- Added diamond bat.
-- Added netherite bat.
-- Added deer hide to make leather.
-- Added raw/cooked vanision.
-- Added new gasmask.
+- Updated engine to support Minecraft 1.20.60.
+- Added new Colt M1892 revolver gun.
+- Added new radio songs.
+- Added new 1 skin variant for infected and humans.
+- Added new survivor humanoid.
 - Fixed looping sounds in the deer.
-- Fixed running animation in the crosshair.
-- Fixed vehicle container rendering bug.
-- Fixed lamp not lighting bug.
-- Fixed some language issues.
-- Fixed importing issues.
-- Fixed explosion missing textures.
-- Improved M4 w/Carry Handler.
-- Improved M16 w/Carry Handler.
-- Improved health system.
-- Improved 12gauge spread.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
@@ -210,5 +189,4 @@ If you've run out of 3 free credits in linkvertise, wait until tomorrow to downl
 
 ## Supported Versions
 
-<span class="tag">1.20.50</span>
-<span class="tag">1.20.51</span>
+<span class="tag">1.20.60</span>

@@ -251,10 +251,13 @@ input:checked + .slider:before {
 
 	#comments-wrapper {
 		.comment {
+			margin-bottom: 1.5em;
+
 			.comment-user {
 				display: flex;
 				align-items: center;
 				flex-wrap: wrap;
+				margin-bottom: 1em;
 				gap: 2;
 
 				.comment-avatar {

@@ -3,14 +3,14 @@ layout: project
 status: public
 type: mcaddon
 slug: aplok-guns
-title: Aplok Guns Addon | v1.0.7
+title: Aplok Guns Addon | v1.0.8
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
 date: 2022-03-23
-updated: 2023-12-05
-new: false
+updated: 2024-02-08
+new: true
 comments_id: 1
 ---
 
@@ -172,7 +172,7 @@ Playlist
 
 ## Warning
 
-This will **ONLY** work in Minecraft versions **1.20.50** (DON'T USE BETA/PREVIEW)
+This will **ONLY** work in Minecraft versions **1.20.60** (DON'T USE BETA/PREVIEW)
 
 Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments".
 
@@ -184,29 +184,43 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
-## Changelog for v1.0.7
+## Changelog for v1.0.8
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- We're releasing the v1.0.7 with various improvements, changes and bug fixes!
-- Added: Explosion effect now occurs by default with all other explosions! (like creeper, TNT etc.)
-- Fixed: Guns Fixer item not working.
-- Fixed: Nickname not showing.
-- Fixed: Increased bullet velocity.
-- Fixed: Decreased bullet physical gravity.
-- Fixed: Run state machine glitch when player walk in snow biomes.
-- Fixed: Slim skin can now be used without the strange arm bug.
-- Removed: Resistance effect from juggernaut.
-- Changed: Decreased item stack drop from ammunition crate.
-- Changed: Increased guns resetting position delay.
-- Changed: Descreased landmine explosion range.
-- Improved: Explosions effects optimized to low-end devices.
-- Improved: Decreased muzzle light emission when fire silenced.
-- Improved: Rewrite some state machines to optimize the client and server processors.
-- Improved: New running animations.
-- Improved: New animations state machines transitions to more fluid experience.
-- Improved: Rewrite some bullet core system to more performance.
+- Added AK-12 assault rifle.
+- Added 5.45x39mm bullet.
+- Added nametag always show back.
+- Added new NVG material.
+- Added recipe to NVG.
+- Added new damage values to individual guns (the old is based on caliber).
+- Improved inspection animations.
+- Improved new AK-47 model & texture & animations.
+- Improved new AWP model & texture & animations.
+- Improved new M4A1 model & texture.
+- Improved all gun fire reverb sounds.
+- Improved recipes to more difficult crafting for various items/blocks.
+- Improved deco blocks now only can be placed in they respective filters (up, down, side...).
+- Improved wooden barricade can be placed in up and down blocks.
+- Improved rewrite bullet code to fix the chuck load crashing.
+- Improved grenade explosion.
+- Improved blocks rotation code.
+- Improved updated engine compatibility to 1.20.60+.
+- Improved rewrite and optimized the commands season in the addon core.
+- Improved the recoil (We need some feedback to know how to improve this).
+- Improved optimized explosion particles.
+- Improved now the magazine recipe is empty (zero bullets).
+- Improved Juggernaut protection.
+- Fixed FN Fal fire bolt pulling.
+- Fixed HK MP5-A5 Foregrip animation.
+- Removed custom biomes.
+- Removed heart beat and blood.
+- Removed immersive jump feature.
+- Removed custom hotbar.
+- Removed custom tooltip.
+- Removed player custom animations.
+- Removed gasmask.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
@@ -224,7 +238,9 @@ If you've run out of 3 free credits in linkvertise, wait until tomorrow to downl
 
 - [Behavior Pack [LootLabs]](https://loot-link.com/s?e1a4)
 - [Resource Pack [LootLabs]](https://loot-links.com/s?e1bx)
+- [Behavior Pack [BstLar]](https://bstlar.com/2EI/ag-bp)
+- [Resource Pack [BstLar]](https://bstlar.com/2EI/ag-rp)
 
 ## Supported Versions
 
-<span class="tag">1.20.50</span>
+<span class="tag">1.20.60</span>

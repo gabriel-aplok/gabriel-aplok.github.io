@@ -5,7 +5,13 @@ title: Aplok Guns Supported Attachments
 
 # Aplok Guns Supported Attachments
 
-**Posted:** 18 October 2023
+**Posted:** 08 February 2024
+
+## AK-12:
+ - Sight: Yes
+ - Silencer: Yes
+ - Laser: Yes
+ - Grip: Yes
 
 ## AK-47:
  - Sight: Yes
@@ -19,7 +25,7 @@ title: Aplok Guns Supported Attachments
  - Laser: No
  - Grip: No
 
-## Desert Eagle:
+## .50 Desert Eagle:
  - Sight: No
  - Silencer: Yes
  - Laser: No
@@ -49,7 +55,7 @@ title: Aplok Guns Supported Attachments
  - Laser: Yes
  - Grip: Yes
 
-## Mossberg:
+## Mossberg 500:
  - Sight: No
  - Silencer: No
  - Laser: No

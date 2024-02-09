@@ -3,7 +3,7 @@ adjust_textarea = (x) => {
 	x.style.height = x.scrollHeight + "px";
 }
 
-c2a1286e0b3e40cc951eaa1628b855e3 = () => {
+hamburgerMenu = () => {
 	const hamburger = document.querySelector(".hamburger");
 	const navMenu = document.querySelector(".nav-menu");
 	const navLink = document.querySelectorAll(".nav-link");
@@ -19,11 +19,11 @@ c2a1286e0b3e40cc951eaa1628b855e3 = () => {
 	}));
 }
 
-cecf6b784ae54e0ab07b6441b4f8b304 = () => {
+footerDate = () => {
 	document.querySelector(".date-y").innerText = new Date().getFullYear();
 }
 
-f3dcf5c99cbf47b2a5b29416d3f184fe = () => {
+theme = () => {
 	const toggleSwitch = document.querySelector(".theme-switch input[type='checkbox']");
 	const currentTheme = localStorage.getItem("theme");
 
@@ -36,7 +36,7 @@ f3dcf5c99cbf47b2a5b29416d3f184fe = () => {
 		}
 	}
 
-	switchTheme = (event) => {
+	toggleSwitch.addEventListener("change", (event) => {
 		if (event.target.checked) {
 			document.documentElement.setAttribute("data-theme", "dark");
 			document.querySelector(".g-recaptcha").setAttribute("data-theme", "dark");
@@ -46,12 +46,12 @@ f3dcf5c99cbf47b2a5b29416d3f184fe = () => {
 			document.querySelector(".g-recaptcha").setAttribute("data-theme", "light");
 			localStorage.setItem("theme", "light");
 		}
-	}
 
-	toggleSwitch.addEventListener("change", switchTheme, false);
+		theme();
+	}, false);
 };
 
-f9107e43c7d0479fa44588c8b4915eda = () => {
+cookieConsent = () => {
 	document.addEventListener("DOMContentLoaded", () => {
 		const cookieConsent = document.querySelector(".cookie-consent");
 		const cookieConsentAccept = document.querySelector(".cookie-consent-accept");
@@ -73,7 +73,7 @@ f9107e43c7d0479fa44588c8b4915eda = () => {
 	});
 };
 
-c2a1286e0b3e40cc951eaa1628b855e3();
-cecf6b784ae54e0ab07b6441b4f8b304();
-f3dcf5c99cbf47b2a5b29416d3f184fe();
-f9107e43c7d0479fa44588c8b4915eda();
+hamburgerMenu();
+footerDate();
+theme();
+cookieConsent();

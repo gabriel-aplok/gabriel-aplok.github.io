@@ -1,15 +1,49 @@
 ---
 layout: default
-title: Aplok Guns - 1.0.7
+title: Aplok Guns - 1.0.8
 ---
 
-# Aplok Guns - 1.0.7
+# Aplok Guns - 1.0.8
 
-**Posted:** 05 December 2023
+**Posted:** 08 February 2024
 
 ## Info on the Aplok Guns:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+
+### 1.0.8:
+- Added AK-12 assault rifle.
+- Added 5.45x39mm bullet.
+- Added nametag always show back.
+- Added new NVG material.
+- Added recipe to NVG.
+- Added new damage values to individual guns (the old is based on caliber).
+- Improved inspection animations.
+- Improved new AK-47 model & texture & animations.
+- Improved new AWP model & texture & animations.
+- Improved new M4A1 model & texture.
+- Improved all gun fire reverb sounds.
+- Improved recipes to more difficult crafting for various items/blocks.
+- Improved deco blocks now only can be placed in they respective filters (up, down, side...).
+- Improved wooden barricade can be placed in up and down blocks.
+- Improved rewrite bullet code to fix the chuck load crashing.
+- Improved grenade explosion.
+- Improved blocks rotation code.
+- Improved updated engine compatibility to 1.20.60+.
+- Improved rewrite and optimized the commands season in the addon core.
+- Improved the recoil (We need some feedback to know how to improve this).
+- Improved optimized explosion particles.
+- Improved now the magazine recipe is empty (zero bullets).
+- Improved Juggernaut protection.
+- Fixed FN Fal fire bolt pulling.
+- Fixed HK MP5-A5 Foregrip animation.
+- Removed custom biomes.
+- Removed heart beat and blood.
+- Removed immersive jump feature.
+- Removed custom hotbar.
+- Removed custom tooltip.
+- Removed player custom animations.
+- Removed gasmask.
 
 ### 1.0.7:
 

@@ -230,7 +230,7 @@ If you plan to showcase this add-on, **ONLY use the links I provide here** and t
 ## Download Links
 
 - [Behavior Pack [Linkvertise]](https://link-hub.net/173623/aplok-guns-bp)
-- [Behavior Pack [Linkvertise]](https://link-hub.net/173623/aplok-guns-rp)
+- [Resource Pack [Linkvertise]](https://link-hub.net/173623/aplok-guns-rp)
 
 If you've run out of 3 free credits in linkvertise, wait until tomorrow to download the add-on or use the alternative links below.
 

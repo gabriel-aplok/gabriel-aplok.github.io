@@ -29,8 +29,8 @@ kramdown:
 
 author:
   name: Gabriel Aplok
-  email: gabrielaplok.contact@gmail.com
-  url: https://gabriel-aplok.github.io
+  email: contact@gabriel-aplok.com
+  url: https://gabriel-aplok.com
 
 plugins:
   - jekyll-sitemap

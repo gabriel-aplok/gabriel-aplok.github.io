@@ -21,7 +21,7 @@ Issues and pull requests are always welcome!
 You can submit issues in the following ways:
 
 - via [Github Issues](https://github.com/gabriel-aplok/gabriel-aplok.github.io/issues).
-- via email: gabrielaplok.contact@gmail.com
+- via email: contact@gabriel-aplok.com
 
 ## Alternative Location
 
@@ -33,4 +33,4 @@ Alternative website location hosted on Netlify. Why not?
 
 ### README latest update
 
-Date : 16-01-2024 dd-mm-yyyy
+Date : 10-02-2024 dd-mm-yyyy

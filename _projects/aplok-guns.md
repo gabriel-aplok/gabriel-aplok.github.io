@@ -18,9 +18,7 @@ comments_id: 1
 
 Do you like high-quality military-themed addons and have the best features? If yes, you're in the right place.
 
-Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled low-poly military-themed guns, I tried my best to make the animations realistic, from firing to reloading, drawing to running, the models are something close to something Mojang (non-affiliation) would make.
-
-**Though there's less guns in this release, we're looking forward to add more in upcoming updates!**
+Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-themed guns, I tried my best to make the animations realistic, from firing to reloading, drawing to running, the models are something close to something Minecraft would make.
 
 ## Important
 **<span class="text-red">
@@ -48,6 +46,7 @@ So far, I've spent hours over about 12 months making this add-on for you! I hope
 - Molang Features (Required).
 - Beta APIs (Required).
 
+<!--
 ## Video Settings
 
 - **Hide Paper Doll (<span class="text-red">true</span>)**
@@ -60,6 +59,7 @@ So far, I've spent hours over about 12 months making this add-on for you! I hope
   - Zoom In in scopes (required)
 - **FOV (<span class="text-red">60-80</span>)**
   - Fix the pivot of gun particles (required)
+-->
 
 ## How to Make Guns
 
@@ -138,6 +138,10 @@ Playlist
 <h5>Version 1.0.7</h5>
 
 {% include youtube.html id="3lKUFvLtGJc" %}
+
+<h5>Version 1.0.8</h5>
+
+{% include youtube.html id="_DR9HsQNOfI" %}
 
 </details>
 

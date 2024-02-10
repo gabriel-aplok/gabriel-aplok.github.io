@@ -1,0 +1,52 @@
+---
+layout: default
+title: Download
+---
+
+<body>
+	<div class="center">
+		<div>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
+			<!-- Download Page Ads -->
+			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1388434276906165" data-ad-slot="3952562534" data-ad-format="auto" data-full-width-responsive="true"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		<div>
+			<h2 id="title"></h2>
+			<a style="margin: 0; visibility: hidden;">Click here if the download has not started</a>
+		</div>
+		<div>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
+			<!-- Download Page Ads -->
+			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1388434276906165" data-ad-slot="3952562534" data-ad-format="auto" data-full-width-responsive="true"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+	</div>
+	<script>
+		const params = new URLSearchParams(window.location.search);
+		let t, i = 15;
+
+		t = setInterval((_) => {
+			if (i <= 0) {
+				clearInterval(t);
+
+				title.innerHTML = "Downloading...";
+
+				const urls = atob(params.get("q"));
+
+				window.open(urls, "_self", "noopener, noreferrer");
+
+				document.querySelector("a").style.visibility = "visible";
+				document.querySelector("a").href = urls;
+			} else {
+				title.innerHTML = params.has("q") ? `Starting download in ${i} seconds...` : "Oops, what happened?";
+			}
+
+			i--;
+		}, 1000);
+	</script>
+</body>

@@ -43,7 +43,7 @@ You can prevent the setting of cookies by adjusting the settings on your browser
 
 ## 6. Third Party Cookies
 In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.
-- The Google AdSense service we use to serve advertising uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times that a given ad is shown to you.
+- The Google AdSense service we use to serve advertising uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times that a given ad is shown to you. - [Google Ads Policies](https://policies.google.com/technologies/ads)
 - For more information on Google AdSense see the official Google AdSense privacy FAQ.
 - We use adverts to offset the costs of running this site and provide funding for further development. The behavioural advertising cookies used by this site are designed to ensure that we provide you with the most relevant adverts where possible by anonymously tracking your interests and presenting similar things that may be of interest.
 - Several partners advertise on our behalf and affiliate tracking cookies simply allow us to see if our customers have come to the site through one of our partner sites so that we can credit them appropriately and where applicable allow our affiliate partners to provide any bonus that they may provide you for making a purchase.
@@ -63,4 +63,4 @@ We will disclose any information we collect, use or receive if such disclosure i
 ## 10. Contact information:
 If you would like to contact us to learn more about this Privacy Policy, or wish to access any information regarding your individual rights and Personal Information, you may send an email to contact@gabriel-aplok.com.
 
-This policy is effective as of 17 January 2024 18:24.
+This policy is effective as of 10 February 2024 02:35 PM.

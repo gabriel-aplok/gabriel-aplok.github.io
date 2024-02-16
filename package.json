@@ -1,0 +1,34 @@
+{
+	"name": "gabriel-aplok.com",
+	"version": "1.0.0",
+	"description": "Personal website.",
+	"main": "server.js",
+	"scripts": {
+		"start": "node .",
+		"push": "git add -A && git commit -m 'changes and improvements' && git push origin main"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/gabriel-aplok/gabriel-aplok.github.io.git"
+	},
+	"keywords": [
+		"dev",
+		"full",
+		"stack",
+		"backend",
+		"front",
+		"end",
+		"minecraft",
+		"mcbe",
+		"addons",
+		"mods",
+		"design",
+		"database"
+	],
+	"author": "Gabriel Aplok <contact@gabriel-aplok.com> (http://gabriel-aplok.com/)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/gabriel-aplok/gabriel-aplok.github.io/issues"
+	},
+	"homepage": "https://github.com/gabriel-aplok/gabriel-aplok.github.io#readme"
+}

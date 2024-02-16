@@ -6,5 +6,5 @@ layout: null
 	"sellerId": "pub-1388434276906165",
 	"sellerType": "PUBLISHER",
 	"name": "{{ site.author.name }}",
-	"domain": "{{ site.url }}"
+	"domain": "gabriel-aplok.com"
 }

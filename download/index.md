@@ -2,7 +2,9 @@
 layout: default
 title: Download
 ---
-
+<head>
+	<script id="aclib" type="text/javascript" src="https://acscdn.com/script/aclib.js"></script>
+</head>
 <body>
 	<div class="center">
 		<div>
@@ -48,5 +50,10 @@ title: Download
 
 			i--;
 		}, 1000);
+	</script>
+	<script type="text/javascript">
+		aclib.runAutoTag({
+			zoneId: "pwxc6qt6dm"
+		});
 	</script>
 </body>

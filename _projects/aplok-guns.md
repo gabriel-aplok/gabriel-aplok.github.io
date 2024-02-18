@@ -20,11 +20,6 @@ Do you like high-quality military-themed addons and have the best features? If y
 
 Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-themed guns, I tried my best to make the animations realistic, from firing to reloading, drawing to running, the models are something close to something Minecraft would make.
 
-## Important
-**<span class="text-red">
-So far, I've spent hours over about 12 months making this add-on for you! I hope you like Aplok Guns!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on!
-</span>**
-
 ## Developer
 
 - [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
@@ -45,21 +40,6 @@ So far, I've spent hours over about 12 months making this add-on for you! I hope
 - Holiday Creator Features (Required).
 - Molang Features (Required).
 - Beta APIs (Required).
-
-<!--
-## Video Settings
-
-- **Hide Paper Doll (<span class="text-red">true</span>)**
-  - Fix the double bullet casings (recommend).
-- **View Bobbing (<span class="text-red">true</span>)**
-  - Best animations experience (recommend).
-- **Camera Shake (<span class="text-red">true</span>)**
-  - Camera shakes in actions like fire, reload, jump and draw (required)
-- **FOV Can Be Altered By Gameplay (<span class="text-red">true</span>)**
-  - Zoom In in scopes (required)
-- **FOV (<span class="text-red">60-80</span>)**
-  - Fix the pivot of gun particles (required)
--->
 
 ## How to Make Guns
 
@@ -174,12 +154,6 @@ Playlist
 
 - [HardSK](https://x.com/gabrielMODguy) _(Bullet Hole System Help)_
 
-## Warning
-
-This will **ONLY** work in Minecraft versions **1.20.60** (DON'T USE BETA/PREVIEW)
-
-Thank you for supporting me! And please read all info from this article before ask me any ordinary question like "how to reload" and "how to use attachments".
-
 ## Installation
 
 Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
@@ -227,23 +201,21 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Removed gasmask.
 ```
 
-If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
+If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
 
-**(I can request a DMCA to take down your content.)**
+This will **ONLY** work in Minecraft versions **1.20.60** (DON'T USE BETA/PREVIEW)
 
-## Download Links
+## Downloads
 
-- [Behavior Pack [Linkvertise]](https://link-hub.net/173623/aplok-guns-bp)
-- [Resource Pack [Linkvertise]](https://link-hub.net/173623/aplok-guns-rp)
-
-If you've run out of 3 free credits in linkvertise, wait until tomorrow to download the add-on or use the alternative links below.
-
-## Alternative Links
-
-- [Behavior Pack [LootLabs]](https://loot-link.com/s?e1a4)
-- [Resource Pack [LootLabs]](https://loot-links.com/s?e1bx)
-- [Behavior Pack [BstLar]](https://bstlar.com/2EI/ag-bp)
-- [Resource Pack [BstLar]](https://bstlar.com/2EI/ag-rp)
+- LootLabs
+  - [Behavior Pack - LootLabs](https://loot-link.com/s?e1a4)
+  - [Resource Pack - LootLabs](https://loot-links.com/s?e1bx)
+- Linkvertise
+  - [Behavior Pack - Linkvertise](https://link-hub.net/173623/aplok-guns-bp)
+  - [Resource Pack - Linkvertise](https://link-hub.net/173623/aplok-guns-rp)
+- Bstlar
+  - [Behavior Pack - BstLar](https://bstlar.com/2EI/ag-bp)
+  - [Resource Pack - BstLar](https://bstlar.com/2EI/ag-rp)
 
 ## Supported Versions
 

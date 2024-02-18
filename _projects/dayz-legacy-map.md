@@ -35,7 +35,7 @@ Open the **.mcworld** with **Minecraft** or extract and copy manually the folder
 
 ## Warning
 
-If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
+If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
 
 ## Downloads
 

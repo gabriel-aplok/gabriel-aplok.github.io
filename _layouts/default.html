@@ -11,6 +11,7 @@ layout: minify_html
 	{% include head_default.html %}
 	{% endif %}
 
+	<!-- Ads -->
 	<!--meta name="google-adsense-account" content="ca-pub-1388434276906165"-->
 	<!--script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script-->
 	<script id="aclib" type="text/javascript" src="https://acscdn.com/script/aclib.js"></script>
@@ -131,17 +132,7 @@ layout: minify_html
 		const app = initializeApp(firebaseConfig);
 		const analytics = getAnalytics(app);
 	</script>
-	<!--script type="text/javascript">
-		{% if page.layout == "project" or page.layout == "blog" %}
-			aclib.runAutoTag({
-				zoneId: "pwxc6qt6dm"
-			});
-		{% else %}
-			aclib.runAutoTag({
-				zoneId: "k1nt173vfq"
-			});
-		{% endif %}
-	</script-->
+	<!-- Ads -->
 	<!--script async defer src="https://www.google.com/recaptcha/api.js"></script-->
 	<script async src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script async src="{{ '/assets/js/index.js' | absolute_url }}"></script>

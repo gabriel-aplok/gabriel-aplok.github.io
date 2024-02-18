@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Base64 Converter &amp; Decoder</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Base64 Converter &amp; Decoder</h1>
+			<div><textarea id="inputText" placeholder="Enter text..."></textarea> <button onclick="encodeText()">Encode to Base64</button> <button onclick="decodeText()">Decode from Base64</button>
+			</div>
+			<div><textarea id="outputText" readonly></textarea> <button onclick="clearText()">Clear</button>
+			</div>
+			<div><textarea id="inputSuspicious" placeholder="Enter text to check for suspicious characters..."></textarea> <button onclick="checkSuspicious()">Check for suspicious characters</button>
+			</div>
+			<div id="suspiciousResult"></div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>

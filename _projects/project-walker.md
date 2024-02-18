@@ -136,7 +136,7 @@ Great visual and realistic NVG.
 
 ## Warning
 
-This will **ONLY** work in Minecraft versions **1.20.50** (DON'T USE BETA/PREVIEW)
+This will **ONLY** work in Minecraft versions **1.20.60** (DON'T USE BETA/PREVIEW)
 
 Thank you for supporting me! And please read all info from this article before ask me any ordinary questions.
 
@@ -190,3 +190,4 @@ If you've run out of 3 free credits in linkvertise, wait until tomorrow to downl
 ## Supported Versions
 
 <span class="tag">1.20.60</span>
+<span class="tag">1.20.62</span>

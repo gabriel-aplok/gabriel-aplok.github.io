@@ -248,3 +248,4 @@ If you've run out of 3 free credits in linkvertise, wait until tomorrow to downl
 ## Supported Versions
 
 <span class="tag">1.20.60</span>
+<span class="tag">1.20.62</span>

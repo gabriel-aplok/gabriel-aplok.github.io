@@ -2,7 +2,6 @@
 layout: default
 title: Join LootLabs
 description: How to make money from your game content today for free? Meet LootLabs!
-nav_order: 5
 ---
 
 <noscript>

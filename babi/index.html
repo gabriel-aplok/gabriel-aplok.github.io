@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap">
+
+	<style>
+		body {
+			background-color: brown;
+		}
+
+		.show-none {
+			display: none;
+		}
+
+		.image-background {
+			width: 100%;
+			height: 100%;
+			overflow-y: auto;
+			background: url('./bg.png') center;
+		}
+
+		.background-container {
+			width: 100%;
+			overflow-y: auto;
+			background: rgba(0, 0, 0, 0.6);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		p, h3 {
+			width: 70vw;
+			text-align: center;
+			color: white;
+			font-family: 'Indie Flower', cursive;
+		}
+
+		h3 {
+			font-size: 40px;
+			margin-bottom: 40px;
+		}
+
+		p {
+			font-size: 26px;
+		}
+	</style>
+
+	<title>Cartinha Virtual pra minha babi</title>
+</head>
+<body>
+	<!-- Modal -->
+	<div class="modal fade" id="modalPass" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="staticBackdropLabel">Informe a senha ae baby!</h1>
+					<span>Dica boa: DDMMAAAA</span>
+				</div>
+				<div class="modal-body">
+					<div class="mb-3">
+						<input type="password" class="form-control" id="input-pass" aria-describedby="invalidPass">
+						<div id="invalidPass" class="invalid-feedback">
+							Iiiii, qual foi? nem sabe a senha né 👍
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" onclick="checkPass()">Vamos lá!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="modalContent" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-body" style="padding: 0;">
+					<div class="image-background">
+						<div class="background-container" style="padding: 18px;">
+							<h3>Olá, tudo bem? Se chegou até aqui é que você é boa em adivinhar em</h3>
+							<p>
+								Ah, vida, como eu sonhei em ter alguém como você na minha vida...
+							</p>
+							<p>
+								E você é muito mais do que um dia imaginei ter, você é incrível!
+							</p>
+							<p>
+								Obrigado pelo seu cuidado, seu amor, seu carinho. Saiba que cada dia ao seu lado me faz ser um homem
+								mais forte!
+							</p>
+							<p>
+								Quando te conheci pela primeira vez, sempre achei que fossemos totalmente diferentes, que não éramos nada iguais.
+								Mas quem diria em? Somos mais um pro outro que almas gêmeas, um amor sem igual 😳
+							</p>
+							<p>
+								Te quero pra toda vida, mesmo sendo dengosa e dramatica mas o amor que eu tenho
+								por você é maior do que qualquer outra dificuldade que possa existir entre nós (não que isso seja uma hihi).
+							</p>
+							<p>
+								Te amo, te cuido e desejo tantos outros meses, anos e eternidades de namoro e um futuro casamento para nós 😳. Minha marrentinha.
+							</p>
+
+							<p>
+								Com amor, <br>
+								Seu namorado nerd, que fez um site só pra você, deu trabalho viu, mas tudo isso é de coração pra você.
+							</p>
+							<p>
+								Minha garotinha do coração, te amo! 😎
+							</p>
+							❤️
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+	<script>
+		const passModal = new bootstrap.Modal('#modalPass', {});
+		const audio = new Audio('./song.ogg');
+		const contentModal = new bootstrap.Modal('#modalContent', {});
+
+		passModal.show();
+
+		function checkPass() {
+			const inputPass = document.getElementById('input-pass');
+
+			if (inputPass.value === '27082022') {
+				audio.volume = 0.4;
+				audio.play();
+
+				passModal.hide();
+				contentModal.show();
+			} else {
+				inputPass.classList.add('is-invalid');
+			}
+		}
+	</script>
+</body>
+</html>

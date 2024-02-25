@@ -15,7 +15,6 @@ $breakpoints: (
 
 @import "normalize.css";
 @import "utilities.css";
-@import "cookie-banner.css";
 
 :root {
 	--shark: #282B2C;
@@ -26,7 +25,7 @@ $breakpoints: (
 	--red: #C62828;
 
 	--primary: #FF5722;
-	--secondary: #FF7E55;
+	--secondary: #FF6B34;
 	--text: var(--shark);
 	--text-secondary: var(--manatee);
 	--bg-primary: #FFFFFF;
@@ -50,9 +49,9 @@ $breakpoints: (
 
 	--text: var(--iron);
 	--text-secondary: var(--oslo-gray);
-	--bg-primary: #000000;
-	--bg-secondary: #FFFFFF;
-	--card-background: #111111;
+	--bg-primary: #09090B;
+	--bg-secondary: #FAFAFA;
+	--card-background: #19191B;
 	--bg-tertiary: #F4F4F4;
 	--shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
 }

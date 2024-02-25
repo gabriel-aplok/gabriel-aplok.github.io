@@ -15,6 +15,7 @@ $breakpoints: (
 
 @import "normalize.css";
 @import "utilities.css";
+@import "cookie-banner.css";
 
 :root {
 	--shark: #282B2C;
@@ -502,41 +503,6 @@ hr {
 	.header-container .button {
 		border-radius: 5px;
 		width: 80%;
-	}
-}
-
-.cookie-consent {
-	display: none;
-	background-color: var(--bg-primary);
-	position: fixed;
-	text-align: center;
-	border: 2px solid var(--iron);
-	border-radius: 12px;
-	margin: 16px;
-	padding: 12px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 1;
-	box-shadow: 0 4px 6px 0 var(--text-secondary);
-	animation: bounce-2 2s infinite alternate;
-
-	* {
-		color: var(--text);
-	}
-
-	p, a {
-		opacity: 0.8;
-	}
-
-	.button {
-		background-color: var(--text);
-		color: var(--bg-primary);
-		opacity: 1;
-
-		&:hover {
-			opacity: 0.7;
-		}
 	}
 }
 

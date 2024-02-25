@@ -8,7 +8,7 @@ layout: default
 
 {% if page.status == 'public' %}
 	<h1>{{ page.title }} {% if page.new %}<span class="tag bg-red" style="font-size: 0.75em;">NEW</span>{% endif %}</h1>
-	<p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="text-primary">{{ page.author | default: site.author.name }}</span></p>
+	<p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="text-primary">{{ page.author | default: site.social.name }}</span></p>
 	{% if page.updated %}
 	<p>Updated: <span class="text-primary">{{ page.updated | date: '%B %d, %Y'}}</span></p>
 	{% endif %}

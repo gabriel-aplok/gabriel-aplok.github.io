@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.1
+title: Project Walker Addon | v1.8.2
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-01-25
+updated: 2024-02-24
 new: true
 comments_id: 2
 ---
@@ -21,11 +21,6 @@ Do you like high-quality apocalypse-themed addons and have the best features? If
 Project Walker is a Minecraft addon that adds a post-apocalyptic twist to the game. Players must now scavenge for supplies to stay alive, while also being careful of zombies, bandits, and other survivors.
 
 The addon features a variety of new guns, melees, medicals, foods, drinks, miscellaneous, blocks, mobs, as well as a new survival systems such as infection, bleeding, bone fracture, temperature etc.
-
-## Important
-**<span class="text-red">
-So far, I've spent hours over about 2 years making this add-on for you! I hope you like this!! I know, the links have ads, but I thought it would be okay if you guys spent an extra minute on the ads as a little compensation for my effort in making this free add-on!
-</span>**
 
 ## Developer
 
@@ -131,15 +126,6 @@ Armor is great for protecting yourself from zombie and enemy attacks.
 
 Great visual and realistic NVG.
 
-## Structures?
-> We don't have structures for now, sorry. You can use other addons that have structures for now.
-
-## Warning
-
-This will **ONLY** work in Minecraft versions **1.20.60** (DON'T USE BETA/PREVIEW)
-
-Thank you for supporting me! And please read all info from this article before ask me any ordinary questions.
-
 ## Installation
 
 Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
@@ -148,7 +134,8 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
-## **<span class="text-red">Know Bugs</span>**
+## Know Bugs
+
 ```
 - Guns don't fire full-auto in Creative Mode, use Survival Mode.
 - Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
@@ -156,36 +143,32 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - When Minecraft get new update SOME SYSTEMS BREAKS.
 ```
 
-## Changelog for v1.8.1
+## Changelog for v1.8.2
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Updated engine to support Minecraft 1.20.60.
-- Added new Colt M1892 revolver gun.
-- Added new radio songs.
-- Added new 1 skin variant for infected and humans.
-- Added new survivor humanoid.
-- Fixed looping sounds in the deer.
+- Added new 2 structures.
+- Added new pt-br language support.
+- Added PC deco block.
+- Fixed bandit bullet spread.
 ```
 
-If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
+If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
 
-**(I can request a DMCA to take down your content.)**
+This will **ONLY** work in Minecraft versions **1.20.60** (DON'T USE BETA/PREVIEW)
 
-## Download Links
+## Downloads
 
-- [Behavior Pack [Linkvertise]](https://linkvertise.com/173623/project-walker-bp)
-- [Resource Pack [Linkvertise]](https://linkvertise.com/173623/project-walker-rp)
-
-If you've run out of 3 free credits in linkvertise, wait until tomorrow to download the add-on or use the alternative links below.
-
-## Alternative Links
-
-- [Behavior Pack [LootLabs]](https://loot-links.com/s?fW6x)
-- [Resource Pack [LootLabs]](https://loot-link.com/s?fW6z)
-- [Behavior Pack [BstLar]](https://bstlar.com/2EI/pw-bp)
-- [Resource Pack [BstLar]](https://bstlar.com/2EI/pw-rp)
+- LootLabs
+  - [Behavior Pack - LootLabs](https://loot-links.com/s?fW6x)
+  - [Resource Pack - LootLabs](https://loot-link.com/s?fW6z)
+- Linkvertise
+  - [Behavior Pack - Linkvertise](https://linkvertise.com/173623/project-walker-bp)
+  - [Resource Pack - Linkvertise](https://linkvertise.com/173623/project-walker-rp)
+- Bstlar
+  - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
+  - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)
 
 ## Supported Versions
 

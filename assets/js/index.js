@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 adjust_textarea = (x) => {
 	x.style.height = "20px";
 	x.style.height = x.scrollHeight + "px";
@@ -21,10 +25,6 @@ hamburgerMenu = () => {
 		hamburger.classList.remove("active");
 		navMenu.classList.remove("active");
 	}));
-}
-
-footerDate = () => {
-	document.querySelector(".date-y").innerText = new Date().getFullYear();
 }
 
 theme = () => {
@@ -55,29 +55,5 @@ theme = () => {
 	}, false);
 };
 
-cookieConsent = () => {
-	document.addEventListener("DOMContentLoaded", () => {
-		const cookieConsent = document.querySelector(".cookie-consent");
-		const cookieConsentAccept = document.querySelector(".cookie-consent-accept");
-
-		if (localStorage.getItem("cookie-consent")) {
-			cookieConsent.style.display = "none";
-		} else {
-			cookieConsent.style.display = "block";
-		}
-
-		cookieConsent.onclick = (event) => {
-			event.preventDefault();
-		};
-
-		cookieConsentAccept.onclick = (event) => {
-			localStorage.setItem("cookie-consent", true);
-			cookieConsent.style.display = "none";
-		};
-	});
-};
-
 hamburgerMenu();
-footerDate();
 theme();
-cookieConsent();

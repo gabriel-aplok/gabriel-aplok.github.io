@@ -1,16 +1,26 @@
 title: Gabriel Aplok
 tagline: Full-Stack Developer | Minecraft Bedrock Addon Developer.
 description: Come check some of my work.
-icon: /assets/img/icon.png
-logo: /assets/img/logo.png
-timezone: America/Sao_Paulo
-lang: en-US
-#url: http://localhost:4000/
-#api_url: http://localhost:9595/api/api
 url: https://gabriel-aplok.com
 api_url: https://api.gabriel-aplok.com/api
+baseurl: ""
 
+icon: /assets/img/icon.png
+logo: /assets/img/logo.png
+avatar: /assets/img/profile.png
+
+timezone: America/Sao_Paulo
+lang: en-US
+
+social:
+  name: Gabriel Aplok
+  email: contact@gabriel-aplok.com
+  links:
+    - https://gabriel-aplok.com
+
+google_site_verification: 6KdYh_ff3c8RKaXlzqEcnUscw98UzP8rjM6tXFr-qPQ
 google_analytics: G-FJD9RTYZP5
+
 issues_repo: gabriel-aplok/gabriel-aplok.github.io
 
 email: contact@gabriel-aplok.com
@@ -20,27 +30,35 @@ github: https://github.com/gabriel-aplok/
 itchio: https://gabriel-aplok.itch.io/
 discord: https://discord.gg/PppEgBdss4
 
-sass:
-  style: :compressed
+plugins:
+  - jekyll-sitemap
 
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
 
-author:
-  name: Gabriel Lima
-  email: contact@gabriel-aplok.com
-  url: https://gabriel-aplok.com
-
-plugins:
-  - jekyll-sitemap
-    
 collections:
-  blog:
-    output: true
   projects:
     output: true
 
-webrick:
-  headers:
-    FireWave-Service-Id: e2674490bdb54c76836073fa6299e53d
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - README.md
+  - LICENSE
+  - package.json

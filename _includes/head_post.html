@@ -4,12 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="title" content="{{ page.title }} - {{ site.title }}">
 <meta name="description" content="{{ page.description | default: site.description }}">
-<meta name="author" content="{{ page.author | default: site.author.name }}">
+<meta name="author" content="{{ page.author | default: site.social.name }}">
 <meta name="keywords" content="{{ page.tags | join: ',' }}">
-{% if page.status == 'public' %}
-<meta name="robots" content="index, follow">
-{% endif %}
 <meta name='dmca-site-verification' content='TlFhcXFzaUd3RjdyUnZjVzNnWXJyQ09rcG9MUUFQSEpHZG5sUjdDYjhHTT01' />
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
@@ -51,11 +49,7 @@
 <script type="application/ld+json">
 {
 	"@context": "https://schema.org",
-	{% if page.layout == "blog" %}
-	"@type": "BlogPosting",
-	{% else %}
 	"@type": "Article",
-	{% endif %}
 	"mainEntityOfPage": {
 		"@type": "WebPage",
 		"@id": "{{ page.url | absolute_url }}"
@@ -65,7 +59,7 @@
 	"image": "{{ page.banner | default: site.icon | absolute_url }}",
 	"author": {
 		"@type": "Person",
-		"name": "{{ site.author.name }}",
+		"name": "{{ site.social.name }}",
 		"url": "{{ 'about.html' | absolute_url }}"
 	},
 	"datePublished": "{{ page.date | date: '%Y-%m-%d' }}" {% if page.updated %},

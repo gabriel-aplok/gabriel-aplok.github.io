@@ -1,15 +1,21 @@
 ---
 layout: default
-title: Project Walker - 1.8.1
+title: Project Walker - 1.8.2
 ---
 
-# Project Walker - 1.8.1
+# Project Walker - 1.8.2
 
-**Posted:** 06 February 2024
+**Posted:** 24 February 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.2 (Public Demo):
+- Added new 2 structures.
+- Added new pt-br language support.
+- Added PC deco block.
+- Fixed bandit bullet spread.
 
 ### v1.8.1 (Public Demo):
 - Updated engine to support Minecraft 1.20.60.

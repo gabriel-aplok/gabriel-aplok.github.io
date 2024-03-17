@@ -23,10 +23,6 @@ const adjust_textarea = (x) => {
 	x.style.height = x.scrollHeight + "px";
 }
 
-const odp = (x) => {
-	window.location = `../download/?q=${btoa(x.getAttribute('odp'))}`
-}
-
 // Hamburger menu
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");

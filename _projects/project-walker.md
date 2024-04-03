@@ -125,6 +125,10 @@ Armor is great for protecting yourself from zombie and enemy attacks.
 
 Great visual and realistic NVG.
 
+## Extensiona Info
+
+![Refill Water](/projects/{{ page.slug }}/images/screenshot/extension_0.png)
+
 ## Installation
 
 Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.

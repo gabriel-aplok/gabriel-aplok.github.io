@@ -38,7 +38,6 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 ## Experimental Gameplay
 
 - Holiday Creator Features (Required).
-- Molang Features (Required).
 - Beta APIs (Required).
 
 ## How to Make Guns

@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.2
+title: Project Walker Addon | v1.8.3
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-02-24
+updated: 2024-04-03
 new: true
 comments_id: 2
 ---
@@ -52,7 +52,6 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 
 - Holiday Creator Features (Required).
 - Custom Biomes (Optional).
-- Molang Features (Required).
 - Beta APIs (Required).
 
 ## Thirst
@@ -137,26 +136,27 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 ## Know Bugs
 
 ```
-- Guns don't fire full-auto in Creative Mode, use Survival Mode.
 - Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
 - Vehicles can't climb one block (idk why?).
-- When Minecraft get new update SOME SYSTEMS BREAKS.
 ```
 
-## Changelog for v1.8.2
+## Changelog for v1.8.3
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added new 2 structures.
-- Added new pt-br language support.
-- Added PC deco block.
-- Fixed bandit bullet spread.
+- Added bandit and survivor variants with melee and ranged weapons.
+- Added random equipments to the static NPCs.
+- Moved refillable empty canteen and bottle system to another separate pack.
+- Fixed water particle in water pump.
+- Improved M40 and Kar98k models.
+- Improved guns system from durability to scoreboard.
+- Removed custom bullet system scripts (will be re-added soon).
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
 
-This will **ONLY** work in Minecraft versions **1.20.60** (DON'T USE BETA/PREVIEW)
+This will **ONLY** work in Minecraft versions **1.20.70** (DON'T USE BETA/PREVIEW)
 
 ## Downloads
 
@@ -172,5 +172,7 @@ This will **ONLY** work in Minecraft versions **1.20.60** (DON'T USE BETA/PREVIE
 
 ## Supported Versions
 
-<span class="tag">1.20.60</span>
-<span class="tag">1.20.62</span>
+<span class="tag">1.20.70</span>
+<span class="tag">1.20.71</span>
+<span class="tag">1.20.72</span>
+<span class="tag">1.20.73</span>

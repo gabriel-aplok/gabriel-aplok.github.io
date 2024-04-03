@@ -1,33 +1,42 @@
 ---
 layout: default
-title: Project Walker - 1.8.2
+title: Project Walker - 1.8.3
 ---
 
-# Project Walker - 1.8.2
+# Project Walker - 1.8.3
 
-**Posted:** 24 February 2024
+**Posted:** 03 April 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
 
-### v1.8.2 (Public Demo):
+### v1.8.3:
+- Added bandit and survivor variants with melee and ranged weapons.
+- Added random equipments to the static NPCs.
+- Moved refillable empty canteen and bottle system to another separate pack.
+- Fixed water particle in water pump.
+- Improved M40 and Kar98k models.
+- Improved guns system from durability to scoreboard.
+- Removed custom bullet system scripts (will be re-added soon).
+
+### v1.8.2:
 - Added new 2 structures.
 - Added new pt-br language support.
 - Added PC deco block.
 - Fixed bandit bullet spread.
 
-### v1.8.1 (Public Demo):
+### v1.8.1:
 - Updated engine to support Minecraft 1.20.60.
 - Added new Colt M1892 revolver gun.
-- Added new Radio songs.
+- Added new Radio block.
+- Added new Ham Radio songs.
 - Added new 1 skin variant for infected and humans.
 - Added new survivor humanoid.
-- Fixed reload & damage in guns.
 - Fixed looping sounds in the deer.
 
-### v1.8.0 (Public Demo):
-
+### v1.8.0:
+- Added variant animations to walkers.
 - Added now you can clear dirty rag with water.
 - Added water pump back.
 - Added tomato food.
@@ -48,13 +57,13 @@ title: Project Walker - 1.8.2
 - Fixed some language issues.
 - Fixed importing issues.
 - Fixed explosion missing textures.
+- Fixed running animation in the crosshair.
 - Improved M4 w/Carry Handler.
 - Improved M16 w/Carry Handler.
 - Improved health system.
 - Improved 12gauge spread.
 
-### v1.7.9 (Public Demo):
-
+### v1.7.9:
 - Added bandits group spawn.
 - Added glowing eyes to infecteds.
 - Added translation to effects.
@@ -74,8 +83,7 @@ title: Project Walker - 1.8.2
 - Improved vehicles math animations based.
 - Removed accidentally sedan spawn.
 
-### v1.7.8 (Public Demo):
-
+### v1.7.8:
 - Added new ammunition items.
 - Added new guns items.
 - Added new water canteen drinkable item.
@@ -113,7 +121,6 @@ title: Project Walker - 1.8.2
 - And many other things that it would be impossible to list them all here.
 
 ### v1.7.5:
-
 - Reduced mobs and loots spawn rate.
 - Improved fill water system.
 - Improved health (broken leg, infection and blood) system.
@@ -124,7 +131,6 @@ title: Project Walker - 1.8.2
 - Fixed structures spawning incompatibility with 1.20.30+.
 
 ### v1.7.4:
-
 - Added new sounds.
 - Added new crosshair.
 - Removed new vanilla entities spawn.
@@ -143,22 +149,18 @@ title: Project Walker - 1.8.2
 - Improved infected despawn from distance for optimization.
 
 ### v1.7.3:
-
 - Fixed player high velocity when scope.
 - Fixed player scope layer not showing.
 - Fixed some other issues.
 
 ### v1.7.2:
-
 - Fixed some bugs.
 
 ### v1.7.1:
-
 - Fixed zombie hordes.
 - Fixed loot spawn rarity.
 
 ### v1.7:
-
 - Added darkness colormap.
 - Added new sound effects to guns and some vanilla sound improvements.
 - Added dacia vehicle.
@@ -176,12 +178,10 @@ title: Project Walker - 1.8.2
 - Fixed a lot of bugs.
 
 ### v1.6:
-
 - Fixed crouching while flying and walking animation bug.
 - Fixed zombie spawn.
 
 ### v1.5:
-
 - Added all items in creative inventory.
 - Added First-person 3D items display the player's hand (regardless of skin).
 - Added bottles can be filled with water.
@@ -193,28 +193,24 @@ title: Project Walker - 1.8.2
 - Fixed P90 fire rate.
 
 ### v1.4:
-
 - Added new loot structures.
 - Fixed 3d guns was not working properly.
 - Fixed zombies now drop items and XP.
 - Fixed the thirst bar was not showing properly.
 
 ### v1.3:
-
 - Added 3d items.
 - Improved the thirst bar.
 - Fixed zombie hordes have a max of 10 zombies.
 - Fixed it's now easier to find ammo.
 
 ### v1.2:
-
 - Added thirst system.
 - Added drinks to drank water lol.
 - Added new 3d armors.
 - Added support por English language.
 
 ### v1.1:
-
 - Added guns.
 - Added melees.
 - Added foods.
@@ -224,5 +220,4 @@ title: Project Walker - 1.8.2
 - Added terrain generation.
 
 ### v1.0:
-
 - First release.

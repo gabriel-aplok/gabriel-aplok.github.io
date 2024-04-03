@@ -170,6 +170,10 @@ This will **ONLY** work in Minecraft versions **1.20.70** (DON'T USE BETA/PREVIE
   - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)
 
+## Extensions Downloads
+
+<button class="button button-secondary" dest="https://www.mediafire.com/file/139pr5efwrs9b2n/Project-Walker-Refill-Water-BP-Extension-V1.0.0.mcpack/file" onclick="x(this);">Download Refill Water Extension</button>
+
 ## Supported Versions
 
 <span class="tag">1.20.70</span>

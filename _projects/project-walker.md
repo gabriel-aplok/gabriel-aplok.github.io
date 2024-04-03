@@ -160,19 +160,18 @@ This will **ONLY** work in Minecraft versions **1.20.70** (DON'T USE BETA/PREVIE
 
 ## Downloads
 
-- LootLabs
+- LootLabs (Recommend)
   - [Behavior Pack - LootLabs](https://loot-links.com/s?fW6x)
   - [Resource Pack - LootLabs](https://loot-link.com/s?fW6z)
-- Linkvertise
+- Linkvertise (Alternative)
   - [Behavior Pack - Linkvertise](https://linkvertise.com/173623/project-walker-bp)
   - [Resource Pack - Linkvertise](https://linkvertise.com/173623/project-walker-rp)
-- Bstlar
+- Bstlar (Alternative)
   - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)
 
 ## Extensions Downloads
-
-<button class="button button-secondary" dest="https://www.mediafire.com/file/139pr5efwrs9b2n/Project-Walker-Refill-Water-BP-Extension-V1.0.0.mcpack/file" onclick="x(this);">Download Refill Water Extension</button>
+- [Refill Water Extension](https://www.mediafire.com/file/139pr5efwrs9b2n/Project-Walker-Refill-Water-BP-Extension-V1.0.0.mcpack/file)
 
 ## Supported Versions
 

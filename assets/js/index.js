@@ -20,7 +20,6 @@ const analytics = getAnalytics(app);
 
 // Testing
 const dest = (x) => {
-	alert(x);
 	window.location = `../download/?q=${btoa(x.getAttribute('dest'))}`;
 }
 

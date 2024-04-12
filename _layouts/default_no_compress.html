@@ -1,0 +1,136 @@
+---
+layout: null
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+	{% if page.layout == "project" %}
+	{% include head_post.html %}
+	{% else %}
+	{% include head_default.html %}
+	{% endif %}
+	<!-- Ads -->
+	<meta name="google-adsense-account" content="ca-pub-1388434276906165">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Google Tag (gtag.js) -->
+	{% include google_analytics.html %}
+	<!-- Header -->
+	<header id="hero">
+		<!-- Navbar -->
+		<nav class="navbar">
+			<div class="container">
+				<!-- Logo -->
+				<a id="logo" href="{{ site.url | absolute_url }}">
+					<img src="{{ '/assets/img/logo.png' | absolute_url }}" alt="FireWave Interactive">
+				</a>
+				<!-- Navbar Links -->
+				<ul class="nav-menu">
+					{% assign pages = site.pages | sort: 'nav_order' %}
+					{% for pageIndex in pages %}
+						{% if pageIndex.nav_order and pageIndex.nav_order > 0 %}
+							{% if pageIndex.url == page.url %}
+								<li><a class="nav-link active" href="{{ pageIndex.url | absolute_url }}">{{ pageIndex.title }}</a></li>
+							{% else %}
+								<li><a class="nav-link" href="{{ pageIndex.url | absolute_url }}">{{ pageIndex.title }}</a></li>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+					<br>
+					<div class="theme-switch-wrapper">
+						<label class="theme-switch" for="checkbox">
+							<input type="checkbox" id="checkbox" />
+							<div class="slider round"></div>
+						</label>
+						<p> Enable Dark Mode <em>(Beta)</em></p>
+					</div>
+				</ul>
+				<!-- Hamburger Menu -->
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</div>
+		</nav>
+		<!-- Hero -->
+		{% if page.hero == true %}
+		<section class="header-container">
+			<div class="row row-hero">
+				<div class="col-25">
+					<img class="profile-image" src="{{ 'assets/img/profile.png' | absolute_url }}" alt="Gabriel Aplok">
+					<h1 class="mt1">Hello, I'm <span class="text-primary">Gabriel</span></h1>
+				</div>
+				<div class="col-75">
+					<div class="content-text">
+						<h3 class="mt0">Full-Stack Developer</h3>
+						<p class="mt0">My name is <span class="text-primary">Gabriel Lima</span> and I'm a full-stack, game and minecraft bedrock addon developer or just someone who likes to tinker with technology, wishing to create fun, innovative, and quality experiences!</p>
+					</div>
+					<a href="#projects" class="button button-secondary">VIEW MY PROJECTS</a>
+				</div>
+			</div>
+		</section>
+		{% endif %}
+	</header>
+	<!-- Main Content -->
+	<main class="main">
+		{{ content }}
+	</main>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container">
+			<!-- Social links -->
+			<div class="social">
+				<a href="https://linkedin.com/in/gabrielaplok" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+				<a href="https://github.com/gabriel-aplok/" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+				<a href="https://x.com/GabrielAplok" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+				<a href="https://instagram.com/gabriel__yeah" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+				<a href="https://youtube.com/GabrielAplok" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a>
+				<a href="https://discord.gg/PppEgBdss4" target="_blank"><i class="fa-brands fa-discord fa-2x"></i></a>
+			</div>
+			<!-- Copyright -->
+			<p>&copy; 2018-<time>{{ 'now' | date: '%Y' }}</time> Gabriel Aplok. All rights reserved.</p>
+			<!-- Links -->
+			<div class="links">
+				<a href="{{ '/terms.html' | absolute_url }}">Terms of Service</a>
+				<span > | </span>
+				<a href="{{ '/privacy.html' | absolute_url }}">Privacy of Policy</a>
+				<span > | </span>
+				<a href="{{ '/sponsor.html' | absolute_url }}">💝 Sponsor My Work</a>
+			</div>
+			<!-- Attribution -->
+			<img class="dmca-badge noborder" src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309" alt="DMCA.com Protection Status"/>
+			<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+		</div>
+	</footer>
+	<!-- Scripts -->
+	<!--script src="//cdn.jsdelivr.net/npm/eruda"></script>
+	<script>eruda.init();</script-->
+
+	<script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.8/src/glowCookies.min.js"></script>
+	{% if page.url != "/privacy.html" %}
+	<script>
+		glowCookies.start("en", {
+			style: 1,
+			analytics: "{{ site.google_analytics }}",
+			policyLink: "{{ 'privacy.html' | absolute_url }}",
+			bannerDescription: "This site uses cookies to personalize content and analyze traffic. By continuing, you agree to the use of cookies.",
+			bannerLinkText: "Read more",
+			bannerBackground: "#FAFAFA",
+			bannerColor: "#09090B",
+			acceptBtnBackground: "#FF5722",
+			acceptBtnColor: "#FAFAFA",
+			rejectBtnBackground: "#09090B",
+			rejectBtnColor: "#FAFAFA",
+			manageBackground: "#19191B",
+			manageColor: "#FAFAFA"
+		});
+	</script>
+	{% endif %}
+	<script async defer src="https://www.google.com/recaptcha/api.js"></script>
+	<script async src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script async type="module" src="{{ '/assets/js/index.js' | absolute_url }}"></script>
+</body>
+</html>

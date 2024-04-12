@@ -39,7 +39,7 @@ If you plan to showcase this add-on, **ONLY use the links I provide here**. DONâ
 
 ## Downloads
 
-<button class="button button-secondary" dest="https://www.mediafire.com/file/371skpulsim3gfw/DayZ+Map.mcworld/file" onclick="x(this);">Download .mcworld</button>
+<button class="button button-secondary" dest="https://www.mediafire.com/file/371skpulsim3gfw/DayZ+Map.mcworld/file" onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;">Download .mcworld</button>
 
 ## Minecraft Version
 

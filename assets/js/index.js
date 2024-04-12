@@ -18,6 +18,13 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+// Testing
+const dest = (x) => {
+	alert(x);
+	window.location = `../download/?q=${btoa(x.getAttribute('dest'))}`;
+}
+
+// Input Sizing
 const adjust_textarea = (x) => {
 	x.style.height = "20px";
 	x.style.height = x.scrollHeight + "px";

@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.3
+title: Project Walker Addon | v1.8.4
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-04-03
+updated: 2024-04-15
 new: true
 comments_id: 2
 ---
@@ -51,7 +51,7 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 ## Experimental Gameplay
 
 - Holiday Creator Features (Required).
-- Custom Biomes (Optional).
+- Custom Biomes (Required).
 - Beta APIs (Required).
 
 ## Thirst
@@ -144,18 +144,25 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Vehicles can't climb one block (idk why?).
 ```
 
-## Changelog for v1.8.3
+## Changelog for v1.8.4
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added bandit and survivor variants with melee and ranged weapons.
-- Added random equipments to the static NPCs.
-- Moved refillable empty canteen and bottle system to another separate pack.
-- Fixed water particle in water pump.
-- Improved M40 and Kar98k models.
-- Improved guns system from durability to scoreboard.
-- Removed custom bullet system scripts (will be re-added soon).
+- Added recipes for barbed wire, chair, crate, hazard block, metal rack, table, carpeted table, water pump and wooden barricade.
+- Added new Coly Python item.
+- Added new temporary blindness when breaking a bone.
+- Added now you can add/remove sniper scopes using the crafting table.
+- Increased bullet velocity (+3).
+- Improved NPCs AI.
+- Fixed structures being built within the terrain without access.
+- Fixed NPCs pickuping ammo and dropping guns on the ground.
+- Fixed the crosshair not being hidden with the hide GUI option enabled.
+- Fixed thirst bar not being hidden in creative mode.
+- Fixed a bug where zombies wouldn't attack survivors and bandits.
+- Fixed refillable bottle and canteen disappearing when clicking on the water block without using the refill water extension.
+- Removed the camera switching system when holding a gun sneaking.
+- Removed the physics system from the wall detector arms for visual effect (causing crashing).
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)

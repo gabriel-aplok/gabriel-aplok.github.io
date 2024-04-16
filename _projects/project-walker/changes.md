@@ -1,15 +1,31 @@
 ---
 layout: default
-title: Project Walker - 1.8.3
+title: Project Walker - 1.8.4
 ---
 
-# Project Walker - 1.8.3
+# Project Walker - 1.8.4
 
-**Posted:** 03 April 2024
+**Posted:** 15 April 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.4:
+- Added recipes for barbed wire, chair, crate, hazard block, metal rack, table, carpeted table, water pump and wooden barricade.
+- Added new Coly Python item.
+- Added new temporary blindness when breaking a bone.
+- Added now you can add/remove sniper scopes using the crafting table.
+- Increased bullet velocity (+3).
+- Improved NPCs AI.
+- Fixed structures being built within the terrain without access.
+- Fixed NPCs pickuping ammo and dropping guns on the ground.
+- Fixed the crosshair not being hidden with the hide GUI option enabled.
+- Fixed thirst bar not being hidden in creative mode.
+- Fixed a bug where zombies wouldn't attack survivors and bandits.
+- Fixed refillable bottle and canteen disappearing when clicking on the water block without using the refill water extension.
+- Removed the camera switching system when holding a gun sneaking.
+- Removed the physics system from the wall detector arms for visual effect (causing crashing).
 
 ### v1.8.3:
 - Added bandit and survivor variants with melee and ranged weapons.

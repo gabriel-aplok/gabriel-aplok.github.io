@@ -2,7 +2,6 @@
 layout: default
 title: Sponsor My Work
 description: A lot of my work is for my Minecraft bedrock addons. I am currently the main developer and maintainer for all of the projects on this website.
-nav_order: 4
 ---
 
 # Sponsor my work ❤️

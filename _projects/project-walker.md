@@ -3,7 +3,7 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.4
+title: Project Walker Addon | v1.8.5
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
@@ -144,30 +144,33 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Vehicles can't climb one block (idk why?).
 ```
 
-## Changelog for v1.8.4
+## Changelog for v1.8.5
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added recipes for barbed wire, chair, crate, hazard block, metal rack, table, carpeted table, water pump and wooden barricade.
-- Added new Coly Python item.
-- Added new temporary blindness when breaking a bone.
-- Added now you can add/remove sniper scopes using the crafting table.
-- Increased bullet velocity (+3).
-- Improved NPCs AI.
-- Fixed structures being built within the terrain without access.
-- Fixed NPCs pickuping ammo and dropping guns on the ground.
-- Fixed the crosshair not being hidden with the hide GUI option enabled.
-- Fixed thirst bar not being hidden in creative mode.
-- Fixed a bug where zombies wouldn't attack survivors and bandits.
-- Fixed refillable bottle and canteen disappearing when clicking on the water block without using the refill water extension.
-- Removed the camera switching system when holding a gun sneaking.
-- Removed the physics system from the wall detector arms for visual effect (causing crashing).
+- Added distant death sound effect for players.
+- Added custom bullet system scripts back.
+- Added new 3 structures.
+- Added new celling lamp.
+- Added new on target acquired NPCs effects.
+- Added now when you die if you're infected, a zombie will be spawned in your place.
+- Added now you can drink water from some vanilla items like apple, watermelon and bottle of water.
+- Added now walker will spawn in undergrounds in hard mode.
+- Improved infected spawn rate due to game difficulty.
+- Improved crosshair to hide when aim with any gun.
+- Improved gun "tactical" sprint animation.
+- Improved shotgun and sniper bullets can break doors.
+- Improved reducion of some melee weapons damage.
+- Fixed bullet causing crash in windows edition.
+- Fixed bullet is not despawning in a long range.
+- Fixed food, drink and medicine items is not working.
+- Removed custom walk animation holding gun (fpp).
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
 
-This will **ONLY** work in Minecraft versions **1.20.70** (DON'T USE BETA/PREVIEW)
+This will **ONLY** work in Minecraft versions **1.20.70** or higher (DON'T USE BETA/PREVIEW EDITION)
 
 ## Downloads
 
@@ -181,12 +184,12 @@ This will **ONLY** work in Minecraft versions **1.20.70** (DON'T USE BETA/PREVIE
   - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)
 
+> Please update the extensions used to support Minecraft 1.20.80.
+
 ## Extensions Downloads
-- [Refill Water Extension](https://www.mediafire.com/file/139pr5efwrs9b2n/Project-Walker-Refill-Water-BP-Extension-V1.0.0.mcpack/file)
+- [Refill Water Extension](https://www.mediafire.com/file/adf904rz2zn5a3a/Project-Walker-Refill-Water-BP-Extension-V1.0.1.mcpack/file)
 
 ## Supported Versions
 
 <span class="tag">1.20.70</span>
-<span class="tag">1.20.71</span>
-<span class="tag">1.20.72</span>
-<span class="tag">1.20.73</span>
+<span class="tag">1.20.80</span>

@@ -1,15 +1,34 @@
 ---
 layout: default
-title: Project Walker - 1.8.4
+title: Project Walker - 1.8.5
 ---
 
-# Project Walker - 1.8.4
+# Project Walker - 1.8.5
 
-**Posted:** 15 April 2024
+**Posted:** 27 April 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.5:
+- Added distant death sound effect for players.
+- Added custom bullet system scripts back.
+- Added new 3 structures.
+- Added new celling lamp.
+- Added new on target acquired NPCs effects.
+- Added now when you die if you're infected, a zombie will be spawned in your place.
+- Added now you can drink water from some vanilla items like apple, watermelon and bottle of water.
+- Added now walker will spawn in undergrounds in hard mode.
+- Improved infected spawn rate due to game difficulty.
+- Improved crosshair to hide when aim with any gun.
+- Improved gun "tactical" sprint animation.
+- Improved shotgun and sniper bullets can break doors.
+- Improved reducion of some melee weapons damage.
+- Fixed bullet causing crash in windows edition.
+- Fixed bullet is not despawning in a long range.
+- Fixed food, drink and medicine items is not working.
+- Removed custom walk animation holding gun (fpp).
 
 ### v1.8.4:
 - Added recipes for barbed wire, chair, crate, hazard block, metal rack, table, carpeted table, water pump and wooden barricade.

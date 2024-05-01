@@ -1,15 +1,21 @@
 ---
 layout: default
-title: Project Walker - 1.8.5
+title: Project Walker - 1.8.6
 ---
 
-# Project Walker - 1.8.5
+# Project Walker - 1.8.6
 
 **Posted:** 27 April 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.6:
+- Fixed a big mistake of the duplicated interface to reduce lag.
+- Fixed running crosshair animation.
+- Fixed some bugs in the reloading system.
+- Removed custom actionbar position.
 
 ### v1.8.5:
 - Added distant death sound effect for players.

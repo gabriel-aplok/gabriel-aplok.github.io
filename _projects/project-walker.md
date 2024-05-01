@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.5
+title: Project Walker Addon | v1.8.6
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-04-15
+updated: 2024-05-01
 new: true
 comments_id: 2
 ---
@@ -144,28 +144,15 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Vehicles can't climb one block (idk why?).
 ```
 
-## Changelog for v1.8.5
+## Changelog for v1.8.6
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added distant death sound effect for players.
-- Added custom bullet system scripts back.
-- Added new 3 structures.
-- Added new celling lamp.
-- Added new on target acquired NPCs effects.
-- Added now when you die if you're infected, a zombie will be spawned in your place.
-- Added now you can drink water from some vanilla items like apple, watermelon and bottle of water.
-- Added now walker will spawn in undergrounds in hard mode.
-- Improved infected spawn rate due to game difficulty.
-- Improved crosshair to hide when aim with any gun.
-- Improved gun "tactical" sprint animation.
-- Improved shotgun and sniper bullets can break doors.
-- Improved reducion of some melee weapons damage.
-- Fixed bullet causing crash in windows edition.
-- Fixed bullet is not despawning in a long range.
-- Fixed food, drink and medicine items is not working.
-- Removed custom walk animation holding gun (fpp).
+- Fixed a big mistake of the duplicated interface to reduce lag.
+- Fixed running crosshair animation.
+- Fixed some bugs in the reloading system.
+- Removed custom actionbar position.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)

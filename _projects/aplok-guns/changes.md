@@ -1,15 +1,19 @@
 ---
 layout: default
-title: Aplok Guns - 1.0.9
+title: Aplok Guns - 1.1.0
 ---
 
-# Aplok Guns - 1.0.9
+# Aplok Guns - 1.1.0
 
-**Posted:** 15 March 2024
+**Posted:** 01 May 2024
 
 ## Info on the Aplok Guns:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+
+### v1.1.0:
+- Added support to minecraft 1.20.80.
+- Fixed invisible landmine item.
 
 ### v1.0.9:
 - Added support to minecraft 1.20.70/71.

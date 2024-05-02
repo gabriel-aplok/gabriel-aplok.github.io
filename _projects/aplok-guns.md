@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: aplok-guns
-title: Aplok Guns Addon | v1.0.9
+title: Aplok Guns Addon | v1.1.0
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
 date: 2022-03-23
-updated: 2024-03-16
+updated: 2024-05-01
 new: true
 comments_id: 1
 ---
@@ -83,47 +83,6 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 
 ![Gunmetal Ingot Recipes](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_1.png)
 
-## Videos
-
-<details>
-<summary>
-Playlist
-</summary>
-
-<h5>Version 1.0.0</h5>
-
-{% include youtube.html id="TdtadImSXc0" %}
-
-<h5>Version 1.0.1</h5>
-
-{% include youtube.html id="z_L2CS8rufc" %}
-
-<h5>Version 1.0.2</h5>
-
-{% include youtube.html id="gx77Nnbjm8I" %}
-
-<h5>Version 1.0.3</h5>
-
-{% include youtube.html id="RyFokumEF_U" %}
-
-<h5>Version 1.0.4</h5>
-
-{% include youtube.html id="XsNRMOule6Q" %}
-
-<h5>Version 1.0.5</h5>
-
-{% include youtube.html id="Th2ZdNCbCqc" %}
-
-<h5>Version 1.0.7</h5>
-
-{% include youtube.html id="3lKUFvLtGJc" %}
-
-<h5>Version 1.0.8</h5>
-
-{% include youtube.html id="_DR9HsQNOfI" %}
-
-</details>
-
 ## Guns
 
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
@@ -161,20 +120,18 @@ Open the **.mcpack** with **Minecraft** or extract and copy manually the folder 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
 
-## Changelog for v1.0.9
+## Changelog for v1.1.0
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added support to minecraft 1.20.70/71.
-- Decreased Mossberg bullet damage.
-- Improved bullet damage type to "override" to compatibility with amor protection.
-- Removed knockback from bullets.
+- Added support to minecraft 1.20.80.
+- Fixed invisible landmine item.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
 
-This will **ONLY** work in Minecraft versions **1.20.70** (DON'T USE BETA/PREVIEW)
+This will **ONLY** work in Minecraft versions **1.20.80** (DON'T USE BETA/PREVIEW)
 
 ## Downloads
 
@@ -190,5 +147,4 @@ This will **ONLY** work in Minecraft versions **1.20.70** (DON'T USE BETA/PREVIE
 
 ## Supported Versions
 
-<span class="tag">1.20.70</span>
-<span class="tag">1.20.71</span>
+<span class="tag">1.20.80</span>

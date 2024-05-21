@@ -48,10 +48,7 @@ navLink.forEach((node) => node.addEventListener("click", () => {
 const toggleSwitch = document.querySelector(".theme-switch input[type='checkbox']");
 const currentTheme = localStorage.getItem("theme");
 
-document.documentElement.setAttribute("data-theme", currentTheme);
-document.querySelector(".g-recaptcha").setAttribute("data-theme", currentTheme);
 toggleSwitch.checked = (currentTheme == "dark");
-
 toggleSwitch.addEventListener("change", (event) => {
 	if (event.target.checked) {
 		document.documentElement.setAttribute("data-theme", "dark");
@@ -63,3 +60,6 @@ toggleSwitch.addEventListener("change", (event) => {
 		localStorage.setItem("theme", "light");
 	}
 });
+
+document.documentElement.setAttribute("data-theme", currentTheme);
+document.querySelector(".g-recaptcha").setAttribute("data-theme", currentTheme);

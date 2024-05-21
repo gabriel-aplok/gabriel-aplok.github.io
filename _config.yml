@@ -11,6 +11,7 @@ avatar: /assets/img/profile.png
 
 timezone: America/Sao_Paulo
 lang: en-US
+build_revision: 1
 
 social:
   name: Gabriel Aplok

@@ -1,15 +1,41 @@
 ---
 layout: default
-title: Project Walker - 1.8.6
+title: Project Walker - 1.8.7
 ---
 
-# Project Walker - 1.8.6
+# Project Walker - 1.8.7
 
-**Posted:** 27 April 2024
+**Posted:** 22 May 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.7:
+- Added night hordes.
+- Added night vision effect back to nvg.
+- Added small stones and cobblestones block.
+- Added wastelands environment.
+- Added new humanoid walk and run animations.
+- Added 5 new house structures.
+- Added 1 new bandit tower structures.
+- Added 5 new bush environment.
+- Added new flash grenade.
+- Added new fragment grenade.
+- Added new smoke grenade.
+- Improved loots to be dropped only when killed by players to performance.
+- improved loots to drop random durability in melee and wearables.
+- Improved AK-74 and AK-12 shoot sfx.
+- Improved fog.
+- Updated NPCs spawn egg color.
+- Fixed some bugs in the reloading system.
+- Fixed SKS ammo bullet counter wrong value.
+- Fixed some translation issues.
+- Fixed FINALLY vehicles now can climb blocks.
+- Removed civil loot from infected and npcs.
+- Removed songs from the radio.
+- Removed full grass block textures.
+- Removed vanilla wandering trader spawn.
 
 ### v1.8.6:
 - Fixed a big mistake of the duplicated interface to reduce lag.

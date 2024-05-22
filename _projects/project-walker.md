@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.6
+title: Project Walker Addon | v1.8.7
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-05-01
+updated: 2024-05-22
 new: true
 comments_id: 2
 ---
@@ -141,23 +141,42 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 
 ```
 - Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
-- Vehicles can't climb one block (idk why?).
 ```
 
-## Changelog for v1.8.6
+## Changelog for v1.8.7
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Fixed a big mistake of the duplicated interface to reduce lag.
-- Fixed running crosshair animation.
+- Added night hordes.
+- Added night vision effect back to nvg.
+- Added small stones and cobblestones block.
+- Added wastelands environment.
+- Added new humanoid walk and run animations.
+- Added 5 new house structures.
+- Added 1 new bandit tower structures.
+- Added 5 new bush environment.
+- Added new flash grenade.
+- Added new fragment grenade.
+- Added new smoke grenade.
+- Improved loots to be dropped only when killed by players to performance.
+- improved loots to drop random durability in melee and wearables.
+- Improved AK-74 and AK-12 shoot sfx.
+- Improved fog.
+- Updated NPCs spawn egg color.
 - Fixed some bugs in the reloading system.
-- Removed custom actionbar position.
+- Fixed SKS ammo bullet counter wrong value.
+- Fixed some translation issues.
+- Fixed FINALLY vehicles now can climb blocks.
+- Removed civil loot from infected and npcs.
+- Removed songs from the radio.
+- Removed full grass block textures.
+- Removed vanilla wandering trader spawn.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
 
-This will **ONLY** work in Minecraft versions **1.20.70** or higher (DON'T USE BETA/PREVIEW EDITION)
+This will **ONLY** work in Minecraft version **1.20.80** or higher (DON'T USE BETA/PREVIEW EDITION)
 
 ## Downloads
 
@@ -171,7 +190,7 @@ This will **ONLY** work in Minecraft versions **1.20.70** or higher (DON'T USE B
   - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)
 
-> Please update the extensions used to support Minecraft 1.20.80.
+> Please update the extensions used to support Minecraft 1.20.80+.
 
 ## Extensions Downloads
 - [Refill Water Extension](https://www.mediafire.com/file/adf904rz2zn5a3a/Project-Walker-Refill-Water-BP-Extension-V1.0.1.mcpack/file)
@@ -180,3 +199,4 @@ This will **ONLY** work in Minecraft versions **1.20.70** or higher (DON'T USE B
 
 <span class="tag">1.20.70</span>
 <span class="tag">1.20.80</span>
+<span class="tag">1.20.81</span>

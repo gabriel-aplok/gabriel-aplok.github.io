@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.7
+title: Project Walker Addon | v1.8.8
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-05-22
+updated: 2024-05-23
 new: true
 comments_id: 2
 ---
@@ -143,35 +143,19 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
 ```
 
-## Changelog for v1.8.7
+## Changelog for v1.8.8
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added night hordes.
-- Added night vision effect back to nvg.
-- Added small stones and cobblestones block.
-- Added wastelands environment.
-- Added new humanoid walk and run animations.
-- Added 5 new house structures.
-- Added 1 new bandit tower structures.
-- Added 5 new bush environment.
-- Added new flash grenade.
-- Added new fragment grenade.
-- Added new smoke grenade.
-- Improved loots to be dropped only when killed by players to performance.
-- improved loots to drop random durability in melee and wearables.
-- Improved AK-74 and AK-12 shoot sfx.
-- Improved fog.
-- Updated NPCs spawn egg color.
-- Fixed some bugs in the reloading system.
-- Fixed SKS ammo bullet counter wrong value.
-- Fixed some translation issues.
-- Fixed FINALLY vehicles now can climb blocks.
-- Removed civil loot from infected and npcs.
-- Removed songs from the radio.
-- Removed full grass block textures.
-- Removed vanilla wandering trader spawn.
+- Added 2 new tower structures.
+- Added grenade cooldowm.
+- Fixed 2 pt_br language issues.
+- Fixed model conflit from addon NPC with the vanilla NPC.
+- Fixed grenades name pt_br translations.
+- Fixed medical items loot.
+- Removed balaclava from static NPCs.
+- Removed unusable Armament Table.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)

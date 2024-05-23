@@ -1,15 +1,25 @@
 ---
 layout: default
-title: Project Walker - 1.8.7
+title: Project Walker - 1.8.8
 ---
 
-# Project Walker - 1.8.7
+# Project Walker - 1.8.8
 
-**Posted:** 22 May 2024
+**Posted:** 23 May 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.8:
+- Added 2 new tower structures.
+- Added grenade cooldowm.
+- Fixed 2 pt_br language issues.
+- Fixed model conflit from addon NPC with the vanilla NPC.
+- Fixed grenades name pt_br translations.
+- Fixed medical items loot.
+- Removed balaclava from static NPCs.
+- Removed unusable Armament Table.
 
 ### v1.8.7:
 - Added night hordes.

@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.8
+title: Project Walker Addon | v1.8.9
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-05-23
+updated: 2024-05-31
 new: true
 comments_id: 2
 ---
@@ -143,19 +143,23 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
 ```
 
-## Changelog for v1.8.8
+## Changelog for v1.8.9
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added 2 new tower structures.
-- Added grenade cooldowm.
-- Fixed 2 pt_br language issues.
-- Fixed model conflit from addon NPC with the vanilla NPC.
-- Fixed grenades name pt_br translations.
-- Fixed medical items loot.
-- Removed balaclava from static NPCs.
-- Removed unusable Armament Table.
+- Added now the infection is permanent until you die or use medicine.
+- Added now that the infection affects your thirst, you will feel thirsty more quickly.
+- Added some in-game messages.
+- Added ambient sounds in different biomes and different day or night, indoors or outdoors and climates.
+- Added new infected thirst sprite.
+- Added crafting for camp lantern.
+- Added crafting for celling lamp.
+- Improved night infected hordes will now only spawn on hard mode.
+- Improved hostile mobs disappear in peaceful mode.
+- Fixed some pt_br language problems.
+- Fixed flash grenade damage.
+
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
@@ -174,7 +178,7 @@ This will **ONLY** work in Minecraft version **1.20.80** or higher (DON'T USE BE
   - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)
 
-> Please update the extensions used to support Minecraft 1.20.80+.
+> Please update the extensions used to support Minecraft 1.20.80.
 
 ## Extensions Downloads
 - [Refill Water Extension](https://www.mediafire.com/file/adf904rz2zn5a3a/Project-Walker-Refill-Water-BP-Extension-V1.0.1.mcpack/file)

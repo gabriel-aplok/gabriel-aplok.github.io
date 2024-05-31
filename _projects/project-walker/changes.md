@@ -1,15 +1,28 @@
 ---
 layout: default
-title: Project Walker - 1.8.8
+title: Project Walker - 1.8.9
 ---
 
-# Project Walker - 1.8.8
+# Project Walker - 1.8.9
 
-**Posted:** 23 May 2024
+**Posted:** 31 May 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.9:
+- Added now the infection is permanent until you die or use medicine.
+- Added now that the infection affects your thirst, you will feel thirsty more quickly.
+- Added some in-game messages.
+- Added ambient sounds in different biomes and different day or night, indoors or outdoors and climates.
+- Added new infected thirst sprite.
+- Added crafting for camp lantern.
+- Added crafting for celling lamp.
+- Improved night infected hordes will now only spawn on hard mode.
+- Improved hostile mobs disappear in peaceful mode.
+- Fixed some pt_br language problems.
+- Fixed flash grenade damage.
 
 ### v1.8.8:
 - Added 2 new tower structures.

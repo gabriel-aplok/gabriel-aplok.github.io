@@ -110,8 +110,8 @@ Be careful when you see a bandit, he won't think twice before shooting you!
 
 ## Vehicle
 
-![Sedan](/projects/{{ page.slug }}/images/screenshot/vehicle_0.jpg)
-![M809 Truck](/projects/{{ page.slug }}/images/screenshot/vehicle_1.jpg)
+![Sedan](/projects/{{ page.slug }}/images/screenshot/vehicle_0.png)
+![M809 Truck](/projects/{{ page.slug }}/images/screenshot/vehicle_1.png)
 
 You can use the vehicles with the **Car Key** item putting into the **Saddle Slot**. You can make the vehicles using some materials in the **Crafting Table**.
 

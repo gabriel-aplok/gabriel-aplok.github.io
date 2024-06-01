@@ -10,7 +10,6 @@ description: Explore a run-down, overgrown world taken over by zombies. To survi
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
 updated: 2024-05-31
-new: true
 comments_id: 2
 ---
 
@@ -171,9 +170,6 @@ This will **ONLY** work in Minecraft version **1.20.80** or higher (DON'T USE BE
 - LootLabs (Recommend)
   - [Behavior Pack - LootLabs](https://loot-links.com/s?fW6x)
   - [Resource Pack - LootLabs](https://loot-link.com/s?fW6z)
-- Linkvertise (Alternative)
-  - [Behavior Pack - Linkvertise](https://linkvertise.com/173623/project-walker-bp)
-  - [Resource Pack - Linkvertise](https://linkvertise.com/173623/project-walker-rp)
 - Bstlar (Alternative)
   - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)

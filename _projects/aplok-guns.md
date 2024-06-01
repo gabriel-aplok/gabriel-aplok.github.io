@@ -10,7 +10,6 @@ description: Survival-friendly military-themed add-on with vanilla styled and be
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
 date: 2022-03-23
 updated: 2024-05-01
-new: true
 comments_id: 1
 ---
 

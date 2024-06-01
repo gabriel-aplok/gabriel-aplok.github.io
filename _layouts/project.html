@@ -13,14 +13,14 @@ layout: default
 	<p>Updated: <span class="text-primary">{{ page.updated | date: '%B %d, %Y'}}</span></p>
 	{% endif %}
 
-	{% if page.banner %}
-	<img src="{{ page.banner | absolute_url }}" alt="{{ page.title }} Thumbnail" style="width: 100%; margin-left: auto; margin-right: auto;">
-	{% endif %}
-
-	<p>{{ page.description }}</p>
-
 	<div class="article">
-	{{ content }}
+		{% if page.banner %}
+		<img src="{{ page.banner | absolute_url }}" alt="{{ page.title }} Thumbnail" style="width: 100%; margin-left: auto; margin-right: auto;">
+		{% endif %}
+
+		<p>{{ page.description }}</p>
+
+		{{ content }}
 	</div>
 	<br>
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>

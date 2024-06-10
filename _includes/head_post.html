@@ -31,9 +31,11 @@
 <link rel="shortcut icon" href="{{ page.icon | default: site.icon | absolute_url }}">
 <link rel="apple-touch-icon" href="{{ page.icon | default: site.icon | absolute_url }}">
 <link rel="icon" href="{{ page.icon | default: site.icon | absolute_url }}">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <link rel="stylesheet" href="{{ '/assets/css/index.css?v=' | append: site.build_revision | absolute_url }}">
 <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+
 <link rel="alternate" type="application/atom+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'feed.xml' | absolute_url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'feed.xml' | absolute_url }}">
 

@@ -1,15 +1,36 @@
 ---
 layout: default
-title: Project Walker - 1.8.9
+title: Project Walker - 1.8.10
 ---
 
-# Project Walker - 1.8.9
+# Project Walker - 1.8.10
 
-**Posted:** 31 May 2024
+**Posted:** 14 June 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.10:
+ - I started porting the engine core to the 1.21 update.
+ - Added new bullet ingredients item to make bullets.
+ - Added 3 new house building.
+ - Added 1 new random building.
+ - Added new beast zombie variant (they can climb walls).
+ - Added aid kit now clear all effects of the player.
+ - Added new 5 pants items.
+ - Added new 5 shirt items.
+ - Improved infected health increase +10.
+ - Improved infected attack increase +2.
+ - Better balance in the durability of melee weapons.
+ - Fixed some missing sounds.
+ - Fixed some buildings.
+ - Fixed infinite ammo item when reloading.
+ - Fixed poor quality of AK-12 and AK-74 firing sfx.
+ - Fixed thirst damage.
+ - Fixed some issues with thirst display.
+ - Fixed some vanilla animals spawn issue.
+ - Removed dark color map.
 
 ### v1.8.9:
 - Added now the infection is permanent until you die or use medicine.

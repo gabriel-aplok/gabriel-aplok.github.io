@@ -17,7 +17,7 @@ comments_id: 2
 
 Do you like high-quality apocalypse-themed addons and have the best features? If yes, you're in the right place.
 
-Project Walker is a Minecraft addon that adds a post-apocalyptic twist to the game. Players must now scavenge for supplies to stay alive, while also being careful of zombies, bandits, and other survivors.
+Project Walker is a Minecraft addon that adds a post-apocalyptic twist to the game. Players must now scavenge for supplies to stay alive, while also being careful of zombies, bandits, and other players.
 
 The addon features a variety of new guns, melees, medicals, foods, drinks, miscellaneous, blocks, mobs, as well as a new survival systems such as infection, bleeding, bone fracture, temperature etc.
 
@@ -54,85 +54,85 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 
 ## Thirst
 
-![Thirst Bar](/projects/{{ page.slug }}/images/screenshot/thirst_0.jpg)
-
 Thirst is showed with water drop icon, as are other Minecraft stats such as life and hunger. You can increase your thirst level from drinks, or from some hydrated foods or you die.
 
-## Infection
+![Thirst Bar](/projects/{{ page.slug }}/images/screenshot/thirst_0.jpg)
 
-![Infected Effect](/projects/{{ page.slug }}/images/screenshot/infection_0.png)
+## Infection
 
 The infection is adhered to by taking damage from a infected zombie.
 You can remove the infection using **Cure Syringe** and **First Aid Kit**.
 
-## Bleeding
+![Infected Effect](/projects/{{ page.slug }}/images/screenshot/infection_0.png)
 
-![Bleeding Effect](/projects/{{ page.slug }}/images/screenshot/bleeding_0.jpg)
+## Bleeding
 
 The bleeding is adhered to by taking damage from a projectiles.
 You can remove the bleeding using **Rag**, **Bandage** and **First Aid Kit**.
 
-## Broken Leg
+![Bleeding Effect](/projects/{{ page.slug }}/images/screenshot/bleeding_0.jpg)
 
-![Broken Leg Effect](/projects/{{ page.slug }}/images/screenshot/broken_leg_0.png)
+## Broken Leg
 
 The broken leg is adhered to by taking damage from a high fall damage.
 You can remove the broken leg effect using **Morphine Syringe**, **Splint** and **First Aid Kit**.
 
+![Broken Leg Effect](/projects/{{ page.slug }}/images/screenshot/broken_leg_0.png)
+
 ## Guns
 
-![Inventory Guns](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
+Guns can be more fatal to shoot at zombies from long range to avoid being attacked, but be careful, zombies can hear your shots!
+
+![Guns](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
 ![Guns](/projects/{{ page.slug }}/images/screenshot/guns_1.png)
 ![Guns](/projects/{{ page.slug }}/images/screenshot/guns_2.png)
 ![Guns](/projects/{{ page.slug }}/images/screenshot/guns_3.png)
 ![Guns](/projects/{{ page.slug }}/images/screenshot/guns_4.png)
 ![Guns](/projects/{{ page.slug }}/images/screenshot/guns_5.png)
-![Guns](/projects/{{ page.slug }}/images/screenshot/guns_6.png)
-
-Guns can be more fatal to shoot at zombies from long range to avoid being attacked, but be careful, zombies can hear your shots!
 
 ## Infected Zombies
+
+Zombies with many different variants, from attack to health, speed and skin! there are also crawling, beast and runner zombies.
 
 ![Infected](/projects/{{ page.slug }}/images/screenshot/infected_0.png)
 ![Infected](/projects/{{ page.slug }}/images/screenshot/infected_1.png)
 
-Zombies with many different variants, from attack to health, speed and skin! there are also crawling zombies and runner zombies.
-
 ## Blocks
-![Blocks](/projects/{{ page.slug }}/images/screenshot/block_0.png)
 
 Unique utility blocks, decorations and more coming soon!
 
-## NPCs
+![Blocks](/projects/{{ page.slug }}/images/screenshot/block_0.png)
 
-![Bandits](/projects/{{ page.slug }}/images/screenshot/npc_0.png)
+## NPCs
 
 Be careful when you see a bandit, he won't think twice before shooting you!
 
+![Bandits](/projects/{{ page.slug }}/images/screenshot/npc_0.png)
+
 ## Vehicle
+
+You can use the vehicles with the **Car Key** item putting into the **Saddle Slot**. You can make the vehicles using some materials in the **Crafting Table**.
 
 ![Sedan](/projects/{{ page.slug }}/images/screenshot/vehicle_0.png)
 ![M809 Truck](/projects/{{ page.slug }}/images/screenshot/vehicle_1.png)
 
-You can use the vehicles with the **Car Key** item putting into the **Saddle Slot**. You can make the vehicles using some materials in the **Crafting Table**.
-
 ## Armor
+
+Armor is great for protecting yourself from zombies and enemy attacks.
 
 ![Armor](/projects/{{ page.slug }}/images/screenshot/armor_0.png)
 
-Armor is great for protecting yourself from zombie and enemy attacks.
+Do you want to walk at night but can't see anything? use Night Vision Goggles.
 
 ![NVG](/projects/{{ page.slug }}/images/screenshot/nvg_0.png)
 
-Great visual and realistic NVG.
-
 ## Installation
 
-Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
+Open the **.mcpack** with **Minecraft** and automatically import or extract and copy manually the folder to behavior and resources in the respective game folders.
 
 ---
 
-Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
+Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world, and don't use other packs that use **"player.json"** to avoid errors.
 
 ## Know Bugs
 
@@ -168,13 +168,13 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
 
-This will **ONLY** work in Minecraft version **1.21.0** or higher (DON'T USE BETA/PREVIEW EDITION)
+This will **ONLY** work in Minecraft version **1.21.0** or higher and don't use Beta/Preview Edition.
 
 ## Downloads
 
 - LootLabs (Recommend)
-  - [Behavior Pack - LootLabs](https://loot-link.com/s?d66990eb)
-  - [Resource Pack - LootLabs](https://loot-link.com/s?d868f822)
+  - [Behavior Pack - LootLabs](https://lootdest.com/s?3bb37154)
+  - [Resource Pack - LootLabs](https://lootdest.com/s?d868f822)
 - Bstlar (Alternative)
   - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)

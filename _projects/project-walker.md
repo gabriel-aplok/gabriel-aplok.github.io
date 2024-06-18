@@ -173,11 +173,14 @@ This will **ONLY** work in Minecraft version **1.21.0** or higher and don't use 
 ## Downloads
 
 - LootLabs (Recommend)
-  - [Behavior Pack - LootLabs](https://lootdest.com/s?3bb37154)
-  - [Resource Pack - LootLabs](https://lootdest.com/s?d868f822)
+  - [Behavior Pack from LootLabs](https://lootdest.com/s?3bb37154)
+  - [Resource Pack from LootLabs](https://lootdest.com/s?d868f822)
 - Bstlar (Alternative)
-  - [Behavior Pack - BstLar](https://bstlar.com/2EI/pw-bp)
-  - [Resource Pack - BstLar](https://bstlar.com/2EI/pw-rp)
+  - [Behavior Pack from BstLar](https://bstlar.com/2EI/pw-bp)
+  - [Resource Pack from BstLar](https://bstlar.com/2EI/pw-rp)
+- Linkvertise (Alternative)
+  - [Behavior Pack from Linkvertise](https://direct-link.net/173623/project-walker-bp)
+  - [Resource Pack from Linkvertise](https://link-hub.net/173623/project-walker-rp)
 
 ## Supported Versions
 

@@ -1,15 +1,37 @@
 ---
 layout: default
-title: Project Walker - 1.8.10
+title: Project Walker - 1.8.11
 ---
 
-# Project Walker - 1.8.10
+# Project Walker - 1.8.11
 
-**Posted:** 14 June 2024
+**Posted:** 27 June 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.11:
+- We have ported all core engine items to update 1.21.
+- Added new trader (buy ammo and guns).
+- Added sulfur powder to make gunpowder.
+- Added recipe for RPG-7 93mm rocket.
+- Added recipe for clothes.
+- Added new 5 military base structures.
+- Added new military barracks structure.
+- Added new hospital structure.
+- Added loot blocks.
+- Added new broadcast components and groups to zombies.
+- Added now gasmask avoid being blinded by flash grenade.
+- Fixed thirst damage.
+- Fixed block damage.
+- Fixed runner attack.
+- Fixed gun item compatibility with 1.21.
+- Changed the steel ingot recipe.
+- Improved melee to break webs and bamboo blocks. 
+- Improved reduced structure spawn rate.
+- Improved 12 gauge damage changed from 16 to 8.
+- Removed gunner NPCs (will be added again soon).
 
 ### v1.8.10:
  - I started porting the engine core to the 1.21 update.

@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: project-walker
-title: Project Walker Addon | v1.8.10
+title: Project Walker Addon | v1.8.11
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 tags: [project-walker, minecraft, addon]
 date: 2023-07-02
-updated: 2024-06-14
+updated: 2024-06-27
 comments_id: 2
 ---
 
@@ -140,30 +140,31 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
 ```
 
-## Changelog for v1.8.10
+## Changelog for v1.8.11
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
- - I started porting the engine core to the 1.21 update.
- - Added new bullet ingredients item to make bullets.
- - Added 3 new house building.
- - Added 1 new random building.
- - Added new beast zombie variant (they can climb walls).
- - Added aid kit now clear all effects of the player.
- - Added new 5 pants items.
- - Added new 5 shirt items.
- - Improved infected health increase +10.
- - Improved infected attack increase +2.
- - Better balance in the durability of melee weapons.
- - Fixed some missing sounds.
- - Fixed some buildings.
- - Fixed infinite ammo item when reloading.
- - Fixed poor quality of AK-12 and AK-74 firing sfx.
- - Fixed thirst damage.
- - Fixed some issues with thirst display.
- - Fixed some vanilla animals spawn issue.
- - Removed dark color map.
+- We have ported all core engine items to update 1.21.
+- Added new trader (buy ammo and guns).
+- Added sulfur powder to make gunpowder.
+- Added recipe for RPG-7 93mm rocket.
+- Added recipe for clothes.
+- Added new 5 military base structures.
+- Added new military barracks structure.
+- Added new hospital structure.
+- Added loot blocks.
+- Added new broadcast components and groups to zombies.
+- Added now gasmask avoid being blinded by flash grenade.
+- Fixed thirst damage.
+- Fixed block damage.
+- Fixed runner attack.
+- Fixed gun item compatibility with 1.21.
+- Changed the steel ingot recipe.
+- Improved melee to break webs and bamboo blocks. 
+- Improved reduced structure spawn rate.
+- Improved 12 gauge damage changed from 16 to 8.
+- Removed gunner NPCs (will be added again soon).
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
@@ -173,8 +174,8 @@ This will **ONLY** work in Minecraft version **1.21.0** or higher and don't use 
 ## Downloads
 
 - LootLabs (Recommend)
-  - [Behavior Pack from LootLabs](https://lootdest.com/s?3bb37154)
-  - [Resource Pack from LootLabs](https://lootdest.com/s?d868f822)
+  - [Behavior Pack from LootLabs](https://lootdest.com/s?be6caaab)
+  - [Resource Pack from LootLabs](https://lootdest.com/s?5758774a)
 - Bstlar (Alternative)
   - [Behavior Pack from BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack from BstLar](https://bstlar.com/2EI/pw-rp)
@@ -185,3 +186,4 @@ This will **ONLY** work in Minecraft version **1.21.0** or higher and don't use 
 ## Supported Versions
 
 <span class="tag">1.21.0</span>
+<span class="tag">1.21.1</span>

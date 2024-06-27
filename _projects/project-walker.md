@@ -174,8 +174,8 @@ This will **ONLY** work in Minecraft version **1.21.0** or higher and don't use 
 ## Downloads
 
 - LootLabs (Recommend)
-  - [Behavior Pack from LootLabs](https://lootdest.com/s?be6caaab)
-  - [Resource Pack from LootLabs](https://lootdest.com/s?5758774a)
+  - [Behavior Pack from LootLabs](https://lootdest.com/s?5758774a)
+  - [Resource Pack from LootLabs](https://lootdest.com/s?be6caaab)
 - Bstlar (Alternative)
   - [Behavior Pack from BstLar](https://bstlar.com/2EI/pw-bp)
   - [Resource Pack from BstLar](https://bstlar.com/2EI/pw-rp)

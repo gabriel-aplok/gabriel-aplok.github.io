@@ -21,7 +21,11 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
+- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **[Main Developer]**
+
+## Special Thanks
+
+- [HSK](https://x.com/gabrielMODguy) _(Bullet Hole System Help)_
 
 ## Features
 
@@ -29,15 +33,15 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 - 🔈 Satisfying sound effects.
 - 👀 Smooth animations from firing to reloading, drawing to running.
 - ⚡ Beautiful and Optimized effects such as muzzle flashes, blood, explosions, lights, bullets solid and water impacts etc.
-- 💥 Innovative features, with systems never seen before in Bedrock.
+- 💥 Innovative features, with systems never seen before in Minecraft Bedrock.
 - 👍 Survival-friendly with everything craftable.
-- 🔊 Reverb and distant effects.
+- 🔊 Reverb and distant sound effects.
 - 🧪 Optimized for low-end devices.
 
 ## Experimental Gameplay
 
-- Holiday Creator Features (Required).
-- Beta APIs (Required).
+- Holiday Creator Features [Required].
+- Beta APIs [Required].
 
 ## How to Make Guns
 
@@ -48,7 +52,7 @@ You can make your own gun using the **Gun Workbench** with the materials needed 
 
 ## How to Make Ammo
 
-You need to use the **Stonecuter** to make your ammo to have compatibility with several items with the same recipe not conflict like crafting table recipes, I realized that the **Stonecuter** was perfect for this.
+You need to use the **Stonecuter** to make your ammo.
 
 Use **Bullet Gunpowder** (Made with vanilla **Gunpowder**) to get any bullet type.
 
@@ -107,17 +111,13 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 - Enable Empty Mags
   - <mark>!enable empty_mags</mark> can be used by anyone in your world, the config is individual.
 
-## <span class="text-red">Special Thanks</span>
-
-- [HardSK](https://x.com/gabrielMODguy) _(Bullet Hole System Help)_
-
 ## Installation
 
-Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
+Open the **.mcpack** with **Minecraft** and automatically import or extract and copy manually the folder to behavior and resources in the respective game folders.
 
 ---
 
-Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
+Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world, and don't use other packs that use **"player.json"** to avoid errors.
 
 ## Changelog for v1.1.0
 
@@ -128,9 +128,9 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Fixed invisible landmine item.
 ```
 
-If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
+If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you!
 
-This will **ONLY** work in Minecraft versions **1.20.80** (DON'T USE BETA/PREVIEW)
+This will **ONLY** work in Minecraft version **1.20.80/81** or higher and don't use Beta/Preview Edition.
 
 ## Downloads
 
@@ -147,3 +147,4 @@ This will **ONLY** work in Minecraft versions **1.20.80** (DON'T USE BETA/PREVIE
 ## Supported Versions
 
 <span class="tag">1.20.80</span>
+<span class="tag">1.20.81</span>

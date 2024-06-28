@@ -26,7 +26,7 @@ The addon features a variety of new guns, melees, medicals, foods, drinks, misce
 - [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **[Main Developer]**
 - [HSK](https://twitter.com/gabrielMODguy) **[Former Developer]**
 
-## Contributions
+## Special Thanks
 
 - [HSK](https://youtube.com/@HardSK) [HSK Guns Addon].
 - [NekoZack](https://youtube.com/@NekoZack24) [DeadZone Addon].
@@ -49,8 +49,8 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 
 ## Experimental Gameplay
 
-- Holiday Creator Features (Required).
-- Custom Biomes (Required).
+- Holiday Creator Features [Required].
+- Custom Biomes [Required].
 
 ## Thirst
 
@@ -167,7 +167,7 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Removed gunner NPCs (will be added again soon).
 ```
 
-If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
+If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you!
 
 This will **ONLY** work in Minecraft version **1.21.0** or higher and don't use Beta/Preview Edition.
 

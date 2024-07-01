@@ -5,7 +5,7 @@ title: Aplok Guns Supported Attachments
 
 # Aplok Guns Supported Attachments
 
-**Posted:** 08 February 2024
+**Posted:** 01 July 2024
 
 ## AK-12:
  - Sight: Yes
@@ -65,4 +65,4 @@ title: Aplok Guns Supported Attachments
  - Sight: Yes
  - Silencer: Yes
  - Laser: No
- - Grip: Yes
+ - Grip: No

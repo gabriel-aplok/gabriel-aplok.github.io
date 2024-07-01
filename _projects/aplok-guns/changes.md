@@ -1,15 +1,42 @@
 ---
 layout: default
-title: Aplok Guns - 1.1.0
+title: Aplok Guns - 1.1.1
 ---
 
-# Aplok Guns - 1.1.0
+# Aplok Guns - 1.1.1
 
-**Posted:** 01 May 2024
+**Posted:** 01 July 2024
 
 ## Info on the Aplok Guns:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+
+## v1.1.1:
+- Ported the core addon engine to 1.21.
+- Added 3D dropped items.
+- Added now you can get magazines in wandering trader and weapon smith villagers.
+- Improved new gun system, more stable and optimized.
+- Improved AK-12 with new model and animations.
+- Improved AK-47 with new model and animations.
+- Improved AWP with new template and animations.
+- Improved Desert Eagle model and animations.
+- Improved FN Fal with new model and animations.
+- Improved Glock 17 and Glock 18 model and animations.
+- Improved M4A1 with new model and animations.
+- Improved Mossberg 500 with new model and animations.
+- Improved HK MP5 A5 with new model and animations.
+- Improved cycled guns system and fixed some issues on it.
+- Improved now attachments are synced with the client (your friends can see your gun attachments).
+- Improved bullet spread when hipfiring, moving or aiming.
+- Improved grenade physics.
+- Changed item ID "desert_eagle" to "deagle".
+- Changed "helmet_military" to "helmet_6b47".
+- Fixed some issues with attachments.
+- Fixed some missing sounds (bullet ricochet and grenade drop).
+- Removed some blocks.
+- Removed HK MP5 A5 foregrip support (temporary).
+- Removed Juggernaut (temporary).
+- Removed magazines crafting (temporary).
 
 ### v1.1.0:
 - Added support to minecraft 1.20.80.

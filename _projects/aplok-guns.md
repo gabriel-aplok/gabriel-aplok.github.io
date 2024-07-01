@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: aplok-guns
-title: Aplok Guns Addon | v1.1.0
+title: Aplok Guns Addon | v1.1.1
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
 date: 2022-03-23
-updated: 2024-05-01
+updated: 2024-07-01
 comments_id: 1
 ---
 
@@ -25,7 +25,7 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 
 ## Special Thanks
 
-- [HSK](https://x.com/gabrielMODguy) _(Bullet Hole System Help)_
+- [HSK](https://x.com/gabrielMODguy) **[Bullet Hole System Help]**
 
 ## Features
 
@@ -41,14 +41,13 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 ## Experimental Gameplay
 
 - Holiday Creator Features [Required].
-- Beta APIs [Required].
 
 ## How to Make Guns
 
 You can make your own gun using the **Gun Workbench** with the materials needed for your gun, you can see the recipes in the recipe book on the sidebar.
 
-![Gun Workbench Preview](/projects/{{ page.slug }}/images/screenshot/gun_workbench.png)
-![Gun Workbench Guide](/projects/{{ page.slug }}/images/screenshot/gun_workbench_ui.png)
+![Gun Workbench Preview](/projects/{{ page.slug }}/images/screenshot/gun_workbench_0.png)
+![Gun Workbench Guide](/projects/{{ page.slug }}/images/screenshot/gun_workbench_1.png)
 
 ## How to Make Ammo
 
@@ -58,15 +57,16 @@ Use **Bullet Gunpowder** (Made with vanilla **Gunpowder**) to get any bullet typ
 
 ![Stonecutter Ammo Recipes](/projects/{{ page.slug }}/images/screenshot/stonecutter_bullets.png)
 
-Use **Gunmetal Ingot** (Made with **Gunmetal Scrap**) to craft any magazine type.
+Trade with **Wandering Trader** or **Weapon Smith** to get any magazine type.
 
-![Stonecutter Mag Recipes](/projects/{{ page.slug }}/images/screenshot/stonecutter_mags.png)
+![Wandering Trader Mag](/projects/{{ page.slug }}/images/screenshot/villager_mags_0.png)
+![Weapon Smith Mag](/projects/{{ page.slug }}/images/screenshot/villager_mags_1.png)
 
 ## How to Use Attachments
 
 > You can access the supported attachments list for any gun in the addon [here]({{ page.slug }}/supported_attachments.html).
 
-You need to use the inventory slots to use the attachments (university in any supported gun, sorry).
+You need to use the inventory slots to use the attachments.
 
 ![Attachments Slots Guide](/projects/{{ page.slug }}/images/screenshot/attachments_ui.png)
 
@@ -89,27 +89,23 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 ## Guns
 
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_1.png)
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_2.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_3.png)
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_4.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_5.png)
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_6.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_7.png)
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_8.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_10.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_12.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_14.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_16.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_9.png)
 
 ## Armor
 
 ![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_0.png)
-![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_1.png)
-![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_2.png)
-![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_3.png)
 
-## Commands
-- Disable Empty Mags
-  - <mark>!disable empty_mags</mark> can be used by anyone in your world, the config is individual.
-- Enable Empty Mags
-  - <mark>!enable empty_mags</mark> can be used by anyone in your world, the config is individual.
+## Blocks
+
+![Blocks Screenshot](/projects/{{ page.slug }}/images/screenshot/blocks_0.png)
 
 ## Installation
 
@@ -119,24 +115,47 @@ Open the **.mcpack** with **Minecraft** and automatically import or extract and 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world, and don't use other packs that use **"player.json"** to avoid errors.
 
-## Changelog for v1.1.0
+## Changelog for v1.1.1
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Added support to minecraft 1.20.80.
-- Fixed invisible landmine item.
+- Ported the core addon engine to 1.21.
+- Added 3D dropped items.
+- Added now you can get magazines in wandering trader and weapon smith villagers.
+- Improved new gun system, more stable and optimized.
+- Improved AK-12 with new model and animations.
+- Improved AK-47 with new model and animations.
+- Improved AWP with new template and animations.
+- Improved Desert Eagle model and animations.
+- Improved FN Fal with new model and animations.
+- Improved Glock 17 and Glock 18 model and animations.
+- Improved M4A1 with new model and animations.
+- Improved Mossberg 500 with new model and animations.
+- Improved HK MP5 A5 with new model and animations.
+- Improved cycled guns system and fixed some issues on it.
+- Improved now attachments are synced with the client (your friends can see your gun attachments).
+- Improved bullet spread when hipfiring, moving or aiming.
+- Improved grenade physics.
+- Changed item ID "desert_eagle" to "deagle".
+- Changed "helmet_military" to "helmet_6b47".
+- Fixed some issues with attachments.
+- Fixed some missing sounds (bullet ricochet and grenade drop).
+- Removed some blocks.
+- Removed HK MP5 A5 foregrip support (temporary).
+- Removed Juggernaut (temporary).
+- Removed magazines crafting (temporary).
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you!
 
-This will **ONLY** work in Minecraft version **1.20.80/81** or higher and don't use Beta/Preview Edition.
+This will **ONLY** work in Minecraft version **1.21** or higher and don't use Beta/Preview Edition.
 
 ## Downloads
 
 - LootLabs (Recommend)
-  - [Behavior Pack - LootLabs](https://loot-link.com/s?e1a4)
-  - [Resource Pack - LootLabs](https://loot-links.com/s?e1bx)
+  - [Behavior Pack - LootLabs](https://loot-link.com/s?99c828ef)
+  - [Resource Pack - LootLabs](https://lootdest.com/s?f9c8e54c)
 - Linkvertise (Alternative)
   - [Behavior Pack - Linkvertise](https://link-hub.net/173623/aplok-guns-bp)
   - [Resource Pack - Linkvertise](https://link-hub.net/173623/aplok-guns-rp)
@@ -146,5 +165,5 @@ This will **ONLY** work in Minecraft version **1.20.80/81** or higher and don't 
 
 ## Supported Versions
 
-<span class="tag">1.20.80</span>
-<span class="tag">1.20.81</span>
+<span class="tag">1.21.0</span>
+<span class="tag">1.21.1</span>

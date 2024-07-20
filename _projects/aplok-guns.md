@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: aplok-guns
-title: Aplok Guns Addon | v1.1.1
+title: Aplok Guns Addon | v1.1.2
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
 date: 2022-03-23
-updated: 2024-07-01
+updated: 2024-07-19
 comments_id: 1
 ---
 
@@ -32,7 +32,7 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 - 🎲 Minecraft vanilla stylized.
 - 🔈 Satisfying sound effects.
 - 👀 Smooth animations from firing to reloading, drawing to running.
-- ⚡ Beautiful and Optimized effects such as muzzle flashes, blood, explosions, lights, bullets solid and water impacts etc.
+- ⚡ Beautiful and Optimized effects such as muzzle flashes, explosions, lights, bullets solid and water impacts etc.
 - 💥 Innovative features, with systems never seen before in Minecraft Bedrock.
 - 👍 Survival-friendly with everything craftable.
 - 🔊 Reverb and distant sound effects.
@@ -40,7 +40,7 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 
 ## Experimental Gameplay
 
-- Holiday Creator Features [Required].
+- BEta APIs [Required].
 
 ## How to Make Guns
 
@@ -98,6 +98,7 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_7.png)
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_8.png)
 ![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_9.png)
+![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_10.png)
 
 ## Armor
 
@@ -115,41 +116,50 @@ Open the **.mcpack** with **Minecraft** and automatically import or extract and 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world, and don't use other packs that use **"player.json"** to avoid errors.
 
-## Changelog for v1.1.1
+## Changelog for v1.1.2
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Ported the core addon engine to 1.21.
-- Added 3D dropped items.
-- Added now you can get magazines in wandering trader and weapon smith villagers.
-- Improved new gun system, more stable and optimized.
-- Improved AK-12 with new model and animations.
-- Improved AK-47 with new model and animations.
-- Improved AWP with new template and animations.
-- Improved Desert Eagle model and animations.
-- Improved FN Fal with new model and animations.
-- Improved Glock 17 and Glock 18 model and animations.
-- Improved M4A1 with new model and animations.
-- Improved Mossberg 500 with new model and animations.
-- Improved HK MP5 A5 with new model and animations.
-- Improved cycled guns system and fixed some issues on it.
-- Improved now attachments are synced with the client (your friends can see your gun attachments).
-- Improved bullet spread when hipfiring, moving or aiming.
-- Improved grenade physics.
-- Changed item ID "desert_eagle" to "deagle".
-- Changed "helmet_military" to "helmet_6b47".
-- Fixed some issues with attachments.
-- Fixed some missing sounds (bullet ricochet and grenade drop).
-- Removed some blocks.
-- Removed HK MP5 A5 foregrip support (temporary).
-- Removed Juggernaut (temporary).
-- Removed magazines crafting (temporary).
+v1.1.2:
+- Added death and kills scoreboard.
+- Added new attachment system.
+- Added new attachment workbench.
+- Added wall collision to guns.
+- Added recline feature to guns.
+- Added headshot for humanoid entities.
+- Added new damage reduction system when using armor or shields.
+- Added now each gun will have its own attachment.
+- Added now you can share your modified gun with your friends and they will have the attachments.
+- Added laser support for pistols.
+- Added Predator V4 Red Dot to pistols.
+- Added new M249 LMG.
+- Added reload when you sneak + attack (without emptying your weapon).
+- Added new parts to make guns.
+- Added sulfur powder.
+- Added petroleum bucket.
+- Added plastic mass and plastic plate.
+- Added new third-person animations to guns.
+- Changed guns recipes.
+- Chnaged gun workbench recipes.
+- Changed some recipes to use plastic material.
+- Changed events to custom components (no need for holiday creator features anymore).
+- Improved client animation controller reduced usage by 30%.
+- Improved hold animation synchronization (arms down) with tpp and multiplayer.
+- Fixed duplicate bullet casing when paperdoll is activated (thanks @GabrielMODguy for the help).
+- Fixed reload issue when you die.
+- Fixed some issues with dropped items.
+- Landmine explosion fixed.
+- Fixed landmine placement sfx.
+- Now fixed the folded sandbag that dropped two items instead of one.
+- Removed 3D drop item.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you!
 
 This will **ONLY** work in Minecraft version **1.21** or higher and don't use Beta/Preview Edition.
+
+This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the beta apis option.
 
 ## Downloads
 
@@ -167,3 +177,4 @@ This will **ONLY** work in Minecraft version **1.21** or higher and don't use Be
 
 <span class="tag">1.21.0</span>
 <span class="tag">1.21.1</span>
+<span class="tag">1.21.2</span>

@@ -3,13 +3,46 @@ layout: default
 title: Aplok Guns - 1.1.1
 ---
 
-# Aplok Guns - 1.1.1
+# Aplok Guns - 1.1.2
 
-**Posted:** 01 July 2024
+**Posted:** 19 July 2024
 
 ## Info on the Aplok Guns:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+
+## v1.1.2:
+- Added death and kills scoreboard.
+- Added new attachment system.
+- Added new attachment workbench.
+- Added wall collision to guns.
+- Added recline feature to guns.
+- Added headshot for humanoid entities.
+- Added new damage reduction system when using armor or shields.
+- Added now each gun will have its own attachment.
+- Added now you can share your modified gun with your friends and they will have the attachments.
+- Added laser support for pistols.
+- Added Predator V4 Red Dot to pistols.
+- Added new M249 LMG.
+- Added reload when you sneak + attack (without emptying your weapon).
+- Added new parts to make guns.
+- Added sulfur powder.
+- Added petroleum bucket.
+- Added plastic mass and plastic plate.
+- Added new third-person animations to guns.
+- Changed guns recipes.
+- Chnaged gun workbench recipes.
+- Changed some recipes to use plastic material.
+- Changed events to custom components (no need for holiday creator features anymore).
+- Improved client animation controller reduced usage by 30%.
+- Improved hold animation synchronization (arms down) with tpp and multiplayer.
+- Fixed duplicate bullet casing when paperdoll is activated (thanks @GabrielMODguy for the help).
+- Fixed reload issue when you die.
+- Fixed some issues with dropped items.
+- Landmine explosion fixed.
+- Fixed landmine placement sfx.
+- Now fixed the folded sandbag that dropped two items instead of one.
+- Removed 3D drop item.
 
 ## v1.1.1:
 - Ported the core addon engine to 1.21.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aplok Guns - 1.1.1
+title: Aplok Guns - 1.1.2
 ---
 
 # Aplok Guns - 1.1.2

@@ -51,30 +51,21 @@ You can make your own gun using the **Gun Workbench** with the materials needed 
 
 ## How to Make Ammo
 
-You need to use the **Stonecuter** to make your ammo.
+Use the **Ammo Workbench** to make your mags, you will need **Gunmetal ingot** and **Gunpowder** to make a 2 mags.
 
-Use **Bullet Gunpowder** (Made with vanilla **Gunpowder**) to get any bullet type.
-
-![Stonecutter Ammo Recipes](/projects/{{ page.slug }}/images/screenshot/stonecutter_bullets.png)
-
-Trade with **Wandering Trader** or **Weapon Smith** to get any magazine type.
-
-![Wandering Trader Mag](/projects/{{ page.slug }}/images/screenshot/villager_mags_0.png)
-![Weapon Smith Mag](/projects/{{ page.slug }}/images/screenshot/villager_mags_1.png)
+![Ammo Workbench Block](/projects/{{ page.slug }}/images/screenshot/ammo_0.png)
+![Ammo Workbench UI](/projects/{{ page.slug }}/images/screenshot/ammo_1.png)
 
 ## How to Use Attachments
 
-> You can access the supported attachments list for any gun in the addon [here]({{ page.slug }}/supported_attachments.html).
+To use the attachments you will have to use the **Attachment Workbench**, to open the menu just click on the block with the gun you are going to change in your hand, and have the attachment blueprints in your inventory to change your gun attachments.
 
-You need to use the inventory slots to use the attachments.
-
-![Attachments Slots Guide](/projects/{{ page.slug }}/images/screenshot/attachments_ui.png)
+![Attachments Workbench Block](/projects/{{ page.slug }}/images/screenshot/attachments_0.png)
+![Attachments Workbench UI](/projects/{{ page.slug }}/images/screenshot/attachments_1.png)
 
 ## How to Reload
 
-You can reload empty guns by having the magazine in your inventory and clicking interact button like eat food (right-click-button).
-
-You can reload empty magazines by having the bullets in your inventory and clicking interact button like eat food (right-click-button).
+You can reload empty guns by having the magazine in your inventory and clicking interact button like eat food (right-click-button) or sneaking + attacking (sneak+left-click-button).
 
 ## How to Make Gunmetal?
 
@@ -162,16 +153,8 @@ This will **ONLY** work in Minecraft version **1.21** or higher and don't use Be
 This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the beta apis option.
 
 ## Downloads
-
-- LootLabs (Recommend)
-  - [Behavior Pack - LootLabs](https://loot-link.com/s?99c828ef)
-  - [Resource Pack - LootLabs](https://lootdest.com/s?f9c8e54c)
-- Linkvertise (Alternative)
-  - [Behavior Pack - Linkvertise](https://link-hub.net/173623/aplok-guns-bp)
-  - [Resource Pack - Linkvertise](https://link-hub.net/173623/aplok-guns-rp)
-- Bstlar (Alternative)
-  - [Behavior Pack - BstLar](https://bstlar.com/2EI/ag-bp)
-  - [Resource Pack - BstLar](https://bstlar.com/2EI/ag-rp)
+ - [Behavior Pack](https://bstlar.com/2EI/ag-bp)
+ - [Resource Pack](https://bstlar.com/2EI/ag-rp)
 
 ## Supported Versions
 

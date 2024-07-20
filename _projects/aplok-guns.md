@@ -153,8 +153,16 @@ This will **ONLY** work in Minecraft version **1.21** or higher and don't use Be
 This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the beta apis option.
 
 ## Downloads
- - [Behavior Pack](https://bstlar.com/2EI/ag-bp)
- - [Resource Pack](https://bstlar.com/2EI/ag-rp)
+
+- LootLabs (Recommend)
+  - [Behavior Pack from LootLabs](https://loot-link.com/s?99c828ef)
+  - [Resource Pack from LootLabs](https://lootdest.com/s?f9c8e54c)
+- Bstlar (Alternative)
+  - [Behavior Pack from BstLar](https://bstlar.com/2EI/ag-bp)
+  - [Resource Pack from BstLar](https://bstlar.com/2EI/ag-rp)
+- Linkvertise (Alternative)
+  - [Behavior Pack from Linkvertise](https://link-hub.net/173623/aplok-guns-bp)
+  - [Resource Pack from Linkvertise](https://link-center.net/173623/aplok-guns-rp)
 
 ## Supported Versions
 

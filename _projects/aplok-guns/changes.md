@@ -18,6 +18,9 @@ title: Aplok Guns - 1.1.3
 - Fixed juggernaut explosion.
 - Fixed sight ui issue.
 - Fixed sandbag clearing inventory.
+- Fixed mossberg reload.
+- Increased mossberg spread when aiming.
+- Fixed item in tpp.
 
 ## v1.1.2:
 - Added deaths & kills scoreboard.

@@ -115,6 +115,9 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Fixed juggernaut explosion.
 - Fixed sight ui issue.
 - Fixed sandbag clearing inventory.
+- Fixed mossberg reload.
+- Increased mossberg spread when aiming.
+- Fixed item in tpp.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you!

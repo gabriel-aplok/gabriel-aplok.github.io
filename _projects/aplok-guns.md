@@ -3,13 +3,13 @@ layout: project
 status: public
 type: mcaddon
 slug: aplok-guns
-title: Aplok Guns Addon | v1.1.2
+title: Aplok Guns Addon | v1.1.3
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
 date: 2022-03-23
-updated: 2024-07-19
+updated: 2024-07-21
 comments_id: 1
 ---
 
@@ -22,10 +22,7 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 ## Developer
 
 - [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **[Main Developer]**
-
-## Special Thanks
-
-- [HSK](https://x.com/gabrielMODguy) **[Bullet Hole System Help]**
+- [HardSK](https://x.com/gabrielMODguy) **[Contributor]**
 
 ## Features
 
@@ -107,43 +104,17 @@ Open the **.mcpack** with **Minecraft** and automatically import or extract and 
 
 Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world, and don't use other packs that use **"player.json"** to avoid errors.
 
-## Changelog for v1.1.2
+## Changelog for v1.1.3
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-v1.1.2:
-- Added death and kills scoreboard.
-- Added new attachment system.
-- Added new attachment workbench.
-- Added wall collision to guns.
-- Added recline feature to guns.
-- Added headshot for humanoid entities.
-- Added new damage reduction system when using armor or shields.
-- Added now each gun will have its own attachment.
-- Added now you can share your modified gun with your friends and they will have the attachments.
-- Added laser support for pistols.
-- Added Predator V4 Red Dot to pistols.
-- Added new M249 LMG.
-- Added reload when you sneak + attack (without emptying your weapon).
-- Added new parts to make guns.
-- Added sulfur powder.
-- Added petroleum bucket.
-- Added plastic mass and plastic plate.
-- Added new third-person animations to guns.
-- Changed guns recipes.
-- Chnaged gun workbench recipes.
-- Changed some recipes to use plastic material.
-- Changed events to custom components (no need for holiday creator features anymore).
-- Improved client animation controller reduced usage by 30%.
-- Improved hold animation synchronization (arms down) with tpp and multiplayer.
-- Fixed duplicate bullet casing when paperdoll is activated (thanks @GabrielMODguy for the help).
-- Fixed reload issue when you die.
-- Fixed some issues with dropped items.
-- Landmine explosion fixed.
-- Fixed landmine placement sfx.
-- Now fixed the folded sandbag that dropped two items instead of one.
-- Removed 3D drop item.
+- Fixed juggernaut bullet sparks position.
+- Fixed juggernaut arms glitch.
+- Fixed juggernaut knockback.
+- Fixed juggernaut explosion.
+- Fixed sight ui issue.
+- Fixed sandbag clearing inventory.
 ```
 
 If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you!
@@ -155,8 +126,8 @@ This addon uses Beta APIs, if your guns do no damage or attachments are not work
 ## Downloads
 
 - LootLabs (Recommend)
-  - [Behavior Pack from LootLabs](https://loot-link.com/s?99c828ef)
-  - [Resource Pack from LootLabs](https://lootdest.com/s?f9c8e54c)
+  - [Behavior Pack from LootLabs](https://loot-link.com/s?bad8e0ca)
+  - [Resource Pack from LootLabs](https://loot-link.com/s?f0f28736)
 - Bstlar (Alternative)
   - [Behavior Pack from BstLar](https://bstlar.com/2EI/ag-bp)
   - [Resource Pack from BstLar](https://bstlar.com/2EI/ag-rp)

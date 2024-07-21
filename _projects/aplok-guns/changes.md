@@ -1,48 +1,56 @@
 ---
 layout: default
-title: Aplok Guns - 1.1.2
+title: Aplok Guns - 1.1.3
 ---
 
-# Aplok Guns - 1.1.2
+# Aplok Guns - 1.1.3
 
-**Posted:** 19 July 2024
+**Posted:** 21 July 2024
 
 ## Info on the Aplok Guns:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
 
+## v1.1.3:
+- Fixed juggernaut bullet sparks position.
+- Fixed juggernaut arms glitch.
+- Fixed juggernaut knockback.
+- Fixed juggernaut explosion.
+- Fixed sight ui issue.
+- Fixed sandbag clearing inventory.
+
 ## v1.1.2:
-- Added death and kills scoreboard.
+- Added deaths & kills scoreboard.
 - Added new attachment system.
 - Added new attachment workbench.
 - Added wall collision to guns.
 - Added recline feature to guns.
-- Added headshot for humanoid entities.
-- Added new damage reduction system when using armor or shields.
-- Added now each gun will have its own attachment.
-- Added now you can share your modified gun with your friends and they will have the attachments.
-- Added laser support for pistols.
+- Added headshot to humanoids entities.
+- Added new damage reducion system when using armors or shield.
+- Added now each gun will have they own attachment.
+- Added now you can share your modded gun with your friends and they will have the attachments.
+- Added laser support to pistols.
 - Added Predator V4 Red Dot to pistols.
 - Added new M249 LMG.
-- Added reload when you sneak + attack (without emptying your weapon).
-- Added new parts to make guns.
+- Added reload when you attack sneaking (without emptying your gun).
+- Added new gunparts to make guns.
 - Added sulfur powder.
-- Added petroleum bucket.
+- Added bucket of petroleum.
 - Added plastic mass and plastic plate.
-- Added new third-person animations to guns.
+- Added new third person animations to guns.
 - Changed guns recipes.
-- Chnaged gun workbench recipes.
-- Changed some recipes to use plastic material.
-- Changed events to custom components (no need for holiday creator features anymore).
-- Improved client animation controller reduced usage by 30%.
-- Improved hold animation synchronization (arms down) with tpp and multiplayer.
-- Fixed duplicate bullet casing when paperdoll is activated (thanks @GabrielMODguy for the help).
-- Fixed reload issue when you die.
-- Fixed some issues with dropped items.
-- Landmine explosion fixed.
-- Fixed landmine placement sfx.
-- Now fixed the folded sandbag that dropped two items instead of one.
-- Removed 3D drop item.
+- Changed gun workbench interface.
+- Chnaged recipes to use plastic material.
+- Chnaged events to custom components (No need holiday creator features nomore).
+- Improved client animation controller reduced usage in 18%.
+- Improved standby (arms down) animation sync with tpp and multiplayer.
+- Fixed duplicated bullet casing when paperdoll is enabled (thank you @HSK for the help).
+- Fixed reloading issue when u die.
+- Fixed some issues in dropped items.
+- Fixed landmine explosion.
+- Fixed landmine placing sfx.
+- Fixed now doubled sandbag drop two items instead of one.
+- Removed 3d drop item.
 
 ## v1.1.1:
 - Ported the core addon engine to 1.21.

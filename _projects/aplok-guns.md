@@ -130,7 +130,7 @@ This addon uses Beta APIs, if your guns do no damage or attachments are not work
 
 - LootLabs (Recommend)
   - [Behavior Pack from LootLabs](https://loot-link.com/s?bad8e0ca)
-  - [Resource Pack from LootLabs](https://loot-link.com/s?f0f28736)
+  - [Resource Pack from LootLabs](https://loot-link.com/s?75e99938)
 - Bstlar (Alternative)
   - [Behavior Pack from BstLar](https://bstlar.com/2EI/ag-bp)
   - [Resource Pack from BstLar](https://bstlar.com/2EI/ag-rp)

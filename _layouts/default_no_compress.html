@@ -14,123 +14,110 @@ layout: null
 	<meta name="google-adsense-account" content="ca-pub-1388434276906165">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
 </head>
-<body>
+<body data-bs-theme="dark" class="bg-black">
 	<!-- Google Tag (gtag.js) -->
 	{% include google_analytics.html %}
 	<!-- Header -->
-	<header id="hero">
+	<header class="navbar navbar-expand-lg bd-navbar">
 		<!-- Navbar -->
-		<nav class="navbar">
-			<div class="container">
-				<!-- Logo -->
-				<a id="logo" href="{{ site.url | absolute_url }}">
-					<img src="{{ '/assets/img/logo.png' | absolute_url }}" alt="FireWave Interactive">
-				</a>
-				<!-- Navbar Links -->
-				<ul class="nav-menu">
-					{% assign pages = site.pages | sort: 'nav_order' %}
-					{% for pageIndex in pages %}
-						{% if pageIndex.nav_order and pageIndex.nav_order > 0 %}
-							{% if pageIndex.url == page.url %}
-								<li><a class="nav-link active" href="{{ pageIndex.url | absolute_url }}">{{ pageIndex.title }}</a></li>
-							{% else %}
-								<li><a class="nav-link" href="{{ pageIndex.url | absolute_url }}">{{ pageIndex.title }}</a></li>
-							{% endif %}
+		<nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap p-4" aria-label="Main navigation">
+			<a class="navbar-brand p-0 me-0 me-lg-2" href="/" aria-label="FireWave Interactive">
+				<img src="{{ '/assets/img/logo-dark.png' | absolute_url }}" alt="FireWave Interactive">
+			</a>
+			<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_toggler" aria-controls="navbar_toggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar_toggler">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					{% assign pages = site.pages | sort: 'navbar_index' %}
+					{% for page_index in pages %}
+					{% if page_index.navbar_index and page_index.navbar_index > 0 %}
+						{% if page_index.url == page.url %}
+							<li><a class="nav-link active" aria-current="page"	href="{{ page_index.url | absolute_url }}">{{ page_index.title }}</a></li>
+						{% else %}
+							<li><a class="nav-link" href="{{ page_index.url | absolute_url }}">{{ page_index.title }}</a></li>
 						{% endif %}
+					{% endif %}
 					{% endfor %}
-					<br>
-					<div class="theme-switch-wrapper">
-						<label class="theme-switch" for="checkbox">
-							<input type="checkbox" id="checkbox" />
-							<div class="slider round"></div>
-						</label>
-						<p> Enable Dark Mode <em>(Beta)</em></p>
-					</div>
 				</ul>
-				<!-- Hamburger Menu -->
-				<div class="hamburger">
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
-				</div>
 			</div>
 		</nav>
 		<!-- Hero -->
 		{% if page.hero == true %}
-		<section class="header-container">
-			<div class="row row-hero">
-				<div class="col-25">
-					<img class="profile-image" src="{{ 'assets/img/profile.png' | absolute_url }}" alt="Gabriel Aplok">
-					<h1 class="mt1">Hello, I'm <span class="text-primary">Gabriel</span></h1>
+		<div class="container">
+			<div class="row align-center text-center p-4 m-0">
+				<div class="col-sm">
+					<img class="rounded-circle" width="40%" src="{{ 'assets/img/profile.png' | absolute_url }}" alt="Gabriel Aplok">
+					<h1>Hello, I'm <br><strong>Gabriel Aplok</strong></h1>
 				</div>
-				<div class="col-75">
+				<div class="col-sm">
 					<div class="content-text">
-						<h3 class="mt0">Full-Stack Developer</h3>
-						<p class="mt0">My name is <span class="text-primary">Gabriel Lima</span> and I'm a full-stack, game and minecraft bedrock addon developer or just someone who likes to tinker with technology, wishing to create fun, innovative, and quality experiences!</p>
+						<h4 class="text-primary">Full-Stack Developer</h4>
+						<p>
+							Passionate about building scalable projects and engaging user experiences. With a comprehensive understanding of front-end and back-end technologies, I strive to bridge the gap between design and technical implementation, wishing to create fun, innovative, and quality experiences!
+						</p>
 					</div>
-					<a href="#projects" class="button button-secondary">VIEW MY PROJECTS</a>
+					<a href="#projects" type="button" class="btn btn-outline-light">VIEW MY PROJECTS</a>
 				</div>
 			</div>
-		</section>
+		</div>
 		{% endif %}
 	</header>
-	<!-- Main Content -->
-	<main class="main">
+	<!-- Container -->
+	<main class="container">
 		{{ content }}
 	</main>
 	<!-- Footer -->
-	<footer id="footer">
-		<div class="container">
-			<!-- Social links -->
-			<div class="social">
-				<a href="https://linkedin.com/in/gabrielaplok" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-				<a href="https://github.com/gabriel-aplok/" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
-				<a href="https://x.com/GabrielAplok" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
-				<a href="https://instagram.com/gabriel__yeah" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-				<a href="https://youtube.com/GabrielAplok" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a>
-				<a href="https://discord.gg/PppEgBdss4" target="_blank"><i class="fa-brands fa-discord fa-2x"></i></a>
+	<footer class="container p-5">
+		<div class="row">
+			<div class="col-md-5 offset-md-1 mb-3">
+				<form>
+					<h5>Always seeking quality</h5>
+					<p>I'm a solo developer working to create unique content for the Minecraft community.</p>
+					<a class="btn btn-primary" type="button" href="https://discord.gg/PppEgBdss4" target="_blank">Discord Server</a>
+				</form>
 			</div>
-			<!-- Copyright -->
-			<p>&copy; 2018-<time>{{ 'now' | date: '%Y' }}</time> Gabriel Aplok. All rights reserved.</p>
-			<!-- Links -->
-			<div class="links">
-				<a href="{{ '/terms.html' | absolute_url }}">Terms of Service</a>
-				<span > | </span>
-				<a href="{{ '/privacy.html' | absolute_url }}">Privacy of Policy</a>
-				<span > | </span>
-				<a href="{{ '/sponsor.html' | absolute_url }}">💝 Sponsor My Work</a>
+
+			<div class="col-6 col-md-2 mb-3">
+				<h5>Discover</h5>
+				<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Portfolio</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Store</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Meet the Team</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+				</ul>
 			</div>
-			<!-- Attribution -->
-			<img class="dmca-badge noborder" src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=fbe00151-063d-40fb-bcaf-712f3410f309" alt="DMCA.com Protection Status"/>
-			<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+
+			<div class="col-6 col-md-2 mb-3">
+				<h5>Support</h5>
+				<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mail</a></li>
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Discord</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<ul class="list-unstyled d-flex">
+			<li class="ms-3"><a class="link-body-emphasis text-secondary" href="https://x.com/GabrielAplok" target="_blank"><i class="fa-brands fa-x-twitter fa-1x"></i></a></li>
+			<li class="ms-3"><a class="link-body-emphasis text-secondary" href="https://youtube.com/GabrielAplok" target="_blank"><i class="fa-brands fa-youtube fa-1x"></i></a></li>
+			<li class="ms-3"><a class="link-body-emphasis text-secondary" href="https://github.com/gabriel-aplok/" target="_blank"><i class="fa-brands fa-github fa-1x"></i></a></li>
+		</ul>
+
+		<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-center">
+			<p>&copy; 2018-<time>{{ 'now' | date: '%Y' }}</time></p>
+			<p>FireWave Interactive. All Rights Reserved.</p>
+		</div>
+		<div class="text-center">
+			<a class="text-decoration-none text-secondary" href="{{ '/terms.html' | absolute_url }}">Terms of Service</a> <a class="text-decoration-none text-secondary" href="{{ '/privacy.html' | absolute_url }}">Privacy of Policy</a>
 		</div>
 	</footer>
 	<!-- Scripts -->
 	<!--script src="//cdn.jsdelivr.net/npm/eruda"></script>
 	<script>eruda.init();</script-->
-
-	<script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.8/src/glowCookies.min.js"></script>
-	{% if page.url != "/privacy.html" %}
-	<script>
-		glowCookies.start("en", {
-			style: 1,
-			analytics: "{{ site.google_analytics }}",
-			policyLink: "{{ 'privacy.html' | absolute_url }}",
-			bannerDescription: "This site uses cookies to personalize content and analyze traffic. By continuing, you agree to the use of cookies.",
-			bannerLinkText: "Read more",
-			bannerBackground: "#FAFAFA",
-			bannerColor: "#09090B",
-			acceptBtnBackground: "#FF5722",
-			acceptBtnColor: "#FAFAFA",
-			rejectBtnBackground: "#09090B",
-			rejectBtnColor: "#FAFAFA",
-			manageBackground: "#19191B",
-			manageColor: "#FAFAFA"
-		});
-	</script>
-	{% endif %}
 	<script async defer src="https://www.google.com/recaptcha/api.js"></script>
 	<script async src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<script async type="module" src="{{ '/assets/js/index.js' | absolute_url }}"></script>
 </body>
 </html>

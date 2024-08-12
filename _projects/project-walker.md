@@ -1,7 +1,8 @@
 ---
 layout: project
 status: public
-type: mcaddon
+type: bedrock
+highlight: true
 slug: project-walker
 title: Project Walker Addon | v1.8.11
 banner: /projects/project-walker/images/banner.png

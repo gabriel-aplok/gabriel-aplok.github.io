@@ -1,7 +1,7 @@
 ---
 layout: project
 status: public
-type: mcaddon
+type: bedrock
 slug: apocalyptic-clothes
 title: Apocalyptic Clothes Addon | v0.0.2
 banner: /projects/apocalyptic-clothes/banner.png

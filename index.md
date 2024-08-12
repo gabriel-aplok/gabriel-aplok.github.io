@@ -2,98 +2,31 @@
 layout: default
 title: Home
 description: Full-Stack Developer | Game Developer | Minecraft Bedrock Addon Developer.
-nav_order: 1
+navbar_index: 1
 hero: true
 ---
 
-<!-- Projects -->
-<section id="projects" class="project-container container">
+<!-- Minecraft Add-Ons -->
+<section id="projects" class="container">
 	<hr>
-	<div class="content-text">
-		<a href="{{ 'projects.html' | absolute_url }}"><h2>Projects</h2></a>
-		<p>Check out some of my personal and professional projects</p>
+	<div class="text-center">
+		<h2>Minecraft Add-Ons</h2>
+		<p>Check out some of my add-ons for Minecraft Bedrock.</p>
 	</div>
-	<article class="project">
+	<div id="projects">
 		{% assign projects = site.projects | sort: 'updated' %}
 		{% for project in projects reversed %}
-		{% if project.status == 'public' %}
-		<!-- Project: {{ project.title }} -->
-		<a class="card" style="background-image: url('{{ project.banner | absolute_url }}'); background-position: center; background-repeat: no-repeat; background-size: cover;" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
-			<div class="project-info">
-				<div class="project-bio">
-					<h3>{{ project.title }}</h3>
-					<p>{{ project.stack }}</p>
-				</div>
-				<div class="project-link">
-					{% if project.new %}
-					<span class="tag bg-red">NEW</span>
-					{% endif %}
-				</div>
-			</div>
-		</a>
+		{% if project.status == 'public' and project.type == 'bedrock' and project.highlight %}
+		<!-- {{ project.title }} -->
+		<div class="p-4 my-4" style="width: 100%; height: 210px; border-radius: 10px; background-image: linear-gradient(#00000060, #00000090), url('{{ project.banner | absolute_url }}'); background-position: center; background-repeat: no-repeat; background-size: cover;" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
+			<h3>{{ project.title }}</h3>
+			<p>{{ project.description | truncate: 60 }}</p>
+		</div>
 		{% endif %}
 		{% endfor %}
-	</article>
-	<a href="{{ 'projects.html' | absolute_link }}" class="button button-secondary" target="_blank">View More <i class="fas fa-arrow-right"></i></a>
-</section>
-
-<!-- Contact -->
-<section id="contact" class="container">
-	<hr>
-	<div class="content-text">
-		<h2>Contact</h2>
-		<p>Fill out this quick form and contact us today! Please note that you will get responses faster if you contact us via Discord.</p>
 	</div>
-	<form class="form" action="{{ site.api_url }}/contact.php" method="post">
-		<div id="contact" class="row">
-			<div class="col-25">
-				<label class="label" for="name">Your Name <span class="field-required">*</span></label>
-			</div>
-			<div class="col-75">
-				<input class="field" type="text" id="name" name="name" placeholder="Your name..." required>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-25">
-				<label class="label" for="email">Your Email <span class="field-required">*</span></label>
-			</div>
-			<div class="col-75">
-				<input class="field" type="email" id="email" name="email" placeholder="person@example.com" required>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-25">
-				<label class="label" for="reason">Reason for Contact <span class="field-required">*</span></label>
-			</div>
-			<div class="col-75">
-				<select class="field" id="reason" name="reason" required>
-					<option value="General Question">General Question</option>
-					<option value="Content Question">Content Question</option>
-					<option value="Recruitment">Recruitment</option>
-				</select>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-25">
-				<label class="label" for="name">Your Message <span class="field-required">*</span></label>
-			</div>
-			<div class="col-75">
-				<textarea class="field" type="text" id="message" name="message" placeholder="Write something..." onkeyup="adjust_textarea(this)" required></textarea>
-			</div>
-		</div>
-		<div class="center">
-			<div class="g-recaptcha" data-theme="light" data-sitekey="6LdEnF4pAAAAAAumxK0uuJVvFJCxgiWDJKMSnAm_"></div>
-		</div>
-		<div class="row">
-			<div class="col-25">
-				<label class="label" for="discord">Wait for your response.</label>
-			</div>
-			<div class="col-75">
-				<button class="button button-secondary" type="submit">Submit <i class="fas fa-arrow-right"></i></button>
-			</div>
-		</div>
-	</form>
+	<div class="text-center">
+		<p>...</p>
+		<a href="{{ 'projects.html' | absolute_link }}" type="button" class="btn btn-outline-light" target="_blank">View More <i class="fas fa-arrow-right"></i></a>
+	</div>
 </section>

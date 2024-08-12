@@ -2,34 +2,21 @@
 layout: default
 title: Projects
 description: Check out some of my personal and professional projects
-nav_order: 2
+navbar_index: 2
 ---
 
-<!-- Projects -->
-<section id="projects" class="project-container container">
-	<div class="content-text">
-		<a href="{{ 'projects.html' | absolute_url }}"><h2>Projects</h2></a>
-		<p>Check out some of my personal and professional projects</p>
-	</div>
-	<article class="project">
+<!-- Minecraft Add-Ons -->
+<section id="projects" class="container">
+	<div id="projects">
 		{% assign projects = site.projects | sort: 'updated' %}
 		{% for project in projects reversed %}
-		{% if project.status == 'public' %}
-		<!-- Project: {{ project.title }} -->
-		<a class="card" style="background-image: url('{{ project.banner | absolute_url }}'); background-position: center; background-repeat: no-repeat; background-size: cover;" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
-			<div class="project-info">
-				<div class="project-bio">
-					<h3>{{ project.title }}</h3>
-					<p>{{ project.stack }}</p>
-				</div>
-				<div class="project-link">
-					{% if project.new %}
-					<p>🔥</p>
-					{% endif %}
-				</div>
-			</div>
-		</a>
+		{% if project.status == 'public' and project.type == 'bedrock' %}
+		<!-- {{ project.title }} -->
+		<div class="p-4 my-4" style="width: 100%; height: 210px; border-radius: 10px; background-image: linear-gradient(#00000060, #00000090), url('{{ project.banner | absolute_url }}'); background-position: center; background-repeat: no-repeat; background-size: cover;" onclick="window.location = '{{ site.baseurl }} {{ project.url }}';">
+			<h3>{{ project.title }}</h3>
+			<p>{{ project.description | truncate: 60 }}</p>
+		</div>
 		{% endif %}
 		{% endfor %}
-	</article>
+	</div>
 </section>

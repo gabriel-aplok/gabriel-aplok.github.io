@@ -1,7 +1,8 @@
 ---
 layout: project
 status: public
-type: mcaddon
+type: bedrock
+highlight: true
 slug: aplok-guns
 title: Aplok Guns Addon | v1.1.3
 banner: /projects/aplok-guns/images/banner.png

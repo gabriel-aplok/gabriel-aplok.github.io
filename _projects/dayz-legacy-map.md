@@ -1,7 +1,7 @@
 ---
 layout: project
 status: public
-type: mcmap
+type: bedrock
 slug: dayz-map
 title: DayZ Legacy Map
 banner: /projects/dayz-legacy-map/banner.png

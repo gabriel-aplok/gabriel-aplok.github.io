@@ -6,10 +6,17 @@ slug: apocalyptic-clothes
 title: Apocalyptic Clothes Addon | v0.0.2
 banner: /projects/apocalyptic-clothes/banner.png
 icon: /projects/apocalyptic-clothes/icon.png
-description: What do you think about giving your character a style in your world? Both survival and a zombie apocalypse! Make your own style and show to your friends.
-tags: [apocalyptic-clothes, project-walker, aplok-guns, minecraft, addon]
+description: >
+    What do you think about giving your character a style in your world? Both survival and a zombie apocalypse! Make your own style and show to your friends.
 date: 2023-10-05
 updated: 2023-10-09
+tags: [apocalyptic-clothes, project-walker, aplok-guns, minecraft, addon]
+versions: ["1.20.30", "1.20.40"]
+linkvertise:
+  - title: Behavior Pack
+    link: "https://link-hub.net/173623/apocalyptic-clothes-bp"
+  - title: Resource Pack
+    link: "https://direct-link.net/173623/apocalyptic-clothes-rp"
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/logo.png)
@@ -101,6 +108,12 @@ You can make all the clothes using the stonecutter with an iron ingot. (I used t
 
 If you liked the addon and want to support me and see more in the future, check out my [website](https://gabriel-aplok.github.io/)!
 
+## Installation
+
+{{ site.warn_install_addon }}
+
+---
+
 ## Changelog for v0.0.2
 
 ```
@@ -108,26 +121,7 @@ If you liked the addon and want to support me and see more in the future, check 
 - Renamed add-on name "Crafting Dead Clothing" to "Apocalyptic Clothes".
 ```
 
-## Warning
-
-This will **ONLY** work in Minecraft versions **1.20.30+**
-
-If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
-
-## Installation
-
-Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
-
----
-
-Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
-
-## Download Links
-
-- [Behavior Pack](https://link-hub.net/173623/apocalyptic-clothes-bp)
-- [Resource Pack](https://direct-link.net/173623/apocalyptic-clothes-rp)
-
-## Supported Versions
-
-<span class="tag"> 1.20.30 </span>
-<span class="tag"> 1.20.40 </span>
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Warning</h4>
+  <p>{{ site.warn_content_creator }}</p>
+</div>

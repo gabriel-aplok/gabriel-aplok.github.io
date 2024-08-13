@@ -2,45 +2,71 @@
 layout: default
 ---
 <div class="container d-flex justify-content-center">
-    <div class="article">
+	<div class="article">
 		<p class="text-uppercase">
 			Home / Projects / <u>{{ page.title }}</u>
 		</p>
-	
+
 		{% if page.status == 'public' %}
-	
+
 		<h1>{{ page.title }}</h1>
-		<p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="text-primary">{{ page.author | default: site.social.name }}</span></p>
+		<p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="text-primary">{{ page.author |
+				default: site.social.name }}</span></p>
 		{% if page.updated %}
 		<p>Updated: <span class="text-primary">{{ page.updated | date: '%B %d, %Y'}}</span></p>
 		{% endif %}
-	
+
 		<p>{{ page.description }}</p>
 		<hr>
-	
+
 		{{ content }}
+
+		<h2 id="downloads">Downloads</h2>
+		<div class="d-grid gap-2 col-6 mx-auto text-center">
+			{% if page.downloads %}
+			<h4 class="mb-2">Direct Download</h4>
+			{% assign links = page.downloads %}
+			{% for link in links %}
+				<button class="btn btn-light" type="button" dest="{{ link.link }}" onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;">{{ link.title }}</button>
+			{% endfor %}
+			{% endif %}
+			{% if page.lootlabs %}
+			<h4 class="mb-2">Download from LootLabs</h4>
+			{% assign links = page.lootlabs %}
+			{% for link in links %}
+				<a class="btn btn-success" type="button" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
+			{% endfor %}
+			{% endif %}
+			{% if page.bstlar %}
+			<h4 class="mb-2">Download from BstLar</h4>
+			{% assign links = page.bstlar %}
+			{% for link in links %}
+				<a class="btn btn-warning" type="button" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
+			{% endfor %}
+			{% endif %}
+			{% if page.linkvertise %}
+			<h4 class="mb-2">Download from Limkvertise</h4>
+			{% assign links = page.linkvertise %}
+			{% for link in links %}
+				<a class="btn btn-danger" type="button" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
+			{% endfor %}
+			{% endif %}
+		</div>
+
+		<hr>
+		<br>
+
+		<h2 id="supported-versions">Supported Versions</h2>
+		{% assign versions = page.versions %}
+		{% for version in versions %}
+		<span class="badge text-bg-light">{{ version }}</span>
+		{% endfor %}
 	</div>
 </div>
 
-<br>
+</div>
+</div>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
-	crossorigin="anonymous"></script>
-<!-- Download Page Ads -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1388434276906165" data-ad-slot="3952562534"
-	data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
-	crossorigin="anonymous"></script>
-<!-- Multiplex Ads -->
-<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-1388434276906165"
-	data-ad-slot="8084197474"></ins>
-<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 {% else %}
 <h1>NOT FOUND</h1>
 <p>The project you followed is not public, sorry. Please contact-me (via footer social media) or try again later.</p>

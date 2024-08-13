@@ -6,9 +6,14 @@ slug: dayz-map
 title: DayZ Legacy Map
 banner: /projects/dayz-legacy-map/banner.png
 icon: /projects/dayz-legacy-map/icon.png
-description: Ported DayZ for Bedrock.
-tags: [dayz-map, minecraft, map]
+description: >
+    Ported DayZ for Bedrock.
 date: 2023-07-03
+tags: [dayz-map, minecraft, map]
+versions: ["1.20.+"]
+downloads:
+  - title: Download .mcworld
+    link: "https://www.mediafire.com/file/371skpulsim3gfw/DayZ+Map.mcworld/file"
 ---
 
 It's a old dayz map port originally made for Minecraft Java, remade by me and updated to the latest versions focused on using with Project Walker.
@@ -31,16 +36,11 @@ It's a old dayz map port originally made for Minecraft Java, remade by me and up
 
 ## Installation
 
-Open the **.mcworld** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** world in the respective folders.
+{{ site.warn_install_addon }}
 
-## Warning
+---
 
-If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you! Or I need to request a DMCA to take-down your content. :)
-
-## Downloads
-
-<button class="button button-secondary" dest="https://www.mediafire.com/file/371skpulsim3gfw/DayZ+Map.mcworld/file" onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;">Download .mcworld</button>
-
-## Minecraft Version
-
-<span class="tag">1.20.0</span>
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Warning</h4>
+  <p>{{ site.warn_content_creator }}</p>
+</div>

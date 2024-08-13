@@ -7,11 +7,27 @@ slug: project-walker
 title: Project Walker Addon | v1.8.11
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
-description: Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
-tags: [project-walker, minecraft, addon]
+description: >
+  Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 date: 2023-07-02
 updated: 2024-06-27
-comments_id: 2
+tags: [project-walker, minecraft, addon]
+versions: ["1.21.0", "1.21.1", "1.21.2", "1.21.3"]
+lootlabs:
+  - title: Behavior Pack
+    link: "https://lootdest.com/s?5758774a"
+  - title: Resource Pack
+    link: "https://lootdest.com/s?be6caaab"
+bstlar:
+  - title: Behavior Pack
+    link: "https://bstlar.com/2EI/pw-bp"
+  - title: Resource Pack
+    link: "https://bstlar.com/2EI/pw-rp"
+linkvertise:
+  - title: Behavior Pack
+    link: "https://direct-link.net/173623/project-walker-bp"
+  - title: Resource Pack
+    link: "https://link-hub.net/173623/project-walker-rp"
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
@@ -129,11 +145,9 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
 
 ## Installation
 
-Open the **.mcpack** with **Minecraft** and automatically import or extract and copy manually the folder to behavior and resources in the respective game folders.
+{{ site.warn_install_addon }}
 
 ---
-
-Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world, and don't use other packs that use **"player.json"** to avoid errors.
 
 ## Know Bugs
 
@@ -168,23 +182,15 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Removed gunner NPCs (will be added again soon).
 ```
 
-If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you!
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Warning</h4>
+  <p>{{ site.warn_content_creator }}</p>
+</div>
 
-This will **ONLY** work in Minecraft version **1.21.0** or higher and don't use Beta/Preview Edition.
-
-## Downloads
-
-- LootLabs (Recommend)
-  - [Behavior Pack from LootLabs](https://lootdest.com/s?5758774a)
-  - [Resource Pack from LootLabs](https://lootdest.com/s?be6caaab)
-- Bstlar (Alternative)
-  - [Behavior Pack from BstLar](https://bstlar.com/2EI/pw-bp)
-  - [Resource Pack from BstLar](https://bstlar.com/2EI/pw-rp)
-- Linkvertise (Alternative)
-  - [Behavior Pack from Linkvertise](https://direct-link.net/173623/project-walker-bp)
-  - [Resource Pack from Linkvertise](https://link-hub.net/173623/project-walker-rp)
-
-## Supported Versions
-
-<span class="tag">1.21.0</span>
-<span class="tag">1.21.1</span>
+<div class="alert alert-danger" role="alert">
+  <p>This will <strong>ONLY</strong> work in Minecraft version <strong>1.21</strong> or higher and don’t use Beta/Preview Edition.</p>
+  <p>Just make sure you enable the experimental settings Also make sure you have enabled BOTH resources and behavior packs when creating the world, and don't use other packs that use "player.json" to avoid errors.</p>
+  <p>This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the beta apis option.</p>
+  <hr>
+  <p class="mb-0">If you are experiencing any issues with Aplok Guns, let us know in our <a href="/discord">Discord server</a>.</p>
+</div>

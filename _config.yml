@@ -63,3 +63,8 @@ exclude:
   - README.md
   - LICENSE
   - package.json
+
+warn_content_creator: >
+  If you plan to showcase this add-on, <strong>ONLY use the links I provide here</strong>. DON’T create your own links and/or claim this as your own creation. Thank you!
+warn_install_addon: >
+  Open the **.mcpack** with **Minecraft** and automatically import or extract and copy manually the folder to behavior and resources in the respective game folders.

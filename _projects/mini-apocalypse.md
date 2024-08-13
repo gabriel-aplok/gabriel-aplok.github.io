@@ -6,10 +6,17 @@ slug: mini-apocalypse
 title: Mini Apocalypse Addon | v0.0.2
 banner: /projects/mini-apocalypse/banner.png
 icon: /projects/mini-apocalypse/icon.png
-description: Simple minimal apocalypse elements survival-friendly to your Minecraft Bedrock with new weapons, foods and drinks.
-tags: [mini-apocalypse, apocalypse, aplok, weapons, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
+description: >
+    Simple minimal apocalypse elements survival-friendly to your Minecraft Bedrock with new weapons, foods and drinks.
 date: 2023-09-12
 updated: 2023-10-16
+tags: [mini-apocalypse, apocalypse, aplok, weapons, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
+versions: ["1.20.10", "1.20.12", "1.20.30", "1.20.40"]
+linkvertise:
+  - title: Behavior Pack
+    link: "https://linkvertise.com/173623/mini-apocalypse-bp"
+  - title: Resource Pack
+    link: "https://linkvertise.com/173623/mini-apocalypse-rp"
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/logo.png)
@@ -92,6 +99,12 @@ You can see all the crafting recipes in the crafting table recipes book.
 
 If you liked the addon and want to support me and see more in the future, check out my [website](https://gabriel-aplok.github.io/)!
 
+## Installation
+
+{{ site.warn_install_addon }}
+
+---
+
 ## Changelog for v0.0.2
 
 ```
@@ -100,28 +113,7 @@ If you liked the addon and want to support me and see more in the future, check 
 - Fixed Medicine items not working.
 ```
 
-## Warning
-
-This will **ONLY** work in Minecraft versions **1.20.10+**
-
-If you plan to showcase this add-on, **ONLY use the links I provide here** and tag my YouTube channel in the description. DON'T create your own links and/or claim this as your own creation. Thank you! :)
-
-## Installation
-
-Open the **.mcpack** with **Minecraft** or extract and copy manually the folder to te **/Android/data/com.mojang.minecraftpe/** behavior and resources in the respective folders.
-
----
-
-Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world.
-
-## Download Links
-
-- [Behavior Pack](https://linkvertise.com/173623/mini-apocalypse-bp)
-- [Resource Pack](https://linkvertise.com/173623/mini-apocalypse-rp)
-
-## Supported Versions
-
-<span class="tag">1.20.10</span>
-<span class="tag">1.20.12</span>
-<span class="tag">1.20.30</span>
-<span class="tag">1.20.40</span>
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Warning</h4>
+  <p>{{ site.warn_content_creator }}</p>
+</div>

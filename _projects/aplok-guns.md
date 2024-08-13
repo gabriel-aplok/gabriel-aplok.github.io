@@ -7,11 +7,27 @@ slug: aplok-guns
 title: Aplok Guns Addon | v1.1.3
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
-description: Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
-tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
+description: >
+  Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
 date: 2022-03-23
 updated: 2024-07-21
-comments_id: 1
+tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
+versions: ["1.21.0", "1.21.1", "1.21.2", "1.21.3"]
+lootlabs:
+  - title: Behavior Pack
+    link: "https://loot-link.com/s?bad8e0ca"
+  - title: Resource Pack
+    link: "https://loot-link.com/s?75e99938"
+bstlar:
+  - title: Behavior Pack
+    link: "https://bstlar.com/2EI/ag-bp"
+  - title: Resource Pack
+    link: "https://bstlar.com/2EI/ag-rp"
+linkvertise:
+  - title: Behavior Pack
+    link: "https://link-hub.net/173623/aplok-guns-bp"
+  - title: Resource Pack
+    link: "https://link-center.net/173623/aplok-guns-rp"
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
@@ -141,11 +157,9 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 
 ## Installation
 
-Open the **.mcpack** with **Minecraft** and automatically import or extract and copy manually the folder to behavior and resources in the respective game folders.
+{{ site.warn_install_addon }}
 
 ---
-
-Just make sure you enable the **experimental settings** Also make sure you have enabled **BOTH** resources and behavior packs when creating the world, and don't use other packs that use **"player.json"** to avoid errors.
 
 ## Changelog for v1.1.3
 
@@ -163,26 +177,15 @@ Just make sure you enable the **experimental settings** Also make sure you have 
 - Fixed item in tpp.
 ```
 
-If you plan to showcase this add-on, **ONLY use the links I provide here**. DON’T create your own links and/or claim this as your own creation. Thank you!
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Warning</h4>
+  <p>{{ site.warn_content_creator }}</p>
+</div>
 
-This will **ONLY** work in Minecraft version **1.21** or higher and don't use Beta/Preview Edition.
-
-This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the beta apis option.
-
-## Downloads
-
-- LootLabs (Recommend)
-  - [Behavior Pack from LootLabs](https://loot-link.com/s?bad8e0ca)
-  - [Resource Pack from LootLabs](https://loot-link.com/s?75e99938)
-- Bstlar (Alternative)
-  - [Behavior Pack from BstLar](https://bstlar.com/2EI/ag-bp)
-  - [Resource Pack from BstLar](https://bstlar.com/2EI/ag-rp)
-- Linkvertise (Alternative)
-  - [Behavior Pack from Linkvertise](https://link-hub.net/173623/aplok-guns-bp)
-  - [Resource Pack from Linkvertise](https://link-center.net/173623/aplok-guns-rp)
-
-## Supported Versions
-
-<span class="tag">1.21.0</span>
-<span class="tag">1.21.1</span>
-<span class="tag">1.21.2</span>
+<div class="alert alert-danger" role="alert">
+  <p>This will <strong>ONLY</strong> work in Minecraft version <strong>1.21</strong> or higher and don’t use Beta/Preview Edition.</p>
+  <p>Just make sure you enable the experimental settings Also make sure you have enabled BOTH resources and behavior packs when creating the world, and don't use other packs that use "player.json" to avoid errors.</p>
+  <p>This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the beta apis option.</p>
+  <hr>
+  <p class="mb-0">If you are experiencing any issues with Aplok Guns, let us know in our <a href="/discord">Discord server</a>.</p>
+</div>

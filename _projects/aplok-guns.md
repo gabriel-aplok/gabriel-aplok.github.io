@@ -43,6 +43,7 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 ## How to Make Guns
 
 You can make your own gun using the **Gun Workbench** with the materials needed for your gun, you can see the recipes in the recipe book on the sidebar.
+
 <div class="row">
   <div class="col-md">
     <img src="/projects/aplok-guns/images/screenshot/gun_workbench_0.png" alt="Gun Workbench Preview" />
@@ -56,15 +57,27 @@ You can make your own gun using the **Gun Workbench** with the materials needed 
 
 Use the **Ammo Workbench** to make your mags, you will need **Gunmetal ingot** and **Gunpowder** to make a 2 mags.
 
-![Ammo Workbench Block](/projects/{{ page.slug }}/images/screenshot/ammo_0.png)
-![Ammo Workbench UI](/projects/{{ page.slug }}/images/screenshot/ammo_1.png)
+<div class="row">
+  <div class="col-md">
+    <img src="/projects/aplok-guns/images/screenshot/ammo_0.png" alt="Ammo Workbench Block" />
+  </div>
+  <div class="col-md">
+    <img src="/projects/aplok-guns/images/screenshot/ammo_1.png" alt="Ammo Workbench UI" />
+  </div>
+</div>
 
 ## How to Use Attachments
 
 To use the attachments you will have to use the **Attachment Workbench**, to open the menu just click on the block with the gun you are going to change in your hand, and have the attachment blueprints in your inventory to change your gun attachments.
 
-![Attachments Workbench Block](/projects/{{ page.slug }}/images/screenshot/attachments_0.png)
-![Attachments Workbench UI](/projects/{{ page.slug }}/images/screenshot/attachments_1.png)
+<div class="row">
+  <div class="col-md">
+    <img src="/projects/aplok-guns/images/screenshot/attachments_0.png" alt="Attachments Workbench Block" />
+  </div>
+  <div class="col-md">
+    <img src="/projects/aplok-guns/images/screenshot/attachments_1.png" alt="Attachments Workbench UI" />
+  </div>
+</div>
 
 ## How to Reload
 
@@ -82,17 +95,41 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 
 ## Guns
 
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_1.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_2.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_3.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_4.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_5.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_6.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_7.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_8.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_9.png)
-![Gun Screenshot](/projects/{{ page.slug }}/images/screenshot/guns_10.png)
+<div class="row row-cols-2">
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_0.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_1.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_2.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_3.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_4.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_5.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_6.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_7.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_8.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_9.png" alt="Gun Screenshot" />
+  </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_10.png" alt="Gun Screenshot" />
+  </div>
+</div>
 
 ## Armor
 

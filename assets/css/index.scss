@@ -1,22 +1,29 @@
 ---
 ---
 
-@import "normalize.css";
-
 html {
 	scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	opacity: 0.95;
 }
 
-p, ul, li, pre, code {
-	opacity: 0.8;
+p,
+ul,
+li,
+pre,
+code {
+	opacity: 0.9;
 }
 
 a {
-	opacity: 0.85;
+	opacity: 0.98;
 }
 
 .embed-container {
@@ -46,21 +53,35 @@ a {
 }
 
 .video {
-	width: 100%;
+	display: block;
 	max-width: 100%;
 	height: auto;
 	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
 
 img {
-	width: 100%;
+	display: block;
 	max-width: 100%;
 	height: auto;
 	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 8px;
 	margin-bottom: 8px;
+}
+
+@media (min-width: 762px) {
+	.article {
+		max-width: 50%;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 .navbar-toggler,
@@ -73,7 +94,7 @@ img {
 }
 
 .navbar-toggler-icon {
-	background-image: none!important;
+	background-image: none !important;
 	background-color: var(--bs-gray-800);
 	height: 3px;
 	width: 25px;
@@ -90,7 +111,8 @@ img {
 	content: "";
 	position: relative;
 	top: -7px;
-	transition: all 0.15s ease-out; /* taken down to hide quicker */
+	transition: all 0.15s ease-out;
+	/* taken down to hide quicker */
 	transform-origin: center;
 }
 
@@ -129,11 +151,11 @@ img {
 }
 
 .navbar-brand img {
-	content:url("../img/logo-dark.png");
+	content: url("../img/logo-dark.png");
 }
 
 [data-bs-theme="dark"] .navbar-brand img {
-	content:url("../img/logo-light.png");
+	content: url("../img/logo-light.png");
 }
 
 #comments {
@@ -205,7 +227,9 @@ img {
 }
 
 @keyframes blink-caret {
-	from, to {
+
+	from,
+	to {
 		border-color: transparent;
 	}
 

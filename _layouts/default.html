@@ -20,7 +20,7 @@ layout: compress
 	<!-- Header -->
 	<header class="navbar navbar-expand-lg bd-navbar">
 		<!-- Navbar -->
-		<nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap p-4" aria-label="Main navigation">
+		<nav class="container-fluid bd-gutter flex-wrap flex-lg-nowrap d-flex justify-content-between p-4" aria-label="Main navigation">
 			<a class="navbar-brand p-0 me-0 me-lg-2" href="/" aria-label="FireWave Interactive">
 				<img src="{{ '/assets/img/logo-dark.png' | absolute_url }}" alt="FireWave Interactive">
 			</a>
@@ -42,27 +42,27 @@ layout: compress
 				</ul>
 			</div>
 		</nav>
-		<!-- Hero -->
-		{% if page.hero == true %}
-		<div class="container">
-			<div class="row align-center text-center p-4 m-0">
-				<div class="col-sm">
-					<img class="rounded-circle" style="width: 180px;" src="{{ 'assets/img/profile.png' | absolute_url }}" alt="Gabriel Aplok">
-					<h1>Hello, I'm <br><strong>Gabriel Aplok</strong></h1>
+	</header>
+	<!-- Hero -->
+	{% if page.hero == true %}
+	<div class="container">
+		<div class="row align-center text-center p-4 m-0">
+			<div class="col-sm">
+				<img class="rounded-circle" style="width: 180px;" src="{{ 'assets/img/profile.png' | absolute_url }}" alt="Gabriel Aplok">
+				<h1>Hello, I'm <br><strong>Gabriel Aplok</strong></h1>
+			</div>
+			<div class="col-sm">
+				<div class="content-text">
+					<h4 class="text-primary">Full-Stack Developer</h4>
+					<p>
+						Passionate about building scalable projects and engaging user experiences. With a comprehensive understanding of front-end and back-end technologies, I strive to bridge the gap between design and technical implementation, wishing to create fun, innovative, and quality experiences!
+					</p>
 				</div>
-				<div class="col-sm">
-					<div class="content-text">
-						<h4 class="text-primary">Full-Stack Developer</h4>
-						<p>
-							Passionate about building scalable projects and engaging user experiences. With a comprehensive understanding of front-end and back-end technologies, I strive to bridge the gap between design and technical implementation, wishing to create fun, innovative, and quality experiences!
-						</p>
-					</div>
-					<a href="#projects" type="button" class="btn btn-outline-light">VIEW MY PROJECTS</a>
-				</div>
+				<a href="#projects" type="button" class="btn btn-outline-light">VIEW MY PROJECTS</a>
 			</div>
 		</div>
-		{% endif %}
-	</header>
+	</div>
+	{% endif %}
 	<!-- Container -->
 	<main class="container">
 		{{ content }}

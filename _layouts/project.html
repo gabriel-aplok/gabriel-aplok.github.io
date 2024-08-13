@@ -1,23 +1,25 @@
 ---
 layout: default
 ---
-<div>
-	<p class="text-uppercase">
-		Home / Projects / <u>{{ page.title }}</u>
-	</p>
-
-	{% if page.status == 'public' %}
-
-	<h1>{{ page.title }}</h1>
-	<p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="text-primary">{{ page.author | default: site.social.name }}</span></p>
-	{% if page.updated %}
-	<p>Updated: <span class="text-primary">{{ page.updated | date: '%B %d, %Y'}}</span></p>
-	{% endif %}
-
-	<p>{{ page.description }}</p>
-	<hr>
-
-	{{ content }}
+<div class="container d-flex justify-content-center">
+    <div class="article">
+		<p class="text-uppercase">
+			Home / Projects / <u>{{ page.title }}</u>
+		</p>
+	
+		{% if page.status == 'public' %}
+	
+		<h1>{{ page.title }}</h1>
+		<p>Project &middot; {{ page.date | date: '%B %d, %Y'}} &middot; by <span class="text-primary">{{ page.author | default: site.social.name }}</span></p>
+		{% if page.updated %}
+		<p>Updated: <span class="text-primary">{{ page.updated | date: '%B %d, %Y'}}</span></p>
+		{% endif %}
+	
+		<p>{{ page.description }}</p>
+		<hr>
+	
+		{{ content }}
+	</div>
 </div>
 
 <br>

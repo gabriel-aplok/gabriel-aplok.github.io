@@ -38,14 +38,19 @@ Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-
 
 ## Experimental Gameplay
 
-- BEta APIs [Required].
+- Beta APIs [Required].
 
 ## How to Make Guns
 
 You can make your own gun using the **Gun Workbench** with the materials needed for your gun, you can see the recipes in the recipe book on the sidebar.
-
-![Gun Workbench Preview](/projects/{{ page.slug }}/images/screenshot/gun_workbench_0.png)
-![Gun Workbench Guide](/projects/{{ page.slug }}/images/screenshot/gun_workbench_1.png)
+<div class="row">
+  <div class="col-md">
+    <img src="/projects/aplok-guns/images/screenshot/gun_workbench_0.png" alt="Gun Workbench Preview" />
+  </div>
+  <div class="col-md">
+    <img src="/projects/aplok-guns/images/screenshot/gun_workbench_1.png" alt="Gun Workbench Guide" />
+  </div>
+</div>
 
 ## How to Make Ammo
 

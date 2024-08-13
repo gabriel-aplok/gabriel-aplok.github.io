@@ -190,7 +190,7 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
 <div class="alert alert-danger" role="alert">
   <p>This will <strong>ONLY</strong> work in Minecraft version <strong>1.21</strong> or higher and don’t use Beta/Preview Edition.</p>
   <p>Just make sure you enable the experimental settings Also make sure you have enabled BOTH resources and behavior packs when creating the world, and don't use other packs that use "player.json" to avoid errors.</p>
-  <p>This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the beta apis option.</p>
+  <p>This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the Beta APIs option.</p>
   <hr>
   <p class="mb-0">If you are experiencing any issues with Project Walker, let us know in our <a href="/discord">Discord server</a>.</p>
 </div>

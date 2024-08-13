@@ -3,7 +3,7 @@ html {
 }
 
 [data-bs-theme="dark"] body {
-	background-color: #080808;
+	background-color: black;
 }
 
 h1,
@@ -82,7 +82,9 @@ img {
 }
 
 .article {
-	max-width: 85%;
+	max-width: 100%;
+	padding-right: 2.5px;
+	padding-left: 2.5px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -169,84 +171,4 @@ img {
 
 [data-bs-theme="dark"] .navbar-brand img {
 	content: url("../img/logo-light.png");
-}
-
-#comments {
-	margin: 20px auto;
-
-	.comments-head {
-		justify-content: space-between;
-		display: flex;
-		gap: 1;
-
-		* {
-			margin: auto 2px;
-		}
-	}
-
-	#comments-wrapper {
-		.comment {
-			margin-bottom: 1.5em;
-
-			.comment-user {
-				display: flex;
-				align-items: center;
-				flex-wrap: wrap;
-				margin-bottom: 1em;
-				gap: 2;
-
-				.comment-avatar {
-					align-self: flex-start;
-					width: 25px;
-				}
-
-				* {
-					margin: auto 2px;
-				}
-			}
-
-			.comment-body {
-				color: var(--text-secondary);
-				border-left: 3px solid var(--text-secondary);
-				border-radius: 3px;
-				padding: 2.5px 10px;
-			}
-
-			.comment-edited {
-				font-style: italic;
-				opacity: 0.8;
-			}
-		}
-	}
-}
-
-.typewriter {
-	overflow: hidden;
-	border-right: 0.15em solid var(--primary);
-	white-space: nowrap;
-	margin: 0 auto;
-	letter-spacing: 0.15em;
-	animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
-}
-
-@keyframes typing {
-	from {
-		width: 0;
-	}
-
-	to {
-		width: 100%;
-	}
-}
-
-@keyframes blink-caret {
-
-	from,
-	to {
-		border-color: transparent;
-	}
-
-	50% {
-		border-color: var(--primary);
-	}
 }

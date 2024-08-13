@@ -192,5 +192,5 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
   <p>Just make sure you enable the experimental settings Also make sure you have enabled BOTH resources and behavior packs when creating the world, and don't use other packs that use "player.json" to avoid errors.</p>
   <p>This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the beta apis option.</p>
   <hr>
-  <p class="mb-0">If you are experiencing any issues with Aplok Guns, let us know in our <a href="/discord">Discord server</a>.</p>
+  <p class="mb-0">If you are experiencing any issues with Project Walker, let us know in our <a href="/discord">Discord server</a>.</p>
 </div>

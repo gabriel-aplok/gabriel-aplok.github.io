@@ -77,6 +77,12 @@ img {
 	margin-bottom: 8px;
 }
 
+.article {
+	max-width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 @media (min-width: 762px) {
 	.article {
 		max-width: 50%;

@@ -11,8 +11,10 @@ layout: compress
 	{% include head_default.html %}
 	{% endif %}
 	<!-- Ads -->
+	{% if page.layout == "project" %}
 	<meta name="google-adsense-account" content="ca-pub-1388434276906165">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
+	{% endif %}
 </head>
 <body data-bs-theme="dark" class="bg-black">
 	<!-- Google Tag (gtag.js) -->

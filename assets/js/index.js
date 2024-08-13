@@ -1,9 +1,5 @@
----
-layout: compress
----
-
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js";
 
 const firebaseConfig = {
 	apiKey: "AIzaSyCkjLnWOgkjMqfZcedbCo_8dj7F5nEIPCM",
@@ -20,4 +16,25 @@ const analytics = getAnalytics(app);
 
 const dest = (x) => {
 	window.location = `../download/?q=${btoa(x.getAttribute('dest'))}`;
-}
+};
+
+const setTheme = (mode = "dark") => {
+	const userMode = localStorage.getItem("bs-theme");
+	const sysMode = window.matchMedia("(prefers-color-scheme: light)").matches;
+	const useSystem = mode === "system" || (!userMode && mode === "auto");
+	const modeChosen = useSystem ? "system" : mode === "dark" || mode === "light" ? mode : userMode;
+
+	if (useSystem) {
+		localStorage.removeItem("bs-theme");
+	} else {
+		localStorage.setItem("bs-theme", modeChosen);
+	}
+
+	document.documentElement.setAttribute("data-bs-theme", useSystem ? (sysMode ? "light" : "dark") : modeChosen);
+	document.querySelectorAll(".mode-switch .btn").forEach(e => e.classList.remove("text-body"));
+	document.getElementById(modeChosen).classList.add("text-body");
+};
+
+setTheme();
+document.querySelectorAll(".mode-switch .btn").forEach(e => e.addEventListener("click", () => setTheme(e.id)));
+window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => setTheme());

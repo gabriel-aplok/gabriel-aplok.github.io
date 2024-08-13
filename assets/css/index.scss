@@ -2,6 +2,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+[data-bs-theme="dark"] body {
+	background-color: #080808;
+}
+
 h1,
 h2,
 h3,

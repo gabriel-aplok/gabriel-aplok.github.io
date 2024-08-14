@@ -35,6 +35,6 @@ const setTheme = (mode = "dark") => {
 	document.getElementById(modeChosen).classList.add("text-body");
 };
 
-setTheme();
-document.querySelectorAll(".mode-switch .btn").forEach(e => e.addEventListener("click", () => setTheme(e.id)));
-window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => setTheme());
+// setTheme("dark");
+// document.querySelectorAll(".mode-switch .btn").forEach(e => e.addEventListener("click", () => setTheme(e.id)));
+// window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => setTheme());

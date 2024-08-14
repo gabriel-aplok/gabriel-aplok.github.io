@@ -2,7 +2,7 @@
 	"name": "gabriel-aplok.com",
 	"version": "1.0.0",
 	"description": "Personal website.",
-	"main": "index.html",
+	"private": true,
 	"scripts": {
 		"start": "bundle exec jekyll build",
 		"dev": "bundle exec jekyll serve"
@@ -11,20 +11,6 @@
 		"type": "git",
 		"url": "git+ssh://git@github.com/gabriel-aplok/gabriel-aplok.github.io.git"
 	},
-	"keywords": [
-		"dev",
-		"full",
-		"stack",
-		"backend",
-		"front",
-		"end",
-		"minecraft",
-		"mcbe",
-		"addons",
-		"mods",
-		"design",
-		"database"
-	],
 	"author": "Gabriel Aplok <contact@gabriel-aplok.com> (http://gabriel-aplok.com/)",
 	"license": "ISC",
 	"bugs": {

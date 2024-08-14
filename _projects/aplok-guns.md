@@ -183,7 +183,7 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 </div>
 
 <div class="alert alert-danger" role="alert">
-  <p>This will <strong>ONLY</strong> work in Minecraft version <strong>1.21</strong> or higher and don’t use Beta/Preview Edition.</p>
+  <p>This will <strong>ONLY</strong> work in Minecraft version <strong>1.21.3</strong></p>
   <p>Just make sure you enable the Beta APIs in experimental settings Also make sure you have enabled BOTH resources and behavior packs when creating the world, and don't use other packs that use "player.json" to avoid errors.</p>
   <p>This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the Beta APIs option.</p>
   <hr>

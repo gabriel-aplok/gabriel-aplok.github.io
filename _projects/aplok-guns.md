@@ -4,15 +4,15 @@ status: public
 type: bedrock
 highlight: true
 slug: aplok-guns
-title: Aplok Guns Addon | v1.1.3
+title: Aplok Guns Addon | v1.1.4
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: >
   Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
 date: 2022-03-23
-updated: 2024-07-21
+updated: 2024-08-15
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
-versions: ["1.21.0", "1.21.1", "1.21.2", "1.21.3"]
+versions: ["1.21.20"]
 lootlabs:
   - title: Behavior Pack
     link: "https://loot-link.com/s?bad8e0ca"
@@ -34,27 +34,23 @@ linkvertise:
 
 Do you like high-quality military-themed addons and have the best features? If yes, you're in the right place.
 
-Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-themed guns, I tried my best to make the animations realistic, from firing to reloading, drawing to running, the models are something close to something Minecraft would make.
+Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-themed content, the models are something close to something Minecraft would make.
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **[Main Developer]**
-- [HardSK](https://x.com/gabrielMODguy) **[Contributor]**
+- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **(Main Developer)**
+- [HardSK](https://x.com/gabrielMODguy) **(Contributor)**
 
 ## Features
 
 - 🎲 Minecraft vanilla stylized.
 - 🔈 Satisfying sound effects.
-- 👀 Smooth animations from firing to reloading, drawing to running.
-- ⚡ Beautiful and Optimized effects such as muzzle flashes, explosions, lights, bullets solid and water impacts etc.
+- 👀 Smooth animations.
+- ⚡ Beautiful and optimized effects such as muzzle flashes, explosions, lights, bullets solid and water impacts etc.
 - 💥 Innovative features, with systems never seen before in Minecraft Bedrock.
 - 👍 Survival-friendly with everything craftable.
 - 🔊 Reverb and distant sound effects.
 - 🧪 Optimized for low-end devices.
-
-## Experimental Gameplay
-
-- Beta APIs [Required].
 
 ## How to Make Guns
 
@@ -161,20 +157,29 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 
 ---
 
-## Changelog for v1.1.3
+## Changelog for v1.1.4
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Fixed juggernaut bullet sparks position.
-- Fixed juggernaut arms glitch.
-- Fixed juggernaut knockback.
-- Fixed juggernaut explosion.
-- Fixed sight ui issue.
-- Fixed sandbag clearing inventory.
-- Fixed mossberg reload.
-- Increased mossberg spread when aiming.
-- Fixed item in tpp.
+- Updated core addon to use stable scripts (only needed if you use another Aplok Guns downloadable pack).
+- Added crafting for FN FAL 20rnd Mag.
+- Added translation for death messages in PT-BR.
+- Added green laser.
+- Increased Juggernaut durability.
+- Increased AWP damage.
+- Decreased M249 fire rate.
+- Decreased the value of the headshot multiplier.
+- Balanced some ammo recipes.
+- Fixed some performance issues.
+- Fixed wall detection and scope animation cancellation.
+- Fixed juggernaut arms glitch again.
+- Fixed attachments not working in nether and the_end.
+- Fixed HK MP5-A5 camera shake.
+- Fixed death message when you still alive.
+- Improved guns performance.
+- Changed the recline/lean feature to experimental (needs to be enable with additional commands with "Aplok Guns Experimental Commands pack").
+- And several other changes not included in the changelog.
 ```
 
 <div class="alert alert-danger" role="alert">
@@ -183,9 +188,19 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 </div>
 
 <div class="alert alert-danger" role="alert">
-  <p>This will <strong>ONLY</strong> work in Minecraft version <strong>1.21.3</strong></p>
-  <p>Just make sure you enable the Beta APIs in experimental settings Also make sure you have enabled BOTH resources and behavior packs when creating the world, and don't use other packs that use "player.json" to avoid errors.</p>
-  <p>This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the Beta APIs option.</p>
+  <p>This add-on <strong>DOESN'T NEED</strong> experimental options and don't use other packs that use "player.json" to avoid errors.</p>
   <hr>
   <p class="mb-0">If you are experiencing any issues with Aplok Guns, let us know in our <a href="/discord">Discord server</a>.</p>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+

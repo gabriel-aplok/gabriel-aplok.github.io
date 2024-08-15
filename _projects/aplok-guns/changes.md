@@ -1,15 +1,35 @@
 ---
 layout: default
-title: Aplok Guns - 1.1.3
+title: Aplok Guns - 1.1.4
 ---
 
-# Aplok Guns - 1.1.3
+# Aplok Guns - 1.1.4
 
-**Posted:** 21 July 2024
+**Posted:** 15 August 2024
 
 ## Info on the Aplok Guns:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+
+## v1.1.4:
+- Updated core addon to use stable scripts (only needed if you use another Aplok Guns downloadable pack).
+- Added crafting for FN FAL 20rnd Mag.
+- Added translation for death messages in PT-BR.
+- Added green laser.
+- Increased Juggernaut durability.
+- Increased AWP damage.
+- Decreased M249 fire rate.
+- Decreased the value of the headshot multiplier.
+- Balanced some ammo recipes.
+- Fixed some performance issues.
+- Fixed wall detection and scope animation cancellation.
+- Fixed juggernaut arms glitch again.
+- Fixed attachments not working in nether and the_end.
+- Fixed HK MP5-A5 camera shake.
+- Fixed death message when you still alive.
+- Improved guns performance.
+- Changed the recline/lean feature to experimental (needs to be enable with additional commands with "Aplok Guns Experimental Commands pack").
+- And several other changes not included in the changelog.
 
 ## v1.1.3:
 - Fixed juggernaut bullet sparks position.

@@ -22,7 +22,7 @@ layout: compress
 		})(window, document, 'script', 'dataLayer', '{{ site.google_tagmanager }}');
 	</script>
 	<!-- Ads -->
-	{% if page.layout == "project" %}
+	{% if page.layout == "project" or page.ads %}
 	<meta name="google-adsense-account" content="ca-pub-1388434276906165">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
 		crossorigin="anonymous"></script>

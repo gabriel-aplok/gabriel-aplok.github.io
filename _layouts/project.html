@@ -51,6 +51,13 @@ layout: default
 				<a class="btn btn-danger" type="button" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
 			{% endfor %}
 			{% endif %}
+			{% if page.extensions %}
+			<h4 class="mb-2">Download Extensions</h4>
+			{% assign links = page.extensions %}
+			{% for link in links %}
+				<button class="btn btn-info" type="button" dest="{{ link.link }}" onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;">{{ link.title }}</button>
+			{% endfor %}
+			{% endif %}
 		</div>
 
 		<hr>

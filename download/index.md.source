@@ -1,6 +1,7 @@
 ---
 layout: default_no_compress
 title: Download
+ads: true
 ---
 
 <body>

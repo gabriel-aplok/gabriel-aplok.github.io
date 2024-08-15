@@ -28,6 +28,9 @@ linkvertise:
     link: "https://link-hub.net/173623/aplok-guns-bp"
   - title: Resource Pack
     link: "https://link-center.net/173623/aplok-guns-rp"
+extensions:
+  - title: Experimental Commands (Beta APIs)
+    link: "https://www.mediafire.com/file/r1uc1m56y9uz9j3/Aplok-Guns-Experimental-Commands-1.21.20.mcpack/file"
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)

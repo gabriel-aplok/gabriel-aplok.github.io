@@ -15,9 +15,9 @@ tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, j
 versions: ["1.21.20"]
 lootlabs:
   - title: Behavior Pack
-    link: "https://loot-link.com/s?bad8e0ca"
+    link: "https://loot-link.com/s?d70b0220"
   - title: Resource Pack
-    link: "https://loot-link.com/s?75e99938"
+    link: "https://lootdest.org/s?d329c96a"
 bstlar:
   - title: Behavior Pack
     link: "https://bstlar.com/2EI/ag-bp"

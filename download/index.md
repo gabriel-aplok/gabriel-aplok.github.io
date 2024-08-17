@@ -7,9 +7,15 @@ ads: true
 <body>
 	<div class="center">
 		<div>
-			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
-			<!-- Download Page Ads -->
-			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1388434276906165" data-ad-slot="3952562534" data-ad-format="auto" data-full-width-responsive="true"></ins>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+     crossorigin="anonymous"></script>
+			<!-- Download Display Ads -->
+			<ins class="adsbygoogle"
+				style="display:block"
+				data-ad-client="ca-pub-1388434276906165"
+				data-ad-slot="3952562534"
+				data-ad-format="auto"
+				data-full-width-responsive="true"></ins>
 			<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
@@ -19,23 +25,37 @@ ads: true
 			<a style="margin: 0; visibility: hidden;">Click here if the download has not started</a>
 		</div>
 		<div>
-			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
-			<!-- Download Page Ads -->
-			<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1388434276906165" data-ad-slot="3952562534" data-ad-format="auto" data-full-width-responsive="true"></ins>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+     crossorigin="anonymous"></script>
+			<!-- Download Display Ads -->
+			<ins class="adsbygoogle"
+				style="display:block"
+				data-ad-client="ca-pub-1388434276906165"
+				data-ad-slot="3952562534"
+				data-ad-format="auto"
+				data-full-width-responsive="true"></ins>
 			<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-
-			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
-			<!-- Multiplex Ads -->
-			<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-1388434276906165" data-ad-slot="8084197474"></ins>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+     crossorigin="anonymous"></script>
+	 		<!-- Download Multiplex Ads -->
+			<ins class="adsbygoogle"
+				style="display:block"
+				data-ad-format="autorelaxed"
+				data-ad-client="ca-pub-1388434276906165"
+				data-ad-slot="8084197474"></ins>
 			<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-
-			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
-			<!-- Multiplex Ads -->
-			<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-1388434276906165" data-ad-slot="8084197474"></ins>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+     crossorigin="anonymous"></script>
+	 		<!-- Download Multiplex Ads -->
+			<ins class="adsbygoogle"
+				style="display:block"
+				data-ad-format="autorelaxed"
+				data-ad-client="ca-pub-1388434276906165"
+				data-ad-slot="8084197474"></ins>
 			<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>

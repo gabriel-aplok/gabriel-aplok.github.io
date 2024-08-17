@@ -27,6 +27,6 @@ hero: true
 	</div>
 	<div class="text-center">
 		<p>...</p>
-		<a href="{{ 'projects.html' | absolute_link }}" type="button" class="btn btn-outline-light" target="_blank">View More <i class="fas fa-arrow-right"></i></a>
+		<a href="{{ 'projects.html' | absolute_link }}" type="button" class="btn btn-outline-light">View More <i class="fas fa-arrow-right"></i></a>
 	</div>
 </section>

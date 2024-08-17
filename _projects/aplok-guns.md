@@ -39,8 +39,6 @@ Do you like high-quality military-themed addons and have the best features? If y
 
 Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-themed content, the models are something close to something Minecraft would make.
 
-{% include project_ads_0.html %}
-
 ## Developer
 
 - [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **(Main Developer)**
@@ -197,5 +195,3 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
   <hr>
   <p class="mb-0">If you are experiencing any issues with Aplok Guns, let us know in our <a href="/discord">Discord server</a>.</p>
 </div>
-
-{% include project_ads_1.html %}

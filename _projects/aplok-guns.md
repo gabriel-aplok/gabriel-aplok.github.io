@@ -39,7 +39,7 @@ Do you like high-quality military-themed addons and have the best features? If y
 
 Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-themed content, the models are something close to something Minecraft would make.
 
-{% include project_ads.html %}
+{% include project_ads_0.html %}
 
 ## Developer
 
@@ -70,8 +70,6 @@ You can make your own gun using the **Gun Workbench** with the materials needed 
   </div>
 </div>
 
-{% include project_ads.html %}
-
 ## How to Make Ammo
 
 Use the **Ammo Workbench** to make your mags, you will need **Gunmetal ingot** and **Gunpowder** to make a 2 mags.
@@ -98,8 +96,6 @@ To use the attachments you will have to use the **Attachment Workbench**, to ope
   </div>
 </div>
 
-{% include project_ads.html %}
-
 ## How to Reload
 
 You can reload empty guns by having the magazine in your inventory and clicking interact button like eat food (right-click-button) or sneaking + attacking (sneak+left-click-button).
@@ -113,8 +109,6 @@ You use the crafting table to create your **Gunmetal Scrap** to make **Gunmetal 
 You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scrap** to make **Gun parts** and **Attachments**.
 
 ![Gunmetal Ingot Recipes](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_1.png)
-
-{% include project_ads.html %}
 
 ## Guns
 
@@ -158,13 +152,9 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 
 ![Armor Screenshot](/projects/{{ page.slug }}/images/screenshot/armor_0.png)
 
-{% include project_ads.html %}
-
 ## Blocks
 
 ![Blocks Screenshot](/projects/{{ page.slug }}/images/screenshot/blocks_0.png)
-
-{% include project_ads.html %}
 
 ## Installation
 
@@ -208,4 +198,4 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
   <p class="mb-0">If you are experiencing any issues with Aplok Guns, let us know in our <a href="/discord">Discord server</a>.</p>
 </div>
 
-{% include project_ads.html %}
+{% include project_ads_1.html %}

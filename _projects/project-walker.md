@@ -4,20 +4,20 @@ status: public
 type: bedrock
 highlight: true
 slug: project-walker
-title: Project Walker Addon | v1.8.11
+title: Project Walker Addon | v1.8.12
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: >
   Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
 date: 2023-07-02
-updated: 2024-06-27
+updated: 2024-08-28
 tags: [project-walker, minecraft, addon]
-versions: ["1.21.0", "1.21.1", "1.21.2", "1.21.3"]
+versions: ["1.21.20", "1.21.21", "1.21.22"]
 lootlabs:
   - title: Behavior Pack
-    link: "https://lootdest.com/s?5758774a"
+    link: "https://loot-link.com/s?f2c69d33"
   - title: Resource Pack
-    link: "https://lootdest.com/s?be6caaab"
+    link: "https://lootdest.org/s?69bde5ec"
 bstlar:
   - title: Behavior Pack
     link: "https://bstlar.com/2EI/pw-bp"
@@ -66,7 +66,6 @@ Project Walker is a challenging and immersive addon that adds a new level of exc
 
 ## Experimental Gameplay
 
-- Holiday Creator Features [Required].
 - Custom Biomes [Required].
 
 ## Thirst
@@ -155,31 +154,25 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
 - Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
 ```
 
-## Changelog for v1.8.11
+## Changelog for v1.8.12
 
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- We have ported all core engine items to update 1.21.
-- Added new trader (buy ammo and guns).
-- Added sulfur powder to make gunpowder.
-- Added recipe for RPG-7 93mm rocket.
-- Added recipe for clothes.
-- Added new 5 military base structures.
-- Added new military barracks structure.
-- Added new hospital structure.
-- Added loot blocks.
-- Added new broadcast components and groups to zombies.
-- Added now gasmask avoid being blinded by flash grenade.
-- Fixed thirst damage.
-- Fixed block damage.
-- Fixed runner attack.
-- Fixed gun item compatibility with 1.21.
-- Changed the steel ingot recipe.
-- Improved melee to break webs and bamboo blocks. 
-- Improved reduced structure spawn rate.
-- Improved 12 gauge damage changed from 16 to 8.
-- Removed gunner NPCs (will be added again soon).
+- Updated all addon core to 1.21.20
+- Updated behavior codes to new scripts in favor of performance.
+- Now the addon don't need to use Beta APIs or HCF.
+- Added 8 new hoodie clothes.
+- Added 3 new shirt clothes.
+- Added armor protection from bullets.
+- Added shield protection from bullets.
+- Added 13 new structures (houses, hospital, military towers, tents and bunkers.)
+- Added new loot boxes system.
+- Removed entity loot boxes.
+- Fixed deer baby spawn.
+- Fixed crow issues.
+- Updated spawn rules.
+- Updated thirst cooldown when sprint.
 ```
 
 <div class="alert alert-danger" role="alert">
@@ -188,9 +181,7 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
 </div>
 
 <div class="alert alert-danger" role="alert">
-  <p>This will <strong>ONLY</strong> work in Minecraft version <strong>1.21</strong> or higher and don’t use Beta/Preview Edition.</p>
-  <p>Just make sure you enable the experimental settings Also make sure you have enabled BOTH resources and behavior packs when creating the world, and don't use other packs that use "player.json" to avoid errors.</p>
-  <p>This addon uses Beta APIs, if your guns do no damage or attachments are not working, make sure you are using the correct version of Minecraft and enable the Beta APIs option.</p>
+  <p>This add-on <strong>DOESN'T NEED</strong> experimental options and don't use other packs that use "player.json" to avoid errors.</p>
   <hr>
   <p class="mb-0">If you are experiencing any issues with Project Walker, let us know in our <a href="/discord">Discord server</a>.</p>
 </div>

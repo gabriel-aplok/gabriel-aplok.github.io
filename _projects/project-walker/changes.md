@@ -1,15 +1,31 @@
 ---
 layout: default
-title: Project Walker - 1.8.11
+title: Project Walker - 1.8.12
 ---
 
-# Project Walker - 1.8.11
+# Project Walker - 1.8.12
 
-**Posted:** 27 June 2024
+**Posted:** 28 August 2024
 
 ## Info on the Project Walker:
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+
+### v1.8.12:
+- Updated all addon core to 1.21.20
+- Updated behavior codes to new scripts in favor of performance.
+- Now the addon don't need to use Beta APIs or HCF.
+- Added 8 new hoodie clothes.
+- Added 3 new shirt clothes.
+- Added armor protection from bullets.
+- Added shield protection from bullets.
+- Added 13 new structures (houses, hospital, military towers, tents and bunkers.)
+- Added new loot boxes system.
+- Removed entity loot boxes.
+- Fixed deer baby spawn.
+- Fixed crow issues.
+- Updated spawn rules.
+- Updated thirst cooldown when sprint.
 
 ### v1.8.11:
 - We have ported all core engine items to update 1.21.

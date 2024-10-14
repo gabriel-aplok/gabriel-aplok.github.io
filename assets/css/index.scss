@@ -1,9 +1,14 @@
+---
+---
+
+@import "bootstrap";
+
 html {
 	scroll-behavior: smooth;
 }
 
 [data-bs-theme="dark"] body {
-	background-color: black;
+	background-color: #000000;
 }
 
 h1,

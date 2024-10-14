@@ -1,21 +1,25 @@
 {
-	"name": "gabriel-aplok.com",
-	"version": "1.0.0",
-	"description": "Personal website.",
-	"private": true,
-	"scripts": {
-		"start": "bundle exec jekyll build",
-		"dev": "bundle exec jekyll serve",
-		"push": "git add . && git commit -m 'automated commit' && git push"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com/gabriel-aplok/gabriel-aplok.github.io.git"
-	},
-	"author": "Gabriel Aplok <contact@gabriel-aplok.com> (http://gabriel-aplok.com/)",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/gabriel-aplok/gabriel-aplok.github.io/issues"
-	},
-	"homepage": "https://github.com/gabriel-aplok/gabriel-aplok.github.io#readme"
+  "name": "gabriel-aplok.com",
+  "version": "1.0.0",
+  "description": "Personal website.",
+  "private": true,
+  "scripts": {
+    "start": "bundle exec jekyll build",
+    "dev": "bundle exec jekyll serve",
+    "push": "git add . && git commit -m 'automated commit' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gabriel-aplok/gabriel-aplok.github.io.git"
+  },
+  "author": "Gabriel Aplok <contact@gabriel-aplok.com> (http://gabriel-aplok.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-aplok/gabriel-aplok.github.io/issues"
+  },
+  "homepage": "https://github.com/gabriel-aplok/gabriel-aplok.github.io#readme",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
 }

@@ -12,7 +12,7 @@ description: >
 date: 2022-03-23
 updated: 2024-08-15
 tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
-versions: ["1.21.20"]
+versions: ["1.21.20", "1.21.30"]
 lootlabs:
   - title: Behavior Pack
     link: "https://loot-link.com/s?d70b0220"
@@ -191,7 +191,7 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 </div>
 
 <div class="alert alert-danger" role="alert">
-  <p>This add-on <strong>DOESN'T NEED</strong> experimental options and don't use other packs that use "player.json" to avoid errors.</p>
+  <p>This add-on <strong>DOESN'T NEED</strong> experimental options. please don't use other packs that use "player.json" to avoid errors.</p>
   <hr>
   <p class="mb-0">If you are experiencing any issues with Aplok Guns, let us know in our <a href="/discord">Discord server</a>.</p>
 </div>

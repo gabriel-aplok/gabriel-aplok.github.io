@@ -12,7 +12,7 @@ description: >
 date: 2023-07-02
 updated: 2024-08-28
 tags: [project-walker, minecraft, addon]
-versions: ["1.21.20", "1.21.21", "1.21.22"]
+versions: ["1.21.20", "1.21.30"]
 lootlabs:
   - title: Behavior Pack
     link: "https://loot-link.com/s?f2c69d33"
@@ -181,7 +181,7 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
 </div>
 
 <div class="alert alert-danger" role="alert">
-  <p>This add-on <strong>DOESN'T NEED</strong> experimental options and don't use other packs that use "player.json" to avoid errors.</p>
+  <p>This add-on <strong>DOESN'T NEED</strong> experimental options. please don't use other packs that use "player.json" to avoid errors.</p>
   <hr>
   <p class="mb-0">If you are experiencing any issues with Project Walker, let us know in our <a href="/discord">Discord server</a>.</p>
 </div>

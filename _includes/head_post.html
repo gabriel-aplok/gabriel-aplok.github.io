@@ -1,0 +1,49 @@
+<title>{{ page.title }} - {{ site.title }}</title>
+
+<!-- Meta Data -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="title" content="{{ page.title }} - {{ site.title }}">
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta name="author" content="{{ page.author | default: site.social.name }}">
+<meta name="keywords" content="{{ page.tags | join: ',' }}">
+<meta name="dmca-site-verification" content="TlFhcXFzaUd3RjdyUnZjVzNnWXJyQ09rcG9MUUFQSEpHZG5sUjdDYjhHTT01">
+<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+
+<!-- Twitter Data -->
+{% if page.banner %}
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="{{ page.banner | absolute_url }}">
+{% else %}
+<meta property="twitter:card" content="summary">
+{% endif %}
+<meta property="twitter:title" content="{{ page.title }} - {{ site.title }}">
+<meta property="twitter:description" content="{{ page.description | default: site.description }}">
+
+<!-- Open Graph / Social Media Data -->
+<meta property="og:type" content="article">
+<meta property="og:locale" content="{{ site.lang | default: 'en-US' }}">
+{% if page.banner %}
+<meta property="og:image" content="{{ page.banner | absolute_url }}">
+{% endif %}
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page.title }} - {{ site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+
+<!-- Links -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="shortcut icon" href="{{ page.icon | default: site.icon | absolute_url }}">
+<link rel="apple-touch-icon" href="{{ page.icon | default: site.icon | absolute_url }}">
+<link rel="icon" href="{{ page.icon | default: site.icon | absolute_url }}">
+
+<!-- Styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ '/assets/css/index.css?v=' | append: site.build_revision | absolute_url }}">
+
+<!-- RSS / Atom Feeds -->
+<link rel="alternate" type="application/atom+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'feed.xml' | absolute_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ page.title }} - {{ site.title }}" href="{{ 'feed.xml' | absolute_url }}">
+
+<!-- Preload Banner Image -->
+<link rel="preload" as="image" href="{{ page.banner | default: site.icon | absolute_url }}">

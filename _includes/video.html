@@ -1,0 +1,8 @@
+{% assign url = include.url %}
+
+<div class="video-container">
+	<video class="video" controls preload="metadata">
+		<source src="{{ url }}" type="video/mp4">
+		<p>Your browser doesn’t support HTML video. <a href="{{ url }}">Download the video</a> instead.</p>
+	</video>
+</div>

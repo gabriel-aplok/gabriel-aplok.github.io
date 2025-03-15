@@ -1,0 +1,126 @@
+---
+layout: default_no_compress
+title: Download
+ads: true
+---
+
+<body>
+  <div class="center">
+    <div>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Download Display Ads -->
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-1388434276906165"
+        data-ad-slot="3952562534"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <div>
+      <h2 id="title"></h2>
+      <a style="margin: 0; visibility: hidden"
+        >Click here if the download has not started</a
+      >
+    </div>
+    <div>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Download Display Ads -->
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-1388434276906165"
+        data-ad-slot="3952562534"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Download Multiplex Ads -->
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-format="autorelaxed"
+        data-ad-client="ca-pub-1388434276906165"
+        data-ad-slot="8084197474"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Download Multiplex Ads -->
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-format="autorelaxed"
+        data-ad-client="ca-pub-1388434276906165"
+        data-ad-slot="8084197474"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+  <script>
+    // Constants
+    const INTERVAL = 1000; // 1 second
+    const DEFAULT_COUNTDOWN = 15;
+
+    // Get URL parameters
+    const params = new URLSearchParams(window.location.search);
+    const encodedUrls = params.get("q");
+
+    // Initial setup
+    let countdown = DEFAULT_COUNTDOWN;
+    const titleElement = document.getElementById("title");
+    const linkElement = document.querySelector("a");
+
+    if (!encodedUrls) {
+      titleElement.textContent = "Oops, no download URL provided!";
+      linkElement.style.visibility = "hidden"; // Hide link if no URL
+    } else {
+      // Start countdown
+      const timer = setInterval(() => {
+        if (countdown <= 0) {
+          clearInterval(timer);
+
+          // Start download
+          titleElement.textContent = "Downloading...";
+          const urls = atob(encodedUrls);
+
+          // Open URL and set link properties
+          window.location = urls;
+          linkElement.style.visibility = "visible";
+          linkElement.href = urls;
+        } else {
+          // Update countdown message
+          titleElement.textContent = `Starting download in ${countdown} seconds...`;
+        }
+
+        countdown--;
+      }, INTERVAL);
+    }
+  </script>
+</body>

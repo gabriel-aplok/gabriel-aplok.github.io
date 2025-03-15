@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<div class="container d-flex justify-content-center">
+	<div class="article">
+		<p class="text-uppercase">
+			Home / Projects / <u>{{ page.title }}</u>
+		</p>
+
+		{% if page.status == 'public' %}
+
+		<h1>{{ page.title }}</h1>
+		<p>Project &middot; {{ page.date | date: '%B %d, %Y' }} &middot; by <span class="text-primary">{{ page.author | default: site.social.name }}</span></p>
+		
+		{% if page.updated %}
+		<p>Updated: <span class="text-primary">{{ page.updated | date: '%B %d, %Y' }}</span></p>
+		{% endif %}
+
+		<p>{{ page.description }}</p>
+		<hr>
+
+		<!-- Google Ads: Display Ad -->
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
+		<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1388434276906165" data-ad-slot="1745724991" data-ad-format="auto" data-full-width-responsive="true"></ins>
+		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+		{{ content }}
+
+		<!-- Google Ads: In-article Ad -->
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
+		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1388434276906165" data-ad-slot="6175924594"></ins>
+		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+		<!-- Downloads Section -->
+		<h2 id="downloads">Downloads</h2>
+		<p>You don't need to download them all, they are both the same file, just choose one of the links, bstlar, lootlabs or linkvertise</p>
+		<div class="d-grid gap-2 col-6 mx-auto text-center">
+			{% if page.downloads %}
+			<h4 class="mb-2">Direct Download</h4>
+			{% for link in page.downloads %}
+			<button class="btn btn-light" type="button" onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;" dest="{{ link.link }}">{{ link.title }}</button>
+			{% endfor %}
+			{% endif %}
+
+			{% if page.lootlabs %}
+			<h4 class="mb-2">Download from LootLabs</h4>
+			{% for link in page.lootlabs %}
+			<a class="btn btn-success" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
+			{% endfor %}
+			{% endif %}
+
+			{% if page.bstlar %}
+			<h4 class="mb-2">Download from BstLar</h4>
+			{% for link in page.bstlar %}
+			<a class="btn btn-warning" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
+			{% endfor %}
+			{% endif %}
+
+			{% if page.linkvertise %}
+			<h4 class="mb-2">Download from Linkvertise</h4>
+			{% for link in page.linkvertise %}
+			<a class="btn btn-danger" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
+			{% endfor %}
+			{% endif %}
+
+			{% if page.extensions %}
+			<h4 class="mb-2">Download Extensions</h4>
+			{% for link in page.extensions %}
+			<button class="btn btn-info" type="button" onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;" dest="{{ link.link }}">{{ link.title }}</button>
+			{% endfor %}
+			{% endif %}
+		</div>
+
+		<hr>
+
+		<!-- Supported Versions Section -->
+		<h2 id="supported-versions">Supported Versions</h2>
+		{% for version in page.versions %}
+		<span class="badge text-bg-light">{{ version }}</span>
+		{% endfor %}
+
+	</div>
+</div>
+
+{% else %}
+<div class="container text-center my-5">
+	<h1>NOT FOUND</h1>
+	<p>The project you followed is not public, sorry. Please contact me (via footer social media) or try again later.</p>
+</div>
+{% endif %}

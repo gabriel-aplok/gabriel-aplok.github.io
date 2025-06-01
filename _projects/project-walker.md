@@ -4,100 +4,96 @@ status: public
 type: bedrock
 highlight: true
 slug: project-walker
-title: Project Walker Addon | v1.8.12
+title: Project Walker Addon | v1.8.13
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: >
-  Explore a run-down, overgrown world taken over by zombies. To survive, you must scavenge for food and weapons, and fight off the zombies!
+    Dive into a post-apocalyptic Minecraft world overrun by the undead. Scavenge for supplies, craft weapons, and fight to survive against zombies and hostile survivors in this intense survival experience.
 date: 2023-07-02
-updated: 2024-08-28
-tags: [project-walker, minecraft, addon]
-versions: ["1.21.20", "1.21.30", "1.21.40", "1.21.41"]
+updated: 2024-04-24
+tags: ['project-walker', 'minecraft', 'addon', 'apocalypse', 'zombies', 'survival']
+versions: ['1.21.70']
 lootlabs:
-  - title: Behavior Pack
-    link: "https://loot-link.com/s?f2c69d33"
-  - title: Resource Pack
-    link: "https://lootdest.org/s?69bde5ec"
+    - title: Behavior Pack
+      link: 'https://loot-link.com/s?50mwXoW3&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D'
+    - title: Resource Pack
+      link: 'https://loot-link.com/s?CMOSAUK8&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D'
 bstlar:
-  - title: Behavior Pack
-    link: "https://bstlar.com/2EI/pw-bp"
-  - title: Resource Pack
-    link: "https://bstlar.com/2EI/pw-rp"
+    - title: Behavior Pack
+      link: 'https://bstlar.com/2EI/pw-bp'
+    - title: Resource Pack
+      link: 'https://bstlar.com/2EI/pw-rp'
 linkvertise:
-  - title: Behavior Pack
-    link: "https://direct-link.net/173623/project-walker-bp"
-  - title: Resource Pack
-    link: "https://link-hub.net/173623/project-walker-rp"
+    - title: Behavior Pack
+      link: 'https://direct-link.net/173623/project-walker-bp'
+    - title: Resource Pack
+      link: 'https://link-hub.net/173623/project-walker-rp'
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
 
-Do you like high-quality apocalypse-themed addons and have the best features? If yes, you're in the right place.
-
-Project Walker is a Minecraft addon that adds a post-apocalyptic twist to the game. Players must now scavenge for supplies to stay alive, while also being careful of zombies, bandits, and other players.
-
-The addon features a variety of new guns, melees, medicals, foods, drinks, miscellaneous, blocks, mobs, as well as a new survival systems such as infection, bleeding, bone fracture, temperature etc.
+Project Walker transforms Minecraft into an immersive post-apocalyptic survival experience. In this harsh new world,
+players must carefully scavenge for resources while navigating the constant threats of the undead, hostile survivors,
+and the elements. The addon introduces an expansive arsenal of weapons including firearms and melee weapons, along
+with crucial survival items like medical supplies, food, and drink. New gameplay mechanics such as infection risk,
+bleeding damage, bone fractures, and temperature management create a deeply strategic survival experience. Custom
+blocks, hostile mobs, and detailed environments complete the atmospheric transformation of the vanilla Minecraft
+world into a challenging post-apocalyptic wasteland.
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **[Main Developer]**
-- [HSK](https://twitter.com/gabrielMODguy) **[Former Developer]**
+-   [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **[Main Developer]**
+-   [HSK](https://youtube.com/@HardSK) **[Former Developer]**
 
 ## Special Thanks
 
-- [HSK](https://youtube.com/@HardSK) [HSK Guns Addon].
-- [NekoZack](https://youtube.com/@NekoZack24) [DeadZone Addon].
-- [INISIANTENOOB](https://youtube.com/@INISIANTENOOB) [3D Artist].
-- Bedrock Community [Useful docs].
+-   [HSK](https://youtube.com/@HardSK) [HSK Guns Addon]
+-   [NekoZack](https://youtube.com/@NekoZack24) [DeadZone Addon]
+-   [INISIANTENOOB](https://youtube.com/@INISIANTENOOB) [3D Artist]
+-   Bedrock Community [Useful docs]
 
 ## Features
 
-- 🎲 Minecraft vanilla stylized.
-- 🏠 Hardcore survival in post-apocalyptic world.
-- 👍 Survival-friendly.
-- 🔈 Satisfying sound effects.
-- 👀 Smooth animations.
-- ⚡ Beautiful and optimized effects such as muzzle flashes, blood, explosions, lights, bullets solid and water impacts etc.
-- 💥 Innovative features.
-- 🔊 Reverb and distant effects.
-- 🧪 Optimized for low-end devices.
-
-Project Walker is a challenging and immersive addon that adds a new level of excitement to Minecraft Bedrock. If you're looking for a new way to play the game, then Project Walker is definitely worth checking out.
-
-## Experimental Gameplay
-
-- Custom Biomes [Required].
+-   Faithful to the vanilla Minecraft aesthetic
+-   Challenging post-apocalyptic survival gameplay
+-   Designed for balanced and engaging survival
+-   Immersive and high-quality sound effects
+-   Smooth and responsive animations
+-   Visually enhanced effects including muzzle flashes, blood, explosions, lighting, and impact visuals
+-   Unique and innovative gameplay mechanics
+-   Realistic audio with reverb and distant sound cues
+-   Optimized performance for a wide range of devices
 
 ## Thirst
 
-Thirst is showed with water drop icon, as are other Minecraft stats such as life and hunger. You can increase your thirst level from drinks, or from some hydrated foods or you die.
+Thirst is displayed with a water drop icon, similar to other Minecraft stats like health and hunger. Increase your thirst level by drinking or eating hydrating foods—or risk dying of dehydration.
 
 ![Thirst Bar](/projects/{{ page.slug }}/images/screenshot/thirst_0.jpg)
 
 ## Infection
 
-The infection is adhered to by taking damage from a infected zombie.
-You can remove the infection using **Cure Syringe** and **First Aid Kit**.
+You become infected by taking damage from an infected zombie.
+Remove infection using a **Cure Syringe** or **First Aid Kit**.
 
 ![Infected Effect](/projects/{{ page.slug }}/images/screenshot/infection_0.png)
 
 ## Bleeding
 
-The bleeding is adhered to by taking damage from a projectiles.
-You can remove the bleeding using **Rag**, **Bandage** and **First Aid Kit**.
+You start bleeding when hit by projectiles.
+Stop bleeding with a **Rag**, **Bandage**, or **First Aid Kit**.
 
 ![Bleeding Effect](/projects/{{ page.slug }}/images/screenshot/bleeding_0.jpg)
 
 ## Broken Leg
 
-The broken leg is adhered to by taking damage from a high fall damage.
-You can remove the broken leg effect using **Morphine Syringe**, **Splint** and **First Aid Kit**.
+Break your leg by taking heavy fall damage.
+Heal with a **Morphine Syringe**, **Splint**, or **First Aid Kit**.
 
 ![Broken Leg Effect](/projects/{{ page.slug }}/images/screenshot/broken_leg_0.png)
 
 ## Guns
 
-Guns can be more fatal to shoot at zombies from long range to avoid being attacked, but be careful, zombies can hear your shots!
+Guns are effective for taking out zombies from a distance, but be careful—zombies can hear your shots!
 
 ![Guns](/projects/{{ page.slug }}/images/screenshot/guns_0.png)
 ![Guns](/projects/{{ page.slug }}/images/screenshot/guns_1.png)
@@ -108,37 +104,37 @@ Guns can be more fatal to shoot at zombies from long range to avoid being attack
 
 ## Infected Zombies
 
-Zombies with many different variants, from attack to health, speed and skin! there are also crawling, beast and runner zombies.
+Zombies come in many variants, with different attack styles, health, speed, and skins. There are also crawling, beast, and runner zombies.
 
 ![Infected](/projects/{{ page.slug }}/images/screenshot/infected_0.png)
 ![Infected](/projects/{{ page.slug }}/images/screenshot/infected_1.png)
 
 ## Blocks
 
-Unique utility blocks, decorations and more coming soon!
+Unique utility blocks and decorations, with more coming soon!
 
 ![Blocks](/projects/{{ page.slug }}/images/screenshot/block_0.png)
 
 ## NPCs
 
-Be careful when you see a bandit, he won't think twice before shooting you!
+Watch out for bandits—they won't hesitate to shoot you!
 
 ![Bandits](/projects/{{ page.slug }}/images/screenshot/npc_0.png)
 
-## Vehicle
+## Vehicles
 
-You can use the vehicles with the **Car Key** item putting into the **Saddle Slot**. You can make the vehicles using some materials in the **Crafting Table**.
+Use vehicles by placing a **Car Key** in the **Saddle Slot**. Craft vehicles using materials at the **Crafting Table**.
 
 ![Sedan](/projects/{{ page.slug }}/images/screenshot/vehicle_0.png)
 ![M809 Truck](/projects/{{ page.slug }}/images/screenshot/vehicle_1.png)
 
 ## Armor
 
-Armor is great for protecting yourself from zombies and enemy attacks.
+Armor provides protection from zombies and enemy attacks.
 
 ![Armor](/projects/{{ page.slug }}/images/screenshot/armor_0.png)
 
-Do you want to walk at night but can't see anything? use Night Vision Goggles.
+Need to see at night? Use Night Vision Goggles.
 
 ![NVG](/projects/{{ page.slug }}/images/screenshot/nvg_0.png)
 
@@ -151,23 +147,23 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
 ## Know Bugs
 
 ```
-- Scope, NVG and Crosshair bugged if you're riding on entities such as vehicles, etc.
+- Scope, night vision goggles, and crosshair may not display correctly when riding entities such as vehicles.
 ```
 
-## Changelog for v1.8.12
+## Changelog for v1.8.13
 
-> You can access other previous changelogs [here]({{ page.slug }}/changes.html).
+> You can access previous changelogs [here]({{ page.slug }}/changes.html).
 
-```
-*   Updated all addon core to 1.21.70
-*   Updated behavior codes to new scripts version in favor of maintenance.
-*   Updated zombie spawn mechanics—now limited to specific blocks:
-    *   Stone-based blocks: stone, stone\_bricks, cobblestone.
-    *   Grass-based blocks: grass\_block, grass\_path.
-    *   Dirt-based blocks: dirt, dirt\_with\_roots.
-    *   Sand-based blocks: sand, sandstone.
-    *   Wood planks: oak\_planks, birch\_planks, acacia\_planks, bamboo\_planks, cherry\_planks, jungle\_planks, spruce\_planks, warped\_planks, crimson\_planks, dark\_oak\_planks, mangrove\_planks.
-*   Fixed a typo in the death message.
+```markdown
+-   Updated all addon core to 1.21.70
+-   Updated behavior codes to new scripts version in favor of maintenance.
+-   Updated zombie spawn mechanics—now limited to specific blocks:
+    -   Stone-based blocks: stone, stone_bricks, cobblestone.
+    -   Grass-based blocks: grass_block, grass_path.
+    -   Dirt-based blocks: dirt, dirt_with_roots.
+    -   Sand-based blocks: sand, sandstone.
+    -   Wood planks: oak_planks, birch_planks, acacia_planks, bamboo_planks, cherry_planks, jungle_planks, spruce_planks, warped_planks, crimson_planks, dark_oak_planks, mangrove_planks.
+-   Fixed a typo in the death message.
 ```
 
 <div class="alert alert-warning" role="alert">

@@ -10,13 +10,26 @@ description: >
     Simple minimal apocalypse elements survival-friendly to your Minecraft Bedrock with new weapons, foods and drinks.
 date: 2023-09-12
 updated: 2023-10-16
-tags: [mini-apocalypse, apocalypse, aplok, weapons, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
-versions: ["1.20.10", "1.20.12", "1.20.30", "1.20.40"]
+tags:
+    [
+        mini-apocalypse,
+        apocalypse,
+        aplok,
+        weapons,
+        mcpe,
+        mcbe,
+        minecraft,
+        java,
+        mod,
+        addon,
+        gabriel-aplok,
+    ]
+versions: ['1.20.10', '1.20.12', '1.20.30', '1.20.40']
 linkvertise:
-  - title: Behavior Pack
-    link: "https://linkvertise.com/173623/mini-apocalypse-bp"
-  - title: Resource Pack
-    link: "https://linkvertise.com/173623/mini-apocalypse-rp"
+    - title: Behavior Pack
+      link: 'https://linkvertise.com/173623/mini-apocalypse-bp'
+    - title: Resource Pack
+      link: 'https://linkvertise.com/173623/mini-apocalypse-rp'
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/logo.png)
@@ -29,60 +42,61 @@ The Mine Apocalypse add-on adds a total of 42 new items to the game, ranging fro
 
 ### Melee Weapons
 
-- Baseball Bat (Craftable)
-- Nailed Baseball Bat (Craftable)
-- Board (Craftable)
-- Nailed Board (Craftable)
-- Crowbar (Craftable)
-- Engineer Shovel (Craftable)
-- Fireman's Axe (Craftable)
-- Golf Club (Craftable)
-- Hammer (Craftable)
-- Hatchet (Craftable)
-- Hockey Stick (Craftable)
-- Kitchen Knife (Craftable)
-- Lead Pipe (Craftable)
-- Machete (Craftable)
-- Can Opener (Craftable)
-- Pan (Craftable)
-- Saw (Craftable)
-- Screwdriver (Craftable)
-- Skalka (Craftable)
-- Sledgehammer (Craftable)
-- Splitting Axe (Craftable)
-- Tactical Ace (Craftable)
-- Tire Iron (Craftable)
-- Wrench (Craftable)
+-   Baseball Bat (Craftable)
+-   Nailed Baseball Bat (Craftable)
+-   Board (Craftable)
+-   Nailed Board (Craftable)
+-   Crowbar (Craftable)
+-   Engineer Shovel (Craftable)
+-   Fireman's Axe (Craftable)
+-   Golf Club (Craftable)
+-   Hammer (Craftable)
+-   Hatchet (Craftable)
+-   Hockey Stick (Craftable)
+-   Kitchen Knife (Craftable)
+-   Lead Pipe (Craftable)
+-   Machete (Craftable)
+-   Can Opener (Craftable)
+-   Pan (Craftable)
+-   Saw (Craftable)
+-   Screwdriver (Craftable)
+-   Skalka (Craftable)
+-   Sledgehammer (Craftable)
+-   Splitting Axe (Craftable)
+-   Tactical Ace (Craftable)
+-   Tire Iron (Craftable)
+-   Wrench (Craftable)
 
 ### Food
 
-- Open Canned Bacon (Drop & Loot Chests)
-- Open Canned Baked Beans (Drop & Loot Chests)
-- Open Canned Sardines (Drop & Loot Chests)
-- Open Canned Tuna (Drop & Loot Chests)
-- Closed Canned Bacon (Drop & Loot Chests)
-- Closed Canned Baked Beans (Drop & Loot Chests)
-- Close Canned Sardines (Drop & Loot Chests)
-- Closed Canned Tuna (Drop & Loot Chests)
+-   Open Canned Bacon (Drop & Loot Chests)
+-   Open Canned Baked Beans (Drop & Loot Chests)
+-   Open Canned Sardines (Drop & Loot Chests)
+-   Open Canned Tuna (Drop & Loot Chests)
+-   Closed Canned Bacon (Drop & Loot Chests)
+-   Closed Canned Baked Beans (Drop & Loot Chests)
+-   Close Canned Sardines (Drop & Loot Chests)
+-   Closed Canned Tuna (Drop & Loot Chests)
 
 ### Drinks
 
-- Cola Soda (Drop & Loot Chests)
-- Pepsi Soda (Drop & Loot Chests)
-- Sprite Soda (Drop & Loot Chests)
-- Water Bottle (Drop & Loot Chests)
-- Empty Water Bottle (Craftable)
+-   Cola Soda (Drop & Loot Chests)
+-   Pepsi Soda (Drop & Loot Chests)
+-   Sprite Soda (Drop & Loot Chests)
+-   Water Bottle (Drop & Loot Chests)
+-   Empty Water Bottle (Craftable)
 
 ### Medicine
 
-- Adrenaline Syringe
-- Bandaid
-- Bandage
+-   Adrenaline Syringe
+-   Bandaid
+-   Bandage
 
 ### Other Items
-- Can
-- Duct Tape
-- Syringe
+
+-   Can
+-   Duct Tape
+-   Syringe
 
 Although I haven't added any new mobs, the behavior of zombies, skeletons and drowned mobs has been changed so that they don't burn in sunlight - if this add-on becomes popular I will add custom mobs.
 

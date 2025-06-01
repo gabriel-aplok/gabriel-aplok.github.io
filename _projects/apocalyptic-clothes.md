@@ -11,12 +11,12 @@ description: >
 date: 2023-10-05
 updated: 2023-10-09
 tags: [apocalyptic-clothes, project-walker, aplok-guns, minecraft, addon]
-versions: ["1.20.30", "1.20.40"]
+versions: ['1.20.30', '1.20.40']
 linkvertise:
-  - title: Behavior Pack
-    link: "https://link-hub.net/173623/apocalyptic-clothes-bp"
-  - title: Resource Pack
-    link: "https://direct-link.net/173623/apocalyptic-clothes-rp"
+    - title: Behavior Pack
+      link: 'https://link-hub.net/173623/apocalyptic-clothes-bp'
+    - title: Resource Pack
+      link: 'https://direct-link.net/173623/apocalyptic-clothes-rp'
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/logo.png)
@@ -31,56 +31,56 @@ Known as **"Crafting Dead Clothing Addon"**
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
+-   [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
 
 ## Experimental Gameplay
 
-- Holiday Creator Features.
+-   Holiday Creator Features.
 
 ### Items
 
-- Army Clothing
-- Army Desert Clothing
-- Medic Army Clothing
-- Blue Dusk Clothing
-- Builder Clothing
-- Business Suit Clothing
-- Camo Clothing
-- Casual Green Clothing
-- Clone Clothing
-- Combat BDU Clothing
-- Contractor Clothing
-- Cookie Clothing
-- Navy DDPAT Clothing
-- Deadpool Clothing
-- Doctor Clothing
-- Fireman Clothing
-- Full Ghillie Clothing
-- Green Dusk Clothing
-- Hazmat Clothing
-- Juggernaut Clothing
-- Military Hazmat Clothing
-- Ninja Clothing
-- Orange Dusk Clothing
-- Pilot Clothing
-- Police Clothing
-- President Clothing
-- Purple Dusk Clothing
-- Red Dusk Clothing
-- British SAS Clothing
-- Scuba Driving Clothing
-- Secondary Guard Clothing
-- Sheriff Clothing
-- Ski Clothing
-- Smart Clothing
-- Space Suit Clothing
-- Spetsnaz Clothing
-- Swat Clothing
-- Tactical Ghillie Clothing
-- White Dusk Clothing
-- Winter Army Clothing
-- Winter Clothing
-- Yellow Dusk Clothing
+-   Army Clothing
+-   Army Desert Clothing
+-   Medic Army Clothing
+-   Blue Dusk Clothing
+-   Builder Clothing
+-   Business Suit Clothing
+-   Camo Clothing
+-   Casual Green Clothing
+-   Clone Clothing
+-   Combat BDU Clothing
+-   Contractor Clothing
+-   Cookie Clothing
+-   Navy DDPAT Clothing
+-   Deadpool Clothing
+-   Doctor Clothing
+-   Fireman Clothing
+-   Full Ghillie Clothing
+-   Green Dusk Clothing
+-   Hazmat Clothing
+-   Juggernaut Clothing
+-   Military Hazmat Clothing
+-   Ninja Clothing
+-   Orange Dusk Clothing
+-   Pilot Clothing
+-   Police Clothing
+-   President Clothing
+-   Purple Dusk Clothing
+-   Red Dusk Clothing
+-   British SAS Clothing
+-   Scuba Driving Clothing
+-   Secondary Guard Clothing
+-   Sheriff Clothing
+-   Ski Clothing
+-   Smart Clothing
+-   Space Suit Clothing
+-   Spetsnaz Clothing
+-   Swat Clothing
+-   Tactical Ghillie Clothing
+-   White Dusk Clothing
+-   Winter Army Clothing
+-   Winter Clothing
+-   Yellow Dusk Clothing
 
 ![Inventory](/projects/{{ page.slug }}/images/inventory-ui.png)
 

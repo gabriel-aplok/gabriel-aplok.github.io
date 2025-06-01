@@ -1,26 +1,4 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "index.html",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "**/*.html",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "assets/**",
-            "use": "@vercel/static"
-        }
-    ],
-    "rewrites": [
-        { "source": "/projects", "destination": "/projects.html" },
-        { "source": "/about", "destination": "/about.html" },
-        { "source": "/privacy", "destination": "/privacy.html" },
-        { "source": "/terms", "destination": "/terms.html" },
-        { "source": "/discord", "destination": "/discord.html" }
-    ],
     "headers": [
         {
             "source": "/assets/(.*)",

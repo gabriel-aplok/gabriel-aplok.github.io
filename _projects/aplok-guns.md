@@ -32,7 +32,7 @@ linkvertise:
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
 
-Looking for a high-quality, military-themed add-on with outstanding features? Aplok Guns delivers exactly that for Minecraft Bedrock. This add-on introduces vanilla-style military content with models designed to seamlessly blend with Minecraft’s aesthetic, providing an authentic and immersive combat experience.
+Looking for a high-quality, military-themed add-on with outstanding features? Aplok Guns delivers exactly that for Minecraft Bedrock. This add-on introduces vanilla-style military content with models designed to seamlessly blend with Minecraft's aesthetic, providing an authentic and immersive combat experience.
 
 ## Developer
 
@@ -64,7 +64,7 @@ Create your own firearms using the **Gun Workbench** and the required materials.
 
 ## Crafting Ammunition
 
-Use the **Ammo Workbench** to craft magazines. You’ll need **Gunmetal Ingots** and **Gunpowder** to produce two magazines.
+Use the **Ammo Workbench** to craft magazines. You'll need **Gunmetal Ingots** and **Gunpowder** to produce two magazines.
 
 <div class="row">
   <div class="col-md">

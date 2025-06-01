@@ -1,0 +1,38 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "index.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "**/*.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "assets/**",
+            "use": "@vercel/static"
+        }
+    ],
+    "rewrites": [
+        { "source": "/projects", "destination": "/projects.html" },
+        { "source": "/about", "destination": "/about.html" },
+        { "source": "/privacy", "destination": "/privacy.html" },
+        { "source": "/terms", "destination": "/terms.html" },
+        { "source": "/discord", "destination": "/discord.html" }
+    ],
+    "headers": [
+        {
+            "source": "/assets/(.*)",
+            "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+        },
+        {
+            "source": "/(.*)",
+            "headers": [
+                { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+                { "key": "X-Content-Type-Options", "value": "nosniff" },
+                { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+            ]
+        }
+    ]
+}

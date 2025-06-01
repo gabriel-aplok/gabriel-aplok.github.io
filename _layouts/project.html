@@ -19,6 +19,16 @@ layout: default
 
         {% if page.status == 'public' %}
 
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                if (window.stonks && window.stonks.event) {
+                    window.stonks.event('project_viewed', {
+                        slug: '{{ page.slug | escape }}',
+                    });
+                }
+            });
+        </script>
+
         <!-- Title & Meta -->
         <h1 class="mb-1">{{ page.title }}</h1>
         <p class="text-muted mb-2">

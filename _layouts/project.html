@@ -3,89 +3,173 @@ layout: default
 ---
 
 <div class="container d-flex justify-content-center">
-	<div class="article">
-		<p class="text-uppercase">
-			Home / Projects / <u>{{ page.title }}</u>
-		</p>
+  <div class="article">
 
-		{% if page.status == 'public' %}
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-transparent px-0 py-2 mb-3">
+        <li class="breadcrumb-item">
+          <a href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+      </ol>
+    </nav>
 
-		<h1>{{ page.title }}</h1>
-		<p>Project &middot; {{ page.date | date: '%B %d, %Y' }} &middot; by <span class="text-primary">{{ page.author | default: site.social.name }}</span></p>
-		
-		{% if page.updated %}
-		<p>Updated: <span class="text-primary">{{ page.updated | date: '%B %d, %Y' }}</span></p>
-		{% endif %}
+    {% if page.status == 'public' %}
 
-		<p>{{ page.description }}</p>
-		<hr>
+      <!-- Title & Meta -->
+      <h1 class="mb-1">{{ page.title }}</h1>
+      <p class="text-muted mb-2">
+        Project &middot; {{ page.date | date: '%B %d, %Y' }} &middot; by
+        <span class="text-primary">{{ page.author | default: site.social.name }}</span>
+        {% if page.updated %}
+          &middot; Last updated:
+          <span class="text-primary">{{ page.updated | date: '%B %d, %Y' }}</span>
+        {% endif %}
+      </p>
 
-		<!-- Google Ads: Display Ad -->
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
-		<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1388434276906165" data-ad-slot="1745724991" data-ad-format="auto" data-full-width-responsive="true"></ins>
-		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      <!-- Description -->
+      {% if page.description %}
+        <p class="lead">{{ page.description }}</p>
+      {% endif %}
 
-		{{ content }}
+      <hr>
 
-		<!-- Google Ads: In-article Ad -->
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
-		<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1388434276906165" data-ad-slot="6175924594"></ins>
-		<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      <!-- Google Ads: Display Ad -->
+      <div class="my-3">
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+          crossorigin="anonymous"></script>
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-1388434276906165"
+          data-ad-slot="1745724991"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
 
-		<!-- Downloads Section -->
-		<h2 id="downloads">Downloads</h2>
-		<p>You don't need to download them all, they are both the same file, just choose one of the links, bstlar, lootlabs or linkvertise</p>
-		<div class="d-grid gap-2 col-6 mx-auto text-center">
-			{% if page.downloads %}
-			<h4 class="mb-2">Direct Download</h4>
-			{% for link in page.downloads %}
-			<button class="btn btn-light" type="button" onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;" dest="{{ link.link }}">{{ link.title }}</button>
-			{% endfor %}
-			{% endif %}
+      <!-- Main Content -->
+      <div class="mb-4">
+        {{ content }}
+      </div>
 
-			{% if page.lootlabs %}
-			<h4 class="mb-2">Download from LootLabs</h4>
-			{% for link in page.lootlabs %}
-			<a class="btn btn-success" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
-			{% endfor %}
-			{% endif %}
+      <!-- Google Ads: In-article Ad -->
+      <div class="my-3">
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+          crossorigin="anonymous"></script>
+        <ins
+          class="adsbygoogle"
+          style="display:block; text-align:center;"
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-1388434276906165"
+          data-ad-slot="6175924594"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
 
-			{% if page.bstlar %}
-			<h4 class="mb-2">Download from BstLar</h4>
-			{% for link in page.bstlar %}
-			<a class="btn btn-warning" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
-			{% endfor %}
-			{% endif %}
+      <!-- Supported Versions Section -->
+      {% if page.versions %}
+        <section class="mb-4">
+          <h2 id="supported-versions">Supported Versions</h2>
+          {% for version in page.versions %}
+            <span class="badge text-bg-light me-1">{{ version }}</span>
+          {% endfor %}
+        </section>
+        <hr>
+    {% endif %}
 
-			{% if page.linkvertise %}
-			<h4 class="mb-2">Download from Linkvertise</h4>
-			{% for link in page.linkvertise %}
-			<a class="btn btn-danger" href="{{ link.link }}" target="_blank">{{ link.title }}</a>
-			{% endfor %}
-			{% endif %}
+      <!-- Downloads Section -->
+      {% assign has_downloads = false %}
+      {% if page.downloads %}
+        {% assign has_downloads = true %}{% endif %}
+      {% if page.lootlabs %}
+        {% assign has_downloads = true %}{% endif %}
+      {% if page.bstlar %}
+        {% assign has_downloads = true %}{% endif %}
+      {% if page.linkvertise %}
+        {% assign has_downloads = true %}{% endif %}
+      {% if page.extensions %}
+        {% assign has_downloads = true %}{% endif %}
+      {% if has_downloads %}
+        <section class="mb-4">
+          <h2 id="downloads">Downloads</h2>
+          <p class="mb-3">Select one of the links below to download. All links provide the same file unless otherwise specified.</p>
+          <div class="d-grid gap-2 col-6 mx-auto text-center">
 
-			{% if page.extensions %}
-			<h4 class="mb-2">Download Extensions</h4>
-			{% for link in page.extensions %}
-			<button class="btn btn-info" type="button" onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;" dest="{{ link.link }}">{{ link.title }}</button>
-			{% endfor %}
-			{% endif %}
-		</div>
+            {% if page.downloads %}
+              <h4 class="mb-2">Direct Download</h4>
+              {% for link in page.downloads %}
+                <button
+                  class="btn btn-light mb-1"
+                  type="button"
+                  onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
+                  dest="{{ link.link }}">{{ link.title }}</button>
+              {% endfor %}
+            {% endif %}
 
-		<hr>
+            {% if page.lootlabs %}
+              <h4 class="mb-2">Download via LootLabs</h4>
+              {% for link in page.lootlabs %}
+                <a
+                  class="btn btn-success mb-1"
+                  href="{{ link.link }}"
+                  target="_blank">{{ link.title }}</a>
+              {% endfor %}
+            {% endif %}
 
-		<!-- Supported Versions Section -->
-		<h2 id="supported-versions">Supported Versions</h2>
-		{% for version in page.versions %}
-		<span class="badge text-bg-light">{{ version }}</span>
-		{% endfor %}
+            {% if page.bstlar %}
+              <h4 class="mb-2">Download via BstLar</h4>
+              {% for link in page.bstlar %}
+                <a
+                  class="btn btn-warning mb-1"
+                  href="{{ link.link }}"
+                  target="_blank">{{ link.title }}</a>
+              {% endfor %}
+            {% endif %}
 
-	</div>
+            {% if page.linkvertise %}
+              <h4 class="mb-2">Download via Linkvertise</h4>
+              {% for link in page.linkvertise %}
+                <a
+                  class="btn btn-danger mb-1"
+                  href="{{ link.link }}"
+                  target="_blank">{{ link.title }}</a>
+              {% endfor %}
+            {% endif %}
+
+            {% if page.extensions %}
+              <h4 class="mb-2">Download Extensions</h4>
+              {% for link in page.extensions %}
+                <button
+                  class="btn btn-info mb-1"
+                  type="button"
+                  onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
+                  dest="{{ link.link }}">{{ link.title }}</button>
+              {% endfor %}
+            {% endif %}
+
+          </div>
+        </section>
+      {% endif %}
+
+    {% else %}
+      <div class="container text-center my-5">
+        <h1>Project Not Available</h1>
+        <p>This project is currently not public. If you believe this is an error or would like more information, please contact me via the social media links in the footer or try again later.</p>
+      </div>
+    {% endif %}
+
+  </div>
 </div>
-
-{% else %}
-<div class="container text-center my-5">
-	<h1>NOT FOUND</h1>
-	<p>The project you followed is not public, sorry. Please contact me (via footer social media) or try again later.</p>
-</div>
-{% endif %}

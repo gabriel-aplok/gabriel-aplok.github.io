@@ -1,12 +1,21 @@
 ---
 layout: default
-title: Join our Discord
-description: See news and updates every day on my discord server.
+title: Join Our Discord
+description: Get the latest news and updates every day on our Discord server.
 ---
 
+# Join Our Discord Community
+
+Stay connected and be the first to know about news and updates by joining our Discord server.
+
 <noscript>
-	Enable browser allow scripts to access my discord.
+	<div style="color: red; font-weight: bold;">
+		Please enable JavaScript in your browser to access our Discord server.
+	</div>
 </noscript>
+
 <script>
-	window.location = "{{ site.discord }}";
+	window.location.href = "{{ site.discord }}";
 </script>
+
+If you are not redirected automatically, [click here to join our Discord]({{ site.discord }}).

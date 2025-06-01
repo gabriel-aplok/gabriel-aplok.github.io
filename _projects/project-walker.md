@@ -144,7 +144,7 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
 
 ## Installation
 
-{{ site.warn_install_addon }}
+{{ site.label_attention_install_addon }}
 
 ---
 
@@ -159,29 +159,17 @@ Do you want to walk at night but can't see anything? use Night Vision Goggles.
 > You can access other previous changelogs [here]({{ page.slug }}/changes.html).
 
 ```
-- Updated all addon core to 1.21.20
-- Updated behavior codes to new scripts in favor of performance.
-- Now the addon don't need to use Beta APIs or HCF.
-- Added 8 new hoodie clothes.
-- Added 3 new shirt clothes.
-- Added armor protection from bullets.
-- Added shield protection from bullets.
-- Added 13 new structures (houses, hospital, military towers, tents and bunkers.)
-- Added new loot boxes system.
-- Removed entity loot boxes.
-- Fixed deer baby spawn.
-- Fixed crow issues.
-- Updated spawn rules.
-- Updated thirst cooldown when sprint.
+*   Updated all addon core to 1.21.70
+*   Updated behavior codes to new scripts version in favor of maintenance.
+*   Updated zombie spawn mechanics—now limited to specific blocks:
+    *   Stone-based blocks: stone, stone\_bricks, cobblestone.
+    *   Grass-based blocks: grass\_block, grass\_path.
+    *   Dirt-based blocks: dirt, dirt\_with\_roots.
+    *   Sand-based blocks: sand, sandstone.
+    *   Wood planks: oak\_planks, birch\_planks, acacia\_planks, bamboo\_planks, cherry\_planks, jungle\_planks, spruce\_planks, warped\_planks, crimson\_planks, dark\_oak\_planks, mangrove\_planks.
+*   Fixed a typo in the death message.
 ```
 
-<div class="alert alert-danger" role="alert">
-  <h4 class="alert-heading">Warning</h4>
-  <p>{{ site.warn_content_creator }}</p>
-</div>
-
-<div class="alert alert-danger" role="alert">
-  <p>This add-on <strong>DOESN'T NEED</strong> experimental options. please don't use other packs that use "player.json" to avoid errors.</p>
-  <hr>
-  <p class="mb-0">If you are experiencing any issues with Project Walker, let us know in our <a href="/discord">Discord server</a>.</p>
+<div class="alert alert-warning" role="alert">
+  {{ site.label_attention_links }}
 </div>

@@ -4,156 +4,221 @@ layout: null
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en' }}" data-bs-theme="dark">
+  <head>
+    {% if page.layout == "project" %}
+      {% include head_post.html %}
+    {% else %}
+      {% include head_default.html %}
+    {% endif %}
 
-<head>
-	{% if page.layout == "project" %}
-		{% include head_post.html %}
-	{% else %}
-		{% include head_default.html %}
-	{% endif %}
-	
-	<!-- Google Tag Manager -->
-	<script>
-		(function(w, d, s, l, i) {
-			w[l] = w[l] || [];
-			w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-			var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', '{{ site.google_tagmanager }}');
-	</script>
+    <!-- Google Tag Manager -->
+    {% if site.google_tagmanager %}
+      <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','{{ site.google_tagmanager }}');
+      </script>
+    {% endif %}
+    <!-- End Google Tag Manager -->
 
-	<!-- Google AdSense -->
-	{% if page.layout == "project" or page.ads %}
-		<meta name="google-adsense-account" content="ca-pub-1388434276906165">
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165" crossorigin="anonymous"></script>
-	{% endif %}
-</head>
+    <!-- Google AdSense -->
+    {% if page.layout == "project" or page.ads %}
+      <meta name="google-adsense-account" content="ca-pub-1388434276906165">
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+        crossorigin="anonymous"></script>
+    {% endif %}
 
-<body>
-	<!-- <script> -->
-		<!-- // blablabla -->
-		<!-- document.addEventListener("DOMContentLoaded", function() { -->
-			<!-- const pathname = window.location.pathname; -->
-			<!-- const cleanPathname = pathname.replace(/\.(html|htm)$/i, ''); -->
-			<!-- const newUrl = "https://beta.gabriel-aplok.com" + cleanPathname; -->
-			<!-- window.location.replace(newUrl); -->
-		<!-- }); -->
-	<!-- </script> -->
+    <!-- OneDollarStats -->
+    <script defer src="https://assets.onedollarstats.com/stonks.js"></script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    {% if site.google_tagmanager %}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id={{ site.google_tagmanager }}"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"></iframe>
+      </noscript>
 
-	<!-- Google Tag Manager (noscript) -->
-	<noscript>
-		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJSM745" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-	</noscript>
-	
-	<!-- 100% privacy-first analytics -->
-	<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-	<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+    {% endif %}
+    <!-- End Google Tag Manager (noscript) -->
 
-	<!-- Header -->
-	<header class="navbar navbar-expand-lg bd-navbar">
-		<nav class="container-fluid bd-gutter flex-wrap flex-lg-nowrap d-flex justify-content-between p-4" aria-label="Main navigation">
-			<a class="navbar-brand p-0 me-0 me-lg-2" href="/" aria-label="FireWave Interactive">
-				<img src="{{ '/assets/img/logo-dark.png' | absolute_url }}" alt="FireWave Interactive">
-			</a>
-			<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_toggler" aria-controls="navbar_toggler" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbar_toggler">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					{% assign pages = site.pages | sort: 'navbar_index' %}
-					{% for page_index in pages %}
-						{% if page_index.navbar_index and page_index.navbar_index > 0 %}
-							<li>
-								<a class="nav-link {% if page_index.url == page.url %}active{% endif %}" href="{{ page_index.url | absolute_url }}" {% if page_index.url == page.url %}aria-current="page"{% endif %}>{{ page_index.title }}</a>
-							</li>
-						{% endif %}
-					{% endfor %}
-				</ul>
-			</div>
-		</nav>
-	</header>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg bd-navbar">
+      <nav class="container-fluid bd-gutter flex-wrap flex-lg-nowrap d-flex justify-content-between p-4" aria-label="Main navigation">
+        <a
+          class="navbar-brand p-0 me-0 me-lg-2"
+          href="/"
+          aria-label="FireWave Interactive">
+          <img src="{{ '/assets/img/logo-dark.png' | absolute_url }}" alt="FireWave Interactive">
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar_toggler"
+          aria-controls="navbar_toggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar_toggler">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            {% assign pages = site.pages | sort: 'navbar_index' %}
+            {% for nav_page in pages %}
+              {% if nav_page.navbar_index and nav_page.navbar_index > 0 %}
+                <li>
+                  <a
+                    class="nav-link {% if nav_page.url == page.url %}active{% endif %}"
+                    href="{{ nav_page.url | absolute_url }}"
+                    {% if nav_page.url == page.url %}
+                    aria-current="page"
+                    {% endif %}>{{ nav_page.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-	<!-- Hero Section -->
-	{% if page.hero %}
-	<div class="container">
-		<div class="row text-center p-4 m-0">
-			<div class="col-sm">
-				<img class="rounded-circle" style="width: 180px;" src="{{ 'assets/img/profile.png' | absolute_url }}" alt="Gabriel Aplok">
-				<h1>Hello, I'm <strong>Gabriel Aplok</strong></h1>
-			</div>
-			<div class="col-sm">
-				<div class="content-text">
-					<h4 class="text-primary">Full-Stack Developer</h4>
-					<p>Passionate about building scalable projects and engaging user experiences. With a comprehensive understanding of front-end and back-end technologies, I strive to bridge the gap between design and technical implementation, wishing to create fun, innovative, and quality experiences!</p>
-				</div>
-				<a href="#projects" class="btn btn-outline-light">VIEW MY PROJECTS</a>
-			</div>
-		</div>
-	</div>
-	{% endif %}
+    <!-- Hero Section -->
+    {% if page.hero %}
+      <section class="container py-5">
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
+            <img
+              class="rounded-circle mb-3 shadow"
+              style="width: 160px; height: 160px; object-fit: cover;"
+              src="{{ 'assets/img/profile.png' | absolute_url }}"
+              alt="Gabriel Aplok">
+            <h1 class="h3 mb-1">Hello, I'm
+              <strong>Gabriel Aplok</strong>
+            </h1>
+            <h4 class="text-primary fw-semibold mb-3">Full-Stack Developer</h4>
+          </div>
+          <div class="col-md-8">
+            <div class="content-text mb-4">
+              <p>
+                I build scalable projects and engaging user experiences.<br>
+                With expertise in both front-end and back-end technologies, I bridge the gap between design and technical implementation.<br>
+                My goal: create fun, innovative, and high-quality digital experiences!
+              </p>
+            </div>
+            <a href="#projects" class="btn btn-light btn-lg px-4">View My Projects</a>
+          </div>
+        </div>
+      </section>
+    {% endif %}
 
-	<!-- Main Content Container -->
-	<main class="container">
-		{{ content }}
-	</main>
+    <!-- Main Content -->
+    <main class="container">
+      {{ content }}
+    </main>
 
-	<!-- Footer -->
-	<footer class="container p-5">
-		<div class="row">
-			<div class="col-md-5 offset-md-1 mb-3">
-				<h5>Always seeking quality</h5>
-				<p>I'm a solo developer working to create unique content for the Minecraft community.</p>
-				<a href="https://discord.gg/PppEgBdss4" class="btn btn-primary" target="_blank">Discord Server</a>
-			</div>
+    <!-- Footer -->
+    <footer class="container p-5">
+      <div class="row">
+        <div class="col-md-5 offset-md-1 mb-3">
+          <h5>Always seeking quality</h5>
+          <p>I'm a solo developer working to create unique content for the Minecraft community.</p>
+          <a
+            href="https://discord.gg/PppEgBdss4"
+            class="btn btn-light"
+            target="_blank"
+            rel="noopener">Discord Server</a>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Discover</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Portfolio</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Projects</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Meet the Team</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Support</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Mail</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Discord</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-center">
+        <p>&copy; 2018-<time>{{ 'now' | date: '%Y' }}</time>
+          FireWave Interactive. All Rights Reserved.</p>
+        <div>
+          <a href="{{ '/terms.html' | absolute_url }}" class="text-decoration-none text-secondary">Terms of Service</a>
+          <a href="{{ '/privacy.html' | absolute_url }}" class="text-decoration-none text-secondary">Privacy Policy</a>
+        </div>
+      </div>
+      <ul class="list-unstyled d-flex justify-content-center">
+        <li class="ms-3">
+          <a
+            href="https://x.com/GabrielAplok"
+            class="link-body-emphasis text-secondary"
+            target="_blank"
+            rel="noopener">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a
+            href="https://youtube.com/GabrielAplok"
+            class="link-body-emphasis text-secondary"
+            target="_blank"
+            rel="noopener">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a
+            href="https://github.com/gabriel-aplok/"
+            class="link-body-emphasis text-secondary"
+            target="_blank"
+            rel="noopener">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
 
-			<div class="col-6 col-md-2 mb-3">
-				<h5>Discover</h5>
-				<ul class="nav flex-column">
-					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Portfolio</a></li>
-					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Projects</a></li>
-					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Meet the Team</a></li>
-					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-				</ul>
-			</div>
-
-			<div class="col-6 col-md-2 mb-3">
-				<h5>Support</h5>
-				<ul class="nav flex-column">
-					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
-					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mail</a></li>
-					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Discord</a></li>
-				</ul>
-			</div>
-		</div>
-
-		<!--ul class="list-unstyled d-flex">
-			<li class="ms-3"><a href="https://x.com/GabrielAplok" class="link-body-emphasis text-secondary" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-			<li class="ms-3"><a href="https://youtube.com/GabrielAplok" class="link-body-emphasis text-secondary" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-			<li class="ms-3"><a href="https://github.com/gabriel-aplok/" class="link-body-emphasis text-secondary" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-		</ul-->
-
-		<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-center">
-			<p>&copy; 2018-<time>{{ 'now' | date: '%Y' }}</time> FireWave Interactive. All Rights Reserved.</p>
-			<div>
-				<a href="{{ '/terms.html' | absolute_url }}" class="text-decoration-none text-secondary">Terms of Service</a>
-				<a href="{{ '/privacy.html' | absolute_url }}" class="text-decoration-none text-secondary">Privacy Policy</a>
-			</div>
-		</div>
-
-		<ul class="list-unstyled d-flex justify-content-center">
-			<li class="ms-3"><a href="https://x.com/GabrielAplok" class="link-body-emphasis text-secondary" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-			<li class="ms-3"><a href="https://youtube.com/GabrielAplok" class="link-body-emphasis text-secondary" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-			<li class="ms-3"><a href="https://github.com/gabriel-aplok/" class="link-body-emphasis text-secondary" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-		</ul>
-	</footer>
-
-	<!-- Scripts -->
-	<script async src="https://www.google.com/recaptcha/api.js"></script>
-	<script async src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	<script async type="module" src="{{ '/assets/js/index.js' | absolute_url }}"></script>
-</body>
-
+    <!-- Scripts -->
+    <script
+      async
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"></script>
+    <script
+      async
+      type="module"
+      src="{{ '/assets/js/index.js' | absolute_url }}"></script>
+  </body>
 </html>

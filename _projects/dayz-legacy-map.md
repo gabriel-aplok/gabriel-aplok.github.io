@@ -36,11 +36,11 @@ It's a old dayz map port originally made for Minecraft Java, remade by me and up
 
 ## Installation
 
-{{ site.warn_install_world }}
+{{ site.label_attention_install_world }}
 
 ---
 
 <div class="alert alert-danger" role="alert">
   <h4 class="alert-heading">Warning</h4>
-  <p>{{ site.warn_content_creator }}</p>
+  <p>{{ site.label_attention_content_creator }}</p>
 </div>

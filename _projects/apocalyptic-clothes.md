@@ -110,7 +110,7 @@ If you liked the addon and want to support me and see more in the future, check 
 
 ## Installation
 
-{{ site.warn_install_addon }}
+{{ site.label_attention_install_addon }}
 
 ---
 
@@ -123,5 +123,5 @@ If you liked the addon and want to support me and see more in the future, check 
 
 <div class="alert alert-danger" role="alert">
   <h4 class="alert-heading">Warning</h4>
-  <p>{{ site.warn_content_creator }}</p>
+  <p>{{ site.label_attention_content_creator }}</p>
 </div>

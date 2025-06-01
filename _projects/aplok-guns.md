@@ -8,16 +8,16 @@ title: Aplok Guns Addon | v1.1.5
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: >
-  Survival-friendly military-themed add-on with vanilla styled and beautiful guns, satisfying effects, various animations, explosives, custom armor and blocks, and various details that make the difference.
+  A survival-friendly, military-themed add-on featuring vanilla-style weapons, immersive sound effects, polished animations, explosives, custom armor, and blocks—all crafted with meticulous attention to detail.
 date: 2022-03-23
 updated: 2024-08-15
-tags: [aplok-guns, aplok, guns, weapons, military, war, mcpe, mcbe, minecraft, java, mod, addon, gabriel-aplok]
-versions: ["1.21.50", "1.21.51"]
+tags: ["aplok-guns", "weapons", "military", "war", "minecraft", "addon"]
+versions: ["1.21.50", "1.21.60"]
 lootlabs:
   - title: Behavior Pack
-    link: "https://loot-link.com/s?Mi05QfeQ"
+    link: "https://loot-link.com/s?Mi05QfeQ&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
   - title: Resource Pack
-    link: "https://lootdest.org/s?P5lyISFl"
+    link: "https://lootdest.org/s?P5lyISFl&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
 bstlar:
   - title: Behavior Pack
     link: "https://bstlar.com/2EI/ag-bp"
@@ -32,29 +32,26 @@ linkvertise:
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
 
-Do you like high-quality military-themed addons and have the best features? If yes, you're in the right place.
-
-Aplok Guns is an add-on for Minecraft Bedrock that adds vanilla styled military-themed content, the models are something close to something Minecraft would make.
+Looking for a high-quality, military-themed add-on with outstanding features? Aplok Guns delivers exactly that for Minecraft Bedrock. This add-on introduces vanilla-style military content with models designed to seamlessly blend with Minecraft’s aesthetic, providing an authentic and immersive combat experience.
 
 ## Developer
 
-- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **(Main Developer)**
-- [HardSK](https://x.com/gabrielMODguy) **(Contributor)**
+- [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **(Lead Developer)**
 
 ## Features
 
-- 🎲 Minecraft vanilla stylized.
-- 🔈 Satisfying sound effects.
-- 👀 Smooth animations.
-- ⚡ Beautiful and optimized effects such as muzzle flashes, explosions, lights, bullets solid and water impacts etc.
-- 💥 Innovative features, with systems never seen before in Minecraft Bedrock.
-- 👍 Survival-friendly with everything craftable.
-- 🔊 Reverb and distant sound effects.
-- 🧪 Optimized for low-end devices.
+- Vanilla-style weapon models and textures
+- High-fidelity spatial audio with reverb and distance effects
+- Smooth reload and firing animations
+- Performance-optimized particle effects
+- Innovative attachment and modification system
+- Fully craftable items for survival gameplay
+- Custom workbench and crafting mechanics
+- Low resource usage for compatibility with all devices
 
-## How to Make Guns
+## Crafting Guns
 
-You can make your own gun using the **Gun Workbench** with the materials needed for your gun, you can see the recipes in the recipe book on the sidebar.
+Create your own firearms using the **Gun Workbench** and the required materials. Recipes are available in the recipe book on the sidebar.
 
 <div class="row">
   <div class="col-md">
@@ -65,9 +62,9 @@ You can make your own gun using the **Gun Workbench** with the materials needed 
   </div>
 </div>
 
-## How to Make Ammo
+## Crafting Ammunition
 
-Use the **Ammo Workbench** to make your mags, you will need **Gunmetal ingot** and **Gunpowder** to make a 2 mags.
+Use the **Ammo Workbench** to craft magazines. You’ll need **Gunmetal Ingots** and **Gunpowder** to produce two magazines.
 
 <div class="row">
   <div class="col-md">
@@ -78,9 +75,9 @@ Use the **Ammo Workbench** to make your mags, you will need **Gunmetal ingot** a
   </div>
 </div>
 
-## How to Use Attachments
+## Using Attachments
 
-To use the attachments you will have to use the **Attachment Workbench**, to open the menu just click on the block with the gun you are going to change in your hand, and have the attachment blueprints in your inventory to change your gun attachments.
+To equip attachments, interact with the **Attachment Workbench** while holding the gun you wish to modify. Ensure you have the necessary attachment blueprints in your inventory to customize your weapon.
 
 <div class="row">
   <div class="col-md">
@@ -91,21 +88,21 @@ To use the attachments you will have to use the **Attachment Workbench**, to ope
   </div>
 </div>
 
-## How to Reload
+## Reloading
 
-You can reload empty guns by having the magazine in your inventory and clicking interact button like eat food (right-click-button) or sneaking + attacking (sneak+left-click-button).
+Reload empty firearms by having a magazine in your inventory and pressing the interact button (right-click), or by sneaking and attacking (sneak + left-click).
 
-## How to Make Gunmetal?
+## Crafting Gunmetal
 
-You use the crafting table to create your **Gunmetal Scrap** to make **Gunmetal Ingot**.
+Use the crafting table to create **Gunmetal Scrap**. Combine **Gunmetal Scrap** to craft **Gunmetal Ingots**.
 
 ![Gunmetal Scrap Recipes](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_0.png)
 
-You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scrap** to make **Gun parts** and **Attachments**.
+Use **Gunmetal Ingots** to craft gun parts and attachments.
 
 ![Gunmetal Ingot Recipes](/projects/{{ page.slug }}/images/screenshot/crafting_gunmetal_1.png)
 
-## Guns
+## Weapons
 
 <div class="row row-cols-2">
   <div class="col-6">
@@ -153,28 +150,21 @@ You use the crafting table to create your **Gunmetal Ingot** with **Gunmetal Scr
 
 ## Installation
 
-{{ site.warn_install_addon }}
+{{ site.label_attention_install_addon }}
 
 ---
 
 ## Changelog for v1.1.5
 
-> You can access other previous changelogs [here]({{ page.slug }}/changes.html).
+> You can access previous changelogs [here]({{ page.slug }}/changes.html).
 
+```markdown
+-   Improved performance in bullets.
+-   Fixed nametags to always display.
+-   Fixed a typo in the death message.
+-   Fixed camera shake in grenade impacts.
 ```
-- Improved performance in bullets.
-- Fixed nametags to always display.
-- Fixed a typo in the death message.
-- Fixed camera shake in grenade impacts.
-```
 
-<div class="alert alert-danger" role="alert">
-  <h4 class="alert-heading">Warning</h4>
-  <p>{{ site.warn_content_creator }}</p>
-</div>
-
-<div class="alert alert-danger" role="alert">
-  <p>This add-on <strong>DOESN'T NEED</strong> experimental options. and PLEASE DON'T mix it with packs that use "player.json" to avoid errors.</p>
-  <hr>
-  <p class="mb-0">If you are experiencing any issues with Aplok Guns, let us know in our <a href="/discord">Discord server</a>.</p>
+<div class="alert alert-warning" role="alert">
+  {{ site.label_attention_links }}
 </div>

@@ -1,8 +1,8 @@
 ---
-layout: compress
+layout: null
+permalink: /feed.xml
 ---
 
-{% capture source %}
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>{{ site.url | absolute_url }}</id>
@@ -10,66 +10,48 @@ layout: compress
 	<subtitle>{{ site.description | xml_escape }}</subtitle>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<author>
-		<name>{{ site.social.name | xml_escape }}</name>
-		<email>{{ site.social.email | xml_escape }}</email>
+		<name>{{ site.author.name | default: site.title | xml_escape }}</name>
+		{% if site.author.email %}
+		<email>{{ site.author.email | xml_escape }}</email>
+		{% endif %}
 		<uri>{{ site.url | absolute_url }}</uri>
 	</author>
-	<link rel="self" type="application/atom+xml" href="{{ page.url | absolute_url }}" />
-	<link rel="alternate" type="text/html" hreflang="{{ site.lang }}" href="{{ site.url | absolute_url }}" />
-	<rights>© {{ 'now' | date: '%Y' }} {{ site.social.name | xml_escape }}</rights>
+	<link rel="self" type="application/atom+xml" href="{{ '/feed.xml' | absolute_url }}" />
+	<link rel="alternate" type="text/html" hreflang="{{ site.lang | default: 'en' }}" href="{{ site.url | absolute_url }}" />
+	<rights>© {{ 'now' | date: '%Y' }} {{ site.author.name | default: site.title | xml_escape }}</rights>
 	<icon>{{ site.baseurl }}/favicon.ico</icon>
 	<logo>{{ site.baseurl }}/favicon.ico</logo>
 
-	<!-- Projects -->
-	{% for project in site.projects %}
-	{% if project.status == "public" %}
-	<entry>
-		<title>{{ project.title | xml_escape }}</title>
-		<link href="{{ site.url }}{{ project.url }}" />
-		<updated>{{ project.date | date_to_xmlschema }}</updated>
-		<id>{{ site.url }}{{ project.id }}</id>
-		<content type="html">{{ project.content | xml_escape }}</content>
-	</entry>
-	{% endif %}
-	{% endfor %}
-
-	{% for project in site.projects limit: 5 %}
-	{% assign project_url = project.url | absolute_url %}
-	<entry>
-		<title>{{ project.title | xml_escape }}</title>
-		<link href="{{ project_url }}" rel="alternate" type="text/html" title="{{ project.title | xml_escape }}" />
-		<published>{{ project.date | date_to_xmlschema }}</published>
-		{% if project.updated %}
-		<updated>{{ project.updated | date_to_xmlschema }}</updated>
-		{% else %}
-		<updated>{{ project.date | date_to_xmlschema }}</updated>
-		{% endif %}
-		<id>{{ project_url }}</id>
-		<content type="html">{{ project.content | xml_escape }}</content>
-		<author>
-			<name>{{ project.author | default: site.social.name | xml_escape }}</name>
-		</author>
-
-		{% if project.categories %}
-		{% for category in project.categories %}
-		<category term="{{ category | xml_escape }}" />
-		{% endfor %}
-		{% endif %}
-
-		{% if project.summary %}
-		<summary>{{ project.summary | strip | xml_escape }}</summary>
-		{% else %}
-		<summary>
-		{% assign content = project.content %}
-		{% if content contains '<td class="rouge-gutter gl"><pre class="lineno">' %}
-		{% assign content = content | replace: '<td class="rouge-gutter gl"><pre class="lineno">', '<!-- <td class="rouge-gutter gl"><pre class="lineno">' %}
-		{% assign content = content | replace: '</td><td class="rouge-code">', '</td> --><td class="rouge-code">' %}
-		{% endif %}
-		{{ content | strip_html | truncate: 400 | xml_escape }}
-		</summary>
-		{% endif %}
-	</entry>
+	{% assign projects = site.projects | where: "status", "public" | uniq: "title" | slice: 0, 5 %}
+	{% for project in projects %}
+		<entry>
+			<title>{{ project.title | xml_escape }}</title>
+			<link href="{{ project.url | absolute_url }}" rel="alternate" type="text/html" title="{{ project.title | xml_escape }}" />
+			<published>{{ project.date | date_to_xmlschema }}</published>
+			<updated>
+				{% if project.updated %}
+					{{ project.updated | date_to_xmlschema }}
+				{% else %}
+					{{ project.date | date_to_xmlschema }}
+				{% endif %}
+			</updated>
+			<id>{{ project.url | absolute_url }}</id>
+			<content type="html">{{ project.content | xml_escape }}</content>
+			<author>
+				<name>{{ project.author | default: site.author.name | xml_escape }}</name>
+			</author>
+			{% if project.categories %}
+				{% for category in project.categories %}
+					<category term="{{ category | xml_escape }}" />
+				{% endfor %}
+			{% endif %}
+			<summary>
+				{% if project.summary %}
+					{{ project.summary | strip | xml_escape }}
+				{% else %}
+					{{ project.content | strip_html | truncate: 400 | xml_escape }}
+				{% endif %}
+			</summary>
+		</entry>
 	{% endfor %}
 </feed>
-{% endcapture %}
-{{ source | replace: '&', '&amp;' }}

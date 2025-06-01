@@ -1,72 +1,86 @@
+# Site Information
 title: Gabriel Aplok
 tagline: Full-Stack Developer | Game Developer.
 description: Come check some of my work.
-url: https://gabriel-aplok.com
-api_url: https://api.gabriel-aplok.com/api
-baseurl: ""
+url: https://trenbankai.com
+baseurl: ''
+api_url: https://api.trenbankai.com/api
+build_revision: 4
+timezone: America/Sao_Paulo
+lang: en-US
 
+# Branding
 icon: /assets/img/icon.png
 logo: /assets/img/logo.png
 avatar: /assets/img/profile.png
 
-timezone: America/Sao_Paulo
-lang: en-US
-build_revision: 4
-
+# Social & Contact
 social:
-  name: Gabriel Aplok
-  email: contact@gabriel-aplok.com
-  links:
-    - https://gabriel-aplok.com
+    name: Gabriel Aplok
+    email: service@trenbankai.com
+    links:
+        - https://trenbankai.com
+    profiles:
+        github: https://github.com/gabriel-aplok/
+        x: https://x.com/GabrielAplok
+        youtube: https://youtube.com/GabrielAplok
+        itchio: https://gabriel-aplok.itch.io/
+        discord: https://discord.gg/PppEgBdss4
 
+email: service@trenbankai.com
+
+# SEO & Analytics
 google_site_verification: 6KdYh_ff3c8RKaXlzqEcnUscw98UzP8rjM6tXFr-qPQ
 google_tagmanager: GTM-MJSM745
 
+# Repository
 issues_repo: gabriel-aplok/gabriel-aplok.github.io
 
-email: contact@gabriel-aplok.com
-x: https://x.com/GabrielAplok
-youtube: https://youtube.com/GabrielAplok
-github: https://github.com/gabriel-aplok/
-itchio: https://gabriel-aplok.itch.io/
-discord: https://discord.gg/PppEgBdss4
-
+# Plugins
 plugins:
-  - jekyll-sitemap
+    - jekyll-sitemap
 
+# Markdown & Syntax Highlighting
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
+    input: GFM
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        css_class: highlight
 
+# Collections
 collections:
-  projects:
-    output: true
+    projects:
+        output: true
 
+# Sass
 sass:
-  style: compressed
+    style: compressed
 
+# HTML Compression
 compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
+    clippings: all
+    comments: all
+    endings: all
+    profile: false
+    blanklines: false
+    ignore:
+        envs: [development]
 
+# Exclude from Build
 exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - README.md
-  - LICENSE
-  - package.json
+    - '*.gem'
+    - '*.gemspec'
+    - README.md
+    - LICENSE
+    - package.json
 
-warn_content_creator: >
-  If you plan to showcase this content, <strong>ONLY use the links I provide here</strong>. DON’T create your own links and/or claim this as your own creation. Thank you!
-warn_install_addon: >
-  Open the **.mcpack** with **Minecraft** and automatically import or extract and copy manually the folder to behavior and resources in the respective Minecraft folders.
-warn_install_world: >
-  Open the **.mcworld** with **Minecraft** and automatically import or extract and copy manually the folder to the respective Minecraft worlds folders.
+# Warnings & Notices
+label_attention_content_creator: >
+    If you wish to showcase this content, please use only the official links provided here. Do not create your own links or claim this work as your own. Thank you for respecting the creator's rights.
+label_attention_install_addon: >
+    To install the **.mcpack** file, open it with **Minecraft** to import automatically, or manually extract and copy the folder to the appropriate behavior and resource directories in your Minecraft installation.
+label_attention_install_world: >
+    To install the **.mcworld** file, open it with **Minecraft** to import automatically, or manually extract and copy the folder to your Minecraft worlds directory.
+label_attention_links: >
+    <strong>Attention:</strong> You don't need to download both packs from the same source. Simply choose one link type (<code>bstlar</code>, <code>lootlabs</code>, or <code>linkvertise</code>) and download both the Behavior Pack and Resource Pack from there.

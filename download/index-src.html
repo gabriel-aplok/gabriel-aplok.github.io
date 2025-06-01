@@ -1,0 +1,131 @@
+---
+layout: default_no_compress
+title: Download
+ads: true
+---
+
+<body>
+    <div class="center">
+        <!-- Top Ad -->
+        <div>
+            <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+                crossorigin="anonymous"
+            ></script>
+            <ins
+                class="adsbygoogle"
+                style="display: block"
+                data-ad-client="ca-pub-1388434276906165"
+                data-ad-slot="3952562534"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+            ></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <!-- Download Section -->
+        <div>
+            <h2 id="title"></h2>
+            <a id="manual-download" style="margin: 0; visibility: hidden"
+                >Click here if the download has not started</a
+            >
+        </div>
+
+        <!-- Bottom Ads -->
+        <div>
+            <!-- Display Ad -->
+            <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+                crossorigin="anonymous"
+            ></script>
+            <ins
+                class="adsbygoogle"
+                style="display: block"
+                data-ad-client="ca-pub-1388434276906165"
+                data-ad-slot="3952562534"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+            ></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            <!-- Multiplex Ad 1 -->
+            <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+                crossorigin="anonymous"
+            ></script>
+            <ins
+                class="adsbygoogle"
+                style="display: block"
+                data-ad-format="autorelaxed"
+                data-ad-client="ca-pub-1388434276906165"
+                data-ad-slot="8084197474"
+            ></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            <!-- Multiplex Ad 2 -->
+            <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+                crossorigin="anonymous"
+            ></script>
+            <ins
+                class="adsbygoogle"
+                style="display: block"
+                data-ad-format="autorelaxed"
+                data-ad-client="ca-pub-1388434276906165"
+                data-ad-slot="8084197474"
+            ></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const INTERVAL_MS = 1000;
+        const COUNTDOWN_SECONDS = 15;
+
+        // DOM Elements
+        const titleEl = document.getElementById('title');
+        const linkEl = document.getElementById('manual-download');
+
+        // Get download URL from query string
+        const params = new URLSearchParams(window.location.search);
+        const encodedUrl = params.get('q');
+
+        if (!encodedUrl) {
+            titleEl.textContent = 'Oops, no download URL provided!';
+            linkEl.style.visibility = 'hidden';
+        } else {
+            let countdown = COUNTDOWN_SECONDS;
+            titleEl.textContent = `Starting download in ${countdown} seconds...`;
+
+            const decodedUrl = atob(encodedUrl);
+
+            // Prepare manual download link
+            linkEl.href = decodedUrl;
+
+            const timer = setInterval(() => {
+                countdown--;
+                if (countdown <= 0) {
+                    clearInterval(timer);
+                    titleEl.textContent = 'Downloading...';
+                    window.location = decodedUrl;
+                    linkEl.style.visibility = 'visible';
+                } else {
+                    titleEl.textContent = `Starting download in ${countdown} seconds...`;
+                }
+            }, INTERVAL_MS);
+        }
+    </script>
+</body>

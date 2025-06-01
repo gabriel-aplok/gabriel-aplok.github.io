@@ -10,6 +10,15 @@
             ]
         },
         {
+            "source": "/projects/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
+        },
+        {
             "source": "/(.*)",
             "headers": [
                 {
@@ -71,14 +80,6 @@
         {
             "source": "/projects/project-walker",
             "destination": "/projects/project-walker.html"
-        },
-        {
-            "source": "/projects/kolpa-engine/privacy",
-            "destination": "/projects/kolpa-engine/privacy.html"
-        },
-        {
-            "source": "/projects/kolpa-engine/terms",
-            "destination": "/projects/kolpa-engine/terms.html"
         },
         {
             "source": "/download",

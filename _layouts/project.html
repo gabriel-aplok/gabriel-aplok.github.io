@@ -117,7 +117,7 @@ layout: default
                 <button
                     class="btn btn-light mb-1"
                     type="button"
-                    onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
+                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
                     dest="{{ link.link }}"
                 >
                     {{ link.title }}
@@ -125,19 +125,31 @@ layout: default
                 {% endfor %} {% endif %} {% if page.lootlabs %}
                 <h4 class="mb-2">Download via LootLabs</h4>
                 {% for link in page.lootlabs %}
-                <a class="btn btn-success mb-1" href="{{ link.link }}" target="_blank"
+                <a
+                    class="btn btn-success mb-1"
+                    href="{{ link.link }}"
+                    target="_blank"
+                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
                     >{{ link.title }}</a
                 >
                 {% endfor %} {% endif %} {% if page.bstlar %}
                 <h4 class="mb-2">Download via BstLar</h4>
                 {% for link in page.bstlar %}
-                <a class="btn btn-warning mb-1" href="{{ link.link }}" target="_blank"
+                <a
+                    class="btn btn-warning mb-1"
+                    href="{{ link.link }}"
+                    target="_blank"
+                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
                     >{{ link.title }}</a
                 >
                 {% endfor %} {% endif %} {% if page.linkvertise %}
                 <h4 class="mb-2">Download via Linkvertise</h4>
                 {% for link in page.linkvertise %}
-                <a class="btn btn-danger mb-1" href="{{ link.link }}" target="_blank"
+                <a
+                    class="btn btn-danger mb-1"
+                    href="{{ link.link }}"
+                    target="_blank"
+                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
                     >{{ link.title }}</a
                 >
                 {% endfor %} {% endif %} {% if page.extensions %}
@@ -146,7 +158,7 @@ layout: default
                 <button
                     class="btn btn-info mb-1"
                     type="button"
-                    onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
+                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
                     dest="{{ link.link }}"
                 >
                     {{ link.title }}

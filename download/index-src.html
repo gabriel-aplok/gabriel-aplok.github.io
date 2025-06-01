@@ -114,12 +114,28 @@ ads: true
 
             // Prepare manual download link
             linkEl.href = decodedUrl;
+            // Add manual click event to fire stonks event
+            linkEl.addEventListener('click', function () {
+                if (window.stonks && window.stonks.event) {
+                    window.stonks.event('download_started', {
+                        url: decodedUrl,
+                        from: 'manual',
+                    });
+                }
+            });
 
             const timer = setInterval(() => {
                 countdown--;
                 if (countdown <= 0) {
                     clearInterval(timer);
                     titleEl.textContent = 'Downloading...';
+                    // Fire stonks event for auto download
+                    if (window.stonks && window.stonks.event) {
+                        window.stonks.event('download_started', {
+                            url: decodedUrl,
+                            from: 'auto',
+                        });
+                    }
                     window.location = decodedUrl;
                     linkEl.style.visibility = 'visible';
                 } else {

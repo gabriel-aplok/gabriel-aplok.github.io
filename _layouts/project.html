@@ -3,173 +3,166 @@ layout: default
 ---
 
 <div class="container d-flex justify-content-center">
-  <div class="article">
+    <div class="article">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent px-0 py-2 mb-3">
+                <li class="breadcrumb-item">
+                    <a href="{{ '/' | relative_url }}">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+            </ol>
+        </nav>
 
-    <!-- Breadcrumb -->
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb bg-transparent px-0 py-2 mb-3">
-        <li class="breadcrumb-item">
-          <a href="{{ '/' | relative_url }}">Home</a>
-        </li>
-        <li class="breadcrumb-item">
-          <a href="{{ '/projects/' | relative_url }}">Projects</a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-      </ol>
-    </nav>
+        {% if page.status == 'public' %}
 
-    {% if page.status == 'public' %}
+        <!-- Title & Meta -->
+        <h1 class="mb-1">{{ page.title }}</h1>
+        <p class="text-muted mb-2">
+            Project &middot; {{ page.date | date: '%B %d, %Y' }} &middot; by
+            <span class="text-primary">{{ page.author | default: site.social.name }}</span>
+            {% if page.updated %} &middot; Last updated:
+            <span class="text-primary">{{ page.updated | date: '%B %d, %Y' }}</span>
+            {% endif %}
+        </p>
 
-      <!-- Title & Meta -->
-      <h1 class="mb-1">{{ page.title }}</h1>
-      <p class="text-muted mb-2">
-        Project &middot; {{ page.date | date: '%B %d, %Y' }} &middot; by
-        <span class="text-primary">{{ page.author | default: site.social.name }}</span>
-        {% if page.updated %}
-          &middot; Last updated:
-          <span class="text-primary">{{ page.updated | date: '%B %d, %Y' }}</span>
-        {% endif %}
-      </p>
+        <!-- Go to Files Button -->
+        <div class="mb-3">
+            <a href="#downloads" class="btn w-100 btn-outline-light">
+                Scroll to Files
+                <i class="bi bi-chevron-down ms-2"></i>
+            </a>
+        </div>
 
-      <!-- Description -->
-      {% if page.description %}
+        <!-- Description -->
+        {% if page.description %}
         <p class="lead">{{ page.description }}</p>
-      {% endif %}
+        {% endif %}
 
-      <hr>
+        <hr />
 
-      <!-- Google Ads: Display Ad -->
-      <div class="my-3">
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
-          crossorigin="anonymous"></script>
-        <ins
-          class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-1388434276906165"
-          data-ad-slot="1745724991"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
+        <!-- Google Ads: Display Ad -->
+        <div class="my-3">
+            <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+                crossorigin="anonymous"
+            ></script>
+            <ins
+                class="adsbygoogle"
+                style="display: block"
+                data-ad-client="ca-pub-1388434276906165"
+                data-ad-slot="1745724991"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+            ></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
 
-      <!-- Main Content -->
-      <div class="mb-4">
-        {{ content }}
-      </div>
+        <!-- Main Content -->
+        <div class="mb-4">{{ content }}</div>
 
-      <!-- Google Ads: In-article Ad -->
-      <div class="my-3">
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
-          crossorigin="anonymous"></script>
-        <ins
-          class="adsbygoogle"
-          style="display:block; text-align:center;"
-          data-ad-layout="in-article"
-          data-ad-format="fluid"
-          data-ad-client="ca-pub-1388434276906165"
-          data-ad-slot="6175924594"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
+        <!-- Google Ads: In-article Ad -->
+        <div class="my-3">
+            <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
+                crossorigin="anonymous"
+            ></script>
+            <ins
+                class="adsbygoogle"
+                style="display: block; text-align: center"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-1388434276906165"
+                data-ad-slot="6175924594"
+            ></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
 
-      <!-- Supported Versions Section -->
-      {% if page.versions %}
+        <!-- Supported Versions Section -->
+        {% if page.versions %}
         <section class="mb-4">
-          <h2 id="supported-versions">Supported Versions</h2>
-          {% for version in page.versions %}
+            <h2 id="supported-versions">Supported Versions</h2>
+            {% for version in page.versions %}
             <span class="badge text-bg-light me-1">{{ version }}</span>
-          {% endfor %}
+            {% endfor %}
         </section>
-        <hr>
-    {% endif %}
+        <hr />
+        {% endif %}
 
-      <!-- Downloads Section -->
-      {% assign has_downloads = false %}
-      {% if page.downloads %}
-        {% assign has_downloads = true %}{% endif %}
-      {% if page.lootlabs %}
-        {% assign has_downloads = true %}{% endif %}
-      {% if page.bstlar %}
-        {% assign has_downloads = true %}{% endif %}
-      {% if page.linkvertise %}
-        {% assign has_downloads = true %}{% endif %}
-      {% if page.extensions %}
-        {% assign has_downloads = true %}{% endif %}
-      {% if has_downloads %}
+        <!-- Downloads Section -->
+        {% assign has_downloads = false %} {% if page.downloads %} {% assign has_downloads = true
+        %}{% endif %} {% if page.lootlabs %} {% assign has_downloads = true %}{% endif %} {% if
+        page.bstlar %} {% assign has_downloads = true %}{% endif %} {% if page.linkvertise %} {%
+        assign has_downloads = true %}{% endif %} {% if page.extensions %} {% assign has_downloads =
+        true %}{% endif %} {% if has_downloads %}
         <section class="mb-4">
-          <h2 id="downloads">Downloads</h2>
-          <p class="mb-3">Select one of the links below to download. All links provide the same file unless otherwise specified.</p>
-          <div class="d-grid gap-2 col-6 mx-auto text-center">
-
-            {% if page.downloads %}
-              <h4 class="mb-2">Direct Download</h4>
-              {% for link in page.downloads %}
+            <h2 id="downloads">Downloads</h2>
+            <p class="mb-3">
+                Select one of the links below to download. All links provide the same file unless
+                otherwise specified.
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto text-center">
+                {% if page.downloads %}
+                <h4 class="mb-2">Direct Download</h4>
+                {% for link in page.downloads %}
                 <button
-                  class="btn btn-light mb-1"
-                  type="button"
-                  onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
-                  dest="{{ link.link }}">{{ link.title }}</button>
-              {% endfor %}
-            {% endif %}
-
-            {% if page.lootlabs %}
-              <h4 class="mb-2">Download via LootLabs</h4>
-              {% for link in page.lootlabs %}
-                <a
-                  class="btn btn-success mb-1"
-                  href="{{ link.link }}"
-                  target="_blank">{{ link.title }}</a>
-              {% endfor %}
-            {% endif %}
-
-            {% if page.bstlar %}
-              <h4 class="mb-2">Download via BstLar</h4>
-              {% for link in page.bstlar %}
-                <a
-                  class="btn btn-warning mb-1"
-                  href="{{ link.link }}"
-                  target="_blank">{{ link.title }}</a>
-              {% endfor %}
-            {% endif %}
-
-            {% if page.linkvertise %}
-              <h4 class="mb-2">Download via Linkvertise</h4>
-              {% for link in page.linkvertise %}
-                <a
-                  class="btn btn-danger mb-1"
-                  href="{{ link.link }}"
-                  target="_blank">{{ link.title }}</a>
-              {% endfor %}
-            {% endif %}
-
-            {% if page.extensions %}
-              <h4 class="mb-2">Download Extensions</h4>
-              {% for link in page.extensions %}
+                    class="btn btn-light mb-1"
+                    type="button"
+                    onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
+                    dest="{{ link.link }}"
+                >
+                    {{ link.title }}
+                </button>
+                {% endfor %} {% endif %} {% if page.lootlabs %}
+                <h4 class="mb-2">Download via LootLabs</h4>
+                {% for link in page.lootlabs %}
+                <a class="btn btn-success mb-1" href="{{ link.link }}" target="_blank"
+                    >{{ link.title }}</a
+                >
+                {% endfor %} {% endif %} {% if page.bstlar %}
+                <h4 class="mb-2">Download via BstLar</h4>
+                {% for link in page.bstlar %}
+                <a class="btn btn-warning mb-1" href="{{ link.link }}" target="_blank"
+                    >{{ link.title }}</a
+                >
+                {% endfor %} {% endif %} {% if page.linkvertise %}
+                <h4 class="mb-2">Download via Linkvertise</h4>
+                {% for link in page.linkvertise %}
+                <a class="btn btn-danger mb-1" href="{{ link.link }}" target="_blank"
+                    >{{ link.title }}</a
+                >
+                {% endfor %} {% endif %} {% if page.extensions %}
+                <h4 class="mb-2">Download Extensions</h4>
+                {% for link in page.extensions %}
                 <button
-                  class="btn btn-info mb-1"
-                  type="button"
-                  onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
-                  dest="{{ link.link }}">{{ link.title }}</button>
-              {% endfor %}
-            {% endif %}
-
-          </div>
+                    class="btn btn-info mb-1"
+                    type="button"
+                    onclick="window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
+                    dest="{{ link.link }}"
+                >
+                    {{ link.title }}
+                </button>
+                {% endfor %} {% endif %}
+            </div>
         </section>
-      {% endif %}
-
-    {% else %}
-      <div class="container text-center my-5">
-        <h1>Project Not Available</h1>
-        <p>This project is currently not public. If you believe this is an error or would like more information, please contact me via the social media links in the footer or try again later.</p>
-      </div>
-    {% endif %}
-
-  </div>
+        {% endif %} {% else %}
+        <div class="container text-center my-5">
+            <h1>Project Not Available</h1>
+            <p>
+                This project is currently not public. If you believe this is an error or would like
+                more information, please contact me via the social media links in the footer or try
+                again later.
+            </p>
+        </div>
+        {% endif %}
+    </div>
 </div>

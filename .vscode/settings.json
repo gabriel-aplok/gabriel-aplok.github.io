@@ -21,7 +21,7 @@
     // File associations
     "files.associations": {
         "*.json": "jsonc",
-        "*.scss": "liquid-scss",
+        "*.scss": "liquid-css",
         "*.css": "liquid-css",
         "*.js": "liquid-javascript",
         "*.html": "liquid",

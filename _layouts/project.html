@@ -55,47 +55,17 @@ layout: default
         <hr />
 
         <!-- Google Ads: Display Ad -->
-        <div class="my-3">
-            <script
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
-                crossorigin="anonymous"
-            ></script>
-            <ins
-                class="adsbygoogle"
-                style="display: block"
-                data-ad-client="ca-pub-1388434276906165"
-                data-ad-slot="1745724991"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
-            ></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
+        {% comment %}
+        <div class="my-3"></div>
+        {% endcomment %}
 
         <!-- Main Content -->
         <div class="mb-4">{{ content }}</div>
 
         <!-- Google Ads: In-article Ad -->
-        <div class="my-3">
-            <script
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
-                crossorigin="anonymous"
-            ></script>
-            <ins
-                class="adsbygoogle"
-                style="display: block; text-align: center"
-                data-ad-layout="in-article"
-                data-ad-format="fluid"
-                data-ad-client="ca-pub-1388434276906165"
-                data-ad-slot="6175924594"
-            ></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
+        {% comment %}
+        <div class="my-3"></div>
+        {% endcomment %}
 
         <!-- Supported Versions Section -->
         {% if page.versions %}

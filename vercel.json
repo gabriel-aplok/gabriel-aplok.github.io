@@ -37,15 +37,7 @@
             "destination": "/about.html"
         },
         {
-            "source": "/about/",
-            "destination": "/about.html"
-        },
-        {
             "source": "/discord",
-            "destination": "/discord.html"
-        },
-        {
-            "source": "/discord/",
             "destination": "/discord.html"
         },
         {
@@ -53,15 +45,7 @@
             "destination": "/lootlabs.html"
         },
         {
-            "source": "/lootlabs/",
-            "destination": "/lootlabs.html"
-        },
-        {
             "source": "/privacy",
-            "destination": "/privacy.html"
-        },
-        {
-            "source": "/privacy/",
             "destination": "/privacy.html"
         },
         {
@@ -69,15 +53,7 @@
             "destination": "/projects.html"
         },
         {
-            "source": "/projects/",
-            "destination": "/projects.html"
-        },
-        {
             "source": "/projects/aplok-guns",
-            "destination": "/projects/aplok-guns.html"
-        },
-        {
-            "source": "/projects/aplok-guns/",
             "destination": "/projects/aplok-guns.html"
         },
         {
@@ -85,15 +61,7 @@
             "destination": "/projects/apocalyptic-clothes.html"
         },
         {
-            "source": "/projects/apocalyptic-clothes/",
-            "destination": "/projects/apocalyptic-clothes.html"
-        },
-        {
             "source": "/projects/dayz-legacy-map",
-            "destination": "/projects/dayz-legacy-map.html"
-        },
-        {
-            "source": "/projects/dayz-legacy-map/",
             "destination": "/projects/dayz-legacy-map.html"
         },
         {
@@ -101,15 +69,7 @@
             "destination": "/projects/mini-apocalypse.html"
         },
         {
-            "source": "/projects/mini-apocalypse/",
-            "destination": "/projects/mini-apocalypse.html"
-        },
-        {
             "source": "/projects/project-walker",
-            "destination": "/projects/project-walker.html"
-        },
-        {
-            "source": "/projects/project-walker/",
             "destination": "/projects/project-walker.html"
         },
         {
@@ -117,15 +77,7 @@
             "destination": "/projects/kolpa-engine/privacy.html"
         },
         {
-            "source": "/projects/kolpa-engine/privacy/",
-            "destination": "/projects/kolpa-engine/privacy.html"
-        },
-        {
             "source": "/projects/kolpa-engine/terms",
-            "destination": "/projects/kolpa-engine/terms.html"
-        },
-        {
-            "source": "/projects/kolpa-engine/terms/",
             "destination": "/projects/kolpa-engine/terms.html"
         },
         {
@@ -133,15 +85,7 @@
             "destination": "/download/index.html"
         },
         {
-            "source": "/download/",
-            "destination": "/download/index.html"
-        },
-        {
             "source": "/download/index-src",
-            "destination": "/download/index-src.html"
-        },
-        {
-            "source": "/download/index-src/",
             "destination": "/download/index-src.html"
         }
     ]

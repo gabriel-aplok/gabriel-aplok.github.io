@@ -21,3 +21,12 @@ Thumbs.db
 # .idea/
 *.swp
 *.swo
+
+# Vercel
+.vercel
+.vercelignore
+.vercel/output/
+.vercel/project.json
+.vercel/cache/
+vendor/
+vendor/*

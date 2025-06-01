@@ -66,20 +66,40 @@
             "destination": "/projects/aplok-guns.html"
         },
         {
+            "source": "/projects/aplok-guns/changes",
+            "destination": "/projects/aplok-guns/changes.html"
+        },
+        {
             "source": "/projects/apocalyptic-clothes",
             "destination": "/projects/apocalyptic-clothes.html"
+        },
+        {
+            "source": "/projects/apocalyptic-clothes/changes",
+            "destination": "/projects/apocalyptic-clothes/changes.html"
         },
         {
             "source": "/projects/dayz-legacy-map",
             "destination": "/projects/dayz-legacy-map.html"
         },
         {
+            "source": "/projects/dayz-legacy-map/changes",
+            "destination": "/projects/dayz-legacy-map/changes.html"
+        },
+        {
             "source": "/projects/mini-apocalypse",
             "destination": "/projects/mini-apocalypse.html"
         },
         {
+            "source": "/projects/mini-apocalypse/changes",
+            "destination": "/projects/mini-apocalypse/changes.html"
+        },
+        {
             "source": "/projects/project-walker",
             "destination": "/projects/project-walker.html"
+        },
+        {
+            "source": "/projects/project-walker/changes",
+            "destination": "/projects/project-walker/changes.html"
         },
         {
             "source": "/download",

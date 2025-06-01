@@ -12,5 +12,55 @@
                 { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
             ]
         }
+    ],
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/about",
+            "destination": "/about.html"
+        },
+        {
+            "source": "/discord",
+            "destination": "/discord.html"
+        },
+        {
+            "source": "/lootlabs",
+            "destination": "/lootlabs.html"
+        },
+        {
+            "source": "/privacy",
+            "destination": "/privacy.html"
+        },
+        {
+            "source": "/projects",
+            "destination": "/projects.html"
+        },
+        {
+            "source": "/projects/aplok-guns",
+            "destination": "/projects/aplok-guns.html"
+        },
+        {
+            "source": "/projects/apocalyptic-clothes",
+            "destination": "/projects/apocalyptic-clothes.html"
+        },
+        {
+            "source": "/projects/dayz-legacy-map",
+            "destination": "/projects/dayz-legacy-map.html"
+        },
+        {
+            "source": "/projects/mini-apocalypse",
+            "destination": "/projects/mini-apocalypse.html"
+        },
+        {
+            "source": "/projects/project-walker",
+            "destination": "/projects/project-walker.html"
+        },
+        {
+            "source": "/terms",
+            "destination": "/terms.html"
+        }
     ]
 }

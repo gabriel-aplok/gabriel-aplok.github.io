@@ -64,16 +64,18 @@ compress_html:
     endings: all
     profile: false
     blanklines: false
-    ignore:
-        envs: [development]
+    # ignore:
+    #     envs: [development]
 
 # Exclude from Build
 exclude:
     - '*.gem'
     - '*.gemspec'
-    - README.md
-    - LICENSE
+    - LICENSE.md
+    - package-lock.json
     - package.json
+    - README.md
+    - vercel.json
 
 # Warnings & Notices
 label_attention_content_creator: >

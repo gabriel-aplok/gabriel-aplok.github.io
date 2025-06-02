@@ -11,32 +11,7 @@ layout: null
       {% include head_default.html %}
     {% endif %}
 
-    <!-- Google Tag Manager -->
-    {% if site.google_tagmanager %}
-      <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','{{ site.google_tagmanager }}');
-      </script>
-    {% endif %}
-    <!-- End Google Tag Manager -->
-
-    <!-- Google AdSense -->
-    {% if page.layout == "project" or page.ads %}
-      <meta name="google-adsense-account" content="ca-pub-1388434276906165">
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1388434276906165"
-        crossorigin="anonymous"></script>
-    {% endif %}
-
-    <!-- OneDollarStats -->
-    <script defer src="https://assets.onedollarstats.com/stonks.js"></script>
-
-    <!-- Ad-Maven -->
-    <meta name='admaven-placement' content=Bqdr7rjs7>
+    {% include head.html %}
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->

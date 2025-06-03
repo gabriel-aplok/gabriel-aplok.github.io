@@ -52,7 +52,7 @@ function setTheme(mode = "dark") {
 }
 
 // Optional: Uncomment to enable theme switching
-// setTheme("dark");
+// setTheme("light");
 // document.querySelectorAll(".mode-switch .btn").forEach(btn => btn.addEventListener("click", () => setTheme(btn.id)));
 // window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => setTheme());
 

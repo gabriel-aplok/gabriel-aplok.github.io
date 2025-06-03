@@ -5,7 +5,7 @@ navbar_index: 3
 ---
 
 <div class="text-center">
-	<img class="rounded-circle" style="width: 120px;" src="{{ '/assets/img/profile.png' | absolute_url }}" alt="Gabriel Lima Photo">
+	<img class="rounded-circle" style="width: 120px;" src="{{ 'https://avatars.githubusercontent.com/u/97059054?v=4' | absolute_url }}" alt="Gabriel Lima Photo">
 	<br>
 	<h4>Gabriel Aplok</h4>
 	<h6 class="text-primary">CEO & Founder - FireWave Interactive</h6>

@@ -77,6 +77,9 @@ exclude:
     - README.md
     - vercel.json
 
+# Generation
+permalink: pretty
+
 # Warnings & Notices
 label_attention_content_creator: >
     If you wish to showcase this content, please use only the official links provided here. Do not create your own links or claim this work as your own. Thank you for respecting the creator's rights.

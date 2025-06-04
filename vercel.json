@@ -108,6 +108,11 @@
         {
             "source": "/download/index-src",
             "destination": "/download/index-src.html"
+        },
+        {
+            "source": "/(.*)",
+            "statusCode": 404,
+            "destination": "/404.html"
         }
     ]
 }

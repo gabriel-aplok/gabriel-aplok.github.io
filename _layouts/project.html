@@ -97,7 +97,7 @@ layout: default
                 <button
                     class="btn btn-light mb-1"
                     type="button"
-                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
+                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../../download/?q=${btoa(this.getAttribute('dest'))}`;"
                     dest="{{ link.link }}"
                 >
                     {{ link.title }}
@@ -138,7 +138,7 @@ layout: default
                 <button
                     class="btn btn-info mb-1"
                     type="button"
-                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../download/?q=${btoa(this.getAttribute('dest'))}`;"
+                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../../download/?q=${btoa(this.getAttribute('dest'))}`;"
                     dest="{{ link.link }}"
                 >
                     {{ link.title }}

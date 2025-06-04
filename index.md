@@ -38,7 +38,7 @@ hero: true
 	</div>
 	<div class="text-center mt-4">
 		<a
-			href="{{ site.baseurl }}/projects.html"
+			href="{{ site.baseurl }}/projects"
 			class="btn btn-light"
 			aria-label="View more projects"
 		>

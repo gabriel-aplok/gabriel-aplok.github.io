@@ -31,7 +31,7 @@ Known as **"Crafting Dead Clothing Addon"**
 
 ## Developer
 
--   [Gabriel Aplok]({{ "/about.html" | absolute_url }}) _(Main Developer)_
+-   [Gabriel Aplok]({{ "/about" | absolute_url }}) _(Main Developer)_
 
 ## Experimental Gameplay
 

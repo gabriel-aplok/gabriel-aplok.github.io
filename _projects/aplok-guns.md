@@ -36,7 +36,7 @@ Looking for a high-quality, military-themed add-on with outstanding features? Ap
 
 ## Developer
 
--   [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **(Lead Developer)**
+-   [Gabriel Aplok]({{ "/about" | absolute_url }}) **(Lead Developer)**
 
 ## Features
 
@@ -156,7 +156,7 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 
 ## Changelog for v1.1.5
 
-> You can access previous changelogs [here]({{ page.slug }}/changes.html).
+> You can access previous changelogs [here]({{ page.slug }}/changes).
 
 ```markdown
 -   Improved performance in bullets.

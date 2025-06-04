@@ -10,7 +10,7 @@ title: Aplok Guns - 1.1.5
 ## Info on the Aplok Guns:
 
 -   These work-in-progress versions can be unstable and may not be representative of final version quality.
--   Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns.html' | absolute_url }}).
+-   Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns' | absolute_url }}).
 
 ## v1.1.5 (First Update of 2025):
 

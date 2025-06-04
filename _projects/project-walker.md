@@ -42,7 +42,7 @@ world into a challenging post-apocalyptic wasteland.
 
 ## Developer
 
--   [Gabriel Aplok]({{ "/about.html" | absolute_url }}) **[Main Developer]**
+-   [Gabriel Aplok]({{ "/about" | absolute_url }}) **[Main Developer]**
 -   [HSK](https://youtube.com/@HardSK) **[Former Developer]**
 
 ## Special Thanks
@@ -152,7 +152,7 @@ Need to see at night? Use Night Vision Goggles.
 
 ## Changelog for v1.8.13
 
-> You can access previous changelogs [here]({{ page.slug }}/changes.html).
+> You can access previous changelogs [here]({{ page.slug }}/changes).
 
 ```markdown
 -   Updated all addon core to 1.21.70

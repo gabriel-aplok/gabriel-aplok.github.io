@@ -10,7 +10,7 @@ title: Project Walker - 1.8.13
 ## Info on the Project Walker:
 
 -   These work-in-progress versions can be unstable and may not be representative of final version quality.
--   Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker.html' | absolute_url }}).
+-   Project Walker is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/project-walker' | absolute_url }}).
 
 ### v1.8.13:
 

@@ -15,7 +15,7 @@ Stay connected and be the first to know about news and updates by joining our Di
 </noscript>
 
 <script>
-	window.location.href = "{{ site.discord }}";
+	window.location.href = "{{ site.social.profiles.discord }}";
 </script>
 
-If you are not redirected automatically, [click here to join our Discord]({{ site.discord }}).
+If you are not redirected automatically, [click here to join our Discord]({{ site.social.profiles.discord }}).

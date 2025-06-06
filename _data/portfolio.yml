@@ -1,36 +1,34 @@
 - title: Lotus CSS
-  image: https://opengraph.githubassets.com/1/gabriel-aplok/math-linear-algebra
+  image: https://opengraph.githubassets.com/1/gabriel-aplok/lotus-css
   description: A minimalist CSS framework designed to simplify web development and enhance your design workflow.
   github: https://github.com/gabriel-aplok/lotus-css
   demo: https://gabriel-aplok.github.io/lotus-css
   tags: [CSS, Framework, Web Design]
 
-- title: Curl
+- title: CURl
   image: https://opengraph.githubassets.com/1/gabriel-aplok/curl
   description: A URL shortener application with features like custom short codes, analytics, and API integration.
   github: https://github.com/gabriel-aplok/curl
-  demo: 
+  demo: https://curl.up.railway.app/
   tags: [URL Shortener, Web Development, Node.js, API]
 
 - title: Component Based System
-  image: https://opengraph.githubassets.com/1/gabriel-aplok/math-linear-algebra
+  image: https://opengraph.githubassets.com/1/gabriel-aplok/component-based-system
   description: An Entity Component System (ECS) implementation in Java for game development and other applications.
   github: https://github.com/gabriel-aplok/component-based-system
-  demo: 
+  demo:
   tags: [ECS, Game Development, Java, Architecture]
 
 - title: Math Linear Algebra
   image: https://opengraph.githubassets.com/1/gabriel-aplok/math-linear-algebra
   description: A Java library providing classes for vectors, matrices, and quaternions, designed for game development and mathematical computations.
   github: https://github.com/gabriel-aplok/math-linear-algebra
-  demo: 
+  demo:
   tags: [Linear Algebra, Mathematics, Java, Game Development]
 
 - title: Geo Math
-  image: https://opengraph.githubassets.com/1/gabriel-aplok/math-linear-algebra
+  image: https://opengraph.githubassets.com/1/gabriel-aplok/geo-math
   description: A Java utility library for basic 3D geometric calculations, including classes for Circle, Cylinder, Plane, Point, Ray, Sphere, and Vector.
   github: https://github.com/gabriel-aplok/geo-math
-  demo: 
+  demo:
   tags: [Geometry, Mathematics, Java, 3D, Utilities]
-
-

@@ -1,39 +1,118 @@
 {
-	"headers": [
-		{
-			"source": "/assets/(.*)",
-			"headers": [
-				{
-					"key": "Cache-Control",
-					"value": "public, max-age=31536000, immutable"
-				}
-			]
-		},
-		{
-			"source": "/projects/(.*)",
-			"headers": [
-				{
-					"key": "Cache-Control",
-					"value": "public, max-age=31536000, immutable"
-				}
-			]
-		},
-		{
-			"source": "/(.*)",
-			"headers": [
-				{
-					"key": "X-Frame-Options",
-					"value": "SAMEORIGIN"
-				},
-				{
-					"key": "X-Content-Type-Options",
-					"value": "nosniff"
-				},
-				{
-					"key": "Referrer-Policy",
-					"value": "strict-origin-when-cross-origin"
-				}
-			]
-		}
-	]
+    "headers": [
+        {
+            "source": "/assets/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
+        },
+        {
+            "source": "/projects/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
+        },
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "X-Frame-Options",
+                    "value": "SAMEORIGIN"
+                },
+                {
+                    "key": "X-Content-Type-Options",
+                    "value": "nosniff"
+                },
+                {
+                    "key": "Referrer-Policy",
+                    "value": "strict-origin-when-cross-origin"
+                }
+            ]
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/about",
+            "destination": "/about.html"
+        },
+        {
+            "source": "/discord",
+            "destination": "/discord.html"
+        },
+        {
+            "source": "/lootlabs",
+            "destination": "/lootlabs.html"
+        },
+        {
+            "source": "/privacy",
+            "destination": "/privacy.html"
+        },
+        {
+            "source": "/projects",
+            "destination": "/projects.html"
+        },
+        {
+            "source": "/projects/aplok-guns",
+            "destination": "/projects/aplok-guns.html"
+        },
+        {
+            "source": "/projects/aplok-guns/changes",
+            "destination": "/projects/aplok-guns/changes.html"
+        },
+        {
+            "source": "/projects/apocalyptic-clothes",
+            "destination": "/projects/apocalyptic-clothes.html"
+        },
+        {
+            "source": "/projects/apocalyptic-clothes/changes",
+            "destination": "/projects/apocalyptic-clothes/changes.html"
+        },
+        {
+            "source": "/projects/dayz-legacy-map",
+            "destination": "/projects/dayz-legacy-map.html"
+        },
+        {
+            "source": "/projects/dayz-legacy-map/changes",
+            "destination": "/projects/dayz-legacy-map/changes.html"
+        },
+        {
+            "source": "/projects/mini-apocalypse",
+            "destination": "/projects/mini-apocalypse.html"
+        },
+        {
+            "source": "/projects/mini-apocalypse/changes",
+            "destination": "/projects/mini-apocalypse/changes.html"
+        },
+        {
+            "source": "/projects/project-walker",
+            "destination": "/projects/project-walker.html"
+        },
+        {
+            "source": "/projects/project-walker/changes",
+            "destination": "/projects/project-walker/changes.html"
+        },
+        {
+            "source": "/download",
+            "destination": "/download/index.html"
+        },
+        {
+            "source": "/download/index-src",
+            "destination": "/download/index-src.html"
+        },
+        {
+            "source": "/(.*)",
+            "statusCode": 404,
+            "destination": "/404.html"
+        }
+    ]
 }

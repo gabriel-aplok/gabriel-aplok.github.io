@@ -16,11 +16,11 @@ By accessing this website, you acknowledge that you have read, understood, and a
 
 You are granted a limited, non-exclusive, non-transferable license to temporarily download one copy of the materials (information or software) on the Gabriel Aplok website for personal, non-commercial, and transitory viewing only. Under this license, you may not:
 
--   Modify or copy the materials;
--   Use the materials for any commercial purpose or public display (commercial or non-commercial);
--   Attempt to decompile or reverse engineer any software on the Gabriel Aplok website;
--   Remove any copyright or proprietary notations from the materials;
--   Transfer the materials to another person or "mirror" the materials on any other server.
+- Modify or copy the materials;
+- Use the materials for any commercial purpose or public display (commercial or non-commercial);
+- Attempt to decompile or reverse engineer any software on the Gabriel Aplok website;
+- Remove any copyright or proprietary notations from the materials;
+- Transfer the materials to another person or "mirror" the materials on any other server.
 
 This license will automatically terminate if you violate any of these restrictions and may be terminated by Gabriel Aplok at any time. Upon termination, you must destroy any downloaded materials in your possession, whether in electronic or printed format.
 

@@ -1,13 +1,18 @@
 {
-	"name": "trenbankai.com",
-	"version": "1.0.0",
-	"private": true,
-	"description": "Personal website.",
-	"scripts": {
-		"start": "bundle exec jekyll build",
-		"dev": "bundle exec jekyll serve --livereload"
-	},
-	"dependencies": {
-		"bootstrap": "^5.3.6"
-	}
+  "name": "trenbankai.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal website.",
+  "scripts": {
+    "start": "bundle exec jekyll build",
+    "dev": "bundle exec jekyll serve --livereload",
+    "format": "npx prettier . --write",
+    "lint": "npx prettier . --check"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3"
+  }
 }

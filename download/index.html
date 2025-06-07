@@ -6,82 +6,82 @@ massive_ads: true
 ---
 
 <body>
-    <div class="center">
-        <!-- Top Ad -->
-        {% comment %}
-        <div></div>
-        {% endcomment %}
+  <div class="center">
+    <!-- Top Ad -->
+    {% comment %}
+    <div></div>
+    {% endcomment %}
 
-        <!-- Download Section -->
-        <div>
-            <h2 id="title"></h2>
-            <a id="manual-download" style="margin: 0; visibility: hidden"
-                >Click here if the download has not started</a
-            >
-        </div>
-
-        <!-- Bottom Ads -->
-        <div>
-            <!-- Display Ad -->
-
-            <!-- Multiplex Ad 1 -->
-
-            <!-- Multiplex Ad 2 -->
-        </div>
+    <!-- Download Section -->
+    <div>
+      <h2 id="title"></h2>
+      <a id="manual-download" style="margin: 0; visibility: hidden"
+        >Click here if the download has not started</a
+      >
     </div>
 
-    <script>
-        // Configuration
-        const INTERVAL_MS = 1000;
-        const COUNTDOWN_SECONDS = 15;
+    <!-- Bottom Ads -->
+    <div>
+      <!-- Display Ad -->
 
-        // DOM Elements
-        const titleEl = document.getElementById('title');
-        const linkEl = document.getElementById('manual-download');
+      <!-- Multiplex Ad 1 -->
 
-        // Get download URL from query string
-        const params = new URLSearchParams(window.location.search);
-        const encodedUrl = params.get('q');
+      <!-- Multiplex Ad 2 -->
+    </div>
+  </div>
 
-        if (!encodedUrl) {
-            titleEl.textContent = 'Oops, no download URL provided!';
-            linkEl.style.visibility = 'hidden';
-        } else {
-            let countdown = COUNTDOWN_SECONDS;
-            titleEl.textContent = `Starting download in ${countdown} seconds...`;
+  <script>
+    // Configuration
+    const INTERVAL_MS = 1000;
+    const COUNTDOWN_SECONDS = 15;
 
-            const decodedUrl = atob(encodedUrl);
+    // DOM Elements
+    const titleEl = document.getElementById("title");
+    const linkEl = document.getElementById("manual-download");
 
-            // Prepare manual download link
-            linkEl.href = decodedUrl;
-            // Add manual click event to fire stonks event
-            linkEl.addEventListener('click', function () {
-                if (window.stonks && window.stonks.event) {
-                    window.stonks.event('download_started', {
-                        url: decodedUrl,
-                        from: 'manual',
-                    });
-                }
-            });
+    // Get download URL from query string
+    const params = new URLSearchParams(window.location.search);
+    const encodedUrl = params.get("q");
 
-            const timer = setInterval(() => {
-                countdown--;
-                if (countdown <= 0) {
-                    clearInterval(timer);
-                    titleEl.textContent = 'Downloading...';
-                    // Fire stonks event for auto download
-                    if (window.stonks && window.stonks.event) {
-                        window.stonks.event('download_started', {
-                            url: decodedUrl,
-                            from: 'auto',
-                        });
-                    }
-                    window.location = decodedUrl;
-                    linkEl.style.visibility = 'visible';
-                } else {
-                    titleEl.textContent = `Starting download in ${countdown} seconds...`;
-                }
-            }, INTERVAL_MS);
+    if (!encodedUrl) {
+      titleEl.textContent = "Oops, no download URL provided!";
+      linkEl.style.visibility = "hidden";
+    } else {
+      let countdown = COUNTDOWN_SECONDS;
+      titleEl.textContent = `Starting download in ${countdown} seconds...`;
+
+      const decodedUrl = atob(encodedUrl);
+
+      // Prepare manual download link
+      linkEl.href = decodedUrl;
+      // Add manual click event to fire stonks event
+      linkEl.addEventListener("click", function () {
+        if (window.stonks && window.stonks.event) {
+          window.stonks.event("download_started", {
+            url: decodedUrl,
+            from: "manual",
+          });
         }
-    </script>
+      });
+
+      const timer = setInterval(() => {
+        countdown--;
+        if (countdown <= 0) {
+          clearInterval(timer);
+          titleEl.textContent = "Downloading...";
+          // Fire stonks event for auto download
+          if (window.stonks && window.stonks.event) {
+            window.stonks.event("download_started", {
+              url: decodedUrl,
+              from: "auto",
+            });
+          }
+          window.location = decodedUrl;
+          linkEl.style.visibility = "visible";
+        } else {
+          titleEl.textContent = `Starting download in ${countdown} seconds...`;
+        }
+      }, INTERVAL_MS);
+    }
+  </script>
 </body>

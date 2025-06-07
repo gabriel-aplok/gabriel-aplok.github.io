@@ -8,26 +8,27 @@ title: Project Walker Addon | v1.8.13
 banner: /projects/project-walker/images/banner.png
 icon: /projects/project-walker/images/icon.png
 description: >
-    Dive into a post-apocalyptic Minecraft world overrun by the undead. Scavenge for supplies, craft weapons, and fight to survive against zombies and hostile survivors in this intense survival experience.
+  Dive into a post-apocalyptic Minecraft world overrun by the undead. Scavenge for supplies, craft weapons, and fight to survive against zombies and hostile survivors in this intense survival experience.
 date: 2023-07-02
 updated: 2024-04-24
-tags: ['project-walker', 'minecraft', 'addon', 'apocalypse', 'zombies', 'survival']
-versions: ['1.21.70']
+tags:
+  ["project-walker", "minecraft", "addon", "apocalypse", "zombies", "survival"]
+versions: ["1.21.70"]
 lootlabs:
-    - title: Behavior Pack
-      link: 'https://loot-link.com/s?50mwXoW3&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D'
-    - title: Resource Pack
-      link: 'https://loot-link.com/s?CMOSAUK8&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D'
+  - title: Behavior Pack
+    link: "https://loot-link.com/s?50mwXoW3&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
+  - title: Resource Pack
+    link: "https://loot-link.com/s?CMOSAUK8&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
 bstlar:
-    - title: Behavior Pack
-      link: 'https://bstlar.com/2EI/pw-bp'
-    - title: Resource Pack
-      link: 'https://bstlar.com/2EI/pw-rp'
+  - title: Behavior Pack
+    link: "https://bstlar.com/2EI/pw-bp"
+  - title: Resource Pack
+    link: "https://bstlar.com/2EI/pw-rp"
 linkvertise:
-    - title: Behavior Pack
-      link: 'https://direct-link.net/173623/project-walker-bp'
-    - title: Resource Pack
-      link: 'https://link-hub.net/173623/project-walker-rp'
+  - title: Behavior Pack
+    link: "https://direct-link.net/173623/project-walker-bp"
+  - title: Resource Pack
+    link: "https://link-hub.net/173623/project-walker-rp"
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
@@ -42,27 +43,27 @@ world into a challenging post-apocalyptic wasteland.
 
 ## Developer
 
--   [Gabriel Aplok]({{ "/about" | absolute_url }}) **[Main Developer]**
--   [HSK](https://youtube.com/@HardSK) **[Former Developer]**
+- [Gabriel Aplok]({{ "/about" | absolute_url }}) **[Main Developer]**
+- [HSK](https://youtube.com/@HardSK) **[Former Developer]**
 
 ## Special Thanks
 
--   [HSK](https://youtube.com/@HardSK) [HSK Guns Addon]
--   [NekoZack](https://youtube.com/@NekoZack24) [DeadZone Addon]
--   [INISIANTENOOB](https://youtube.com/@INISIANTENOOB) [3D Artist]
--   Bedrock Community [Useful docs]
+- [HSK](https://youtube.com/@HardSK) [HSK Guns Addon]
+- [NekoZack](https://youtube.com/@NekoZack24) [DeadZone Addon]
+- [INISIANTENOOB](https://youtube.com/@INISIANTENOOB) [3D Artist]
+- Bedrock Community [Useful docs]
 
 ## Features
 
--   Faithful to the vanilla Minecraft aesthetic
--   Challenging post-apocalyptic survival gameplay
--   Designed for balanced and engaging survival
--   Immersive and high-quality sound effects
--   Smooth and responsive animations
--   Visually enhanced effects including muzzle flashes, blood, explosions, lighting, and impact visuals
--   Unique and innovative gameplay mechanics
--   Realistic audio with reverb and distant sound cues
--   Optimized performance for a wide range of devices
+- Faithful to the vanilla Minecraft aesthetic
+- Challenging post-apocalyptic survival gameplay
+- Designed for balanced and engaging survival
+- Immersive and high-quality sound effects
+- Smooth and responsive animations
+- Visually enhanced effects including muzzle flashes, blood, explosions, lighting, and impact visuals
+- Unique and innovative gameplay mechanics
+- Realistic audio with reverb and distant sound cues
+- Optimized performance for a wide range of devices
 
 ## Thirst
 
@@ -155,15 +156,15 @@ Need to see at night? Use Night Vision Goggles.
 > You can access previous changelogs [here]({{ page.slug }}/changes).
 
 ```markdown
--   Updated all addon core to 1.21.70
--   Updated behavior codes to new scripts version in favor of maintenance.
--   Updated zombie spawn mechanics—now limited to specific blocks:
-    -   Stone-based blocks: stone, stone_bricks, cobblestone.
-    -   Grass-based blocks: grass_block, grass_path.
-    -   Dirt-based blocks: dirt, dirt_with_roots.
-    -   Sand-based blocks: sand, sandstone.
-    -   Wood planks: oak_planks, birch_planks, acacia_planks, bamboo_planks, cherry_planks, jungle_planks, spruce_planks, warped_planks, crimson_planks, dark_oak_planks, mangrove_planks.
--   Fixed a typo in the death message.
+- Updated all addon core to 1.21.70
+- Updated behavior codes to new scripts version in favor of maintenance.
+- Updated zombie spawn mechanics—now limited to specific blocks:
+  - Stone-based blocks: stone, stone_bricks, cobblestone.
+  - Grass-based blocks: grass_block, grass_path.
+  - Dirt-based blocks: dirt, dirt_with_roots.
+  - Sand-based blocks: sand, sandstone.
+  - Wood planks: oak_planks, birch_planks, acacia_planks, bamboo_planks, cherry_planks, jungle_planks, spruce_planks, warped_planks, crimson_planks, dark_oak_planks, mangrove_planks.
+- Fixed a typo in the death message.
 ```
 
 <div class="alert alert-warning" role="alert">

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Thread: How to integrate login with API?'
+title: "Thread: How to integrate login with API?"
 ---
 
 <div class="container py-4">

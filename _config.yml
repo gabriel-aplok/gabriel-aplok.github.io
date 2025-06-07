@@ -3,7 +3,7 @@ title: Gabriel Aplok
 tagline: Full-Stack Developer | Game Developer.
 description: Come check some of my work.
 url: https://trenbankai.com
-baseurl: ''
+baseurl: ""
 api_url: https://api.trenbankai.com/api
 build_revision: 4
 timezone: America/Sao_Paulo
@@ -16,16 +16,16 @@ avatar: /assets/img/profile.png
 
 # Social & Contact
 social:
-    name: Gabriel Aplok
-    email: service@trenbankai.com
-    links:
-        - https://trenbankai.com
-    profiles:
-        github: https://github.com/gabriel-aplok/
-        x: https://x.com/GabrielAplok
-        youtube: https://youtube.com/GabrielAplok
-        itchio: https://gabriel-aplok.itch.io/
-        discord: https://discord.gg/PppEgBdss4
+  name: Gabriel Aplok
+  email: service@trenbankai.com
+  links:
+    - https://trenbankai.com
+  profiles:
+    github: https://github.com/gabriel-aplok/
+    x: https://x.com/GabrielAplok
+    youtube: https://youtube.com/GabrielAplok
+    itchio: https://gabriel-aplok.itch.io/
+    discord: https://discord.gg/PppEgBdss4
 
 email: service@trenbankai.com
 
@@ -38,54 +38,54 @@ issues_repo: gabriel-aplok/gabriel-aplok.github.io
 
 # Plugins
 plugins:
-    - jekyll-sitemap
+  - jekyll-sitemap
 
 # Markdown & Syntax Highlighting
 markdown: kramdown
 kramdown:
-    input: GFM
-    syntax_highlighter: rouge
-    syntax_highlighter_opts:
-        css_class: highlight
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
 
 # Collections
 collections:
-    projects:
-        output: true
+  projects:
+    output: true
 
 # Sass
 sass:
-    style: compressed
+  style: compressed
 
 # HTML Compression
 compress_html:
-    clippings: all
-    comments: all
-    endings: all
-    profile: false
-    blanklines: false
-    # ignore:
-    #     envs: [development]
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  # ignore:
+  #     envs: [development]
 
 # Exclude from Build
 exclude:
-    - '*.gem'
-    - '*.gemspec'
-    - LICENSE.md
-    - package-lock.json
-    - package.json
-    - README.md
-    - vercel.json
+  - "*.gem"
+  - "*.gemspec"
+  - LICENSE.md
+  - package-lock.json
+  - package.json
+  - README.md
+  - vercel.json
 
 # Generation
 permalink: pretty
 
 # Warnings & Notices
 label_attention_content_creator: >
-    If you wish to showcase this content, please use only the official links provided here. Do not create your own links or claim this work as your own. Thank you for respecting the creator's rights.
+  If you wish to showcase this content, please use only the official links provided here. Do not create your own links or claim this work as your own. Thank you for respecting the creator's rights.
 label_attention_install_addon: >
-    To install the **.mcpack** file, open it with **Minecraft** to import automatically, or manually extract and copy the folder to the appropriate behavior and resource directories in your Minecraft installation.
+  To install the **.mcpack** file, open it with **Minecraft** to import automatically, or manually extract and copy the folder to the appropriate behavior and resource directories in your Minecraft installation.
 label_attention_install_world: >
-    To install the **.mcworld** file, open it with **Minecraft** to import automatically, or manually extract and copy the folder to your Minecraft worlds directory.
+  To install the **.mcworld** file, open it with **Minecraft** to import automatically, or manually extract and copy the folder to your Minecraft worlds directory.
 label_attention_links: >
-    <strong>Attention:</strong> You don't need to download both packs from the same source. Simply choose one link type (<code>bstlar</code>, <code>lootlabs</code>, or <code>linkvertise</code>) and download both the Behavior Pack and Resource Pack from there.
+  <strong>Attention:</strong> You don't need to download both packs from the same source. Simply choose one link type (<code>bstlar</code>, <code>lootlabs</code>, or <code>linkvertise</code>) and download both the Behavior Pack and Resource Pack from there.

@@ -3,158 +3,163 @@ layout: default
 ---
 
 <div class="container d-flex justify-content-center">
-    <div class="article">
-        <!-- Breadcrumb -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb bg-transparent px-0 py-2 mb-3">
-                <li class="breadcrumb-item">
-                    <a href="{{ '/' | relative_url }}">Home</a>
-                </li>
-                <li class="breadcrumb-item">
-                    <a href="{{ '/projects/' | relative_url }}">Projects</a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-            </ol>
-        </nav>
+  <div class="article">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-transparent px-0 py-2 mb-3">
+        <li class="breadcrumb-item">
+          <a href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          {{ page.title }}
+        </li>
+      </ol>
+    </nav>
 
-        {% if page.status == 'public' %}
+    {% if page.status == 'public' %}
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                if (window.stonks && window.stonks.event) {
-                    window.stonks.event('project_viewed', {
-                        slug: '{{ page.slug | escape }}',
-                    });
-                }
-            });
-        </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (window.stonks && window.stonks.event) {
+          window.stonks.event("project_viewed", {
+            slug: "{{ page.slug | escape }}",
+          });
+        }
+      });
+    </script>
 
-        <!-- Title & Meta -->
-        <h1 class="mb-1">{{ page.title }}</h1>
-        <p class="text-muted mb-2">
-            Project &middot; {{ page.date | date: '%B %d, %Y' }} &middot; by
-            <span class="text-primary">{{ page.author | default: site.social.name }}</span>
-            {% if page.updated %} &middot; Last updated:
-            <span class="text-primary">{{ page.updated | date: '%B %d, %Y' }}</span>
-            {% endif %}
-        </p>
+    <!-- Title & Meta -->
+    <h1 class="mb-1">{{ page.title }}</h1>
+    <p class="text-muted mb-2">
+      Project &middot; {{ page.date | date: '%B %d, %Y' }} &middot; by
+      <span class="text-primary"
+        >{{ page.author | default: site.social.name }}</span
+      >
+      {% if page.updated %} &middot; Last updated:
+      <span class="text-primary">{{ page.updated | date: '%B %d, %Y' }}</span>
+      {% endif %}
+    </p>
 
-        <!-- Go to Files Button -->
-        <div class="mb-3">
-            <a href="#downloads" class="btn w-100 btn-outline-light">
-                Scroll to Files
-                <i class="bi bi-chevron-down ms-2"></i>
-            </a>
-        </div>
-
-        <!-- Description -->
-        {% if page.description %}
-        <p class="lead">{{ page.description }}</p>
-        {% endif %}
-
-        <hr />
-
-        <!-- Google Ads: Display Ad -->
-        {% comment %}
-        <div class="my-3"></div>
-        {% endcomment %}
-
-        <!-- Main Content -->
-        <div class="mb-4">{{ content }}</div>
-
-        <!-- Google Ads: In-article Ad -->
-        {% comment %}
-        <div class="my-3"></div>
-        {% endcomment %}
-
-        <!-- Supported Versions Section -->
-        {% if page.versions %}
-        <section class="mb-4">
-            <h2 id="supported-versions">Supported Versions</h2>
-            {% for version in page.versions %}
-            <span class="badge text-bg-light me-1">{{ version }}</span>
-            {% endfor %}
-        </section>
-        <hr />
-        {% endif %}
-
-        <!-- Downloads Section -->
-        {% assign has_downloads = false %} {% if page.downloads %} {% assign has_downloads = true
-        %}{% endif %} {% if page.lootlabs %} {% assign has_downloads = true %}{% endif %} {% if
-        page.bstlar %} {% assign has_downloads = true %}{% endif %} {% if page.linkvertise %} {%
-        assign has_downloads = true %}{% endif %} {% if page.extensions %} {% assign has_downloads =
-        true %}{% endif %} {% if has_downloads %}
-        <section class="mb-4">
-            <h2 id="downloads">Downloads</h2>
-            <p class="mb-3">
-                Select one of the links below to download. All links provide the same file unless
-                otherwise specified.
-            </p>
-            <div class="d-grid gap-2 col-6 mx-auto text-center">
-                {% if page.downloads %}
-                <h4 class="mb-2">Direct Download</h4>
-                {% for link in page.downloads %}
-                <button
-                    class="btn btn-light mb-1"
-                    type="button"
-                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../../download/?q=${btoa(this.getAttribute('dest'))}`;"
-                    dest="{{ link.link }}"
-                >
-                    {{ link.title }}
-                </button>
-                {% endfor %} {% endif %} {% if page.lootlabs %}
-                <h4 class="mb-2">Download via LootLabs</h4>
-                {% for link in page.lootlabs %}
-                <a
-                    class="btn btn-success mb-1"
-                    href="{{ link.link }}"
-                    target="_blank"
-                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
-                    >{{ link.title }}</a
-                >
-                {% endfor %} {% endif %} {% if page.bstlar %}
-                <h4 class="mb-2">Download via BstLar</h4>
-                {% for link in page.bstlar %}
-                <a
-                    class="btn btn-warning mb-1"
-                    href="{{ link.link }}"
-                    target="_blank"
-                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
-                    >{{ link.title }}</a
-                >
-                {% endfor %} {% endif %} {% if page.linkvertise %}
-                <h4 class="mb-2">Download via Linkvertise</h4>
-                {% for link in page.linkvertise %}
-                <a
-                    class="btn btn-danger mb-1"
-                    href="{{ link.link }}"
-                    target="_blank"
-                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
-                    >{{ link.title }}</a
-                >
-                {% endfor %} {% endif %} {% if page.extensions %}
-                <h4 class="mb-2">Download Extensions</h4>
-                {% for link in page.extensions %}
-                <button
-                    class="btn btn-info mb-1"
-                    type="button"
-                    onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../../download/?q=${btoa(this.getAttribute('dest'))}`;"
-                    dest="{{ link.link }}"
-                >
-                    {{ link.title }}
-                </button>
-                {% endfor %} {% endif %}
-            </div>
-        </section>
-        {% endif %} {% else %}
-        <div class="container text-center my-5">
-            <h1>Project Not Available</h1>
-            <p>
-                This project is currently not public. If you believe this is an error or would like
-                more information, please contact me via the social media links in the footer or try
-                again later.
-            </p>
-        </div>
-        {% endif %}
+    <!-- Go to Files Button -->
+    <div class="mb-3">
+      <a href="#downloads" class="btn w-100 btn-outline-light">
+        Scroll to Files
+        <i class="bi bi-chevron-down ms-2"></i>
+      </a>
     </div>
+
+    <!-- Description -->
+    {% if page.description %}
+    <p class="lead">{{ page.description }}</p>
+    {% endif %}
+
+    <hr />
+
+    <!-- Google Ads: Display Ad -->
+    {% comment %}
+    <div class="my-3"></div>
+    {% endcomment %}
+
+    <!-- Main Content -->
+    <div class="mb-4">{{ content }}</div>
+
+    <!-- Google Ads: In-article Ad -->
+    {% comment %}
+    <div class="my-3"></div>
+    {% endcomment %}
+
+    <!-- Supported Versions Section -->
+    {% if page.versions %}
+    <section class="mb-4">
+      <h2 id="supported-versions">Supported Versions</h2>
+      {% for version in page.versions %}
+      <span class="badge text-bg-light me-1">{{ version }}</span>
+      {% endfor %}
+    </section>
+    <hr />
+    {% endif %}
+
+    <!-- Downloads Section -->
+    {% assign has_downloads = false %} {% if page.downloads %} {% assign
+    has_downloads = true %}{% endif %} {% if page.lootlabs %} {% assign
+    has_downloads = true %}{% endif %} {% if page.bstlar %} {% assign
+    has_downloads = true %}{% endif %} {% if page.linkvertise %} {% assign
+    has_downloads = true %}{% endif %} {% if page.extensions %} {% assign
+    has_downloads = true %}{% endif %} {% if has_downloads %}
+    <section class="mb-4">
+      <h2 id="downloads">Downloads</h2>
+      <p class="mb-3">
+        Select one of the links below to download. All links provide the same
+        file unless otherwise specified.
+      </p>
+      <div class="d-grid gap-2 col-6 mx-auto text-center">
+        {% if page.downloads %}
+        <h4 class="mb-2">Direct Download</h4>
+        {% for link in page.downloads %}
+        <button
+          class="btn btn-light mb-1"
+          type="button"
+          onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../../download/?q=${btoa(this.getAttribute('dest'))}`;"
+          dest="{{ link.link }}"
+        >
+          {{ link.title }}
+        </button>
+        {% endfor %} {% endif %} {% if page.lootlabs %}
+        <h4 class="mb-2">Download via LootLabs</h4>
+        {% for link in page.lootlabs %}
+        <a
+          class="btn btn-success mb-1"
+          href="{{ link.link }}"
+          target="_blank"
+          onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
+          >{{ link.title }}</a
+        >
+        {% endfor %} {% endif %} {% if page.bstlar %}
+        <h4 class="mb-2">Download via BstLar</h4>
+        {% for link in page.bstlar %}
+        <a
+          class="btn btn-warning mb-1"
+          href="{{ link.link }}"
+          target="_blank"
+          onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
+          >{{ link.title }}</a
+        >
+        {% endfor %} {% endif %} {% if page.linkvertise %}
+        <h4 class="mb-2">Download via Linkvertise</h4>
+        {% for link in page.linkvertise %}
+        <a
+          class="btn btn-danger mb-1"
+          href="{{ link.link }}"
+          target="_blank"
+          onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'});"
+          >{{ link.title }}</a
+        >
+        {% endfor %} {% endif %} {% if page.extensions %}
+        <h4 class="mb-2">Download Extensions</h4>
+        {% for link in page.extensions %}
+        <button
+          class="btn btn-info mb-1"
+          type="button"
+          onclick="window.stonks && window.stonks.event && window.stonks.event('link_clicked', {link: '{{ link.link }}', title: '{{ link.title }}'}); window.location = `../../download/?q=${btoa(this.getAttribute('dest'))}`;"
+          dest="{{ link.link }}"
+        >
+          {{ link.title }}
+        </button>
+        {% endfor %} {% endif %}
+      </div>
+    </section>
+    {% endif %} {% else %}
+    <div class="container text-center my-5">
+      <h1>Project Not Available</h1>
+      <p>
+        This project is currently not public. If you believe this is an error or
+        would like more information, please contact me via the social media
+        links in the footer or try again later.
+      </p>
+    </div>
+    {% endif %}
+  </div>
 </div>

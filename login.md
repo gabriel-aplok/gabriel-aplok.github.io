@@ -11,20 +11,21 @@ title: Login
 			<input type="text" class="form-control" id="login-username" placeholder="Enter username" required />
 		</div>
 
-		<div class="mb-3">
-			<label for="login-password" class="form-label">Password</label>
-			<input type="password" class="form-control" id="login-password" placeholder="Password" required />
-		</div>
+    	<div class="mb-3">
+    		<label for="login-password" class="form-label">Password</label>
+    		<input type="password" class="form-control" id="login-password" placeholder="Password" required />
+    	</div>
 
-		<div class="d-flex justify-content-between align-items-center mb-3">
-			<div></div>
-			<a href="/forgot-password" class="small text-decoration-none">Forgot password?</a>
-		</div>
+    	<div class="d-flex justify-content-between align-items-center mb-3">
+    		<div></div>
+    		<a href="/forgot-password" class="small text-decoration-none">Forgot password?</a>
+    	</div>
 
-		<button type="submit" class="btn btn-primary w-100">Login</button>
-	</form>
-	<div class="text-center mt-3">
-		Don’t have an account?
-		<a href="/register" class="text-decoration-none">Register</a>
-	</div>
+    	<button type="submit" class="btn btn-primary w-100">Login</button>
+    </form>
+    <div class="text-center mt-3">
+    	Don’t have an account?
+    	<a href="/register" class="text-decoration-none">Register</a>
+    </div>
+
 </div>

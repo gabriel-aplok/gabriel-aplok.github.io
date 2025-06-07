@@ -24,14 +24,14 @@ We may also collect personal data you provide to us (such as your name, address,
 
 If you reside in Europe, you have the following rights regarding your personal data:
 
--   Right to be informed
--   Right of access
--   Right to rectification
--   Right to erasure
--   Right to restrict processing
--   Right to data portability
--   Right to object
--   Rights related to automated decision-making and profiling
+- Right to be informed
+- Right of access
+- Right to rectification
+- Right to erasure
+- Right to restrict processing
+- Right to data portability
+- Right to object
+- Rights related to automated decision-making and profiling
 
 To exercise these rights, please contact us using the details provided below.
 
@@ -53,8 +53,8 @@ You can disable cookies by adjusting your browser settings (refer to your browse
 
 We may use cookies provided by trusted third parties, including:
 
--   **Google AdSense:** Uses the DoubleClick cookie to serve relevant ads and limit ad frequency. [Learn more about Google Ads Policies](https://policies.google.com/technologies/ads).
--   **Affiliate Partners:** Affiliate tracking cookies help us credit partners when you visit our site through their links and may provide you with bonuses for purchases.
+- **Google AdSense:** Uses the DoubleClick cookie to serve relevant ads and limit ad frequency. [Learn more about Google Ads Policies](https://policies.google.com/technologies/ads).
+- **Affiliate Partners:** Affiliate tracking cookies help us credit partners when you visit our site through their links and may provide you with bonuses for purchases.
 
 Behavioral advertising cookies help us show you relevant ads by anonymously tracking your interests.
 
@@ -62,10 +62,10 @@ Behavioral advertising cookies help us show you relevant ads by anonymously trac
 
 Users agree to:
 
--   Use the site's content and information appropriately.
--   Refrain from illegal activities or actions contrary to good faith and public order.
--   Not distribute content that is racist, xenophobic, related to gambling, illegal pornography, terrorism, or against human rights.
--   Avoid causing harm to the site's hardware or software, or introducing viruses or malicious systems.
+- Use the site's content and information appropriately.
+- Refrain from illegal activities or actions contrary to good faith and public order.
+- Not distribute content that is racist, xenophobic, related to gambling, illegal pornography, terrorism, or against human rights.
+- Avoid causing harm to the site's hardware or software, or introducing viruses or malicious systems.
 
 ## 8. Information Security
 

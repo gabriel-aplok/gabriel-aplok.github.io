@@ -2,39 +2,42 @@
 layout: compress
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang | default: 'en' }}" data-bs-theme="dark">
   <head>
-    {% if page.layout == "project" %}
-      {% include head_post.html %}
-    {% else %}
-      {% include head_default.html %}
-    {% endif %}
-
-    {% include head.html %}
+    {% if page.layout == "project" %} {% include head_post.html %} {% else %} {%
+    include head_default.html %} {% endif %} {% include head.html %}
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
     {% if site.google_tagmanager %}
-      <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id={{ site.google_tagmanager }}"
-          height="0"
-          width="0"
-          style="display:none;visibility:hidden"></iframe>
-      </noscript>
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id={{ site.google_tagmanager }}"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
 
     {% endif %}
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Header -->
     <header class="navbar navbar-expand-lg bd-navbar">
-      <nav class="container-fluid bd-gutter flex-wrap flex-lg-nowrap d-flex justify-content-between p-4" aria-label="Main navigation">
+      <nav
+        class="container-fluid bd-gutter flex-wrap flex-lg-nowrap d-flex justify-content-between p-4"
+        aria-label="Main navigation"
+      >
         <a
           class="navbar-brand p-0 me-0 me-lg-2"
           href="/"
-          aria-label="FireWave Interactive">
-          <img src="{{ '/assets/img/logo-dark.png' | absolute_url }}" alt="FireWave Interactive">
+          aria-label="FireWave Interactive"
+        >
+          <img
+            src="{{ '/assets/img/logo-dark.png' | absolute_url }}"
+            alt="FireWave Interactive"
+          />
         </a>
         <button
           class="navbar-toggler collapsed"
@@ -43,9 +46,11 @@ layout: compress
           data-bs-target="#navbar_toggler"
           aria-controls="navbar_toggler"
           aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- prettier-ignore -->
         <div class="collapse navbar-collapse" id="navbar_toggler">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             {% assign pages = site.pages | sort: 'navbar_index' %}
@@ -68,64 +73,83 @@ layout: compress
 
     <!-- Hero Section -->
     {% if page.hero %}
-      <section class="container py-5">
-        <div class="row align-items-center text-center text-md-start">
-          <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
-            <img
-              class="rounded-circle mb-3 shadow"
-              style="width: 160px; height: 160px; object-fit: cover;"
-              src="{{ 'https://avatars.githubusercontent.com/u/97059054?v=4' | absolute_url }}"
-              alt="Gabriel Aplok">
-            <h1 class="h3 mb-1">Hello, I'm
-              <strong>Gabriel Aplok</strong>
-            </h1>
-            <h4 class="text-primary fw-semibold mb-3">Full-Stack Developer</h4>
-          </div>
-          <div class="col-md-8">
-            <div class="content-text mb-4">
-              <p>
-                I build scalable projects and engaging user experiences.<br>
-                With expertise in both front-end and back-end technologies, I bridge the gap between design and technical implementation.<br>
-                My goal: create fun, innovative, and high-quality digital experiences!
-              </p>
-            </div>
-            <a href="#projects" class="btn btn-light btn-lg px-4">View My Projects</a>
-          </div>
+    <section class="container py-5">
+      <div class="row align-items-center text-center text-md-start">
+        <div
+          class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center"
+        >
+          <img
+            class="rounded-circle mb-3 shadow"
+            style="width: 160px; height: 160px; object-fit: cover"
+            src="{{ 'https://avatars.githubusercontent.com/u/97059054?v=4' | absolute_url }}"
+            alt="Gabriel Aplok"
+          />
+          <h1 class="h3 mb-1">
+            Hello, I'm
+            <strong>Gabriel Aplok</strong>
+          </h1>
+          <h4 class="text-primary fw-semibold mb-3">Full-Stack Developer</h4>
         </div>
-      </section>
+        <div class="col-md-8">
+          <div class="content-text mb-4">
+            <p>
+              I build scalable projects and engaging user experiences.<br />
+              With expertise in both front-end and back-end technologies, I
+              bridge the gap between design and technical implementation.<br />
+              My goal: create fun, innovative, and high-quality digital
+              experiences!
+            </p>
+          </div>
+          <a href="#projects" class="btn btn-light btn-lg px-4"
+            >View My Projects</a
+          >
+        </div>
+      </div>
+    </section>
     {% endif %}
 
     <!-- Main Content -->
-    <main class="container">
-      {{ content }}
-    </main>
+    <main class="container">{{ content }}</main>
 
     <!-- Footer -->
     <footer class="container p-5">
       <div class="row">
         <div class="col-md-5 offset-md-1 mb-3">
           <h5>Always seeking quality</h5>
-          <p>I'm a solo developer working to create unique content for the Minecraft community.</p>
+          <p>
+            I'm a solo developer working to create unique content for the
+            Minecraft community.
+          </p>
           <a
             href="https://discord.gg/PppEgBdss4"
             class="btn btn-light"
             target="_blank"
-            rel="noopener">Discord Server</a>
+            rel="noopener"
+            >Discord Server</a
+          >
         </div>
         <div class="col-6 col-md-2 mb-3">
           <h5>Discover</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
-              <a href="/portfolio" class="nav-link p-0 text-body-secondary">Portfolio</a>
+              <a href="/portfolio" class="nav-link p-0 text-body-secondary"
+                >Portfolio</a
+              >
             </li>
             <li class="nav-item mb-2">
-              <a href="/projects" class="nav-link p-0 text-body-secondary">Projects</a>
+              <a href="/projects" class="nav-link p-0 text-body-secondary"
+                >Projects</a
+              >
             </li>
             <li class="nav-item mb-2">
-              <a href="/team" class="nav-link p-0 text-body-secondary">Meet the Team</a>
+              <a href="/team" class="nav-link p-0 text-body-secondary"
+                >Meet the Team</a
+              >
             </li>
             <li class="nav-item mb-2">
-              <a href="/about" class="nav-link p-0 text-body-secondary">About</a>
+              <a href="/about" class="nav-link p-0 text-body-secondary"
+                >About</a
+              >
             </li>
           </ul>
         </div>
@@ -133,23 +157,41 @@ layout: compress
           <h5>Support</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
-              <a href="/contact" class="nav-link p-0 text-body-secondary">Contact</a>
+              <a href="/contact" class="nav-link p-0 text-body-secondary"
+                >Contact</a
+              >
             </li>
             <li class="nav-item mb-2">
-              <a class="nav-link p-0 text-body-secondary" id="mailButton">Mail</a>
+              <a class="nav-link p-0 text-body-secondary" id="mailButton"
+                >Mail</a
+              >
             </li>
             <li class="nav-item mb-2">
-              <a href="/discord" class="nav-link p-0 text-body-secondary">Discord</a>
+              <a href="/discord" class="nav-link p-0 text-body-secondary"
+                >Discord</a
+              >
             </li>
           </ul>
         </div>
       </div>
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-center">
-        <p>&copy; 2018-<time>{{ 'now' | date: '%Y' }}</time>
-          FireWave Interactive. All Rights Reserved.</p>
+      <div
+        class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-center"
+      >
+        <p>
+          &copy; 2018-<time>{{ 'now' | date: '%Y' }}</time> FireWave
+          Interactive. All Rights Reserved.
+        </p>
         <div>
-          <a href="{{ '/terms' | absolute_url }}" class="text-decoration-none text-secondary">Terms of Service</a>
-          <a href="{{ '/privacy' | absolute_url }}" class="text-decoration-none text-secondary">Privacy Policy</a>
+          <a
+            href="{{ '/terms' | absolute_url }}"
+            class="text-decoration-none text-secondary"
+            >Terms of Service</a
+          >
+          <a
+            href="{{ '/privacy' | absolute_url }}"
+            class="text-decoration-none text-secondary"
+            >Privacy Policy</a
+          >
         </div>
       </div>
       <ul class="list-unstyled d-flex justify-content-center">
@@ -158,7 +200,8 @@ layout: compress
             href="https://x.com/GabrielAplok"
             class="link-body-emphasis text-secondary"
             target="_blank"
-            rel="noopener">
+            rel="noopener"
+          >
             <i class="fa-brands fa-x-twitter"></i>
           </a>
         </li>
@@ -167,7 +210,8 @@ layout: compress
             href="https://youtube.com/GabrielAplok"
             class="link-body-emphasis text-secondary"
             target="_blank"
-            rel="noopener">
+            rel="noopener"
+          >
             <i class="fa-brands fa-youtube"></i>
           </a>
         </li>
@@ -176,7 +220,8 @@ layout: compress
             href="https://github.com/gabriel-aplok/"
             class="link-body-emphasis text-secondary"
             target="_blank"
-            rel="noopener">
+            rel="noopener"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
         </li>
@@ -188,15 +233,18 @@ layout: compress
       async
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
     <script
       async
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
     <script
       async
       type="module"
-      src="{{ '/assets/js/index.js' | absolute_url }}"></script>
+      src="{{ '/assets/js/index.js' | absolute_url }}"
+    ></script>
   </body>
 </html>

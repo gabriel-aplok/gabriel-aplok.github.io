@@ -1,0 +1,14 @@
+.bundle/
+.jekyll-cache/
+.sass-cache/
+
+_site/
+
+node_modules/
+
+.vercel
+.vercel/output/
+.vercel/cache/
+vendor/
+
+Bqdr7rjs7.js

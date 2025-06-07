@@ -8,26 +8,26 @@ title: Aplok Guns Addon | v1.1.5
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: >
-    A survival-friendly, military-themed add-on featuring vanilla-style weapons, immersive sound effects, polished animations, explosives, custom armor, and blocks—all crafted with meticulous attention to detail.
+  A survival-friendly, military-themed add-on featuring vanilla-style weapons, immersive sound effects, polished animations, explosives, custom armor, and blocks—all crafted with meticulous attention to detail.
 date: 2022-03-23
 updated: 2024-08-15
-tags: ['aplok-guns', 'weapons', 'military', 'war', 'minecraft', 'addon']
-versions: ['1.21.50', '1.21.60']
+tags: ["aplok-guns", "weapons", "military", "war", "minecraft", "addon"]
+versions: ["1.21.50", "1.21.60"]
 lootlabs:
-    - title: Behavior Pack
-      link: 'https://loot-link.com/s?Mi05QfeQ&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D'
-    - title: Resource Pack
-      link: 'https://lootdest.org/s?P5lyISFl&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D'
+  - title: Behavior Pack
+    link: "https://loot-link.com/s?Mi05QfeQ&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
+  - title: Resource Pack
+    link: "https://lootdest.org/s?P5lyISFl&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
 bstlar:
-    - title: Behavior Pack
-      link: 'https://bstlar.com/2EI/ag-bp'
-    - title: Resource Pack
-      link: 'https://bstlar.com/2EI/ag-rp'
+  - title: Behavior Pack
+    link: "https://bstlar.com/2EI/ag-bp"
+  - title: Resource Pack
+    link: "https://bstlar.com/2EI/ag-rp"
 linkvertise:
-    - title: Behavior Pack
-      link: 'https://link-hub.net/173623/aplok-guns-bp'
-    - title: Resource Pack
-      link: 'https://link-center.net/173623/aplok-guns-rp'
+  - title: Behavior Pack
+    link: "https://link-hub.net/173623/aplok-guns-bp"
+  - title: Resource Pack
+    link: "https://link-center.net/173623/aplok-guns-rp"
 ---
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
@@ -36,18 +36,18 @@ Looking for a high-quality, military-themed add-on with outstanding features? Ap
 
 ## Developer
 
--   [Gabriel Aplok]({{ "/about" | absolute_url }}) **(Lead Developer)**
+- [Gabriel Aplok]({{ "/about" | absolute_url }}) **(Lead Developer)**
 
 ## Features
 
--   Vanilla-style weapon models and textures
--   High-fidelity spatial audio with reverb and distance effects
--   Smooth reload and firing animations
--   Performance-optimized particle effects
--   Innovative attachment and modification system
--   Fully craftable items for survival gameplay
--   Custom workbench and crafting mechanics
--   Low resource usage for compatibility with all devices
+- Vanilla-style weapon models and textures
+- High-fidelity spatial audio with reverb and distance effects
+- Smooth reload and firing animations
+- Performance-optimized particle effects
+- Innovative attachment and modification system
+- Fully craftable items for survival gameplay
+- Custom workbench and crafting mechanics
+- Low resource usage for compatibility with all devices
 
 ## Crafting Guns
 
@@ -159,10 +159,10 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 > You can access previous changelogs [here]({{ page.slug }}/changes).
 
 ```markdown
--   Improved performance in bullets.
--   Fixed nametags to always display.
--   Fixed a typo in the death message.
--   Fixed camera shake in grenade impacts.
+- Improved performance in bullets.
+- Fixed nametags to always display.
+- Fixed a typo in the death message.
+- Fixed camera shake in grenade impacts.
 ```
 
 <div class="alert alert-warning" role="alert">

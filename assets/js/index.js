@@ -1,6 +1,7 @@
 // Firebase imports
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.0/firebase-analytics.js";
+import { getPerformance } from "https://www.gstatic.com/firebasejs/11.9.0/firebase-performance.js";
 
 // Firebase configuration and initialization
 const firebaseConfig = {
@@ -15,6 +16,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+const perf = getPerformance(app);
 
 // Utility: Redirect to download with encoded query
 function redirectToDownload(element) {

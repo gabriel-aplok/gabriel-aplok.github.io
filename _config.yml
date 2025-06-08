@@ -7,7 +7,8 @@ baseurl: ""
 port: 4000
 host: localhost
 open_url: true
-api_url: https://api.trenbankai.com/v1
+api_url: https://api.trenbankai.com/v1/
+cdn_url: https://gabriel-aplok-46172.web.app/
 build_revision: "6e54d0dd-c965-475d-bf42-24a9c47b66a0"
 timezone: America/Sao_Paulo
 lang: en-US

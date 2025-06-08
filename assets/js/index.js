@@ -1,6 +1,6 @@
 // Firebase imports
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.0/firebase-analytics.js";
 
 // Firebase configuration and initialization
 const firebaseConfig = {
@@ -12,8 +12,9 @@ const firebaseConfig = {
   appId: "1:1052791408123:web:76d2717044c7483bb4b75e",
   measurementId: "G-FJD9RTYZP5",
 };
+
 const app = initializeApp(firebaseConfig);
-getAnalytics(app);
+const analytics = getAnalytics(app);
 
 // Utility: Redirect to download with encoded query
 function redirectToDownload(element) {
@@ -70,3 +71,5 @@ document.getElementById("mailButton").addEventListener("click", function (e) {
 // setTheme("light");
 // document.querySelectorAll(".mode-switch .btn").forEach(btn => btn.addEventListener("click", () => setTheme(btn.id)));
 // window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => setTheme());
+
+// alert("JavaScript loaded successfully!");

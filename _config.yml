@@ -4,10 +4,19 @@ tagline: Full-Stack Developer | Game Developer.
 description: Come check some of my work.
 url: https://trenbankai.com
 baseurl: ""
-api_url: https://api.trenbankai.com/api
-build_revision: 4
+port: 4000
+host: localhost
+open_url: true
+api_url: https://api.trenbankai.com/v1
+build_revision: "6e54d0dd-c965-475d-bf42-24a9c47b66a0"
 timezone: America/Sao_Paulo
 lang: en-US
+
+# Build Settings
+source: .
+destination: ./_site
+ignore_theme_config: true
+encoding: UTF-8
 
 # Branding
 icon: /assets/img/icon.png
@@ -33,12 +42,10 @@ email: service@trenbankai.com
 google_site_verification: 6KdYh_ff3c8RKaXlzqEcnUscw98UzP8rjM6tXFr-qPQ
 google_tagmanager: GTM-MJSM745
 
-# Repository
-issues_repo: gabriel-aplok/gabriel-aplok.github.io
-
 # Plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-sass-converter
 
 # Markdown & Syntax Highlighting
 markdown: kramdown
@@ -56,22 +63,29 @@ collections:
 # Sass
 sass:
   style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+  sourcemap: "never"
+  quiet_deps: true
 
 # HTML Compression
 compress_html:
   clippings: all
   comments: all
   endings: all
+  startings: all
   profile: false
   blanklines: false
-  # ignore:
-  #     envs: [development]
 
 # Exclude from Build
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - LICENSE.md
+  - .firebaserc
+  - .prettierignore
+  - .prettierrc
+  - firebase.json
   - package-lock.json
   - package.json
   - README.md

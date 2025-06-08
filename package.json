@@ -7,7 +7,8 @@
     "start": "bundle exec jekyll build",
     "dev": "bundle exec jekyll serve",
     "format": "npx prettier . --write",
-    "lint": "npx prettier . --check"
+    "lint": "npx prettier . --check",
+    "firebase-deploy": "bundle exec jekyll build && firebase deploy"
   },
   "dependencies": {
     "bootstrap": "^5.3.6"

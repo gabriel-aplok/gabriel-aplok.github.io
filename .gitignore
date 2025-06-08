@@ -30,3 +30,11 @@ Thumbs.db
 .vercel/cache/
 vendor/
 vendor/*
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+ui-debug.log

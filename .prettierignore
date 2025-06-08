@@ -1,14 +1,38 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
 .bundle/
 .jekyll-cache/
 .sass-cache/
-
 _site/
+dist/
+build/
 
-node_modules/
-
-.vercel
+# Deployment
+.vercel/
 .vercel/output/
 .vercel/cache/
-vendor/
 
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+ui-debug.log
+.firebase-hosting-*
+
+# Generated/minified files
+*.min.js
+*.min.css
 Bqdr7rjs7.js
+
+# Cache directories
+.cache/
+.tmp/
+
+# OS files
+.DS_Store
+Thumbs.db

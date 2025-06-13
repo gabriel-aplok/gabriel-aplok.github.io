@@ -13,7 +13,7 @@ tags: [dayz-map, minecraft, map]
 versions: ["1.20.+"]
 downloads:
   - title: Download .mcworld
-    link: "https://www.mediafire.com/file/371skpulsim3gfw/DayZ+Map.mcworld/file"
+    link: "https://qjkm6zmnnu00qt8a.public.blob.vercel-storage.com/maps/dayz-map-k5UK5X6Cq34JqJgC0UvfTFUwvi6P5N.mcworld"
 ---
 
 It's a old dayz map port originally made for Minecraft Java, remade by me and updated to the latest versions focused on using with Project Walker.

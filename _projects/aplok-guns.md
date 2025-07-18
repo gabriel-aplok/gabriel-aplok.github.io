@@ -15,9 +15,9 @@ tags: ["aplok-guns", "weapons", "military", "war", "minecraft", "addon"]
 versions: ["1.21.50", "1.21.60"]
 lootlabs:
   - title: Behavior Pack
-    link: "https://loot-link.com/s?Mi05QfeQ&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
+    link: "https://loot-link.com/s?Mi05QfeQ"
   - title: Resource Pack
-    link: "https://lootdest.org/s?P5lyISFl&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
+    link: "https://lootdest.org/s?P5lyISFl"
 bstlar:
   - title: Behavior Pack
     link: "https://bstlar.com/2EI/ag-bp"

@@ -16,9 +16,9 @@ tags:
 versions: ["1.21.70"]
 lootlabs:
   - title: Behavior Pack
-    link: "https://loot-link.com/s?50mwXoW3&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
+    link: "https://loot-link.com/s?50mwXoW3"
   - title: Resource Pack
-    link: "https://loot-link.com/s?CMOSAUK8&data=7e/mQaI%2B3/KoqNvwQ1OOhDB9TAbSh%2B3enfB6sjMSoPM%3D"
+    link: "https://loot-link.com/s?CMOSAUK8"
 bstlar:
   - title: Behavior Pack
     link: "https://bstlar.com/2EI/pw-bp"

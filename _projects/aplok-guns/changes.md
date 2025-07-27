@@ -14,6 +14,7 @@ title: Aplok Guns - 1.1.6
 
 ## v1.1.6:
 
+- Added RPG-7.
 - Added 6B13 Assault Armor.
 - Added BNTI Gzhel-K Body Armor.
 - Added more translations.
@@ -54,6 +55,7 @@ title: Aplok Guns - 1.1.6
 - Refactored bullet code.
 - Removed title command conflicts: you can now use the title command with the add-on without issues.
 - Removed the crosshair when ADS.
+- Removed attachment workbench, now you can attach using attachment bluwprint on your off-hand.
 
 ## v1.1.5 (First Update of 2025):
 

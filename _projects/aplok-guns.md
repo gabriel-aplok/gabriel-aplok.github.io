@@ -159,6 +159,7 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 > You can access previous changelogs [here]({{ page.slug }}/changes).
 
 ```markdown
+- Added RPG-7.
 - Added 6B13 Assault Armor.
 - Added BNTI Gzhel-K Body Armor.
 - Added more translations.
@@ -199,6 +200,7 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 - Refactored bullet code.
 - Removed title command conflicts: you can now use the title command with the add-on without issues.
 - Removed the crosshair when ADS.
+- Removed attachment workbench, now you can attach using attachment bluwprint on your off-hand.
 ```
 
 <div class="alert alert-warning" role="alert">

@@ -12,7 +12,7 @@ description: >
 date: 2022-03-23
 updated: 2024-08-15
 tags: ["aplok-guns", "weapons", "military", "war", "minecraft", "addon"]
-versions: ["1.21.90", "1.21.94"]
+versions: ["1.21.90", "1.21.93", "1.21.94"]
 lootlabs:
   - title: Behavior Pack
     link: "https://lootdest.org/s?tbyTL5Q5"

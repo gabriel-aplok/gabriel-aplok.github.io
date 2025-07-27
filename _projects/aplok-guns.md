@@ -17,7 +17,7 @@ lootlabs:
   - title: Behavior Pack
     link: "https://lootdest.org/s?tbyTL5Q5"
   - title: Resource Pack
-    link: "https://lootdest.org/s?CCJxUiqd"
+    link: "https://lootdest.org/s?RPfMEX0t"
 bstlar:
   - title: Behavior Pack
     link: "https://bstlar.com/2EI/ag-bp"

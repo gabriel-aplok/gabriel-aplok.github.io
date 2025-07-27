@@ -4,7 +4,7 @@ status: public
 type: bedrock
 highlight: true
 slug: aplok-guns
-title: Aplok Guns Addon | v1.1.5
+title: Aplok Guns Addon | v1.1.6
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: >
@@ -12,7 +12,7 @@ description: >
 date: 2022-03-23
 updated: 2024-08-15
 tags: ["aplok-guns", "weapons", "military", "war", "minecraft", "addon"]
-versions: ["1.21.50", "1.21.60"]
+versions: ["1.21.90", "1.21.94"]
 lootlabs:
   - title: Behavior Pack
     link: "https://loot-link.com/s?Mi05QfeQ"
@@ -154,15 +154,51 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 
 ---
 
-## Changelog for v1.1.5
+## Changelog for v1.1.6
 
 > You can access previous changelogs [here]({{ page.slug }}/changes).
 
 ```markdown
-- Improved performance in bullets.
+- Added 6B13 Assault Armor.
+- Added BNTI Gzhel-K Body Armor.
+- Added more translations.
+- Added new mechanic: you now take 1 heart of damage when using a shield and getting shot.
+- Added new bullet damage falloff system.
+- Added new NVG attachment for helmets.
+- Added new impact effects system (with accurate block sounds).
+- Added new recoil system for snipers (thanks to Azoz/ActualGuns for that).
+- Added enchantment materials to wearables.
+- Added barbed wire prop block.
+- Added corrugated metal prop block.
+- Added military wall prop block.
+- Added spotlight prop block.
+- Added ceiling light prop block.
+- Added container prop blocks.
+- Added hesco prop blocks.
+- Added side mount to AK-47 when using sights.
+- Improved indoor sound design.
+- Improved reflection and distance-based sound design.
+- Improved all gun models and textures.
+- Improved all wearable models and textures.
+- Improved armor mechanics: now armor takes damage from bullets.
+- Improved animation controller performance.
+- Improved scripting API performance.
+- Improved muzzle smoke, hot and lensflare particle effects.
+- Improved all third person animations.
+- Changed gun standby pose delay.
+- Changed gun standby pose animation.
+- Changed pack UUIDs/IDs.
+- Changed silenced shots to reduce damage by 2.
+- Changed guns to now auto-reload.
 - Fixed nametags to always display.
 - Fixed a typo in the death message.
-- Fixed camera shake in grenade impacts.
+- Fixed FN FAL muzzle pivot point.
+- Fixed bullets breaking barrier blocks.
+- Updated Scripts API version.
+- Updated mechanics for breakable blocks by bullets.
+- Refactored bullet code.
+- Removed title command conflicts: you can now use the title command with the add-on without issues.
+- Removed the crosshair when ADS.
 ```
 
 <div class="alert alert-warning" role="alert">

@@ -138,6 +138,9 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
   <div class="col-6">
     <img src="/projects/aplok-guns/images/screenshot/guns_10.png" alt="Gun Screenshot" />
   </div>
+  <div class="col-6">
+    <img src="/projects/aplok-guns/images/screenshot/guns_11.png" alt="Gun Screenshot" />
+  </div>
 </div>
 
 ## Armor
@@ -150,13 +153,15 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 
 ## Installation
 
-{{ site.label_attention_install_addon }}
+<div class="alert alert-warning" role="alert">
+  {{ site.label_attention_install_addon }}
+</div>
 
 ---
 
 ## Changelog for v1.1.6
 
-> You can access previous changelogs [here]({{ page.slug }}/changes).
+> You can access previous changelogs [here](changes).
 
 ```markdown
 - Added RPG-7.

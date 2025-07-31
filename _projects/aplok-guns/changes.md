@@ -3,7 +3,7 @@ layout: default
 title: Aplok Guns - 1.1.6
 ---
 
-# Aplok Guns - 1.1.5
+# Aplok Guns - 1.1.6
 
 **Posted:** 27 July 2025
 

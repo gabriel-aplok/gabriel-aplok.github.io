@@ -99,8 +99,8 @@ permalink: pretty
 label_attention_content_creator: >
   If you wish to showcase this content, please use only the official links provided here. Do not create your own links or claim this work as your own. Thank you for respecting the creator's rights.
 label_attention_install_addon: >
-  To install the **.mcpack** file, open it with **Minecraft** to import automatically, or manually extract and copy the folder to the appropriate behavior and resource directories in your Minecraft installation.
+  To install the <strong>.mcpack</strong> file, open it with <strong>Minecraft</strong> to import automatically, or manually extract and copy the folder to the appropriate behavior and resource directories in your Minecraft installation.
 label_attention_install_world: >
-  To install the **.mcworld** file, open it with **Minecraft** to import automatically, or manually extract and copy the folder to your Minecraft worlds directory.
+  To install the <strong>.mcworld</strong> file, open it with <strong>Minecraft</strong> to import automatically, or manually extract and copy the folder to your Minecraft worlds directory.
 label_attention_links: >
   <strong>Attention:</strong> You don't need to download both packs from the same source. Simply choose one link type (<code>bstlar</code>, <code>lootlabs</code>, or <code>linkvertise</code>) and download both the Behavior Pack and Resource Pack from there.

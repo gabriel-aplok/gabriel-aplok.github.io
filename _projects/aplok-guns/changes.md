@@ -3,14 +3,38 @@ layout: default
 title: Aplok Guns - 1.1.6
 ---
 
-# Aplok Guns - 1.1.6
+# Aplok Guns - 1.1.7
 
-**Posted:** 27 July 2025
+**Posted:** 02 August 2025
 
 ## Info on the Aplok Guns:
 
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns' | absolute_url }}).
+
+## v1.1.7:
+
+- Added subpack to enable/disable nametags.
+- Added beta "Leaning" feature to the Settings menu.
+- Added back the Attachment Workbench.
+- Added distant post-fire sound effects.
+- Added Juggernaut overlay UI.
+- Added Aluminum and Steel, along with their derived forms such as ores and ore blocks.
+- Improved third-person running animations for pistols.
+- Improved scripting API performance with modular enhancements.
+- Improved textures for several wearable items.
+- Improved landmine item texture.
+- Improved sights UI clarity and visuals.
+- Fixed Mossberg recipe using wood stock instead of polymer stock.
+- Fixed issue where reloading was possible even with a full magazine.
+- Fixed AWP ejecting two bullets per shot.
+- Fixed incorrect silenced sound on the FNFAL.
+- Fixed "undefined" gun name in death messages.
+- Fixed M249 arm glitch when equipping attachments.
+- Fixed missing empty bucket when crafting plastic mass.
+- Fixed invisible items in third-person view.
+- Fixed numerous other bugs and minor issues not listed here.
+- Fixed armor o longr get damage from bullets in creative mode.
 
 ## v1.1.6:
 
@@ -55,7 +79,7 @@ title: Aplok Guns - 1.1.6
 - Refactored bullet code.
 - Removed title command conflicts: you can now use the title command with the add-on without issues.
 - Removed the crosshair when ADS.
-- Removed attachment workbench, now you can attach using attachment bluwprint on your off-hand.
+- Removed attachment workbench, now you can attach using attachment blueprint on your off-hand.
 
 ## v1.1.5 (First Update of 2025):
 

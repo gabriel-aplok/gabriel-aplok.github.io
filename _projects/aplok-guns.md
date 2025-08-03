@@ -4,20 +4,20 @@ status: public
 type: bedrock
 highlight: true
 slug: aplok-guns
-title: Aplok Guns Addon | v1.1.6
+title: Aplok Guns Addon | v1.1.7
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: >
   A survival-friendly, military-themed add-on featuring vanilla-style weapons, immersive sound effects, polished animations, explosives, custom armor, and blocks—all crafted with meticulous attention to detail.
 date: 2022-03-23
-updated: 2024-08-15
+updated: 2025-08-02
 tags: ["aplok-guns", "weapons", "military", "war", "minecraft", "addon"]
 versions: ["1.21.90", "1.21.93", "1.21.94"]
 lootlabs:
   - title: Behavior Pack
-    link: "https://lootdest.org/s?tbyTL5Q5"
+    link: "https://lootdest.org/s?6POC8YIS"
   - title: Resource Pack
-    link: "https://lootdest.org/s?RPfMEX0t"
+    link: "https://lootdest.org/s?1jbIdPjN"
 bstlar:
   - title: Behavior Pack
     link: "https://bstlar.com/2EI/ag-bp"
@@ -159,53 +159,32 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 
 ---
 
-## Changelog for v1.1.6
+## Changelog for v1.1.7
 
 > You can access previous changelogs [here](changes).
 
 ```markdown
-- Added RPG-7.
-- Added 6B13 Assault Armor.
-- Added BNTI Gzhel-K Body Armor.
-- Added more translations.
-- Added new mechanic: you now take 1 heart of damage when using a shield and getting shot.
-- Added new bullet damage falloff system.
-- Added new NVG attachment for helmets.
-- Added new impact effects system (with accurate block sounds).
-- Added new recoil system for snipers (thanks to Azoz/ActualGuns for that).
-- Added enchantment materials to wearables.
-- Added barbed wire prop block.
-- Added corrugated metal prop block.
-- Added military wall prop block.
-- Added spotlight prop block.
-- Added ceiling light prop block.
-- Added container prop blocks.
-- Added hesco prop blocks.
-- Added side mount to AK-47 when using sights.
-- Improved indoor sound design.
-- Improved reflection and distance-based sound design.
-- Improved all gun models and textures.
-- Improved all wearable models and textures.
-- Improved armor mechanics: now armor takes damage from bullets.
-- Improved animation controller performance.
-- Improved scripting API performance.
-- Improved muzzle smoke, hot and lensflare particle effects.
-- Improved all third person animations.
-- Changed gun standby pose delay.
-- Changed gun standby pose animation.
-- Changed pack UUIDs/IDs.
-- Changed silenced shots to reduce damage by 2.
-- Changed guns to now auto-reload.
-- Fixed nametags to always display.
-- Fixed a typo in the death message.
-- Fixed FN FAL muzzle pivot point.
-- Fixed bullets breaking barrier blocks.
-- Updated Scripts API version.
-- Updated mechanics for breakable blocks by bullets.
-- Refactored bullet code.
-- Removed title command conflicts: you can now use the title command with the add-on without issues.
-- Removed the crosshair when ADS.
-- Removed attachment workbench, now you can attach using attachment bluwprint on your off-hand.
+- Added subpack to enable/disable nametags.
+- Added beta "Leaning" feature to the Settings menu.
+- Added back the Attachment Workbench.
+- Added distant post-fire sound effects.
+- Added Juggernaut overlay UI.
+- Added Aluminum and Steel, along with their derived forms such as ores and ore blocks.
+- Improved third-person running animations for pistols.
+- Improved scripting API performance with modular enhancements.
+- Improved textures for several wearable items.
+- Improved landmine item texture.
+- Improved sights UI clarity and visuals.
+- Fixed Mossberg recipe using wood stock instead of polymer stock.
+- Fixed issue where reloading was possible even with a full magazine.
+- Fixed AWP ejecting two bullets per shot.
+- Fixed incorrect silenced sound on the FNFAL.
+- Fixed "undefined" gun name in death messages.
+- Fixed M249 arm glitch when equipping attachments.
+- Fixed missing empty bucket when crafting plastic mass.
+- Fixed invisible items in third-person view.
+- Fixed numerous other bugs and minor issues not listed here.
+- Fixed armor o longr get damage from bullets in creative mode.
 ```
 
 <div class="alert alert-warning" role="alert">

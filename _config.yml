@@ -9,7 +9,7 @@ host: localhost
 open_url: true
 api_url: https://api.trenbankai.com/v1/
 cdn_url: https://gabriel-aplok-46172.web.app/
-build_revision: "6e54d0dd-c965-475d-bf42-24a9c47b66a0"
+build_revision: "f61b3255-0eb9-45c8-8043-f190df63f94e"
 timezone: America/Sao_Paulo
 lang: en-US
 

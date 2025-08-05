@@ -11,9 +11,9 @@
     "firebase-deploy": "bundle exec jekyll build && firebase deploy"
   },
   "dependencies": {
-    "bootstrap": "^5.3.6"
+    "bootstrap": "^5.3.7"
   },
   "devDependencies": {
-    "prettier": "3.5.3"
+    "prettier": "^3.5.3"
   }
 }

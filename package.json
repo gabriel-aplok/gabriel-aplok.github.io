@@ -10,10 +10,10 @@
     "lint": "npx prettier . --check",
     "firebase-deploy": "bundle exec jekyll build && firebase deploy"
   },
-  "dependencies": {
-    "bootstrap": "^5.3.7"
-  },
   "devDependencies": {
     "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
   }
 }

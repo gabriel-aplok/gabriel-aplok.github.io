@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Aplok Guns - 1.1.6
+title: Aplok Guns - 1.1.8
 ---
 
-# Aplok Guns - 1.1.7
+# Aplok Guns - 1.1.8
 
 **Posted:** 02 August 2025
 
@@ -11,6 +11,31 @@ title: Aplok Guns - 1.1.6
 
 - These work-in-progress versions can be unstable and may not be representative of final version quality.
 - Aplok Guns is available on MCPEDL.COM, MODBAY.ORG, and MY WEBSITE. More info can be found at [here]({{ '/projects/aplok-guns' | absolute_url }}).
+
+## v.1.1.8:
+
+- Rewrote the entire gun rendering system, now using attachables. Replacing player-entity-based rendering with true 3D items.
+- Rewrote the entire gun firing system to be time-based (like in Project Walker), eliminating FPS-dependent fire rates and animation-based delays (in development).
+- Added new guns AK-74, AKM, AKs-74u, M1014, ParaFAL.
+- Added new 6B13 assault armor and BNTI Gzhel-K body armor.
+- Added ACOG Sight.
+- Added Predator V4 Red Dot to pistols.
+- Added support for sights attachments on the LMG M249.
+- Added item groups to attachments and ammunition types.
+- Added attachments items back.
+- Added gunmental block.
+- Added item descriptions to attachments and guns.
+- Added 3d grenades rendering in first person.
+- Fixed Juggernaut overlay hiding first-person things.
+- Fixed wall detection and leaning not working correctly with the Mossberg.
+- Reduced bullet impact particles for better performance and visibility.
+- Reduced smoke grenade opacity to better support stealth-based gameplay.
+- Reduced sneaking damage bonus from 1.5 to 1.25.
+- Reduced silencer damage penalty from -2 to -1.
+- Reduced 50.0% of M249 power.
+- Improved attachment system, instead of using the blueprint, you will use the necessary attachment ​​item.
+- Reverted to Minecraft's default model rendering to fully support slim, default, and Marketplace skins. (Note: Item pivot misalignment is a known issue when using Marketplace skins.)
+- Removed experimental leaning system, the early-stage, out-of-date leaning mechanic has been permanently removed as it was dysfunctional and did not meet core feature standards.
 
 ## v1.1.7:
 

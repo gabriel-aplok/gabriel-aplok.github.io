@@ -4,7 +4,7 @@ status: public
 type: bedrock
 highlight: true
 slug: aplok-guns
-title: Aplok Guns Addon | v1.1.7
+title: Aplok Guns Addon | v1.1.8
 banner: /projects/aplok-guns/images/banner.png
 icon: /projects/aplok-guns/images/icon.png
 description: >
@@ -12,7 +12,7 @@ description: >
 date: 2022-03-23
 updated: 2025-08-02
 tags: ["aplok-guns", "weapons", "military", "war", "minecraft", "addon"]
-versions: ["1.21.90", "1.21.93", "1.21.94"]
+versions: ["1.21.80", "1.21.+", "1.21.124"]
 lootlabs:
   - title: Behavior Pack
     link: "https://loot-link.com/s?oJ6Wdg1Q"
@@ -32,7 +32,7 @@ linkvertise:
 
 ![Logo](/projects/{{ page.slug }}/images/screenshot/logo.png)
 
-Looking for a high-quality, military-themed add-on with outstanding features? Aplok Guns delivers exactly that for Minecraft Bedrock. This add-on introduces vanilla-style military content with models designed to seamlessly blend with Minecraft's aesthetic, providing an authentic and immersive combat experience.
+Looking for a simple and high-quality, military-themed add-on with outstanding features? Aplok Guns delivers exactly that for Minecraft Bedrock. This add-on introduces vanilla-style military content with models designed to seamlessly blend with Minecraft's aesthetic, providing an authentic and immersive combat experience.
 
 ## Developer
 
@@ -42,7 +42,7 @@ Looking for a high-quality, military-themed add-on with outstanding features? Ap
 
 - Vanilla-style weapon models and textures
 - High-fidelity spatial audio with reverb and distance effects
-- Smooth reload and firing animations
+- Simple and optimized reload and firing animations
 - Performance-optimized particle effects
 - Innovative attachment and modification system
 - Fully craftable items for survival gameplay
@@ -159,32 +159,33 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 
 ---
 
-## Changelog for v1.1.7
+## Changelog for v1.1.8
 
 > You can access previous changelogs [here](changes).
 
 ```markdown
-- Added subpack to enable/disable nametags.
-- Added beta "Leaning" feature to the Settings menu.
-- Added back the Attachment Workbench.
-- Added distant post-fire sound effects.
-- Added Juggernaut overlay UI.
-- Added Aluminum and Steel, along with their derived forms such as ores and ore blocks.
-- Improved third-person running animations for pistols.
-- Improved scripting API performance with modular enhancements.
-- Improved textures for several wearable items.
-- Improved landmine item texture.
-- Improved sights UI clarity and visuals.
-- Fixed Mossberg recipe using wood stock instead of polymer stock.
-- Fixed issue where reloading was possible even with a full magazine.
-- Fixed AWP ejecting two bullets per shot.
-- Fixed incorrect silenced sound on the FNFAL.
-- Fixed "undefined" gun name in death messages.
-- Fixed M249 arm glitch when equipping attachments.
-- Fixed missing empty bucket when crafting plastic mass.
-- Fixed invisible items in third-person view.
-- Fixed numerous other bugs and minor issues not listed here.
-- Fixed armor o longr get damage from bullets in creative mode.
+- Rewrote the entire gun rendering system, now using attachables. Replacing player-entity-based rendering with true 3D items.
+- Rewrote the entire gun firing system to be time-based (like in Project Walker), eliminating FPS-dependent fire rates and animation-based delays (in development).
+- Added new guns AK-74, AKM, AKs-74u, M1014, ParaFAL.
+- Added new 6B13 assault armor and BNTI Gzhel-K body armor.
+- Added ACOG Sight.
+- Added Predator V4 Red Dot to pistols.
+- Added support for sights attachments on the LMG M249.
+- Added item groups to attachments and ammunition types.
+- Added attachments items back.
+- Added gunmental block.
+- Added item descriptions to attachments and guns.
+- Added 3d grenades rendering in first person.
+- Fixed Juggernaut overlay hiding first-person things.
+- Fixed wall detection and leaning not working correctly with the Mossberg.
+- Reduced bullet impact particles for better performance and visibility.
+- Reduced smoke grenade opacity to better support stealth-based gameplay.
+- Reduced sneaking damage bonus from 1.5 to 1.25.
+- Reduced silencer damage penalty from -2 to -1.
+- Reduced 50.0% of M249 power.
+- Improved attachment system, instead of using the blueprint, you will use the necessary attachment ​​item.
+- Reverted to Minecraft's default model rendering to fully support slim, default, and Marketplace skins. (Note: Item pivot misalignment is a known issue when using Marketplace skins.)
+- Removed experimental leaning system, the early-stage, out-of-date leaning mechanic has been permanently removed as it was dysfunctional and did not meet core feature standards.
 ```
 
 <div class="alert alert-warning" role="alert">

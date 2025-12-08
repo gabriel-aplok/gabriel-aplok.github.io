@@ -5,7 +5,7 @@ title: Aplok Guns - 1.1.8
 
 # Aplok Guns - 1.1.8
 
-**Posted:** 02 August 2025
+**Posted:** 07 December 2025
 
 ## Info on the Aplok Guns:
 
@@ -26,6 +26,8 @@ title: Aplok Guns - 1.1.8
 - Added gunmental block.
 - Added item descriptions to attachments and guns.
 - Added 3d grenades rendering in first person.
+- Fixed nametag subpack not working.
+- Fixed spotlight block pivot in y-position.
 - Fixed Juggernaut overlay hiding first-person things.
 - Fixed wall detection and leaning not working correctly with the Mossberg.
 - Reduced bullet impact particles for better performance and visibility.

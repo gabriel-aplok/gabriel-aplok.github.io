@@ -10,14 +10,14 @@ icon: /projects/aplok-guns/images/icon.png
 description: >
   A survival-friendly, military-themed add-on featuring vanilla-style weapons, immersive sound effects, polished animations, explosives, custom armor, and blocks—all crafted with meticulous attention to detail.
 date: 2022-03-23
-updated: 2025-08-02
+updated: 2025-12-07
 tags: ["aplok-guns", "weapons", "military", "war", "minecraft", "addon"]
 versions: ["1.21.80", "1.21.+", "1.21.124"]
 lootlabs:
   - title: Behavior Pack
-    link: "https://loot-link.com/s?oJ6Wdg1Q"
+    link: "https://lootdest.org/s?ebQedyE2"
   - title: Resource Pack
-    link: "https://lootdest.org/s?1jbIdPjN"
+    link: "https://loot-link.com/s?ivXHr6tM"
 bstlar:
   - title: Behavior Pack
     link: "https://bstlar.com/2EI/ag-bp"
@@ -176,6 +176,8 @@ Use **Gunmetal Ingots** to craft gun parts and attachments.
 - Added gunmental block.
 - Added item descriptions to attachments and guns.
 - Added 3d grenades rendering in first person.
+- Fixed nametag subpack not working.
+- Fixed spotlight block pivot in y-position.
 - Fixed Juggernaut overlay hiding first-person things.
 - Fixed wall detection and leaning not working correctly with the Mossberg.
 - Reduced bullet impact particles for better performance and visibility.

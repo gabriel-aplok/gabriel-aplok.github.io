@@ -20,9 +20,9 @@ lootlabs:
     link: "https://loot-link.com/s?ivXHr6tM"
 bstlar:
   - title: Behavior Pack
-    link: "https://bstlar.com/2EI/ag-bp"
+    link: "https://bstlar.com/2EI/ag-bp-188"
   - title: Resource Pack
-    link: "https://bstlar.com/2EI/ag-rp"
+    link: "https://bstlar.com/2EI/ag-rp-188"
 linkvertise:
   - title: Behavior Pack
     link: "https://link-hub.net/173623/aplok-guns-bp"

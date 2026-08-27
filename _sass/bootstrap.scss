@@ -1,0 +1,8 @@
+// Custom variable overrides must come before @use.
+$primary: #ff5722;
+$dark: #080808;
+
+@use "../node_modules/bootstrap/scss/bootstrap" with (
+  $primary: $primary,
+  $dark: $dark
+);

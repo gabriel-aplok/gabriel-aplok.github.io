@@ -1,0 +1,47 @@
+# Dependency directories
+.bundle/
+.jekyll-cache/
+.sass-cache/
+node_modules/
+
+# Build output
+_site/
+
+# Source map only (the CSS itself is committed)
+assets/css/bootstrap.css.map
+
+# Dependency files
+Gemfile.lock
+
+# Ruby gems
+*.gem
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+# .vscode/
+# .idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel
+.vercelignore
+.vercel/output/
+.vercel/project.json
+.vercel/cache/
+vendor/
+vendor/*
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*
+firestore-debug.log
+ui-debug.log
+
+# Command Code session data (must never be committed)
+.commandcode/

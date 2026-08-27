@@ -1,0 +1,25 @@
+{
+  "name": "trenbankai.dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal website.",
+  "scripts": {
+    "build:css": "sass --no-source-map --style=compressed _sass/bootstrap.scss assets/css/bootstrap.css",
+    "watch:css": "sass --watch --style=compressed _sass/bootstrap.scss assets/css/bootstrap.css",
+    "prebuild": "npm run build:css",
+    "predev": "npm run build:css",
+    "prefirebase-deploy": "npm run build:css",
+    "start": "set JEKYLL_ENV=production && bundle exec jekyll build",
+    "dev": "set JEKYLL_ENV=production && bundle exec jekyll serve --watch --profile",
+    "format": "npx prettier . --write",
+    "lint": "npx prettier . --check",
+    "firebase-deploy": "npm run build && firebase deploy"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "sass": "^1.77.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}

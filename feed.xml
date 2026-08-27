@@ -1,0 +1,57 @@
+---
+layout: null
+permalink: /feed.xml
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>{{ site.url | absolute_url }}</id>
+	<title>{{ site.title | xml_escape }}</title>
+	<subtitle>{{ site.description | xml_escape }}</subtitle>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<author>
+		<name>{{ site.author.name | default: site.title | xml_escape }}</name>
+		{% if site.author.email %}
+		<email>{{ site.author.email | xml_escape }}</email>
+		{% endif %}
+		<uri>{{ site.url | absolute_url }}</uri>
+	</author>
+	<link rel="self" type="application/atom+xml" href="{{ '/feed.xml' | absolute_url }}" />
+	<link rel="alternate" type="text/html" hreflang="{{ site.lang | default: 'en' }}" href="{{ site.url | absolute_url }}" />
+	<rights>© {{ 'now' | date: '%Y' }} {{ site.author.name | default: site.title | xml_escape }}</rights>
+	<icon>{{ site.baseurl }}/favicon.ico</icon>
+	<logo>{{ site.baseurl }}/favicon.ico</logo>
+
+	{% assign projects = site.projects | where: "status", "public" | uniq: "title" | slice: 0, 5 %}
+	{% for project in projects %}
+		<entry>
+			<title>{{ project.title | xml_escape }}</title>
+			<link href="{{ project.url | absolute_url }}" rel="alternate" type="text/html" title="{{ project.title | xml_escape }}" />
+			<published>{{ project.date | date_to_xmlschema }}</published>
+			<updated>
+				{% if project.updated %}
+					{{ project.updated | date_to_xmlschema }}
+				{% else %}
+					{{ project.date | date_to_xmlschema }}
+				{% endif %}
+			</updated>
+			<id>{{ project.url | absolute_url }}</id>
+			<content type="html">{{ project.content | xml_escape }}</content>
+			<author>
+				<name>{{ project.author | default: site.author.name | xml_escape }}</name>
+			</author>
+			{% if project.categories %}
+				{% for category in project.categories %}
+					<category term="{{ category | xml_escape }}" />
+				{% endfor %}
+			{% endif %}
+			<summary>
+				{% if project.summary %}
+					{{ project.summary | strip | xml_escape }}
+				{% else %}
+					{{ project.content | strip_html | truncate: 400 | xml_escape }}
+				{% endif %}
+			</summary>
+		</entry>
+	{% endfor %}
+</feed>

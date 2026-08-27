@@ -1,0 +1,14 @@
+- name: Gabriel L.
+  role: Fullstack Developer
+  image: https://github.com/gabriel-aplok.png
+  description: Builds seamless digital experiences across web and games, with a passion for clean code and creative interaction.
+
+- name: Ana
+  role: Game Designer
+  image: https://github.com/anneofmars.png
+  description: Designs engaging worlds and intuitive gameplay systems that leave a lasting impression on players.
+
+- name: Aislan A.
+  role: Game Developer
+  image: https://github.com/a6xdev.png
+  description: Turns game ideas into reality through efficient code, polished mechanics, and performance.

@@ -1,0 +1,106 @@
+# Site Information
+title: Gabriel Aplok
+tagline: Full-Stack Developer | Game Developer.
+description: Come check some of my work.
+url: https://trenbankai.dev
+baseurl: ""
+port: 4000
+host: localhost
+open_url: true
+api_url: https://api.trenbankai.dev/v1/
+cdn_url: https://gabriel-aplok-46172.web.app/
+build_revision: "f61b3255-0eb9-45c8-8043-f190df63f94e"
+timezone: America/Sao_Paulo
+lang: en-US
+
+# Build Settings
+source: .
+destination: ./_site
+ignore_theme_config: true
+encoding: UTF-8
+
+# Branding
+icon: /assets/img/icon.png
+logo: /assets/img/logo.png
+avatar: /assets/img/profile.png
+
+# Social & Contact
+social:
+  name: Gabriel Aplok
+  email: service@trenbankai.dev
+  links:
+    - https://trenbankai.dev
+  profiles:
+    github: https://github.com/gabriel-aplok/
+    x: https://x.com/GabrielAplok
+    youtube: https://youtube.com/GabrielAplok
+    itchio: https://gabriel-aplok.itch.io/
+    discord: https://discord.gg/PppEgBdss4
+
+email: service@trenbankai.dev
+
+# SEO & Analytics
+google_site_verification: 6KdYh_ff3c8RKaXlzqEcnUscw98UzP8rjM6tXFr-qPQ
+google_tagmanager: GTM-MJSM745
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-sass-converter
+
+# Markdown & Syntax Highlighting
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+
+# Collections
+collections:
+  projects:
+    output: true
+
+# Sass
+sass:
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+  sourcemap: "never"
+  quiet_deps: true
+
+# HTML Compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: all
+  profile: false
+  blanklines: false
+
+# Exclude from Build
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - .firebaserc
+  - .prettierignore
+  - .prettierrc
+  - firebase.json
+  - package-lock.json
+  - package.json
+  - README.md
+  - vercel.json
+
+# Generation
+permalink: pretty
+
+# Warnings & Notices
+label_attention_content_creator: >
+  If you wish to showcase this content, please use only the official links provided here. Do not create your own links or claim this work as your own. Thank you for respecting the creator's rights.
+label_attention_install_addon: >
+  To install the <strong>.mcpack</strong> file, open it with <strong>Minecraft</strong> to import automatically, or manually extract and copy the folder to the appropriate behavior and resource directories in your Minecraft installation.
+label_attention_install_world: >
+  To install the <strong>.mcworld</strong> file, open it with <strong>Minecraft</strong> to import automatically, or manually extract and copy the folder to your Minecraft worlds directory.
+label_attention_links: >
+  <strong>Attention:</strong> You don't need to download both packs from the same source. Simply choose one link type (<code>bstlar</code>, <code>lootlabs</code>, or <code>linkvertise</code>) and download both the Behavior Pack and Resource Pack from there.
